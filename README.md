@@ -1,4 +1,4 @@
-## mehi-consent-exchange
+# mehi-consent-exchange
 
 Consent Exchange - Payor to Payor data exchange, with implementation guide and reference implementation.  
 
