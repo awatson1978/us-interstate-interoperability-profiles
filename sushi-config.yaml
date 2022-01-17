@@ -30,7 +30,7 @@ menu:
 
 pages:
   index.md:
-    title: Consent Exchange Implementation Guide
+    title: Consent Engine Implementation Guide
   datacollection.md:
     title: Data Collection
   consentengine.md:
