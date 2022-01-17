@@ -1,9 +1,9 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "mehi.ig.fhir",
-  "url": "http://mehi-ig.tranquildata.com/ImplementationGuide/mehi.ig.fhir",
-  "version": "0.5.4",
-  "name": "MeHIImplementationGuide",
+  "url": "http://consent-engine-ig.awatson.mitre.org/ImplementationGuide/mehi.ig.fhir",
+  "version": "0.3.6",
+  "name": "ConsentEngineIG",
   "status": "draft",
   "publisher": "MITRE, Inc",
   "contact": [
@@ -12,7 +12,7 @@
       "telecom": [
         {
           "system": "url",
-          "value": "https://github.com/mehi/implementation-guide"
+          "value": "https://gitlab.mitre.org/awatson/consent-engine-ig"
         }
       ]
     }
@@ -181,7 +181,7 @@
         },
         "name": "jane-doe",
         "description": "Jane Doe patient not part of relationship model, used for checking security access.",
-        "exampleCanonical": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-patient"
+        "exampleCanonical": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient"
       },
       {
         "reference": {
@@ -189,7 +189,7 @@
         },
         "name": "jennifer-smith",
         "description": "Jennifer Smith - Patient demographics record.",
-        "exampleCanonical": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-patient"
+        "exampleCanonical": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient"
       },
       {
         "reference": {
@@ -317,7 +317,7 @@
         },
         "name": "patient-john-smith",
         "description": "John Smith - Patient demographics record.",
-        "exampleCanonical": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-patient"
+        "exampleCanonical": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient"
       },
       {
         "reference": {
@@ -349,7 +349,7 @@
         },
         "name": "related-person-jane-smith-wife",
         "description": "Jane Smith - Spouse relationship record.",
-        "exampleCanonical": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-related-person"
+        "exampleCanonical": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person"
       },
       {
         "reference": {
@@ -357,7 +357,7 @@
         },
         "name": "related-person-jennifer-smith-daughter",
         "description": "Jennifer Smith - Daughter relationship record.",
-        "exampleCanonical": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-related-person"
+        "exampleCanonical": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person"
       },
       {
         "reference": {
@@ -387,13 +387,23 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "example1.html",
-          "title": "Payor To Payor",
+          "nameUrl": "datacollection.html",
+          "title": "Data Collection",
           "generation": "markdown"
         },
         {
-          "nameUrl": "example2.html",
-          "title": "Organizational Relationships",
+          "nameUrl": "consentengine.html",
+          "title": "Consent Engine",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "profiles.html",
+          "title": "Regional Profiles",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "blockchain.html",
+          "title": "Distributed Ledgers",
           "generation": "markdown"
         }
       ]

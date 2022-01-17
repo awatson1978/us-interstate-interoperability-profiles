@@ -3,7 +3,7 @@
   "id": "related-person-jennifer-smith-daughter",
   "meta": {
     "profile": [
-      "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-related-person"
+      "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person"
     ]
   },
   "text": {

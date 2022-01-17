@@ -6,8 +6,8 @@
   "id": "PayorToPayorExchangePolicyCodes",
   "title": "PayorToPayorExchangePolicyCodes",
   "description": "Policy codes used to define legal frameworks under which consent exchange occurs between payors.",
-  "version": "0.5.4",
-  "url": "http://mehi-ig.tranquildata.com/CodeSystem/PayorToPayorExchangePolicyCodes",
+  "version": "0.3.6",
+  "url": "http://consent-engine-ig.awatson.mitre.org/CodeSystem/PayorToPayorExchangePolicyCodes",
   "concept": [
     {
       "code": "CMS-9115-P",

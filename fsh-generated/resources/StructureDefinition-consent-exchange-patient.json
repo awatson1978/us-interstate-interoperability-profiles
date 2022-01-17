@@ -1,8 +1,8 @@
 {
   "resourceType": "StructureDefinition",
   "id": "consent-exchange-patient",
-  "url": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-patient",
-  "version": "0.5.4",
+  "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient",
+  "version": "0.3.6",
   "name": "ConsentExchangePatient",
   "title": "ConsentExchangePatient",
   "status": "active",
@@ -63,7 +63,7 @@
         "path": "Patient.contact.relationship",
         "binding": {
           "strength": "required",
-          "valueSet": "http://mehi-ig.tranquildata.com/ValueSet/ConsentExchangeRelations"
+          "valueSet": "http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangeRelations"
         }
       },
       {
@@ -73,7 +73,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-practitioner"
+              "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-practitioner"
             ]
           }
         ]

@@ -12,8 +12,6 @@ The Questionnaire resource is then displayed in whatever user interface format t
 Regardless of which user interface is used, the answers provided by the end user are recorded within a QuestionnaireResponse record, referencing the original Questionnaire.  This QuestionnaireResponse is generally sent back to the server for storage and processing.  
 
 
-
-
 #### Consent Questionnaire Types 
 
 This implementation guide recognizes the following Consent record types.  For ease of implementation, examples of these records are provided in the Artifacts section.  

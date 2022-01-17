@@ -6,7 +6,7 @@
     "lastUpdated": "2020-09-13T12:21:34.589+00:00",
     "source": "#mehi-consent-engine-reference-implementation",
     "profile": [
-      "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-patient",
+      "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient",
       "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
     ]
   },

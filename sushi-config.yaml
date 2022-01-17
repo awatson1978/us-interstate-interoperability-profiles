@@ -4,16 +4,16 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 id: mehi.ig.fhir
-canonical: http://mehi-ig.tranquildata.com
-name: MeHI Implementation Guide
+canonical: http://consent-engine-ig.awatson.mitre.org
+name: Consent Engine IG
 status: draft
-version: 0.5.4
+version: 0.3.6
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: ci-build
 publisher:
   name: MITRE, Inc
-  url: https://github.com/mehi/implementation-guide
+  url: https://gitlab.mitre.org/awatson/consent-engine-ig
 dependencies:
   hl7.fhir.us.core: 3.2.0
 
@@ -22,20 +22,20 @@ dependencies:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Payor to Payor: example1.html
-  Org Relationships: example2.html
-  # Consent Collection: datacollection.html
-  # Access Control Lists: consentengine.html
+  Consent Collection: datacollection.html
+  Access Control Lists: consentengine.html
+  Regional Profiles: profiles.html
+  Distributed Ledgers: blockchain.html
   Artifacts: artifacts.html
 
 pages:
   index.md:
     title: Consent Exchange Implementation Guide
-  example1.md:
-    title: Payor To Payor
-  example2.md:
-    title: Organizational Relationships
-  # datacollection.md:
-  #   title: Data Collection
-  # consentengine.md:
-  #   title: Consent Engine
+  datacollection.md:
+    title: Data Collection
+  consentengine.md:
+    title: Consent Engine
+  profiles.md:
+    title: Regional Profiles
+  blockchain.md:
+    title: Distributed Ledgers

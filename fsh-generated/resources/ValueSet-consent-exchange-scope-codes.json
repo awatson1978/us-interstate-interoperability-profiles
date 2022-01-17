@@ -5,8 +5,8 @@
   "id": "consent-exchange-scope-codes",
   "title": "ConsentExchangeScopeCodes",
   "description": "Consent Exchange - Scope Codes",
-  "version": "0.5.4",
-  "url": "http://mehi-ig.tranquildata.com/ValueSet/consent-exchange-scope-codes",
+  "version": "0.3.6",
+  "url": "http://consent-engine-ig.awatson.mitre.org/ValueSet/consent-exchange-scope-codes",
   "compose": {
     "include": [
       {

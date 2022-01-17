@@ -14,7 +14,7 @@ The purpose of this implementation guide is to help developers implement systems
 - [ONC LEAP - Consent Management and Enforcement - Connectathon Track](https://confluence.hl7.org/display/FHIR/2021-01+Consent+Management+and+Enforcement+Services+Track)    
 
 
-<!-- ### Domain Analysis 
+### Domain Analysis 
 
 This implementation guide was developed after performing a meta-analysis of three related implementation guides - SDOH Clinical Care (Gravity), PACIO Advanced Directives, and the LEAP Connectathon Track.  For those not familiar with this prior art, the Gravity IG has a particular emphasis on social determinates of health and translating the health conditions/goals of patients into consent records; while the PACIO IG has an emphasis on the advanced directive documents themselves, and the ONC Leap IG has an emphasis on clinician workflows within the hospital and clinical research environments.  
 
@@ -22,7 +22,7 @@ This implementation guide was developed after performing a meta-analysis of thre
 
 The common denominator between these three implementation guides was the Consent, Questionnaire, Patient, Practitioner, RelatedPerson, and Organization resources.
 
-This implementation guide seeks to start with these resources as a base, add learnings from multiple implementations of advanced directives websites in the Node/Javascript and blockchain community, with a focus on security and access control lists.   -->
+This implementation guide seeks to start with these resources as a base, add learnings from multiple implementations of advanced directives websites in the Node/Javascript and blockchain community, with a focus on security and access control lists.  
 
 ### Actors, Roles, and Relationships  
 
@@ -68,7 +68,7 @@ Patient/Provider relationships are encoded by the `Patient.generalPractitioner` 
 ### Use Case Scenarios    
 
 *Scenario 1 - Interstate Pediatric Continuity of Care*  
-The family lives in Alabama, where Jennifer visits Dr. Shuman for contraceptives.  Mrs. Smith sees details of her daughter's vist in her _Together Health_ app.  The family moves to MA, where Jennifer sees Dr. Yin for contraceptives.  By default, Mrs. Smith does not see details of the visit in her _Together Health_ app.  To maintain her engagement with her family and her health, Jennifer may consent to share with her monther, but in MA this is her choice and technology should support that...  
+The family lives in Alabama, where Jennifer visits Dr. Shuman for contraceptives.  Mrs. Smith sees details of her daughter's vist in her _Together Health_ app.  The family moves to MA, where Jennifer sees Dr. Yin for contraceptives.  By default, Mrs. Smith does not see details of the visit in her _Together Health_ app.  To maintain her engagement with her family and her health, Jennifer may consent to share with her monther, but in MA this is her choice and technology should support that...   
 
 *Scenario 2 - Healthservice Price Transparency Shopping*  
 When the move to MA, Mr. Smith looks for a new pharmacy.  He consents to allow _PlentyRX_ to assert his ID not only to fill prescriptions, but also to suggest & discount supplements based on what he already takes.  Over time, Mr. Smith decides that another service can better guide his regime with specific access to his health records.  He revokes consent for _PlentyRX_, and grants consent to his new vendor _PillBox_.  
@@ -82,7 +82,7 @@ When John logs into PillBox using the Massachusetts Community Insurance ID, pers
 When John Smith moves from ACME Insurance to Massachusetts Community Insurance, John consents to allow some or all of his data to be sent to Massachusetts Community Insurance. In one form of this exchange, Massachusetts Community Insurance will get consent from John & send it to ACME Insurance. The consent provided must identify the subscriber as the key actor, and their relationship with both payers.
 
 
-<!-- *Scenario 3 - Provider to Payor Data Exchange*  
+*Scenario 3 - Provider to Payor Data Exchange*  
 
 Johnny Appleseed is a 34 year old male, living in Pittsburgh PA, and who has insurance through (Payor1).  His primary care physician is Dr. Susan Smith, who works at (Provider1).  Johnny visits Dr. Smith for a follow up exam, wherein he is prescribed Lisinopril, a blood pressure medication.  When complete, (Provider1) send an electronic bundle containing the medication prescription, patient, and provenance to (Payor 1).  A copy of the HIPAA Privacy Consent is included as a contained resource in the bundle.  
 
@@ -100,14 +100,14 @@ Dr. Langevevld and Helps use an EHR that supports patient lists and tracking of 
 
 *Scenario 6 - ONC LEAP - Provider to Provider ADI Exchange*  
 
-Green Valley Hospital and Mariposea Community Health Center are business associates under HIPAA regulations, and both located in Arizona.  As busines associates, they have entered legal agreements to share legal documents between the two organizations, including HIPAA Patient Privacy consent forms, Living Wills, Powers of Attorney, and other advanced care directives.  Various patients enter either of the organizations, specify HIPAA patient privacy documents, and physicians at the other organization have access to patient medical charts based on the detials present in the ADI documents and consent forms.   -->
+Green Valley Hospital and Mariposea Community Health Center are business associates under HIPAA regulations, and both located in Arizona.  As busines associates, they have entered legal agreements to share legal documents between the two organizations, including HIPAA Patient Privacy consent forms, Living Wills, Powers of Attorney, and other advanced care directives.  Various patients enter either of the organizations, specify HIPAA patient privacy documents, and physicians at the other organization have access to patient medical charts based on the detials present in the ADI documents and consent forms.  
 
 
 ### Data Model  
 
 From these usecases and clinical scenarios, the following data model was extracted. 
 
-![./MeHIConsentExchange.jpg](./MeHIConsentExchange.jpg){:width="100%"}
+![./MeHIConsentEngineDataModel3.png](./MeHIConsentEngineDataModel3.png){:width="100%"}
 
 The core consent engine data model center around the FHIR Consent resource, and the resources pertaining to human and organizational actors (in so far as legal jurisprudice concerns itself with human actors).   
 
@@ -119,7 +119,7 @@ Finally, exploratory consideration is given to CareTeam resource for use in mode
 
 Endpoint query patterns vary depending on business usecase and workflow, but are generally organized around the perspective of each of the actors or organizations.  Typical queries will be around the patient accessing his or her own consent records; an organization querying which records a practitioner has access to; an organization determining if a specific related person is authorized to access a patient's records, and so forth.  You will want to review the following endpoints and queries, and select the ones most relevant to your  use case. 
 
-<!-- 
+
 *Data Collection*  
 ```
 GET /Questionnaire/{questionnaireId}
@@ -129,10 +129,8 @@ GET /QuestionnaireResponse?patient={patientId}
 PUT /QuestionnaireResponse/{questionnaireId}
 DELETE /QuestionnaireResponse/{questionnaireResponseId}
 ``` 
+
 *Relationship Modeling*  
--->
-
-
 ```
 GET /Patient/{patientId}
 GET /Patient?_id={patientId}
@@ -158,8 +156,7 @@ GET /Consent?performer=PractitionerRole/{practitionerRoleId}
 DELETE /Consent/{patientId}  
 ```
 
-<!-- *Consent Engine & Access Control List Generation*  
-
+*Consent Engine & Access Control List Generation*  
 ```
 PUT /Consent/{patientId}/$parse
 GET /Consent/$parseToBundle?patient=Patient/{patientId}
@@ -173,7 +170,7 @@ GET /Consent/$toAcl?consentor=RelatedPerson/{relatedPersonId}
 GET /Consent/$oauthScopes?patient=Patient/{patientId}
 GET /Consent/$oauthScopes?organization=Organization/{organizationId}
 GET /Consent/$oauthScopes?consentor=RelatedPerson/{relatedPersonId}
-``` -->
+```
 
 
 ### Sponsors  
@@ -191,10 +188,7 @@ This implementation guide is generously sponsored by Tranquil Data and the Massa
 
 For project maintenance, please contact:    
 
-Seth Proctor <stp@tranquildata.com>  
-Shawn Flaherty <sf@tranquildata.com>    
-Reece Adamson <radamson@mitre.org>  
-Russ Graves <digger@mitre.org>
+Abigail Watson <awatson@mitre.org> 
 
 For community help, please post questions on Zulip:  
 [https://chat.fhir.org/](https://chat.fhir.org/)  

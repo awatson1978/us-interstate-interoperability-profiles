@@ -11,8 +11,8 @@
       "valueCode": "patient"
     }
   ],
-  "url": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-related-person",
-  "version": "0.5.4",
+  "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person",
+  "version": "0.3.6",
   "name": "ConsentExchangeRelatedPerson",
   "title": "ConsentExchangeRelatedPerson",
   "status": "active",
@@ -47,7 +47,7 @@
         "path": "RelatedPerson.relationship",
         "binding": {
           "strength": "preferred",
-          "valueSet": "http://mehi-ig.tranquildata.com/ValueSet/ConsentExchangeRelations"
+          "valueSet": "http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangeRelations"
         }
       },
       {

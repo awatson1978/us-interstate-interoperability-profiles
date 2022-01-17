@@ -1,0 +1,157 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "57016-8"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Privacy policy acknowledgment Document",
+  "code" : "57016-8",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "57017-6"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Privacy policy Organization Document",
+  "code" : "57017-6",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "64292-6"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Release of information consent Document",
+  "code" : "64292-6",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "57016-8"
+      },
+      {
+        "code" : "57017-6"
+      },
+      {
+        "code" : "64292-6"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:43768afc-1fa1-4edc-aee5-9b226d120dab",
+    "timestamp" : "2022-01-17T03:53:50.924Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.71"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "57016-8",
+      "display" : "Privacy policy acknowledgment Document"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "57017-6",
+      "display" : "Privacy policy Organization Document"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "64292-6",
+      "display" : "Release of information consent Document"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "59284-0",
+        "display" : "Patient Consent "
+      },
+      {
+        "code" : "57016-8",
+        "display" : "Privacy policy acknowledgement Document"
+      },
+      {
+        "code" : "57017-6",
+        "display" : "Privacy policy Organization Document "
+      },
+      {
+        "code" : "64292-6",
+        "display" : "Release of information consent "
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:fbac4f46-2606-4979-81c2-14214ab40739",
+    "timestamp" : "2022-01-17T03:53:51.159Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.71"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "59284-0",
+      "display" : "Patient Consent"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "57016-8",
+      "display" : "Privacy policy acknowledgement Document"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "57017-6",
+      "display" : "Privacy policy Organization Document"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "64292-6",
+      "display" : "Release of information consent"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

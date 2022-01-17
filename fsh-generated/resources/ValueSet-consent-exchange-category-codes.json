@@ -5,8 +5,8 @@
   "id": "consent-exchange-category-codes",
   "title": "ConsentExchangeCategoryCodes",
   "description": "Consent Exchange - Category Codes",
-  "version": "0.5.4",
-  "url": "http://mehi-ig.tranquildata.com/ValueSet/consent-exchange-category-codes",
+  "version": "0.3.6",
+  "url": "http://consent-engine-ig.awatson.mitre.org/ValueSet/consent-exchange-category-codes",
   "compose": {
     "include": [
       {

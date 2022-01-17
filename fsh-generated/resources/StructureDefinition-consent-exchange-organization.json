@@ -11,8 +11,8 @@
       "valueCode": "business"
     }
   ],
-  "url": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-organization",
-  "version": "0.5.4",
+  "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-organization",
+  "version": "0.3.6",
   "name": "ConsentExchangeOrganization",
   "title": "ConsentExchangeOrganization",
   "status": "active",
@@ -52,7 +52,7 @@
         "path": "Organization.contact.purpose",
         "binding": {
           "strength": "required",
-          "valueSet": "http://mehi-ig.tranquildata.com/ValueSet/ConsentExchangeRelations"
+          "valueSet": "http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangeRelations"
         }
       }
     ]

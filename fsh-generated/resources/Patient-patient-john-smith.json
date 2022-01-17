@@ -3,7 +3,7 @@
   "id": "patient-john-smith",
   "meta": {
     "profile": [
-      "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-patient"
+      "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient"
     ]
   },
   "extension": [

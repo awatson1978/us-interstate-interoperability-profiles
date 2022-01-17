@@ -6,8 +6,8 @@
   "id": "CmsInteroperabilityPolicyCodes",
   "title": "CmsInteroperabilityPolicyCodes",
   "description": "Policy provisions defined under CMS-9115-F, CMS Interoperability and Patient Access final rule",
-  "version": "0.5.4",
-  "url": "http://mehi-ig.tranquildata.com/CodeSystem/CmsInteroperabilityPolicyCodes",
+  "version": "0.3.6",
+  "url": "http://consent-engine-ig.awatson.mitre.org/CodeSystem/CmsInteroperabilityPolicyCodes",
   "concept": [
     {
       "code": "CMS-9115-F.III",
