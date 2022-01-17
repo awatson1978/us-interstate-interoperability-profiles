@@ -7,7 +7,7 @@
     "url": "http://consent-engine-ig.awatson.mitre.org/ImplementationGuide/mehi.ig.fhir",
     "name": "ConsentEngineIG",
     "version": "0.3.6",
-    "date": "2022-01-16T23:39:42-06:00",
+    "date": "2022-01-16T23:55:54-06:00",
     "status": {
       "class": "colsd",
       "owner": "MITRE, Inc",
@@ -24,7 +24,7 @@
     "name": "ConsentExchangeCareTeam",
     "title": "ConsentExchangeCareTeam",
     "version": "0.3.6",
-    "date": "2022-01-16T23:39:42-06:00",
+    "date": "2022-01-16T23:55:54-06:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -41,7 +41,7 @@
     "name": "ConsentExchangeConsent",
     "title": "ConsentExchangeConsent",
     "version": "0.3.6",
-    "date": "2022-01-16T23:39:42-06:00",
+    "date": "2022-01-16T23:55:54-06:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -58,7 +58,7 @@
     "name": "ConsentExchangeOrganization",
     "title": "ConsentExchangeOrganization",
     "version": "0.3.6",
-    "date": "2022-01-16T23:39:42-06:00",
+    "date": "2022-01-16T23:55:54-06:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -75,7 +75,7 @@
     "name": "ConsentExchangePatient",
     "title": "ConsentExchangePatient",
     "version": "0.3.6",
-    "date": "2022-01-16T23:39:42-06:00",
+    "date": "2022-01-16T23:55:54-06:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -92,7 +92,7 @@
     "name": "ConsentExchangePractitioner",
     "title": "ConsentExchangePractitioner",
     "version": "0.3.6",
-    "date": "2022-01-16T23:39:42-06:00",
+    "date": "2022-01-16T23:55:54-06:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -109,7 +109,7 @@
     "name": "ConsentExchangeRelatedPerson",
     "title": "ConsentExchangeRelatedPerson",
     "version": "0.3.6",
-    "date": "2022-01-16T23:39:42-06:00",
+    "date": "2022-01-16T23:55:54-06:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -126,7 +126,7 @@
     "name": "ConsentExchangeCategoryCodes",
     "title": "ConsentExchangeCategoryCodes",
     "version": "0.3.6",
-    "date": "2022-01-16T23:39:42-06:00",
+    "date": "2022-01-16T23:55:54-06:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -143,7 +143,7 @@
     "name": "ConsentExchangePolicies",
     "title": "ConsentExchangePolicies",
     "version": "0.3.6",
-    "date": "2022-01-16T23:39:42-06:00",
+    "date": "2022-01-16T23:55:54-06:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -160,7 +160,7 @@
     "name": "ConsentExchangeRelations",
     "title": "ConsentExchangeRelations",
     "version": "0.3.6",
-    "date": "2022-01-16T23:39:42-06:00",
+    "date": "2022-01-16T23:55:54-06:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -177,7 +177,7 @@
     "name": "ConsentExchangeScopeCodes",
     "title": "ConsentExchangeScopeCodes",
     "version": "0.3.6",
-    "date": "2022-01-16T23:39:42-06:00",
+    "date": "2022-01-16T23:55:54-06:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -194,7 +194,7 @@
     "name": "CmsInteroperabilityPolicyCodes",
     "title": "CmsInteroperabilityPolicyCodes",
     "version": "0.3.6",
-    "date": "2022-01-16T23:39:42-06:00",
+    "date": "2022-01-16T23:55:54-06:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -211,7 +211,7 @@
     "name": "ConsentExchangeRelationships",
     "title": "ConsentExchangeRelationships",
     "version": "0.3.6",
-    "date": "2022-01-16T23:39:42-06:00",
+    "date": "2022-01-16T23:55:54-06:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -228,7 +228,7 @@
     "name": "PayorToPayorExchangePolicyCodes",
     "title": "PayorToPayorExchangePolicyCodes",
     "version": "0.3.6",
-    "date": "2022-01-16T23:39:42-06:00",
+    "date": "2022-01-16T23:55:54-06:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",

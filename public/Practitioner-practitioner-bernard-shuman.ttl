@@ -5,12 +5,12 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://mehi-ig.tranquildata.com/Practitioner/practitioner-bernard-shuman> a fhir:Practitioner;
+<http://consent-engine-ig.awatson.mitre.org/Practitioner/practitioner-bernard-shuman> a fhir:Practitioner;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "practitioner-bernard-shuman"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>name</b>: BERNARD SHUMAN </p><p><b>telecom</b>: ph: 555-555-1120(HOME)</p><p><b>address</b>: 1120 Maple St Birmingham AL 35242 US </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1965-03-24</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"practitioner-bernard-shuman\" </p></div><p><b>active</b>: true</p><p><b>name</b>: BERNARD SHUMAN </p><p><b>telecom</b>: ph: 555-555-1120(HOME)</p><p><b>address</b>: 1120 Maple St Birmingham AL 35242 US </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1965-03-24</p></div>"
   ];
   fhir:Practitioner.active [ fhir:value "true"^^xsd:boolean];
   fhir:Practitioner.name [
@@ -43,7 +43,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://mehi-ig.tranquildata.com/Practitioner/practitioner-bernard-shuman.ttl> a owl:Ontology;
+<http://consent-engine-ig.awatson.mitre.org/Practitioner/practitioner-bernard-shuman.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

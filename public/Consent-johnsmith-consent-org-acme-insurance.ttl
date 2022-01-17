@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://mehi-ig.tranquildata.com/Consent/johnsmith-consent-org-acme-insurance> a fhir:Consent;
+<http://consent-engine-ig.awatson.mitre.org/Consent/johnsmith-consent-org-acme-insurance> a fhir:Consent;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "johnsmith-consent-org-acme-insurance"];
   fhir:Resource.meta [
@@ -19,7 +19,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>scope</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/consentscope patient-privacy}\">Privacy Consent</span></p><p><b>category</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-ActCode IDSCL}\">information disclosure</span></p><p><b>patient</b>: <a href=\"Patient-patient-john-smith.html\">SMITH, JOHN. Generated Summary: Medical Record Number: 2002501 (USUAL); active; JOHN SMITH ; Phone: 555-555-5553; gender: male; birthDate: 1980-04-14</a></p><p><b>dateTime</b>: 2013-02-01</p><p><b>organization</b>: <a href=\"http://fhir.org/packages/us.nlm.vsac/Organization/plentyrx/expansion\">Plenty RX</a></p><p><b>policyRule</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/consentpolicycodes hipaa-auth}\">HIPAA Authorization</span></p><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><p><b>period</b>: 2021-01-01 --&gt; (ongoing)</p><h3>Actors</h3><table class=\"grid\"><tr><td>-</td><td><b>Role</b></td><td><b>Reference</b></td></tr><tr><td>*</td><td><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleClass AFFL}\">affiliate</span></td><td><a href=\"Organization-org-acme-insurance.html\">ACME Insurance. Generated Summary: active; name: ACME Insurance</a></td></tr></table><p><b>action</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/consentaction access}\">Access</span></p></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"johnsmith-consent-org-acme-insurance\" Version \"1\" Updated \"2021-06-30T19:00:00-05:00\" </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Consent-Base-1</code></p></div><p><b>status</b>: active</p><p><b>scope</b>: Privacy Consent <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-consentscope.html\">Consent Scope Codes</a>#patient-privacy)</span></p><p><b>category</b>: information disclosure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html\">ActCode</a>#IDSCL)</span></p><p><b>patient</b>: <a href=\"Patient-patient-john-smith.html\">Patient/patient-john-smith: SMITH, JOHN</a> \" SMITH\"</p><p><b>dateTime</b>: 2013-02-01</p><p><b>organization</b>: <a href=\"Organization/plentyrx\">Organization/plentyrx: Plenty RX</a></p><p><b>policyRule</b>: HIPAA Authorization <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-consentpolicycodes.html\">Consent PolicyRule Codes</a>#hipaa-auth)</span></p><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><p><b>period</b>: 2021-01-01 --&gt; (ongoing)</p><h3>Actors</h3><table class=\"grid\"><tr><td>-</td><td><b>Role</b></td><td><b>Reference</b></td></tr><tr><td>*</td><td>affiliate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-RoleClass.html\">RoleClass</a>#AFFL)</span></td><td><a href=\"Organization-org-acme-insurance.html\">Organization/org-acme-insurance: ACME Insurance</a> \"ACME Insurance\"</td></tr></table><p><b>action</b>: Access <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-consentaction.html\">Consent Action Codes</a>#access)</span></p></blockquote></div>"
   ];
   fhir:Consent.status [ fhir:value "active"];
   fhir:Consent.scope [
@@ -40,14 +40,14 @@
      ]
   ];
   fhir:Consent.patient [
-     fhir:link <http://mehi-ig.tranquildata.com/Patient/patient-john-smith>;
+     fhir:link <http://consent-engine-ig.awatson.mitre.org/Patient/patient-john-smith>;
      fhir:Reference.reference [ fhir:value "Patient/patient-john-smith" ];
      fhir:Reference.display [ fhir:value "SMITH, JOHN" ]
   ];
   fhir:Consent.dateTime [ fhir:value "2013-02-01"^^xsd:date];
   fhir:Consent.organization [
      fhir:index 0;
-     fhir:link <http://mehi-ig.tranquildata.com/Organization/plentyrx>;
+     fhir:link <http://consent-engine-ig.awatson.mitre.org/Organization/plentyrx>;
      fhir:Reference.reference [ fhir:value "Organization/plentyrx" ];
      fhir:Reference.display [ fhir:value "Plenty RX" ]
   ];
@@ -75,7 +75,7 @@
          ]
        ];
        fhir:Consent.provision.actor.reference [
-         fhir:link <http://mehi-ig.tranquildata.com/Organization/org-acme-insurance>;
+         fhir:link <http://consent-engine-ig.awatson.mitre.org/Organization/org-acme-insurance>;
          fhir:Reference.reference [ fhir:value "Organization/org-acme-insurance" ];
          fhir:Reference.display [ fhir:value "ACME Insurance" ]
        ]
@@ -94,7 +94,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://mehi-ig.tranquildata.com/Consent/johnsmith-consent-org-acme-insurance.ttl> a owl:Ontology;
+<http://consent-engine-ig.awatson.mitre.org/Consent/johnsmith-consent-org-acme-insurance.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

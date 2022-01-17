@@ -39,15 +39,15 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"4.17"}
-    h3,h4,h5,h6{--heading-prefix:"4.17"}</style>
+    <style type="text/css">h2{--heading-prefix:"6.17"}
+    h3,h4,h5,h6{--heading-prefix:"6.17"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold"></span><br/>0.5.4 - ci-build</p>
+          <p><span style="font-size:12pt;font-weight:bold"></span><br/>0.3.6 - ci-build</p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -74,10 +74,16 @@
     <a href="index.html">Home</a>
   </li>
   <li>
-    <a href="example1.html">Payor to Payor</a>
+    <a href="datacollection.html">Consent Collection</a>
   </li>
   <li>
-    <a href="example2.html">Org Relationships</a>
+    <a href="consentengine.html">Access Control Lists</a>
+  </li>
+  <li>
+    <a href="profiles.html">Regional Profiles</a>
+  </li>
+  <li>
+    <a href="blockchain.html">Distributed Ledgers</a>
   </li>
   <li>
     <a href="artifacts.html">Artifacts</a>
@@ -107,7 +113,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">MeHIImplementationGuide - Local Development build (v0.5.4). See the <a href="http://mehi-ig.tranquildata.com/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">ConsentEngineIG - Local Development build (v0.3.6). See the <a href="http://consent-engine-ig.awatson.mitre.org/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
   
 
@@ -160,7 +166,7 @@
 
 
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: active</p><p><b>scope</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/consentscope patient-privacy}">Patient Consent</span></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/consentcategorycodes 64292-6}">Release of information consent</span></p><p><b>patient</b>: <a href="Patient-patient-john-smith.html">SMITH, JOHN. Generated Summary: Medical Record Number: 2002501 (USUAL); active; JOHN SMITH ; Phone: 555-555-5553; gender: male; birthDate: 1980-04-14</a></p><p><b>dateTime</b>: 2021-06-01</p><p><b>organization</b>: <a href="Organization-org-mass-community-insurance.html">Massachusetts Community Insurance. Generated Summary: active; name: Massachusetts Community Insurance</a></p><p><b>policyRule</b>: <span title="Codes: {http://mehi-ig.tranquildata.com/CodeSystem/CmsInteroperabilityPolicyCodes CMS-9115-F.V}">Health Information Exchange and Care Coordination Across Payers</span></p><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><p><b>period</b>: 2021-06-01 --&gt; 2022-06-01</p><h3>Actors</h3><table class="grid"><tr><td>-</td><td><b>Role</b></td><td><b>Reference</b></td></tr><tr><td>*</td><td><span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleClass PROV}">healthcare provider</span></td><td><a href="Organization-org-acme-insurance.html">ACME Insurance. Generated Summary: active; name: ACME Insurance</a></td></tr></table><p><b>action</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/consentaction access}">Access</span></p></blockquote></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource &quot;example1&quot; </p></div><p><b>status</b>: active</p><p><b>scope</b>: Patient Consent <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-consentscope.html">Consent Scope Codes</a>#patient-privacy)</span></p><p><b>category</b>: Release of information consent <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-consentcategorycodes.html">Consent Category Codes</a>#64292-6)</span></p><p><b>patient</b>: <a href="Patient-patient-john-smith.html">Patient/patient-john-smith: SMITH, JOHN</a> &quot; SMITH&quot;</p><p><b>dateTime</b>: 2021-06-01</p><p><b>organization</b>: <a href="Organization-org-mass-community-insurance.html">Organization/org-mass-community-insurance: Massachusetts Community Insurance</a> &quot;Massachusetts Community Insurance&quot;</p><p><b>policyRule</b>: Health Information Exchange and Care Coordination Across Payers <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (CmsInteroperabilityPolicyCodes#CMS-9115-F.V)</span></p><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><p><b>period</b>: 2021-06-01 --&gt; 2022-06-01</p><h3>Actors</h3><table class="grid"><tr><td>-</td><td><b>Role</b></td><td><b>Reference</b></td></tr><tr><td>*</td><td>healthcare provider <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-RoleClass.html">RoleClass</a>#PROV)</span></td><td><a href="Organization-org-acme-insurance.html">Organization/org-acme-insurance: ACME Insurance</a> &quot;ACME Insurance&quot;</td></tr></table><p><b>action</b>: Access <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-consentaction.html">Consent Action Codes</a>#access)</span></p></blockquote></div>
 
   <!-- insert notes if present -->
   
@@ -189,7 +195,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/mehi/implementation-guide">MITRE, Inc</a>.  Package mehi.ig.fhir#0.5.4 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 27, 2021 11:26-0600">2021-12-27</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://gitlab.mitre.org/awatson/consent-engine-ig">MITRE, Inc</a>.  Package mehi.ig.fhir#0.3.6 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jan 16, 2022 23:55-0600">2022-01-16</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

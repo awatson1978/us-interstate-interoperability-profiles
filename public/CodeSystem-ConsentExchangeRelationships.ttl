@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://mehi-ig.tranquildata.com/CodeSystem/ConsentExchangeRelationships> a fhir:CodeSystem;
+<http://consent-engine-ig.awatson.mitre.org/CodeSystem/ConsentExchangeRelationships> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "ConsentExchangeRelationships"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://mehi-ig.tranquildata.com/CodeSystem/ConsentExchangeRelationships defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://consent-engine-ig.awatson.mitre.org/CodeSystem/ConsentExchangeRelationships defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr></table></div>"
   ];
-  fhir:CodeSystem.url [ fhir:value "http://mehi-ig.tranquildata.com/CodeSystem/ConsentExchangeRelationships"];
-  fhir:CodeSystem.version [ fhir:value "0.5.4"];
+  fhir:CodeSystem.url [ fhir:value "http://consent-engine-ig.awatson.mitre.org/CodeSystem/ConsentExchangeRelationships"];
+  fhir:CodeSystem.version [ fhir:value "0.3.6"];
   fhir:CodeSystem.name [ fhir:value "ConsentExchangeRelationships"];
   fhir:CodeSystem.title [ fhir:value "ConsentExchangeRelationships"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-12-27T11:26:17-06:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-01-16T23:55:54-06:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "MITRE, Inc"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -25,7 +25,7 @@
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "https://github.com/mehi/implementation-guide" ]
+       fhir:ContactPoint.value [ fhir:value "https://gitlab.mitre.org/awatson/consent-engine-ig" ]
      ]
   ];
   fhir:CodeSystem.description [ fhir:value "Relationships used to model and exchange consent relationships"];
@@ -33,7 +33,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://mehi-ig.tranquildata.com/CodeSystem/ConsentExchangeRelationships.ttl> a owl:Ontology;
+<http://consent-engine-ig.awatson.mitre.org/CodeSystem/ConsentExchangeRelationships.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

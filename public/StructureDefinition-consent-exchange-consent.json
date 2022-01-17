@@ -15,12 +15,12 @@
       "valueCode": "patient"
     }
   ],
-  "url": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-consent",
-  "version": "0.5.4",
+  "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-consent",
+  "version": "0.3.6",
   "name": "ConsentExchangeConsent",
   "title": "ConsentExchangeConsent",
   "status": "active",
-  "date": "2021-12-27T11:26:17-06:00",
+  "date": "2022-01-16T23:55:54-06:00",
   "publisher": "MITRE, Inc",
   "contact": [
     {
@@ -28,7 +28,7 @@
       "telecom": [
         {
           "system": "url",
-          "value": "https://github.com/mehi/implementation-guide"
+          "value": "https://gitlab.mitre.org/awatson/consent-engine-ig"
         }
       ]
     }
@@ -1238,7 +1238,7 @@
         "isSummary": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://mehi-ig.tranquildata.com/ValueSet/ConsentExchangePolicies"
+          "valueSet": "http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangePolicies"
         }
       },
       {
@@ -2536,7 +2536,7 @@
         "path": "Consent.policyRule",
         "binding": {
           "strength": "required",
-          "valueSet": "http://mehi-ig.tranquildata.com/ValueSet/ConsentExchangePolicies"
+          "valueSet": "http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangePolicies"
         }
       }
     ]

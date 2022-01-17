@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://mehi-ig.tranquildata.com/RelatedPerson/related-person-john-smith> a fhir:RelatedPerson;
+<http://consent-engine-ig.awatson.mitre.org/RelatedPerson/related-person-john-smith> a fhir:RelatedPerson;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "related-person-john-smith"];
   fhir:DomainResource.text [
@@ -63,7 +63,7 @@
   ];
   fhir:RelatedPerson.active [ fhir:value "true"^^xsd:boolean];
   fhir:RelatedPerson.patient [
-     fhir:link <http://mehi-ig.tranquildata.com/Patient/jennifer-smith>;
+     fhir:link <http://consent-engine-ig.awatson.mitre.org/Patient/jennifer-smith>;
      fhir:Reference.reference [ fhir:value "Patient/jennifer-smith" ];
      fhir:Reference.display [ fhir:value "Jennifer Smith" ]
   ];
@@ -133,7 +133,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://mehi-ig.tranquildata.com/RelatedPerson/related-person-john-smith.ttl> a owl:Ontology;
+<http://consent-engine-ig.awatson.mitre.org/RelatedPerson/related-person-john-smith.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

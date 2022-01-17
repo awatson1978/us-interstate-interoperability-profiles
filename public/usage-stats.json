@@ -1,42 +1,42 @@
 {
   "package": "mehi.ig.fhir",
-  "version": "0.5.4",
+  "version": "0.3.6",
   "fhirVersion": "4.0.1",
   "extensions": [],
   "profiles": {
     "CareTeam": [
       {
-        "url": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-careteam",
+        "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-careteam",
         "title": "ConsentExchangeCareTeam"
       }
     ],
     "Consent": [
       {
-        "url": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-consent",
+        "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-consent",
         "title": "ConsentExchangeConsent"
       }
     ],
     "Organization": [
       {
-        "url": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-organization",
+        "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-organization",
         "title": "ConsentExchangeOrganization"
       }
     ],
     "Patient": [
       {
-        "url": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-patient",
+        "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient",
         "title": "ConsentExchangePatient"
       }
     ],
     "Practitioner": [
       {
-        "url": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-practitioner",
+        "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-practitioner",
         "title": "ConsentExchangePractitioner"
       }
     ],
     "RelatedPerson": [
       {
-        "url": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-related-person",
+        "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person",
         "title": "ConsentExchangeRelatedPerson"
       }
     ]

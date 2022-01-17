@@ -3,13 +3,13 @@
   "id": "mehi.ig.fhir",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>MeHIImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://mehi-ig.tranquildata.com/ImplementationGuide/mehi.ig.fhir</pre></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ConsentEngineIG</h2><p>The official URL for this implementation guide is: </p><pre>http://consent-engine-ig.awatson.mitre.org/ImplementationGuide/mehi.ig.fhir</pre></div>"
   },
-  "url": "http://mehi-ig.tranquildata.com/ImplementationGuide/mehi.ig.fhir",
-  "version": "0.5.4",
-  "name": "MeHIImplementationGuide",
+  "url": "http://consent-engine-ig.awatson.mitre.org/ImplementationGuide/mehi.ig.fhir",
+  "version": "0.3.6",
+  "name": "ConsentEngineIG",
   "status": "draft",
-  "date": "2021-12-27T11:26:17-06:00",
+  "date": "2022-01-16T23:55:54-06:00",
   "publisher": "MITRE, Inc",
   "contact": [
     {
@@ -17,7 +17,7 @@
       "telecom": [
         {
           "system": "url",
-          "value": "https://github.com/mehi/implementation-guide"
+          "value": "https://gitlab.mitre.org/awatson/consent-engine-ig"
         }
       ]
     }
@@ -149,7 +149,7 @@
           },
           {
             "url": "value",
-            "valueString": "http://mehi-ig.tranquildata.com/history.html"
+            "valueString": "http://consent-engine-ig.awatson.mitre.org/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -550,7 +550,7 @@
         },
         "name": "jane-doe",
         "description": "Jane Doe patient not part of relationship model, used for checking security access.",
-        "exampleCanonical": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-patient"
+        "exampleCanonical": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient"
       },
       {
         "extension": [
@@ -564,7 +564,7 @@
         },
         "name": "jennifer-smith",
         "description": "Jennifer Smith - Patient demographics record.",
-        "exampleCanonical": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-patient"
+        "exampleCanonical": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient"
       },
       {
         "extension": [
@@ -788,7 +788,7 @@
         },
         "name": "patient-john-smith",
         "description": "John Smith - Patient demographics record.",
-        "exampleCanonical": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-patient"
+        "exampleCanonical": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient"
       },
       {
         "extension": [
@@ -844,7 +844,7 @@
         },
         "name": "related-person-jane-smith-wife",
         "description": "Jane Smith - Spouse relationship record.",
-        "exampleCanonical": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-related-person"
+        "exampleCanonical": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person"
       },
       {
         "extension": [
@@ -858,7 +858,7 @@
         },
         "name": "related-person-jennifer-smith-daughter",
         "description": "Jennifer Smith - Daughter relationship record.",
-        "exampleCanonical": "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-related-person"
+        "exampleCanonical": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person"
       },
       {
         "extension": [
@@ -900,13 +900,23 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "example1.html",
-          "title": "Payor To Payor",
+          "nameUrl": "datacollection.html",
+          "title": "Data Collection",
           "generation": "markdown"
         },
         {
-          "nameUrl": "example2.html",
-          "title": "Organizational Relationships",
+          "nameUrl": "consentengine.html",
+          "title": "Consent Engine",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "profiles.html",
+          "title": "Regional Profiles",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "blockchain.html",
+          "title": "Distributed Ledgers",
           "generation": "markdown"
         }
       ]

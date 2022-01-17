@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://mehi-ig.tranquildata.com/Bundle/Jennifer-Consents-MA> a fhir:Bundle;
+<http://consent-engine-ig.awatson.mitre.org/Bundle/Jennifer-Consents-MA> a fhir:Bundle;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Jennifer-Consents-MA"];
   fhir:Bundle.type [ fhir:value "searchset"];
@@ -20,7 +20,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://mehi-ig.tranquildata.com/Bundle/Jennifer-Consents-MA.ttl> a owl:Ontology;
+<http://consent-engine-ig.awatson.mitre.org/Bundle/Jennifer-Consents-MA.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

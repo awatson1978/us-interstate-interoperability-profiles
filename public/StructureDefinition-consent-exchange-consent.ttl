@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-consent> a fhir:StructureDefinition;
+<http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-consent> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "consent-exchange-consent"];
   fhir:DomainResource.text [
@@ -21,12 +21,12 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-consent"];
-  fhir:StructureDefinition.version [ fhir:value "0.5.4"];
+  fhir:StructureDefinition.url [ fhir:value "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-consent"];
+  fhir:StructureDefinition.version [ fhir:value "0.3.6"];
   fhir:StructureDefinition.name [ fhir:value "ConsentExchangeConsent"];
   fhir:StructureDefinition.title [ fhir:value "ConsentExchangeConsent"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-12-27T11:26:17-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-01-16T23:55:54-06:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "MITRE, Inc"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -34,7 +34,7 @@
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "https://github.com/mehi/implementation-guide" ]
+       fhir:ContactPoint.value [ fhir:value "https://gitlab.mitre.org/awatson/consent-engine-ig" ]
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "Consent resource for describing actors in an payor-to-payor data exchange workflow."];
@@ -1356,8 +1356,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://mehi-ig.tranquildata.com/ValueSet/ConsentExchangePolicies";
-           fhir:link <http://mehi-ig.tranquildata.com/ValueSet/ConsentExchangePolicies>
+           fhir:value "http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangePolicies";
+           fhir:link <http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangePolicies>
          ]
        ]
      ], [
@@ -2767,8 +2767,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://mehi-ig.tranquildata.com/ValueSet/ConsentExchangePolicies";
-           fhir:link <http://mehi-ig.tranquildata.com/ValueSet/ConsentExchangePolicies>
+           fhir:value "http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangePolicies";
+           fhir:link <http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangePolicies>
          ]
        ]
      ]
@@ -2776,7 +2776,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://mehi-ig.tranquildata.com/StructureDefinition/consent-exchange-consent.ttl> a owl:Ontology;
+<http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-consent.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
