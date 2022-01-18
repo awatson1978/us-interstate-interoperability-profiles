@@ -1,23 +1,6 @@
-I"wN<p><!-- white space is critical inside of capture --></p>
-<div class="markdown-toc">
-<ul id="markdown-toc">
-  <li><a href="#background" id="markdown-toc-background">Background</a></li>
-  <li><a href="#purpose" id="markdown-toc-purpose">Purpose</a></li>
-  <li><a href="#prior-art-references" id="markdown-toc-prior-art-references">Prior Art References</a></li>
-  <li><a href="#domain-analysis" id="markdown-toc-domain-analysis">Domain Analysis</a></li>
-  <li><a href="#actors-roles-and-relationships" id="markdown-toc-actors-roles-and-relationships">Actors, Roles, and Relationships</a></li>
-  <li><a href="#terminology" id="markdown-toc-terminology">Terminology</a></li>
-  <li><a href="#use-case-scenarios" id="markdown-toc-use-case-scenarios">Use Case Scenarios</a></li>
-  <li><a href="#data-model" id="markdown-toc-data-model">Data Model</a></li>
-  <li><a href="#endpoints" id="markdown-toc-endpoints">Endpoints</a></li>
-  <li><a href="#sponsors" id="markdown-toc-sponsors">Sponsors</a></li>
-  <li><a href="#learning-resources--background-information" id="markdown-toc-learning-resources--background-information">Learning Resources &amp; Background Information</a></li>
-  <li><a href="#contact-info" id="markdown-toc-contact-info">Contact Info</a>    <ul>
-      <li><a href="#copyright-notice" id="markdown-toc-copyright-notice">Copyright Notice</a></li>
-    </ul>
-  </li>
-</ul>
-
+I"ÂI<p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
 
 <h3 id="background">Background</h3>
@@ -132,7 +115,7 @@ When John Smith moves from ACME Insurance to Massachusetts Community Insurance, 
 
 <p>From these usecases and clinical scenarios, the following data model was extracted.</p>
 
-<p><img src="MeHIConsentEngineDataModel3.png" alt="MeHIConsentEngineDataModel3.png" width="100%" /></p>
+<p><img src="MeHiConsentEngineDataModel3.png" alt="MeHiConsentEngineDataModel3" width="100%" /></p>
 
 <p>The core consent engine data model center around the FHIR Consent resource, and the resources pertaining to human and organizational actors (in so far as legal jurisprudice concerns itself with human actors).</p>
 

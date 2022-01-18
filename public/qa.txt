@@ -1,10 +1,10 @@
 ﻿ConsentEngineIG : Validation Results
 =========================================
 
-err = 90, warn = 18, info = 33
+err = 89, warn = 18, info = 33
 IG Publisher Version: 1.1.95 Out of date - current version is ?pub-ver-1?
-Generated Tue Jan 18 10:03:06 CST 2022. FHIR version 4.0.1 for mehi.ig.fhir#0.3.6 (canonical = http://consent-engine-ig.awatson.mitre.org)
- Build Errors : 9 / 0 / 0
+Generated Tue Jan 18 10:09:01 CST 2022. FHIR version 4.0.1 for mehi.ig.fhir#0.3.6 (canonical = http://consent-engine-ig.awatson.mitre.org)
+ Build Errors : 8 / 0 / 0
  /Users/awatson/Code/gitlab/consent-engine-ig/fsh-generated/resources/ImplementationGuide-mehi.ig.fhir : 0 / 0 / 1
  /Users/awatson/Code/gitlab/consent-engine-ig/fsh-generated/resources/bundle-Jennifer-Consents-MA : 4 / 1 / 1
  /Users/awatson/Code/gitlab/consent-engine-ig/fsh-generated/resources/codesystem-CmsInteroperabilityPolicyCodes : 0 / 0 / 2
@@ -59,7 +59,6 @@ ERROR: /Users/awatson/Code/gitlab/consent-engine-ig/output/Consent-johnsmith-con
 ERROR: /Users/awatson/Code/gitlab/consent-engine-ig/output/Consent-johnsmith-consent-plentyrx.html#/html/body/div/div/div/div/div/div/blockquote/table/tr/td/a at Line 169, column 2138: The link 'Organization/plentyrx' for "Organization/plentyrx" cannot be resolved
 ERROR: /Users/awatson/Code/gitlab/consent-engine-ig/output/RelatedPerson-related-person-jane-smith-wife.html#/html/body/div/div/div/div/div/div/p/a at Line 169, column 124: The link 'http://fhir.org/packages/us.nlm.vsac/Patient/john-smith/expansion' for "John Smith" cannot be resolved
 ERROR: /Users/awatson/Code/gitlab/consent-engine-ig/output/RelatedPerson-related-person-jennifer-smith-daughter.html#/html/body/div/div/div/div/div/div/p/a at Line 169, column 124: The link 'http://fhir.org/packages/us.nlm.vsac/Patient/john-smith/expansion' for "Jennifer Smith" cannot be resolved
-ERROR: /Users/awatson/Code/gitlab/consent-engine-ig/output/index.html#/html/body/div/div/div/div/div/p/img at Line 269, column 5: The image source 'MeHIConsentEngineDataModel3.png' cannot be resolved
 == fsh-generated/resources/ImplementationGuide-mehi.ig.fhir.json ==
 == fsh-generated/resources/Bundle-Jennifer-Consents-MA.json ==
 ERROR: Bundle/Jennifer-Consents-MA: Bundle.entry[0]: bdl-5: 'must be a resource unless there's a request or response' Rule 'must be a resource unless there's a request or response' Failed

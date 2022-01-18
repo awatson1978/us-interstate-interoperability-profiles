@@ -1,37 +1,37 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
     <title>MEHI.IG.FHIR\Consent Engine Implementation Guide - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link rel="stylesheet" href="fhir.css"/>
+    <link href="fhir.css" rel="stylesheet"/>
 
-      <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
 
-      <!-- Project extras -->
-    <link rel="stylesheet" href="assets/css/project.css"/>
-    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
-    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-  	<link rel="stylesheet" href="assets/css/prism.css"/>
-      <!-- Placeholder for child template CSS declarations -->
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
 
-    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
-      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- [if lt IE 9]>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif] -->
+    <![endif]-->
 
-      <!-- Favicons -->
-    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
-    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
-    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
@@ -41,35 +41,35 @@
 
     <style type="text/css">h2{--heading-prefix:"1"}
     h3,h4,h5,h6{--heading-prefix:"1"}</style>
-    <div id="segment-header" class="segment">    <!-- segment-header -->
-      <div class="container">    <!-- container -->
-          <!-- Placeholder for child template header declarations -->
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
 
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span><br/>0.3.6 - ci-build</p>
         </div>
-      </div>   <!-- /container -->
-    </div>    <!-- /segment-header -->
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">    <!-- container -->
-          <!-- HEADER CONTENT -->
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
 
         <nav class="navbar navbar-inverse">
-            <!-- status-bar -->
+          <!--status-bar-->
           <div class="container">
-            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-                <!-- menu.xml -->
+              <!-- menu.xml  -->
 
-<ul class="nav navbar-nav">
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Home</a>
   </li>
@@ -89,26 +89,26 @@
     <a href="artifacts.html">Artifacts</a>
   </li>
 </ul>
-            </div>    <!-- /.nav-collapse -->
-          </div>    <!-- /.container -->
-        </nav>    <!-- /.navbar -->
-        <!-- /HEADER CONTENT -->
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-navbar -->
-      <!-- status-bar -->
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
 
-    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
-      <div class="container">    <!-- container -->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Consent Engine Implementation Guide</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Consent Engine Implementation Guide</b></li>
 
         </ul>
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-breadcrumb -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">    <!-- segment-content -->
-      <div class="container">    <!-- container -->
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
@@ -120,7 +120,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">ConsentEngineIG - Local Development build (v0.3.6). See the <a href="http://consent-engine-ig.awatson.mitre.org/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <!--ReleaseHeader--><p id="publish-box">ConsentEngineIG - Local Development build (v0.3.6). See the <a href="http://consent-engine-ig.awatson.mitre.org/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Consent Engine Implementation Guide</h2>
   
 
@@ -132,7 +132,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
 
-    <p>  <!-- white space is critical inside of capture --></p>
+    <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
   <li><a href="#background" id="markdown-toc-background">Background</a></li>
@@ -174,7 +174,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>This implementation guide was developed after performing a meta-analysis of three related implementation guides - SDOH Clinical Care (Gravity), PACIO Advanced Directives, and the LEAP Connectathon Track.  For those not familiar with this prior art, the Gravity IG has a particular emphasis on social determinates of health and translating the health conditions/goals of patients into consent records; while the PACIO IG has an emphasis on the advanced directive documents themselves, and the ONC Leap IG has an emphasis on clinician workflows within the hospital and clinical research environments.</p>
 
-<p><img src="MeHi-RosettaStone-DomainAnalysis.png" alt="MeHi-RosettaStone-DomainAnalysis" width="100%"/></p>
+<p><img src="MeHi-RosettaStone-DomainAnalysis.png" alt="MeHi-RosettaStone-DomainAnalysis" width="100%" /></p>
 
 <p>The common denominator between these three implementation guides was the Consent, Questionnaire, Patient, Practitioner, RelatedPerson, and Organization resources.</p>
 
@@ -228,13 +228,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h3 id="use-case-scenarios">Use Case Scenarios</h3>
 
-<p><em>Scenario 1 - Interstate Pediatric Continuity of Care</em><br/>
+<p><em>Scenario 1 - Interstate Pediatric Continuity of Care</em><br />
 The family lives in Alabama, where Jennifer visits Dr. Shuman for contraceptives.  Mrs. Smith sees details of her daughter’s vist in her <em>Together Health</em> app.  The family moves to MA, where Jennifer sees Dr. Yin for contraceptives.  By default, Mrs. Smith does not see details of the visit in her <em>Together Health</em> app.  To maintain her engagement with her family and her health, Jennifer may consent to share with her monther, but in MA this is her choice and technology should support that…</p>
 
-<p><em>Scenario 2 - Healthservice Price Transparency Shopping</em><br/>
+<p><em>Scenario 2 - Healthservice Price Transparency Shopping</em><br />
 When the move to MA, Mr. Smith looks for a new pharmacy.  He consents to allow <em>PlentyRX</em> to assert his ID not only to fill prescriptions, but also to suggest &amp; discount supplements based on what he already takes.  Over time, Mr. Smith decides that another service can better guide his regime with specific access to his health records.  He revokes consent for <em>PlentyRX</em>, and grants consent to his new vendor <em>PillBox</em>.</p>
 
-<p><em>Scenario 3 - Patient Chooses a New Insurance Plan</em><br/>
+<p><em>Scenario 3 - Patient Chooses a New Insurance Plan</em><br />
 When John Smith moves to MA, he changes insurance from ACME Insurance (Payer 1) to Massachusetts Community Insurance (Payor 2.  John consent to allow some or all of his data to be sent to the new plan. In one form of this exchange, the Payer 2 will get consent from John &amp; send it to the Payer 1. The consent provided must identify the subscriber as the key actor, and their relationship with both payers. In TQD parlance, the Subject has a Consent Relationship with Payer 2, starting on a known date, and possibly scoped to a subset of data, that will allow the old Payer to send data.</p>
 
 <p>When John logs into PillBox using the Massachusetts Community Insurance ID, personal data is shared from Payor 1 to the App containing standardized meta-data to ensure a consistent engagement experience. John has attributes like DoB and State of Residence, and some number of familial relationships (to Jennifer Smith, Jane Smith, etc) and general relationships (to Boston Pharmacy, Together Health App).  The familial relationships are “just” stated relationships (and as we’ve discussed, common healthcare relationships map in the same way). The general relationships are non-HIPAA consents to share some scoped set of data, over some time-frame (which may still be active).</p>
@@ -266,7 +266,7 @@ When John Smith moves from ACME Insurance to Massachusetts Community Insurance, 
 
 <p>From these usecases and clinical scenarios, the following data model was extracted.</p>
 
-<p><a name="l563">​</a><img src="MeHIConsentEngineDataModel3.png" alt="MeHIConsentEngineDataModel3.png" width="100%"/></p>
+<p><img src="MeHiConsentEngineDataModel3.png" alt="MeHiConsentEngineDataModel3" width="100%" /></p>
 
 <p>The core consent engine data model center around the FHIR Consent resource, and the resources pertaining to human and organizational actors (in so far as legal jurisprudice concerns itself with human actors).</p>
 
@@ -333,8 +333,8 @@ GET /Consent/$oauthScopes?consentor=RelatedPerson/{relatedPersonId}
 
 <h3 id="learning-resources--background-information">Learning Resources &amp; Background Information</h3>
 
-<p><a href="http://hl7.org/fhir/modules.html">Getting Started with FHIR</a><br/>
-<a href="https://www.hl7.org/fhir/resourcelist.html">FHIR Resource List</a><br/>
+<p><a href="http://hl7.org/fhir/modules.html">Getting Started with FHIR</a><br />
+<a href="https://www.hl7.org/fhir/resourcelist.html">FHIR Resource List</a><br />
 <a href="http://www.hl7.org/implement/courseList.cfm?ref=nav">HL7 Education and Certification Course List</a></p>
 
 <h1 id="contact-info">Contact Info</h1>
@@ -343,7 +343,7 @@ GET /Consent/$oauthScopes?consentor=RelatedPerson/{relatedPersonId}
 
 <p>Abigail Watson <a href="mailto:awatson@mitre.org">awatson@mitre.org</a></p>
 
-<p>For community help, please post questions on Zulip:<br/>
+<p>For community help, please post questions on Zulip:<br />
 <a href="https://chat.fhir.org/">https://chat.fhir.org/</a></p>
 
 <h3 id="copyright-notice">Copyright Notice</h3>
@@ -354,19 +354,19 @@ GET /Consent/$oauthScopes?consentor=RelatedPerson/{relatedPersonId}
 
 <p>For further information, please contact The MITRE Corporation, Contracts Management Office, 7515 Colshire Drive, McLean, VA 22102-7539, (703) 983-6000.</p>
 
-<p>&copy; 2022 The MITRE Corporation.</p>
+<p>© 2022 The MITRE Corporation.</p>
 
 
 
 
 </div>
-        </div>    <!-- /inner-wrapper -->
-      </div>    <!-- /row -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-content -->
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
 
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
   <script type="text/javascript">
     $(document).ready(function(){
@@ -376,47 +376,48 @@ GET /Consent/$oauthScopes?consentor=RelatedPerson/{relatedPersonId}
     });
   </script>
   <a name="bottom"> </a>
-  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
-    <div class="container">    <!-- container -->
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://gitlab.mitre.org/awatson/consent-engine-ig">MITRE, Inc</a>.  Package mehi.ig.fhir#0.3.6 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jan 18, 2022 10:02-0600">2022-01-18</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://gitlab.mitre.org/awatson/consent-engine-ig">MITRE, Inc</a>.  Package mehi.ig.fhir#0.3.6 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jan 18, 2022 10:08-0600">2022-01-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
-          
+          </span>
         </p>
-      </div>    <!-- /inner-wrapper -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-footer -->
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
-    <div class="container">    <!-- container -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
   
-    <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
   ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
-  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   
-  <!-- feedback form - Google forms -->
-  <!-- v0.1, 2021-01-09 -->
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
 
 
 
-  <!-- / feedback form -->
+<!-- / feedback form  -->
 
-    <!-- Analytics Below
+  <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
+

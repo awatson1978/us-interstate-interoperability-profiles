@@ -107,7 +107,7 @@ Green Valley Hospital and Mariposea Community Health Center are business associa
 
 From these usecases and clinical scenarios, the following data model was extracted. 
 
-![MeHIConsentEngineDataModel3.png](MeHIConsentEngineDataModel3.png){:width="100%"}
+![MeHiConsentEngineDataModel3](MeHiConsentEngineDataModel3.png){:width="100%"}
 
 The core consent engine data model center around the FHIR Consent resource, and the resources pertaining to human and organizational actors (in so far as legal jurisprudice concerns itself with human actors).   
 

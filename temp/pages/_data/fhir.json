@@ -14,7 +14,7 @@
   "toolingVersionFull": "5.0.0-snapshot1 (3)",
   "totalFiles": 44,
   "processedFiles": 84,
-  "genDate": "Tue, Jan 18, 2022 10:02-0600",
+  "genDate": "Tue, Jan 18, 2022 10:08-0600",
   "genDay": "18/01/2022",
   "ig": {
     "id": "mehi.ig.fhir",
@@ -33,7 +33,7 @@
         ]
       }
     ],
-    "date": "2022-01-18T10:02:13-06:00",
+    "date": "2022-01-18T10:08:08-06:00",
     "fhirVersion": "4.0.1"
   },
   "hl7_fhir_us_core": "http://hl7.org/fhir/us/core",

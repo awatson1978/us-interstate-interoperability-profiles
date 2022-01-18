@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="65ad2cb8-450a-45a5-a33d-6cc4830e3cde"/>
+  <id value="9bd9caf2-e317-4278-9136-857a2e705de9"/>
   <meta>
-    <lastUpdated value="2022-01-18T10:02:13.935-06:00"/>
+    <lastUpdated value="2022-01-18T10:08:08.269-06:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -197,7 +197,7 @@
         <name value="ConsentExchangeCategoryCodes"/>
         <title value="ConsentExchangeCategoryCodes"/>
         <status value="active"/>
-        <date value="2022-01-18T10:02:13-06:00"/>
+        <date value="2022-01-18T10:08:08-06:00"/>
         <publisher value="MITRE, Inc"/>
         <contact>
           <name value="MITRE, Inc"/>
@@ -208,8 +208,8 @@
         </contact>
         <description value="Consent Exchange - Category Codes"/>
         <expansion>
-          <identifier value="urn:uuid:c912176a-ee63-4982-997f-f5d09d3a502d"/>
-          <timestamp value="2022-01-18T10:02:50-06:00"/>
+          <identifier value="urn:uuid:416d0b2f-6c58-4131-9b05-8343a146bf70"/>
+          <timestamp value="2022-01-18T10:08:45-06:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -11029,7 +11029,7 @@ A party that is neither an author nor a party who is extended authorship mainten
         <name value="ConsentExchangeRelations"/>
         <title value="ConsentExchangeRelations"/>
         <status value="active"/>
-        <date value="2022-01-18T10:02:13-06:00"/>
+        <date value="2022-01-18T10:08:08-06:00"/>
         <publisher value="MITRE, Inc"/>
         <contact>
           <name value="MITRE, Inc"/>
@@ -11040,8 +11040,8 @@ A party that is neither an author nor a party who is extended authorship mainten
         </contact>
         <description value="Consent Exchange - Relationships"/>
         <expansion>
-          <identifier value="urn:uuid:ba943674-79e4-4698-a045-dc752064e554"/>
-          <timestamp value="2022-01-18T10:02:50-06:00"/>
+          <identifier value="urn:uuid:e0283dd5-ba5c-4f3d-a1bb-5c350a175290"/>
+          <timestamp value="2022-01-18T10:08:45-06:00"/>
           <total value="1173"/>
           <parameter>
             <name value="excludeNested"/>
@@ -19387,7 +19387,7 @@ A party that is neither an author nor a party who is extended authorship mainten
         <name value="ConsentExchangeScopeCodes"/>
         <title value="ConsentExchangeScopeCodes"/>
         <status value="active"/>
-        <date value="2022-01-18T10:02:13-06:00"/>
+        <date value="2022-01-18T10:08:08-06:00"/>
         <publisher value="MITRE, Inc"/>
         <contact>
           <name value="MITRE, Inc"/>
@@ -19398,8 +19398,8 @@ A party that is neither an author nor a party who is extended authorship mainten
         </contact>
         <description value="Consent Exchange - Scope Codes"/>
         <expansion>
-          <identifier value="urn:uuid:54b5ad5c-e5b7-4164-ac18-eaa83741eef5"/>
-          <timestamp value="2022-01-18T10:02:50-06:00"/>
+          <identifier value="urn:uuid:b2b0987d-f785-4b35-9ee6-cb7b9ad8cd1c"/>
+          <timestamp value="2022-01-18T10:08:45-06:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
