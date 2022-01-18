@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Consent xmlns="http://hl7.org/fhir">
+  <id value="jennifersmith-ma-1"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2021-09-01T00:00:00.0000+00:00"/>
+    <source value="node-on-fhir.mitre.org#mehi-consent-engine"/>
+    <profile value="http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Consent-Base-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "jennifersmith-ma-1" Version "1" Updated "2021-08-31T19:00:00-05:00" </p><p style="margin-bottom: 0px">Information Source: node-on-fhir.mitre.org#mehi-consent-engine!</p><p style="margin-bottom: 0px">Profile: <code>http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Consent-Base-1</code></p></div><p><b>status</b>: active</p><p><b>scope</b>: Privacy Consent <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-consentscope.html">Consent Scope Codes</a>#patient-privacy)</span></p><p><b>category</b>: information disclosure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html">ActCode</a>#IDSCL)</span></p><p><b>patient</b>: <a href="Patient-jennifer-smith.html">Patient/jennifer-smith: SMITH, JENNIFER</a> " SMITH"</p><p><b>dateTime</b>: 2021-09-01</p><p><b>organization</b>: <a href="Organization-org-together-health.html">Organization/org-together-health: Together Health</a> "Together Health"</p><p><b>policyRule</b>: HIPAA Authorization <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-consentpolicycodes.html">Consent PolicyRule Codes</a>#hipaa-auth)</span></p><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><p><b>period</b>: 2021-09-02 --&gt; (ongoing)</p><blockquote><p><b>actor</b></p><p><b>role</b>: Event Witness <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-contractsignertypecodes.html">Contract Signer Type Codes</a>#EVTWIT)</span></p><p><b>reference</b>: <a href="Pracitioner/practitioner-alice-yin">Pracitioner/practitioner-alice-yin</a></p></blockquote><blockquote><p><b>actor</b></p><p><b>role</b>: Validator <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-contractsignertypecodes.html">Contract Signer Type Codes</a>#VALID)</span></p><p><b>reference</b>: <a href="Pracitioner/practitioner-alice-yin">Pracitioner/practitioner-alice-yin</a></p></blockquote><p><b>action</b>: Collect <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-consentaction.html">Consent Action Codes</a>#collect)</span>, Access <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-consentaction.html">Consent Action Codes</a>#access)</span>, Access and Correct <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-consentaction.html">Consent Action Codes</a>#correct)</span></p></blockquote></div>
+  </text>
+  <status value="active"/>
+  <scope>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/consentscope"/>
+      <code value="patient-privacy"/>
+      <display value="Privacy Consent"/>
+    </coding>
+  </scope>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+      <code value="IDSCL"/>
+      <display value="information disclosure"/>
+    </coding>
+  </category>
+  <patient>
+    <reference value="Patient/jennifer-smith"/>
+    <display value="SMITH, JENNIFER"/>
+  </patient>
+  <dateTime value="2021-09-01"/>
+  <organization>
+    <reference value="Organization/org-together-health"/>
+    <display value="Together Health"/>
+  </organization>
+  <policyRule>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/consentpolicycodes"/>
+      <code value="hipaa-auth"/>
+      <display value="HIPAA Authorization"/>
+    </coding>
+  </policyRule>
+  <provision>
+    <type value="permit"/>
+    <period>
+      <start value="2021-09-02"/>
+    </period>
+    <actor>
+      <role>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/contractsignertypecodes"/>
+          <code value="EVTWIT"/>
+          <display value="Event Witness"/>
+        </coding>
+      </role>
+      <reference>
+        <reference value="Pracitioner/practitioner-alice-yin"/>
+      </reference>
+    </actor>
+    <actor>
+      <role>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/contractsignertypecodes"/>
+          <code value="VALID"/>
+          <display value="Validator"/>
+        </coding>
+      </role>
+      <reference>
+        <reference value="Pracitioner/practitioner-alice-yin"/>
+      </reference>
+    </actor>
+    <action>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/consentaction"/>
+        <code value="collect"/>
+        <display value="Collect"/>
+      </coding>
+      <text value="Collect"/>
+    </action>
+    <action>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/consentaction"/>
+        <code value="access"/>
+        <display value="Access"/>
+      </coding>
+      <text value="Access"/>
+    </action>
+    <action>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/consentaction"/>
+        <code value="correct"/>
+        <display value="Access and Correct"/>
+      </coding>
+      <text value="Access and Correct"/>
+    </action>
+  </provision>
+</Consent>

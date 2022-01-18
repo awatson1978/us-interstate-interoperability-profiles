@@ -13,7 +13,7 @@
    <version value="0.3.6"/>
    <name value="ConsentEngineIG"/>
    <status value="draft"/>
-   <date value="2022-01-17T00:51:16-06:00"/>
+   <date value="2022-01-17T10:37:50-06:00"/>
    <publisher value="MITRE, Inc"/>
    <contact>
       <name value="MITRE, Inc"/>
@@ -716,7 +716,7 @@
          <generation value="html"/>
          <page>
             <nameUrl value="index.html"/>
-            <title value="Consent Exchange Implementation Guide"/>
+            <title value="Consent Engine Implementation Guide"/>
             <generation value="markdown"/>
          </page>
          <page>
