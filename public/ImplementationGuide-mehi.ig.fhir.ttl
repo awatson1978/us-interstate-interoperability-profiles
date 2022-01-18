@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.3.6"];
   fhir:ImplementationGuide.name [ fhir:value "ConsentEngineIG"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-01-16T23:55:54-06:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-01-18T09:56:03-06:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "MITRE, Inc"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -898,7 +898,7 @@
        fhir:ImplementationGuide.definition.page.page [
          fhir:index 0;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Consent Exchange Implementation Guide" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Consent Engine Implementation Guide" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 1;

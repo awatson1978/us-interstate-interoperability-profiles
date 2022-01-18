@@ -3,7 +3,7 @@
 
 err = 90, warn = 18, info = 33
 IG Publisher Version: 1.1.95 Out of date - current version is ?pub-ver-1?
-Generated Sun Jan 16 23:56:43 CST 2022. FHIR version 4.0.1 for mehi.ig.fhir#0.3.6 (canonical = http://consent-engine-ig.awatson.mitre.org)
+Generated Tue Jan 18 09:56:57 CST 2022. FHIR version 4.0.1 for mehi.ig.fhir#0.3.6 (canonical = http://consent-engine-ig.awatson.mitre.org)
  Build Errors : 9 / 0 / 0
  /Users/awatson/Code/gitlab/consent-engine-ig/fsh-generated/resources/ImplementationGuide-mehi.ig.fhir : 0 / 0 / 1
  /Users/awatson/Code/gitlab/consent-engine-ig/fsh-generated/resources/bundle-Jennifer-Consents-MA : 4 / 1 / 1

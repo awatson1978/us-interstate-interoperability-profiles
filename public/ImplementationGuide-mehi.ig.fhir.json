@@ -9,7 +9,7 @@
   "version": "0.3.6",
   "name": "ConsentEngineIG",
   "status": "draft",
-  "date": "2022-01-16T23:55:54-06:00",
+  "date": "2022-01-18T09:56:03-06:00",
   "publisher": "MITRE, Inc",
   "contact": [
     {
@@ -896,7 +896,7 @@
       "page": [
         {
           "nameUrl": "index.html",
-          "title": "Consent Exchange Implementation Guide",
+          "title": "Consent Engine Implementation Guide",
           "generation": "markdown"
         },
         {
