@@ -4,40 +4,180 @@
   "fhirVersion": "4.0.1",
   "extensions": [],
   "profiles": {
-    "CareTeam": [
-      {
-        "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-careteam",
-        "title": "ConsentExchangeCareTeam"
-      }
-    ],
     "Consent": [
       {
-        "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-consent",
-        "title": "ConsentExchangeConsent"
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/delaware-consent-profile",
+        "title": "DelawareConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/district-of-columbia-consent-profile",
+        "title": "DistrictOfColumbiaConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/florida-consent-profile",
+        "title": "FloridaConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/georgia-consent-profile",
+        "title": "GeorgiaConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/hawaii-consent-profile",
+        "title": "HawaiiConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/idaho-consent-profile",
+        "title": "IdahoConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/illinois-consent-profile",
+        "title": "IllinoisConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/indiana-consent-profile",
+        "title": "IndianaConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/iowa-consent-profile",
+        "title": "IowaConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/kansas-consent-profile",
+        "title": "KansasConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/kentucky-consent-profile",
+        "title": "KentuckyConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/louisiana-consent-profile",
+        "title": "LouisianaConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/maine-consent-profile",
+        "title": "MaineConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/maryland-consent-profile",
+        "title": "MarylandConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/massachusetts-consent-profile",
+        "title": "MassachusettsConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/michigan-consent-profile",
+        "title": "MichiganConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/minnesota-consent-profile",
+        "title": "MinnesotaConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/mississippi-consent-profile",
+        "title": "MississippiConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/missouri-consent-profile",
+        "title": "MissouriConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/montana-consent-profile",
+        "title": "MontanaConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/nebraska-consent-profile",
+        "title": "NebraskaConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/nevada-consent-profile",
+        "title": "NevadaConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/new-hampshire-consent-profile",
+        "title": "NewHampshireConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/new-jersey-consent-profile",
+        "title": "NewJerseyConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/new-mexico-consent-profile",
+        "title": "NewMexicoConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/new-york-consent-profile",
+        "title": "NewYorkConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/north-carolina-consent-profile",
+        "title": "NorthCarolinaConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/north-dakota-consent-profile",
+        "title": "NorthDakotaConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/ohio-consent-profile",
+        "title": "OhioaConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/oklahoma-consent-profile",
+        "title": "OklahomaConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/oregon-consent-profile",
+        "title": "OregonConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/pennsylvania-consent-profile",
+        "title": "PennsylvaniaConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/rhode-island-consent-profile",
+        "title": "RhodeIslandConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/south-carolina-consent-profile",
+        "title": "SouthCarolinaConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/south-dakota-consent-profile",
+        "title": "SouthDakotaConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/tennessee-consent-profile",
+        "title": "TennesseeConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/texas-consent-profile",
+        "title": "TexasConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/utah-consent-profile",
+        "title": "UtahConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/vermont-consent-profile",
+        "title": "VermontConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/virginia-consent-profile",
+        "title": "VirginiaConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/washington-consent-profile",
+        "title": "WashingtonConsentProfile"
+      },
+      {
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/west-virginia-consent-profile",
+        "title": "WestVirginiaConsentProfile"
       }
     ],
-    "Organization": [
+    "CareTeam": [
       {
-        "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-organization",
-        "title": "ConsentExchangeOrganization"
-      }
-    ],
-    "Patient": [
-      {
-        "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient",
-        "title": "ConsentExchangePatient"
-      }
-    ],
-    "Practitioner": [
-      {
-        "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-practitioner",
-        "title": "ConsentExchangePractitioner"
-      }
-    ],
-    "RelatedPerson": [
-      {
-        "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person",
-        "title": "ConsentExchangeRelatedPerson"
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-careteam",
+        "title": "ConsentExchangeCareTeam"
       }
     ]
   },
@@ -57,9 +197,6 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
-    "http://hl7.org/fhir/StructureDefinition/patient-birthPlace": [
-      "Patient"
-    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
     ],
@@ -67,9 +204,6 @@
       "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
-      "StructureDefinition.snapshot.element.type"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
@@ -80,18 +214,6 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
-    ],
-    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex": [
-      "Patient",
-      "RelatedPerson"
-    ],
-    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity": [
-      "Patient",
-      "RelatedPerson"
-    ],
-    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race": [
-      "Patient",
-      "RelatedPerson"
     ]
   }
 }

@@ -7,5 +7,5 @@
   "title": "ConsentExchangeRelationships",
   "description": "Relationships used to model and exchange consent relationships",
   "version": "0.3.6",
-  "url": "http://consent-engine-ig.awatson.mitre.org/CodeSystem/ConsentExchangeRelationships"
+  "url": "https://gitlab.mitre.org/awatson/us-state-profiles/CodeSystem/ConsentExchangeRelationships"
 }

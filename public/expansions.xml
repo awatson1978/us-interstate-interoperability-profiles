@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="9bd9caf2-e317-4278-9136-857a2e705de9"/>
+  <id value="db370dd1-5b81-48a6-a070-a6dd0208457f"/>
   <meta>
-    <lastUpdated value="2022-01-18T10:08:08.269-06:00"/>
+    <lastUpdated value="2022-02-02T16:42:41.446-06:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://consent-engine-ig.awatson.mitre.org/ValueSet/consent-exchange-category-codes"/>
+    <fullUrl value="https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/consent-exchange-category-codes"/>
     <resource>
       <ValueSet>
         <id value="consent-exchange-category-codes"/>
@@ -192,24 +192,24 @@
             </table>
           </div>
         </text>
-        <url value="http://consent-engine-ig.awatson.mitre.org/ValueSet/consent-exchange-category-codes"/>
+        <url value="https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/consent-exchange-category-codes"/>
         <version value="0.3.6"/>
         <name value="ConsentExchangeCategoryCodes"/>
         <title value="ConsentExchangeCategoryCodes"/>
         <status value="active"/>
-        <date value="2022-01-18T10:08:08-06:00"/>
+        <date value="2022-02-02T16:42:41-06:00"/>
         <publisher value="MITRE, Inc"/>
         <contact>
           <name value="MITRE, Inc"/>
           <telecom>
             <system value="url"/>
-            <value value="https://gitlab.mitre.org/awatson/consent-engine-ig"/>
+            <value value="https://awatson.pages.mitre.org/us-state-profiles/"/>
           </telecom>
         </contact>
         <description value="Consent Exchange - Category Codes"/>
         <expansion>
-          <identifier value="urn:uuid:416d0b2f-6c58-4131-9b05-8343a146bf70"/>
-          <timestamp value="2022-01-18T10:08:45-06:00"/>
+          <identifier value="urn:uuid:01971db3-65d9-4727-bb1e-18f78ada199e"/>
+          <timestamp value="2022-02-02T16:44:12-06:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -353,7 +353,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangeRelations"/>
+    <fullUrl value="https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangeRelations"/>
     <resource>
       <ValueSet>
         <id value="ConsentExchangeRelations"/>
@@ -11024,24 +11024,24 @@ A party that is neither an author nor a party who is extended authorship mainten
             </table>
           </div>
         </text>
-        <url value="http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangeRelations"/>
+        <url value="https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangeRelations"/>
         <version value="0.3.6"/>
         <name value="ConsentExchangeRelations"/>
         <title value="ConsentExchangeRelations"/>
         <status value="active"/>
-        <date value="2022-01-18T10:08:08-06:00"/>
+        <date value="2022-02-02T16:42:41-06:00"/>
         <publisher value="MITRE, Inc"/>
         <contact>
           <name value="MITRE, Inc"/>
           <telecom>
             <system value="url"/>
-            <value value="https://gitlab.mitre.org/awatson/consent-engine-ig"/>
+            <value value="https://awatson.pages.mitre.org/us-state-profiles/"/>
           </telecom>
         </contact>
         <description value="Consent Exchange - Relationships"/>
         <expansion>
-          <identifier value="urn:uuid:e0283dd5-ba5c-4f3d-a1bb-5c350a175290"/>
-          <timestamp value="2022-01-18T10:08:45-06:00"/>
+          <identifier value="urn:uuid:34d2a451-a19a-4fe9-b2cb-5adba1c2a726"/>
+          <timestamp value="2022-02-02T16:44:12-06:00"/>
           <total value="1173"/>
           <parameter>
             <name value="excludeNested"/>
@@ -19335,7 +19335,7 @@ A party that is neither an author nor a party who is extended authorship mainten
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://consent-engine-ig.awatson.mitre.org/ValueSet/consent-exchange-scope-codes"/>
+    <fullUrl value="https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/consent-exchange-scope-codes"/>
     <resource>
       <ValueSet>
         <id value="consent-exchange-scope-codes"/>
@@ -19382,24 +19382,24 @@ A party that is neither an author nor a party who is extended authorship mainten
             </table>
           </div>
         </text>
-        <url value="http://consent-engine-ig.awatson.mitre.org/ValueSet/consent-exchange-scope-codes"/>
+        <url value="https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/consent-exchange-scope-codes"/>
         <version value="0.3.6"/>
         <name value="ConsentExchangeScopeCodes"/>
         <title value="ConsentExchangeScopeCodes"/>
         <status value="active"/>
-        <date value="2022-01-18T10:08:08-06:00"/>
+        <date value="2022-02-02T16:42:41-06:00"/>
         <publisher value="MITRE, Inc"/>
         <contact>
           <name value="MITRE, Inc"/>
           <telecom>
             <system value="url"/>
-            <value value="https://gitlab.mitre.org/awatson/consent-engine-ig"/>
+            <value value="https://awatson.pages.mitre.org/us-state-profiles/"/>
           </telecom>
         </contact>
         <description value="Consent Exchange - Scope Codes"/>
         <expansion>
-          <identifier value="urn:uuid:b2b0987d-f785-4b35-9ee6-cb7b9ad8cd1c"/>
-          <timestamp value="2022-01-18T10:08:45-06:00"/>
+          <identifier value="urn:uuid:36a3f825-75ff-4f90-b382-ebbd4ea2a237"/>
+          <timestamp value="2022-02-02T16:44:12-06:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>

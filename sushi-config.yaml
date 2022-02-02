@@ -4,8 +4,8 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 id: mehi.ig.fhir
-canonical: http://consent-engine-ig.awatson.mitre.org
-name: Consent Engine IG
+canonical: https://gitlab.mitre.org/awatson/us-state-profiles
+name: US State Profiles
 status: draft
 version: 0.3.6
 fhirVersion: 4.0.1
@@ -13,7 +13,7 @@ copyrightYear: 2021+
 releaseLabel: ci-build
 publisher:
   name: MITRE, Inc
-  url: https://gitlab.mitre.org/awatson/consent-engine-ig
+  url: https://awatson.pages.mitre.org/us-state-profiles/
 dependencies:
   hl7.fhir.us.core: 3.2.0
 
@@ -22,20 +22,11 @@ dependencies:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Consent Collection: datacollection.html
-  Access Control Lists: consentengine.html
   Regional Profiles: profiles.html
-  Distributed Ledgers: blockchain.html
   Artifacts: artifacts.html
 
 pages:
   index.md:
-    title: Consent Engine Implementation Guide
-  datacollection.md:
-    title: Data Collection
-  consentengine.md:
-    title: Consent Engine
+    title: US State Profiles Implementation Guide
   profiles.md:
     title: Regional Profiles
-  blockchain.md:
-    title: Distributed Ledgers

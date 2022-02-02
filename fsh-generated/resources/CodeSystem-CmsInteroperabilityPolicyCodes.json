@@ -7,7 +7,7 @@
   "title": "CmsInteroperabilityPolicyCodes",
   "description": "Policy provisions defined under CMS-9115-F, CMS Interoperability and Patient Access final rule",
   "version": "0.3.6",
-  "url": "http://consent-engine-ig.awatson.mitre.org/CodeSystem/CmsInteroperabilityPolicyCodes",
+  "url": "https://gitlab.mitre.org/awatson/us-state-profiles/CodeSystem/CmsInteroperabilityPolicyCodes",
   "concept": [
     {
       "code": "CMS-9115-F.III",
