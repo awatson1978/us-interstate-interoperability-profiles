@@ -2,6 +2,11 @@
 
 Guidance on how to profile the US State and territories using Fast Healthcare Interoperability Resources (FHIR).
 
+### Current Build
+
+Please find the latest compiled version of the implementation guide here: 
+[https://awatson.pages.mitre.org/us-state-profiles/](https://awatson.pages.mitre.org/us-state-profiles/)
+
 ### Compiling Documentation  
 
 ```bash 
