@@ -33,7 +33,7 @@ menu:
   Artifacts: artifacts.html
 pages:
   index.md:
-    title: Consent Engine Implementation Guide
+    title: US State Interoperability Profiles
   profiles.md:
     title: Regional Profiles
   page-advanced-directives.md:
