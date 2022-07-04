@@ -56,6 +56,13 @@
     "name": "ArkansasConsentProfile"
   },
   {
+    "id": "base-consent-profile",
+    "type": "StructureDefinition",
+    "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/base-consent-profile",
+    "version": "0.4.0",
+    "name": "BaseConsentProfile"
+  },
+  {
     "id": "california-consent-profile",
     "type": "StructureDefinition",
     "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/california-consent-profile",
@@ -75,13 +82,6 @@
     "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/connecticut-consent-profile",
     "version": "0.4.0",
     "name": "ConnecticutConsentProfile"
-  },
-  {
-    "id": "consent-exchange-consent",
-    "type": "StructureDefinition",
-    "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-consent",
-    "version": "0.4.0",
-    "name": "ConsentExchangeConsent"
   },
   {
     "id": "delaware-consent-profile",

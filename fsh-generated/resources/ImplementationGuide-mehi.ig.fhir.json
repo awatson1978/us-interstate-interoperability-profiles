@@ -65,6 +65,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/base-consent-profile"
+        },
+        "name": "BaseConsentProfile",
+        "description": "Base consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/california-consent-profile"
         },
         "name": "CaliforniaConsentProfile",
@@ -85,14 +93,6 @@
         },
         "name": "ConnecticutConsentProfile",
         "description": "Connecticut consent profile.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/consent-exchange-consent"
-        },
-        "name": "ConsentExchangeConsent",
-        "description": "Consent resource for describing actors in an payor-to-payor data exchange workflow.",
         "exampleBoolean": false
       },
       {

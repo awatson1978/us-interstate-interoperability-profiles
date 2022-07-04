@@ -61,6 +61,14 @@
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-base-consent-profile.html"
+                     title="StructureDefinition/base-consent-profile">BaseConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Base consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-california-consent-profile.html"
                      title="StructureDefinition/california-consent-profile">CaliforniaConsentProfile</a>
                </td>
@@ -81,14 +89,6 @@
                      title="StructureDefinition/connecticut-consent-profile">ConnecticutConsentProfile</a>
                </td>
                <td>{% capture desc %}Connecticut consent profile.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-consent-exchange-consent.html"
-                     title="StructureDefinition/consent-exchange-consent">ConsentExchangeConsent</a>
-               </td>
-               <td>{% capture desc %}Consent resource for describing actors in an payor-to-payor data exchange workflow.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>

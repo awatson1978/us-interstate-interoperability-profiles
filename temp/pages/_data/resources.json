@@ -7,7 +7,7 @@
     "url": "https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir",
     "name": "USStateProfiles",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colsd",
       "owner": "MITRE, Inc",
@@ -24,7 +24,7 @@
     "name": "AlabamaConsentProfile",
     "title": "AlabamaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -41,7 +41,7 @@
     "name": "AlaskaConsentProfile",
     "title": "AlaskaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -58,7 +58,7 @@
     "name": "ArizonaConsentProfile",
     "title": "ArizonaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -75,7 +75,24 @@
     "name": "ArkansasConsentProfile",
     "title": "ArkansasConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
+    "status": {
+      "class": "colstu",
+      "owner": "MITRE, Inc",
+      "link": "https://gitlab.mitre.org/awatson/us-state-profiles",
+      "status": "Active"
+    }
+  },
+  "StructureDefinition/base-consent-profile": {
+    "history": false,
+    "index": 5,
+    "source": "/Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/structuredefinition-base-consent-profile.json",
+    "path": "StructureDefinition-base-consent-profile.html",
+    "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/base-consent-profile",
+    "name": "BaseConsentProfile",
+    "title": "BaseConsentProfile",
+    "version": "0.4.0",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -85,14 +102,14 @@
   },
   "StructureDefinition/california-consent-profile": {
     "history": false,
-    "index": 5,
+    "index": 6,
     "source": "/Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/structuredefinition-california-consent-profile.json",
     "path": "StructureDefinition-california-consent-profile.html",
     "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/california-consent-profile",
     "name": "CaliforniaConsentProfile",
     "title": "CaliforniaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -102,14 +119,14 @@
   },
   "StructureDefinition/colorado-consent-profile": {
     "history": false,
-    "index": 6,
+    "index": 7,
     "source": "/Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/structuredefinition-colorado-consent-profile.json",
     "path": "StructureDefinition-colorado-consent-profile.html",
     "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/colorado-consent-profile",
     "name": "ColoradoConsentProfile",
     "title": "ColoradoConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -119,31 +136,14 @@
   },
   "StructureDefinition/connecticut-consent-profile": {
     "history": false,
-    "index": 7,
+    "index": 8,
     "source": "/Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/structuredefinition-connecticut-consent-profile.json",
     "path": "StructureDefinition-connecticut-consent-profile.html",
     "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/connecticut-consent-profile",
     "name": "ConnecticutConsentProfile",
     "title": "ConnecticutConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
-    "status": {
-      "class": "colstu",
-      "owner": "MITRE, Inc",
-      "link": "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status": "Active"
-    }
-  },
-  "StructureDefinition/consent-exchange-consent": {
-    "history": false,
-    "index": 8,
-    "source": "/Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/structuredefinition-consent-exchange-consent.json",
-    "path": "StructureDefinition-consent-exchange-consent.html",
-    "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-consent",
-    "name": "ConsentExchangeConsent",
-    "title": "ConsentExchangeConsent",
-    "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -160,7 +160,7 @@
     "name": "DelawareConsentProfile",
     "title": "DelawareConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -177,7 +177,7 @@
     "name": "DistrictOfColumbiaConsentProfile",
     "title": "DistrictOfColumbiaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -194,7 +194,7 @@
     "name": "FloridaConsentProfile",
     "title": "FloridaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -211,7 +211,7 @@
     "name": "GeorgiaConsentProfile",
     "title": "GeorgiaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -228,7 +228,7 @@
     "name": "HawaiiConsentProfile",
     "title": "HawaiiConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -245,7 +245,7 @@
     "name": "IdahoConsentProfile",
     "title": "IdahoConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -262,7 +262,7 @@
     "name": "IllinoisConsentProfile",
     "title": "IllinoisConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -279,7 +279,7 @@
     "name": "IndianaConsentProfile",
     "title": "IndianaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -296,7 +296,7 @@
     "name": "IowaConsentProfile",
     "title": "IowaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -313,7 +313,7 @@
     "name": "KansasConsentProfile",
     "title": "KansasConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -330,7 +330,7 @@
     "name": "KentuckyConsentProfile",
     "title": "KentuckyConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -347,7 +347,7 @@
     "name": "LouisianaConsentProfile",
     "title": "LouisianaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -364,7 +364,7 @@
     "name": "MaineConsentProfile",
     "title": "MaineConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -381,7 +381,7 @@
     "name": "MarylandConsentProfile",
     "title": "MarylandConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -398,7 +398,7 @@
     "name": "MassachusettsConsentProfile",
     "title": "MassachusettsConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -415,7 +415,7 @@
     "name": "MichiganConsentProfile",
     "title": "MichiganConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -432,7 +432,7 @@
     "name": "MinnesotaConsentProfile",
     "title": "MinnesotaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -449,7 +449,7 @@
     "name": "MississippiConsentProfile",
     "title": "MississippiConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -466,7 +466,7 @@
     "name": "MissouriConsentProfile",
     "title": "MissouriConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -483,7 +483,7 @@
     "name": "MontanaConsentProfile",
     "title": "MontanaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -500,7 +500,7 @@
     "name": "NebraskaConsentProfile",
     "title": "NebraskaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -517,7 +517,7 @@
     "name": "NevadaConsentProfile",
     "title": "NevadaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -534,7 +534,7 @@
     "name": "NewHampshireConsentProfile",
     "title": "NewHampshireConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -551,7 +551,7 @@
     "name": "NewJerseyConsentProfile",
     "title": "NewJerseyConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -568,7 +568,7 @@
     "name": "NewMexicoConsentProfile",
     "title": "NewMexicoConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -585,7 +585,7 @@
     "name": "NewYorkConsentProfile",
     "title": "NewYorkConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -602,7 +602,7 @@
     "name": "NorthCarolinaConsentProfile",
     "title": "NorthCarolinaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -619,7 +619,7 @@
     "name": "NorthDakotaConsentProfile",
     "title": "NorthDakotaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -636,7 +636,7 @@
     "name": "OhioConsentProfile",
     "title": "OhioConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -653,7 +653,7 @@
     "name": "OklahomaConsentProfile",
     "title": "OklahomaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -670,7 +670,7 @@
     "name": "OregonConsentProfile",
     "title": "OregonConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -687,7 +687,7 @@
     "name": "PennsylvaniaConsentProfile",
     "title": "PennsylvaniaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -704,7 +704,7 @@
     "name": "RhodeIslandConsentProfile",
     "title": "RhodeIslandConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -721,7 +721,7 @@
     "name": "SouthCarolinaConsentProfile",
     "title": "SouthCarolinaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -738,7 +738,7 @@
     "name": "SouthDakotaConsentProfile",
     "title": "SouthDakotaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -755,7 +755,7 @@
     "name": "TennesseeConsentProfile",
     "title": "TennesseeConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -772,7 +772,7 @@
     "name": "TexasConsentProfile",
     "title": "TexasConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -789,7 +789,7 @@
     "name": "UtahConsentProfile",
     "title": "UtahConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -806,7 +806,7 @@
     "name": "VermontConsentProfile",
     "title": "VermontConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -823,7 +823,7 @@
     "name": "VirginiaConsentProfile",
     "title": "VirginiaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -840,7 +840,7 @@
     "name": "WashingtonConsentProfile",
     "title": "WashingtonConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -857,7 +857,7 @@
     "name": "WestVirginiaConsentProfile",
     "title": "WestVirginiaConsentProfile",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -874,7 +874,7 @@
     "name": "ConsentExchangeCategoryCodes",
     "title": "ConsentExchangeCategoryCodes",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -891,7 +891,7 @@
     "name": "ConsentExchangePolicies",
     "title": "ConsentExchangePolicies",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -908,7 +908,7 @@
     "name": "ConsentExchangeRelations",
     "title": "ConsentExchangeRelations",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -925,7 +925,7 @@
     "name": "ConsentExchangeScopeCodes",
     "title": "ConsentExchangeScopeCodes",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -942,7 +942,7 @@
     "name": "CmsInteroperabilityPolicyCodes",
     "title": "CmsInteroperabilityPolicyCodes",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -959,7 +959,7 @@
     "name": "ConsentExchangeRelationships",
     "title": "ConsentExchangeRelationships",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",
@@ -976,7 +976,7 @@
     "name": "PayorToPayorExchangePolicyCodes",
     "title": "PayorToPayorExchangePolicyCodes",
     "version": "0.4.0",
-    "date": "2022-07-04T09:23:10-05:00",
+    "date": "2022-07-04T10:19:56-05:00",
     "status": {
       "class": "colstu",
       "owner": "MITRE, Inc",

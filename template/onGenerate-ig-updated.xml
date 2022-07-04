@@ -13,7 +13,7 @@
    <version value="0.4.0"/>
    <name value="USStateProfiles"/>
    <status value="draft"/>
-   <date value="2022-07-04T09:23:10-05:00"/>
+   <date value="2022-07-04T10:19:56-05:00"/>
    <publisher value="MITRE, Inc"/>
    <contact>
       <name value="MITRE, Inc"/>
@@ -127,6 +127,21 @@
             <valueString value="StructureDefinition:resource"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-base-consent-profile.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/base-consent-profile"/>
+         </reference>
+         <name value="BaseConsentProfile"/>
+         <description value="Base consent profile."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="StructureDefinition-california-consent-profile.html"/>
          </extension>
          <reference>
@@ -164,21 +179,6 @@
          </reference>
          <name value="ConnecticutConsentProfile"/>
          <description value="Connecticut consent profile."/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-profile"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:resource"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-consent-exchange-consent.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/consent-exchange-consent"/>
-         </reference>
-         <name value="ConsentExchangeConsent"/>
-         <description value="Consent resource for describing actors in an payor-to-payor data exchange workflow."/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-profile"/>
       </resource>
@@ -991,6 +991,11 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="StructureDefinition-base-consent-profile.html"/>
+               <title value="BaseConsentProfile"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="StructureDefinition-california-consent-profile.html"/>
                <title value="CaliforniaConsentProfile"/>
                <generation value="generated"/>
@@ -1003,11 +1008,6 @@
             <page>
                <nameUrl value="StructureDefinition-connecticut-consent-profile.html"/>
                <title value="ConnecticutConsentProfile"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="StructureDefinition-consent-exchange-consent.html"/>
-               <title value="ConsentExchangeConsent"/>
                <generation value="generated"/>
             </page>
             <page>
