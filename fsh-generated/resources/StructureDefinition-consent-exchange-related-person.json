@@ -11,7 +11,7 @@
       "valueCode": "patient"
     }
   ],
-  "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person",
+  "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-related-person",
   "version": "0.3.6",
   "name": "ConsentExchangeRelatedPerson",
   "title": "ConsentExchangeRelatedPerson",
@@ -47,7 +47,7 @@
         "path": "RelatedPerson.relationship",
         "binding": {
           "strength": "preferred",
-          "valueSet": "http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangeRelations"
+          "valueSet": "https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangeRelations"
         }
       },
       {

@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/Patient/jane-doe> a fhir:Patient;
+<https://gitlab.mitre.org/awatson/us-state-profiles/Patient/jane-doe> a fhir:Patient;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "jane-doe"];
   fhir:Resource.meta [
@@ -13,9 +13,9 @@
      fhir:Meta.lastUpdated [ fhir:value "2020-09-13T12:21:34.589+00:00"^^xsd:dateTime ];
      fhir:Meta.source [ fhir:value "#mehi-consent-engine-reference-implementation" ];
      fhir:Meta.profile [
-       fhir:value "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient";
+       fhir:value "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient";
        fhir:index 0;
-       fhir:link <http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient>
+       fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient>
      ], [
        fhir:value "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient";
        fhir:index 1;
@@ -104,19 +104,19 @@
   fhir:Patient.birthDate [ fhir:value "2001-01-15"^^xsd:date];
   fhir:Patient.generalPractitioner [
      fhir:index 0;
-     fhir:link <http://consent-engine-ig.awatson.mitre.org/Practitioner/practitioner-alice-yin>;
+     fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Practitioner/practitioner-alice-yin>;
      fhir:Reference.reference [ fhir:value "Practitioner/practitioner-alice-yin" ];
      fhir:Reference.display [ fhir:value "Dr. Alice Yin" ]
   ];
   fhir:Patient.managingOrganization [
-     fhir:link <http://consent-engine-ig.awatson.mitre.org/Organization/org-together-health>;
+     fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Organization/org-together-health>;
      fhir:Reference.reference [ fhir:value "Organization/org-together-health" ];
      fhir:Reference.display [ fhir:value "Together Health" ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/Patient/jane-doe.ttl> a owl:Ontology;
+<https://gitlab.mitre.org/awatson/us-state-profiles/Patient/jane-doe.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

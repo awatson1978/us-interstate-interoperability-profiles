@@ -85,7 +85,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Consent.verification","","","",0,*,"","","Y","BackboneElement {[]} {[]}

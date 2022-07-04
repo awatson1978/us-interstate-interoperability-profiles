@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/MedicationRequest/medreq-1234557> a fhir:MedicationRequest;
+<https://gitlab.mitre.org/awatson/us-state-profiles/MedicationRequest/medreq-1234557> a fhir:MedicationRequest;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "medreq-1234557"];
   fhir:DomainResource.text [
@@ -15,25 +15,25 @@
   fhir:MedicationRequest.status [ fhir:value "active"];
   fhir:MedicationRequest.intent [ fhir:value "plan"];
   fhir:MedicationRequest.medicationReference [
-     fhir:link <http://consent-engine-ig.awatson.mitre.org/Medication/estrodiol-contraceptive>;
+     fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Medication/estrodiol-contraceptive>;
      fhir:Reference.reference [ fhir:value "Medication/estrodiol-contraceptive" ];
      fhir:Reference.display [ fhir:value "Estradiol" ]
   ];
   fhir:MedicationRequest.subject [
-     fhir:link <http://consent-engine-ig.awatson.mitre.org/Patient/jennifer-smith>;
+     fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Patient/jennifer-smith>;
      fhir:Reference.reference [ fhir:value "Patient/jennifer-smith" ];
      fhir:Reference.display [ fhir:value "SMITH, JENNIFER" ]
   ];
   fhir:MedicationRequest.authoredOn [ fhir:value "2017-04-17"^^xsd:date];
   fhir:MedicationRequest.requester [
-     fhir:link <http://consent-engine-ig.awatson.mitre.org/Practitioner/practitioner-bernard-shuman>;
+     fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Practitioner/practitioner-bernard-shuman>;
      fhir:Reference.reference [ fhir:value "Practitioner/practitioner-bernard-shuman" ];
      fhir:Reference.display [ fhir:value "SHUMAN, BERNARD" ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/MedicationRequest/medreq-1234557.ttl> a owl:Ontology;
+<https://gitlab.mitre.org/awatson/us-state-profiles/MedicationRequest/medreq-1234557.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

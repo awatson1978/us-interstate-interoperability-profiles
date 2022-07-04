@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "consent-exchange-practitioner",
-  "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-practitioner",
+  "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-practitioner",
   "version": "0.3.6",
   "name": "ConsentExchangePractitioner",
   "title": "ConsentExchangePractitioner",

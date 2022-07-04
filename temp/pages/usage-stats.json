@@ -6,37 +6,37 @@
   "profiles": {
     "CareTeam": [
       {
-        "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-careteam",
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-careteam",
         "title": "ConsentExchangeCareTeam"
       }
     ],
     "Consent": [
       {
-        "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-consent",
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-consent",
         "title": "ConsentExchangeConsent"
       }
     ],
     "Organization": [
       {
-        "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-organization",
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-organization",
         "title": "ConsentExchangeOrganization"
       }
     ],
     "Patient": [
       {
-        "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient",
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient",
         "title": "ConsentExchangePatient"
       }
     ],
     "Practitioner": [
       {
-        "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-practitioner",
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-practitioner",
         "title": "ConsentExchangePractitioner"
       }
     ],
     "RelatedPerson": [
       {
-        "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person",
+        "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-related-person",
         "title": "ConsentExchangeRelatedPerson"
       }
     ]

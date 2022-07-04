@@ -4,22 +4,22 @@
    <text>
       <status value="extensions"/>
       <div xmlns="http://www.w3.org/1999/xhtml">
-         <h2>ConsentEngineIG</h2>
+         <h2>USStateProfiles</h2>
          <p>The official URL for this implementation guide is: </p>
-         <pre>http://consent-engine-ig.awatson.mitre.org/ImplementationGuide/mehi.ig.fhir</pre>
+         <pre>https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir</pre>
       </div>
    </text>
-   <url value="http://consent-engine-ig.awatson.mitre.org/ImplementationGuide/mehi.ig.fhir"/>
+   <url value="https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir"/>
    <version value="0.3.6"/>
-   <name value="ConsentEngineIG"/>
+   <name value="USStateProfiles"/>
    <status value="draft"/>
-   <date value="2022-01-18T10:08:08-06:00"/>
+   <date value="2022-07-03T23:04:30-05:00"/>
    <publisher value="MITRE, Inc"/>
    <contact>
       <name value="MITRE, Inc"/>
       <telecom>
          <system value="url"/>
-         <value value="https://gitlab.mitre.org/awatson/consent-engine-ig"/>
+         <value value="https://gitlab.mitre.org/awatson/us-state-profiles"/>
       </telecom>
    </contact>
    <packageId value="mehi.ig.fhir"/>
@@ -347,7 +347,7 @@
          </reference>
          <name value="jane-doe"/>
          <description value="Jane Doe patient not part of relationship model, used for checking security access."/>
-         <exampleCanonical value="http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient"/>
+         <exampleCanonical value="https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -362,7 +362,7 @@
          </reference>
          <name value="jennifer-smith"/>
          <description value="Jennifer Smith - Patient demographics record."/>
-         <exampleCanonical value="http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient"/>
+         <exampleCanonical value="https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -602,7 +602,7 @@
          </reference>
          <name value="patient-john-smith"/>
          <description value="John Smith - Patient demographics record."/>
-         <exampleCanonical value="http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient"/>
+         <exampleCanonical value="https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -662,7 +662,7 @@
          </reference>
          <name value="related-person-jane-smith-wife"/>
          <description value="Jane Smith - Spouse relationship record."/>
-         <exampleCanonical value="http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person"/>
+         <exampleCanonical value="https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-related-person"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -677,7 +677,7 @@
          </reference>
          <name value="related-person-jennifer-smith-daughter"/>
          <description value="Jennifer Smith - Daughter relationship record."/>
-         <exampleCanonical value="http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person"/>
+         <exampleCanonical value="https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-related-person"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -720,23 +720,43 @@
             <generation value="markdown"/>
          </page>
          <page>
-            <nameUrl value="datacollection.html"/>
-            <title value="Data Collection"/>
-            <generation value="markdown"/>
-         </page>
-         <page>
-            <nameUrl value="consentengine.html"/>
-            <title value="Consent Engine"/>
-            <generation value="markdown"/>
-         </page>
-         <page>
             <nameUrl value="profiles.html"/>
             <title value="Regional Profiles"/>
             <generation value="markdown"/>
          </page>
          <page>
-            <nameUrl value="blockchain.html"/>
-            <title value="Distributed Ledgers"/>
+            <nameUrl value="page-advanced-directives.html"/>
+            <title value="Advanced Directives"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <nameUrl value="page-foster-care.html"/>
+            <title value="Foster Care"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <nameUrl value="page-trans-sports.html"/>
+            <title value="Trans Sports"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <nameUrl value="page-abortion.html"/>
+            <title value="Abortion"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <nameUrl value="page-controlled-substances.html"/>
+            <title value="Controlled Substances"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <nameUrl value="page-religious-exemptions.html"/>
+            <title value="Religious Exemptions"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
+            <nameUrl value="page-medicaid-expansion.html"/>
+            <title value="Medicaid Expansion"/>
             <generation value="markdown"/>
          </page>
          <page>
@@ -1054,7 +1074,7 @@
       </parameter>
       <parameter>
          <code value="path-history"/>
-         <value value="http://consent-engine-ig.awatson.mitre.org/history.html"/>
+         <value value="https://gitlab.mitre.org/awatson/us-state-profiles/history.html"/>
       </parameter>
       <parameter>
          <code value="template-html"/>
@@ -1094,6 +1114,18 @@
       </parameter>
       <parameter>
          <code value="active-tables"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="fmm-definition"/>
+         <value value="http://hl7.org/fhir/versions.html#maturity"/>
+      </parameter>
+      <parameter>
+         <code value="propagate-status"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="excludelogbinaryformat"/>
          <value value="true"/>
       </parameter>
    </definition>

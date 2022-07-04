@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/Consent/jennifersmith-al-1> a fhir:Consent;
+<https://gitlab.mitre.org/awatson/us-state-profiles/Consent/jennifersmith-al-1> a fhir:Consent;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "jennifersmith-al-1"];
   fhir:Resource.meta [
@@ -20,7 +20,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"jennifersmith-al-1\" Version \"1\" Updated \"2017-04-16T19:00:00-05:00\" </p><p style=\"margin-bottom: 0px\">Information Source: node-on-fhir.mitre.org#mehi-consent-engine!</p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Consent-Base-1</code></p></div><p><b>status</b>: active</p><p><b>scope</b>: Privacy Consent <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-consentscope.html\">Consent Scope Codes</a>#patient-privacy)</span></p><p><b>category</b>: information disclosure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ActCode.html\">ActCode</a>#IDSCL)</span></p><p><b>patient</b>: <a href=\"Patient-jennifer-smith.html\">Patient/jennifer-smith: SMITH, JENNIFER</a> \" SMITH\"</p><p><b>dateTime</b>: 2017-04-17</p><p><b>organization</b>: <a href=\"Organization-org-together-health.html\">Organization/org-together-health: Together Health</a> \"Together Health\"</p><p><b>policyRule</b>: HIPAA Authorization <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-consentpolicycodes.html\">Consent PolicyRule Codes</a>#hipaa-auth)</span></p><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><p><b>period</b>: 2017-04-17 --&gt; (ongoing)</p><blockquote><p><b>actor</b></p><p><b>role</b>: Event Witness <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-contractsignertypecodes.html\">Contract Signer Type Codes</a>#EVTWIT)</span></p><p><b>reference</b>: <a href=\"Pracitioner/practitioner-bernard-shuman\">Pracitioner/practitioner-bernard-shuman: SHUMAN, BERNARD</a></p></blockquote><blockquote><p><b>actor</b></p><p><b>role</b>: Event Witness <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-contractsignertypecodes.html\">Contract Signer Type Codes</a>#EVTWIT)</span></p><p><b>reference</b>: <a href=\"RelatedPerson-related-person-jane-smith.html\">RelatedPerson/related-person-jane-smith: SMITH, JANE</a> \" SMITH\"</p></blockquote><p><b>action</b>: Collect <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-consentaction.html\">Consent Action Codes</a>#collect)</span>, Access <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-consentaction.html\">Consent Action Codes</a>#access)</span>, Access and Correct <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-consentaction.html\">Consent Action Codes</a>#correct)</span></p></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"jennifersmith-al-1\" Version \"1\" Updated \"2017-04-16T19:00:00-05:00\" </p><p style=\"margin-bottom: 0px\">Information Source: node-on-fhir.mitre.org#mehi-consent-engine!</p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/sdoh-clinicalcare/StructureDefinition/SDOHCC-Consent-Base-1</code></p></div><p><b>status</b>: active</p><p><b>scope</b>: Privacy Consent <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-consentscope.html\">Consent Scope Codes</a>#patient-privacy)</span></p><p><b>category</b>: information disclosure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html\">ActCode</a>#IDSCL)</span></p><p><b>patient</b>: <a href=\"Patient-jennifer-smith.html\">Patient/jennifer-smith: SMITH, JENNIFER</a> \" SMITH\"</p><p><b>dateTime</b>: 2017-04-17</p><p><b>organization</b>: <a href=\"Organization-org-together-health.html\">Organization/org-together-health: Together Health</a> \"Together Health\"</p><p><b>policyRule</b>: HIPAA Authorization <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-consentpolicycodes.html\">Consent PolicyRule Codes</a>#hipaa-auth)</span></p><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><p><b>period</b>: 2017-04-17 --&gt; (ongoing)</p><blockquote><p><b>actor</b></p><p><b>role</b>: Event Witness <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-contractsignertypecodes.html\">Contract Signer Type Codes</a>#EVTWIT)</span></p><p><b>reference</b>: <a href=\"Pracitioner/practitioner-bernard-shuman\">Pracitioner/practitioner-bernard-shuman: SHUMAN, BERNARD</a></p></blockquote><blockquote><p><b>actor</b></p><p><b>role</b>: Event Witness <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-contractsignertypecodes.html\">Contract Signer Type Codes</a>#EVTWIT)</span></p><p><b>reference</b>: <a href=\"RelatedPerson-related-person-jane-smith.html\">RelatedPerson/related-person-jane-smith: SMITH, JANE</a> \" SMITH\"</p></blockquote><p><b>action</b>: Collect <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-consentaction.html\">Consent Action Codes</a>#collect)</span>, Access <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-consentaction.html\">Consent Action Codes</a>#access)</span>, Access and Correct <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-consentaction.html\">Consent Action Codes</a>#correct)</span></p></blockquote></div>"
   ];
   fhir:Consent.status [ fhir:value "active"];
   fhir:Consent.scope [
@@ -41,14 +41,14 @@
      ]
   ];
   fhir:Consent.patient [
-     fhir:link <http://consent-engine-ig.awatson.mitre.org/Patient/jennifer-smith>;
+     fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Patient/jennifer-smith>;
      fhir:Reference.reference [ fhir:value "Patient/jennifer-smith" ];
      fhir:Reference.display [ fhir:value "SMITH, JENNIFER" ]
   ];
   fhir:Consent.dateTime [ fhir:value "2017-04-17"^^xsd:date];
   fhir:Consent.organization [
      fhir:index 0;
-     fhir:link <http://consent-engine-ig.awatson.mitre.org/Organization/org-together-health>;
+     fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Organization/org-together-health>;
      fhir:Reference.reference [ fhir:value "Organization/org-together-health" ];
      fhir:Reference.display [ fhir:value "Together Health" ]
   ];
@@ -76,7 +76,7 @@
          ]
        ];
        fhir:Consent.provision.actor.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Pracitioner/practitioner-bernard-shuman>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Pracitioner/practitioner-bernard-shuman>;
          fhir:Reference.reference [ fhir:value "Pracitioner/practitioner-bernard-shuman" ];
          fhir:Reference.display [ fhir:value "SHUMAN, BERNARD" ]
        ]
@@ -91,7 +91,7 @@
          ]
        ];
        fhir:Consent.provision.actor.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/RelatedPerson/related-person-jane-smith>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/RelatedPerson/related-person-jane-smith>;
          fhir:Reference.reference [ fhir:value "RelatedPerson/related-person-jane-smith" ];
          fhir:Reference.display [ fhir:value "SMITH, JANE" ]
        ]
@@ -128,7 +128,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/Consent/jennifersmith-al-1.ttl> a owl:Ontology;
+<https://gitlab.mitre.org/awatson/us-state-profiles/Consent/jennifersmith-al-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

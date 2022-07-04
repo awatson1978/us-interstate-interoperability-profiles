@@ -5,12 +5,12 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/Consent/example2> a fhir:Consent;
+<https://gitlab.mitre.org/awatson/us-state-profiles/Consent/example2> a fhir:Consent;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "example2"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example2\" </p></div><p><b>status</b>: active</p><p><b>scope</b>: Patient Consent <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-consentscope.html\">Consent Scope Codes</a>#patient-privacy)</span></p><p><b>category</b>: Release of information consent <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-consentcategorycodes.html\">Consent Category Codes</a>#64292-6)</span></p><p><b>patient</b>: <a href=\"Patient-patient-john-smith.html\">Patient/patient-john-smith: SMITH, JOHN</a> \" SMITH\"</p><p><b>dateTime</b>: 2021-12-15</p><p><b>policyRule</b>: Health Information Exchange and Care Coordination Across Payers <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (CmsInteroperabilityPolicyCodes#CMS-9115-F.V)</span></p><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><p><b>period</b>: 2005-02-20 --&gt; 2020-06-01</p><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><p><b>period</b>: 2005-02-20 --&gt; 2020-06-01</p><p><b>action</b>: Access <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-consentaction.html\">Consent Action Codes</a>#access)</span></p></blockquote><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><p><b>period</b>: 2005-02-20 --&gt; 2020-06-01</p><p><b>action</b>: Access <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-consentaction.html\">Consent Action Codes</a>#access)</span></p></blockquote><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><p><b>period</b>: 2005-02-20 --&gt; 2020-06-01</p><p><b>action</b>: Access <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-consentaction.html\">Consent Action Codes</a>#access)</span></p></blockquote><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><p><b>period</b>: 2005-02-20 --&gt; 2020-06-01</p><p><b>action</b>: Access <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-consentaction.html\">Consent Action Codes</a>#access)</span></p></blockquote></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example2\" </p></div><p><b>status</b>: active</p><p><b>scope</b>: Patient Consent <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-consentscope.html\">Consent Scope Codes</a>#patient-privacy)</span></p><p><b>category</b>: Release of information consent <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-consentcategorycodes.html\">Consent Category Codes</a>#64292-6)</span></p><p><b>patient</b>: <a href=\"Patient-patient-john-smith.html\">Patient/patient-john-smith: SMITH, JOHN</a> \" SMITH\"</p><p><b>dateTime</b>: 2021-12-15</p><p><b>policyRule</b>: Health Information Exchange and Care Coordination Across Payers <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (CmsInteroperabilityPolicyCodes#CMS-9115-F.V)</span></p><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><p><b>period</b>: 2005-02-20 --&gt; 2020-06-01</p><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><p><b>period</b>: 2005-02-20 --&gt; 2020-06-01</p><p><b>action</b>: Access <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-consentaction.html\">Consent Action Codes</a>#access)</span></p></blockquote><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><p><b>period</b>: 2005-02-20 --&gt; 2020-06-01</p><p><b>action</b>: Access <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-consentaction.html\">Consent Action Codes</a>#access)</span></p></blockquote><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><p><b>period</b>: 2005-02-20 --&gt; 2020-06-01</p><p><b>action</b>: Access <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-consentaction.html\">Consent Action Codes</a>#access)</span></p></blockquote><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><p><b>period</b>: 2005-02-20 --&gt; 2020-06-01</p><p><b>action</b>: Access <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-consentaction.html\">Consent Action Codes</a>#access)</span></p></blockquote></blockquote></div>"
   ];
   fhir:Consent.status [ fhir:value "active"];
   fhir:Consent.scope [
@@ -31,7 +31,7 @@
      ]
   ];
   fhir:Consent.patient [
-     fhir:link <http://consent-engine-ig.awatson.mitre.org/Patient/patient-john-smith>;
+     fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Patient/patient-john-smith>;
      fhir:Reference.reference [ fhir:value "Patient/patient-john-smith" ];
      fhir:Reference.display [ fhir:value "SMITH, JOHN" ]
   ];
@@ -69,7 +69,7 @@
            fhir:CodeableConcept.text [ fhir:value "wife" ]
          ];
          fhir:Consent.provision.actor.reference [
-           fhir:link <http://consent-engine-ig.awatson.mitre.org/RelatedPerson/related-person-jane-smith-wife>;
+           fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/RelatedPerson/related-person-jane-smith-wife>;
            fhir:Reference.reference [ fhir:value "RelatedPerson/related-person-jane-smith-wife" ];
            fhir:Reference.display [ fhir:value "Jane Smith" ]
          ]
@@ -103,7 +103,7 @@
            fhir:CodeableConcept.text [ fhir:value "daughter" ]
          ];
          fhir:Consent.provision.actor.reference [
-           fhir:link <http://consent-engine-ig.awatson.mitre.org/RelatedPerson/related-person-jennifer-smith-daughter>;
+           fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/RelatedPerson/related-person-jennifer-smith-daughter>;
            fhir:Reference.reference [ fhir:value "RelatedPerson/related-person-jennifer-smith-daughter" ];
            fhir:Reference.display [ fhir:value "Jennifer Smith" ]
          ]
@@ -137,7 +137,7 @@
            fhir:CodeableConcept.text [ fhir:value "Healthcare Provider" ]
          ];
          fhir:Consent.provision.actor.reference [
-           fhir:link <http://consent-engine-ig.awatson.mitre.org/Organization/org-plentyrx>;
+           fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Organization/org-plentyrx>;
            fhir:Reference.reference [ fhir:value "Organization/org-plentyrx" ];
            fhir:Reference.display [ fhir:value "Plenty RX" ]
          ]
@@ -176,7 +176,7 @@
            fhir:CodeableConcept.text [ fhir:value "Healthcare Provider" ]
          ];
          fhir:Consent.provision.actor.reference [
-           fhir:link <http://consent-engine-ig.awatson.mitre.org/Organization/org-together-health>;
+           fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Organization/org-together-health>;
            fhir:Reference.reference [ fhir:value "Organization/org-together-health" ];
            fhir:Reference.display [ fhir:value "Together Health" ]
          ]
@@ -196,7 +196,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/Consent/example2.ttl> a owl:Ontology;
+<https://gitlab.mitre.org/awatson/us-state-profiles/Consent/example2.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/RelatedPerson/related-person-jane-smith-wife> a fhir:RelatedPerson;
+<https://gitlab.mitre.org/awatson/us-state-profiles/RelatedPerson/related-person-jane-smith-wife> a fhir:RelatedPerson;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "related-person-jane-smith-wife"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person";
+       fhir:value "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-related-person";
        fhir:index 0;
-       fhir:link <http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person>
+       fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-related-person>
      ]
   ];
   fhir:DomainResource.text [
@@ -21,7 +21,7 @@
   ];
   fhir:RelatedPerson.active [ fhir:value "true"^^xsd:boolean];
   fhir:RelatedPerson.patient [
-     fhir:link <http://consent-engine-ig.awatson.mitre.org/Patient/john-smith>;
+     fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Patient/john-smith>;
      fhir:Reference.reference [ fhir:value "Patient/john-smith" ];
      fhir:Reference.display [ fhir:value "John Smith" ]
   ];
@@ -57,7 +57,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/RelatedPerson/related-person-jane-smith-wife.ttl> a owl:Ontology;
+<https://gitlab.mitre.org/awatson/us-state-profiles/RelatedPerson/related-person-jane-smith-wife.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -35,8 +35,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:746e776c-940a-4b59-a27f-811968e1eed5",
-    "timestamp" : "2022-01-14T15:38:15.173Z",
+    "identifier" : "urn:uuid:dc7ca54f-a435-4318-be53-1f2c71c19543",
+    "timestamp" : "2022-07-03T04:52:29.742Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -47,7 +47,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -268,11 +268,6 @@ e: {
       "system" : "http://snomed.info/sct",
       "code" : "44652006",
       "display" : "Pharmaceutical assistant"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "45419001",
-      "display" : "Masseur"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -1606,11 +1601,6 @@ e: {
     },
     {
       "system" : "http://snomed.info/sct",
-      "code" : "309365006",
-      "display" : "Psychiatrist for mental handicap"
-    },
-    {
-      "system" : "http://snomed.info/sct",
       "code" : "309366007",
       "display" : "Rehabilitation psychiatrist"
     },
@@ -2043,11 +2033,6 @@ e: {
       "system" : "http://snomed.info/sct",
       "code" : "310182000",
       "display" : "General nurse"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "310183005",
-      "display" : "Nurse for the mentally handicapped"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -2486,6 +2471,21 @@ e: {
     },
     {
       "system" : "http://snomed.info/sct",
+      "code" : "1172950003",
+      "display" : "Massage therapist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1186716007",
+      "display" : "Intellectual disability psychiatrist (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1186914001",
+      "display" : "Intellectual disability nurse (occupation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
       "code" : "3981000175106",
       "display" : "Nurse complex case manager"
     },
@@ -2547,15 +2547,15 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:240c153f-1287-4b3e-81e1-75284e8283c4",
-    "timestamp" : "2022-01-17T03:53:51.940Z",
+    "identifier" : "urn:uuid:4a9a2d65-1092-4700-b41f-c407274e724f",
+    "timestamp" : "2022-07-03T04:52:29.977Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -3989,11 +3989,6 @@ e: {
     },
     {
       "system" : "http://snomed.info/sct",
-      "code" : "385435006",
-      "display" : "Individual (person)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
       "code" : "390790000",
       "display" : "Asylum seeker (person)"
     },
@@ -4829,6 +4824,21 @@ e: {
     },
     {
       "system" : "http://snomed.info/sct",
+      "code" : "1187235001",
+      "display" : "Donor after circulatory death (person)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1187236000",
+      "display" : "Donor after brain death"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1187334000",
+      "display" : "Emergency contact"
+    },
+    {
+      "system" : "http://snomed.info/sct",
       "code" : "471000122100",
       "display" : "Multi-organ donor (person)"
     },
@@ -4885,8 +4895,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:70fd1a3c-066f-49be-820f-2d48d70d958a",
-    "timestamp" : "2022-01-17T03:53:52.721Z",
+    "identifier" : "urn:uuid:f5bdbb08-88be-4234-81bd-aadc1d8663e6",
+    "timestamp" : "2022-07-03T04:52:30.211Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -4897,7 +4907,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",

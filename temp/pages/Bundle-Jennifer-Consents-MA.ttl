@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/Bundle/Jennifer-Consents-MA> a fhir:Bundle;
+<https://gitlab.mitre.org/awatson/us-state-profiles/Bundle/Jennifer-Consents-MA> a fhir:Bundle;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Jennifer-Consents-MA"];
   fhir:Bundle.type [ fhir:value "searchset"];
@@ -20,7 +20,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/Bundle/Jennifer-Consents-MA.ttl> a owl:Ontology;
+<https://gitlab.mitre.org/awatson/us-state-profiles/Bundle/Jennifer-Consents-MA.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

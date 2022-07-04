@@ -5,16 +5,16 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/RelatedPerson/stranger-001> a fhir:RelatedPerson;
+<https://gitlab.mitre.org/awatson/us-state-profiles/RelatedPerson/stranger-001> a fhir:RelatedPerson;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "stranger-001"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><br><b>A random stranger</b></p><p>This record is intended to have no relationship to the patient in the use case or testing scenario. The intention is to have a record that the test runner can confirm is NOT accessible. Primarily intended for access control and null case testing.</p><p><b>active</b>: true</p><p><b>patient</b>: <a href=\"http://fhir.org/packages/us.nlm.vsac/Patient/nobody/expansion\">Nobody</a></p><p><b>name</b>: RANDOM STRANGER</p><p><b>telecom</b>: ph: 212-555-1253(HOME)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1983-01-14</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><br/><b>A random stranger</b></p><p>This record is intended to have no relationship to the patient in the use case or testing scenario. The intention is to have a record that the test runner can confirm is NOT accessible. Primarily intended for access control and null case testing.</p><p><b>active</b>: true</p><p><b>patient</b>: <a href=\"http://fhir.org/packages/us.nlm.vsac/Patient/nobody/expansion\">Nobody</a></p><p><b>name</b>: RANDOM STRANGER</p><p><b>telecom</b>: ph: 212-555-1253(HOME)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1983-01-14</p></div>"
   ];
   fhir:RelatedPerson.active [ fhir:value "true"^^xsd:boolean];
   fhir:RelatedPerson.patient [
-     fhir:link <http://consent-engine-ig.awatson.mitre.org/Patient/nobody>;
+     fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Patient/nobody>;
      fhir:Reference.reference [ fhir:value "Patient/nobody" ];
      fhir:Reference.display [ fhir:value "Nobody" ]
   ];
@@ -37,7 +37,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/RelatedPerson/stranger-001.ttl> a owl:Ontology;
+<https://gitlab.mitre.org/awatson/us-state-profiles/RelatedPerson/stranger-001.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

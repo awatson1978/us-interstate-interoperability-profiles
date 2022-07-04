@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/Organization/org-pillbox> a fhir:Organization;
+<https://gitlab.mitre.org/awatson/us-state-profiles/Organization/org-pillbox> a fhir:Organization;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "org-pillbox"];
   fhir:Resource.meta [
@@ -25,7 +25,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/Organization/org-pillbox.ttl> a owl:Ontology;
+<https://gitlab.mitre.org/awatson/us-state-profiles/Organization/org-pillbox.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

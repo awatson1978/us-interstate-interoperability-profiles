@@ -309,8 +309,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:c18ce0a8-5871-4ca9-ae85-7ea7ebcf2d1b",
-    "timestamp" : "2022-01-17T03:53:52.924Z",
+    "identifier" : "urn:uuid:ef75e1a1-4372-4744-84e1-e1716769ad80",
+    "timestamp" : "2022-07-03T04:52:30.399Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -321,7 +321,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueUri" : "http://dicom.nema.org/resources/ontology/DCM|2021.5.20211122"
+      "valueUri" : "http://dicom.nema.org/resources/ontology/DCM|2022.1.20220124"
     }],
     "contains" : [{
       "extension" : [{

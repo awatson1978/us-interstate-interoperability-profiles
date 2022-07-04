@@ -3,7 +3,7 @@
   "id": "related-person-jane-smith-wife",
   "meta": {
     "profile": [
-      "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person"
+      "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-related-person"
     ]
   },
   "text": {

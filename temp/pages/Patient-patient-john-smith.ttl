@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/Patient/patient-john-smith> a fhir:Patient;
+<https://gitlab.mitre.org/awatson/us-state-profiles/Patient/patient-john-smith> a fhir:Patient;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "patient-john-smith"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient";
+       fhir:value "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient";
        fhir:index 0;
-       fhir:link <http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient>
+       fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient>
      ]
   ];
   fhir:DomainResource.text [
@@ -131,7 +131,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/Patient/patient-john-smith.ttl> a owl:Ontology;
+<https://gitlab.mitre.org/awatson/us-state-profiles/Patient/patient-john-smith.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

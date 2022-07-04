@@ -1,11 +1,11 @@
 {
   "path": "http://hl7.org/fhir/R4/",
-  "canonical": "http://consent-engine-ig.awatson.mitre.org",
+  "canonical": "https://gitlab.mitre.org/awatson/us-state-profiles",
   "igId": "mehi.ig.fhir",
-  "igName": "ConsentEngineIG",
+  "igName": "USStateProfiles",
   "packageId": "mehi.ig.fhir",
   "igVer": "0.3.6",
-  "errorCount": 89,
+  "errorCount": 86,
   "version": "4.0.1",
   "revision": "a53ec6ee1b",
   "versionFull": "4.0.1-a53ec6ee1b",
@@ -13,13 +13,13 @@
   "toolingRevision": "3",
   "toolingVersionFull": "5.0.0-snapshot1 (3)",
   "totalFiles": 44,
-  "processedFiles": 84,
-  "genDate": "Tue, Jan 18, 2022 10:08-0600",
-  "genDay": "18/01/2022",
+  "processedFiles": 83,
+  "genDate": "Sun, Jul 3, 2022 23:04-0500",
+  "genDay": "03/07/2022",
   "ig": {
     "id": "mehi.ig.fhir",
-    "name": "ConsentEngineIG",
-    "url": "http://consent-engine-ig.awatson.mitre.org/ImplementationGuide/mehi.ig.fhir",
+    "name": "USStateProfiles",
+    "url": "https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir",
     "version": "0.3.6",
     "status": "draft",
     "experimental": false,
@@ -29,11 +29,11 @@
       {
         "name": "MITRE, Inc",
         "telecom": [
-          "https://gitlab.mitre.org/awatson/consent-engine-ig"
+          "https://gitlab.mitre.org/awatson/us-state-profiles"
         ]
       }
     ],
-    "date": "2022-01-18T10:08:08-06:00",
+    "date": "2022-07-03T23:04:30-05:00",
     "fhirVersion": "4.0.1"
   },
   "hl7_fhir_us_core": "http://hl7.org/fhir/us/core",

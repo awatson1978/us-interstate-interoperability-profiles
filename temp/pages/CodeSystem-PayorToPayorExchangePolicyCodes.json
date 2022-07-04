@@ -3,14 +3,14 @@
   "id": "PayorToPayorExchangePolicyCodes",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://consent-engine-ig.awatson.mitre.org/CodeSystem/PayorToPayorExchangePolicyCodes defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CMS-9115-P<a name=\"PayorToPayorExchangePolicyCodes-CMS-9115-P\"> </a></td><td>CMS Interoperability and Patient Access proposed rule</td></tr><tr><td style=\"white-space:nowrap\">CMS-9115-F<a name=\"PayorToPayorExchangePolicyCodes-CMS-9115-F\"> </a></td><td>CMS Interoperability and Patient Access final rule</td></tr><tr><td style=\"white-space:nowrap\">CMS-9123-P<a name=\"PayorToPayorExchangePolicyCodes-CMS-9123-P\"> </a></td><td>CMS Reducing Provider and Patient Burdern proposed rule</td></tr><tr><td style=\"white-space:nowrap\">CMS-9123-F<a name=\"PayorToPayorExchangePolicyCodes-CMS-9123-F\"> </a></td><td>CMS Reducing Provider and Patient Burdern final rule</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://gitlab.mitre.org/awatson/us-state-profiles/CodeSystem/PayorToPayorExchangePolicyCodes defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">CMS-9115-P<a name=\"PayorToPayorExchangePolicyCodes-CMS-9115-P\"> </a></td><td>CMS Interoperability and Patient Access proposed rule</td></tr><tr><td style=\"white-space:nowrap\">CMS-9115-F<a name=\"PayorToPayorExchangePolicyCodes-CMS-9115-F\"> </a></td><td>CMS Interoperability and Patient Access final rule</td></tr><tr><td style=\"white-space:nowrap\">CMS-9123-P<a name=\"PayorToPayorExchangePolicyCodes-CMS-9123-P\"> </a></td><td>CMS Reducing Provider and Patient Burdern proposed rule</td></tr><tr><td style=\"white-space:nowrap\">CMS-9123-F<a name=\"PayorToPayorExchangePolicyCodes-CMS-9123-F\"> </a></td><td>CMS Reducing Provider and Patient Burdern final rule</td></tr></table></div>"
   },
-  "url": "http://consent-engine-ig.awatson.mitre.org/CodeSystem/PayorToPayorExchangePolicyCodes",
+  "url": "https://gitlab.mitre.org/awatson/us-state-profiles/CodeSystem/PayorToPayorExchangePolicyCodes",
   "version": "0.3.6",
   "name": "PayorToPayorExchangePolicyCodes",
   "title": "PayorToPayorExchangePolicyCodes",
   "status": "active",
-  "date": "2022-01-18T10:08:08-06:00",
+  "date": "2022-07-03T23:04:30-05:00",
   "publisher": "MITRE, Inc",
   "contact": [
     {
@@ -18,7 +18,7 @@
       "telecom": [
         {
           "system": "url",
-          "value": "https://gitlab.mitre.org/awatson/consent-engine-ig"
+          "value": "https://gitlab.mitre.org/awatson/us-state-profiles"
         }
       ]
     }

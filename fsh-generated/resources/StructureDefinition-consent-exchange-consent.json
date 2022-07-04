@@ -11,7 +11,7 @@
       "valueCode": "patient"
     }
   ],
-  "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-consent",
+  "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-consent",
   "version": "0.3.6",
   "name": "ConsentExchangeConsent",
   "title": "ConsentExchangeConsent",
@@ -52,7 +52,7 @@
         "path": "Consent.policyRule",
         "binding": {
           "strength": "required",
-          "valueSet": "http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangePolicies"
+          "valueSet": "https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies"
         }
       }
     ]

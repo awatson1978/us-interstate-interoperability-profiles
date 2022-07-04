@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-organization> a fhir:StructureDefinition;
+<https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-organization> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "consent-exchange-organization"];
   fhir:DomainResource.text [
@@ -21,12 +21,12 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "business" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-organization"];
+  fhir:StructureDefinition.url [ fhir:value "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-organization"];
   fhir:StructureDefinition.version [ fhir:value "0.3.6"];
   fhir:StructureDefinition.name [ fhir:value "ConsentExchangeOrganization"];
   fhir:StructureDefinition.title [ fhir:value "ConsentExchangeOrganization"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-01-18T10:08:08-06:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-07-03T23:04:30-05:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "MITRE, Inc"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -34,7 +34,7 @@
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "https://gitlab.mitre.org/awatson/consent-engine-ig" ]
+       fhir:ContactPoint.value [ fhir:value "https://gitlab.mitre.org/awatson/us-state-profiles" ]
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "Organization resource for describing actors in an payor-to-payor data exchange workflow."];
@@ -1165,8 +1165,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangeRelations";
-           fhir:link <http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangeRelations>
+           fhir:value "https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangeRelations";
+           fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangeRelations>
          ]
        ];
        fhir:ElementDefinition.mapping [
@@ -1353,8 +1353,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangeRelations";
-           fhir:link <http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangeRelations>
+           fhir:value "https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangeRelations";
+           fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangeRelations>
          ]
        ]
      ]
@@ -1362,7 +1362,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-organization.ttl> a owl:Ontology;
+<https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-organization.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

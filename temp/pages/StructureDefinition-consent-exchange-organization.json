@@ -15,12 +15,12 @@
       "valueCode": "business"
     }
   ],
-  "url": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-organization",
+  "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-organization",
   "version": "0.3.6",
   "name": "ConsentExchangeOrganization",
   "title": "ConsentExchangeOrganization",
   "status": "active",
-  "date": "2022-01-18T10:08:08-06:00",
+  "date": "2022-07-03T23:04:30-05:00",
   "publisher": "MITRE, Inc",
   "contact": [
     {
@@ -28,7 +28,7 @@
       "telecom": [
         {
           "system": "url",
-          "value": "https://gitlab.mitre.org/awatson/consent-engine-ig"
+          "value": "https://gitlab.mitre.org/awatson/us-state-profiles"
         }
       ]
     }
@@ -1095,7 +1095,7 @@
         "isSummary": false,
         "binding": {
           "strength": "required",
-          "valueSet": "http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangeRelations"
+          "valueSet": "https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangeRelations"
         },
         "mapping": [
           {
@@ -1280,7 +1280,7 @@
         "path": "Organization.contact.purpose",
         "binding": {
           "strength": "required",
-          "valueSet": "http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangeRelations"
+          "valueSet": "https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangeRelations"
         }
       }
     ]

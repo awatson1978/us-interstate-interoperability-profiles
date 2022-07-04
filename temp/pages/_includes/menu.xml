@@ -13,17 +13,33 @@
   <li>
     <a href="index.html">Home</a>
   </li>
-  <li>
-    <a href="datacollection.html">Consent Collection</a>
-  </li>
-  <li>
-    <a href="consentengine.html">Access Control Lists</a>
-  </li>
-  <li>
-    <a href="profiles.html">Regional Profiles</a>
-  </li>
-  <li>
-    <a href="blockchain.html">Distributed Ledgers</a>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Regional Profiles
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="page-advanced-directives.html">Advanced Directives</a>
+      </li>
+      <li>
+        <a href="page-religious-exemptions.html">Religious Exemptions</a>
+      </li>
+      <li>
+        <a href="page-controlled-substances.html">Controlled Substances</a>
+      </li>
+      <li>
+        <a href="page-abortion.html">Abortion</a>
+      </li>
+      <li>
+        <a href="page-foster-care.html">Foster Care</a>
+      </li>
+      <li>
+        <a href="page-trans-sports.html">Trans Sports</a>
+      </li>
+      <li>
+        <a href="page-medicaid-expansion.html">Medicaid Expansion</a>
+      </li>
+    </ul>
   </li>
   <li>
     <a href="artifacts.html">Artifacts</a>

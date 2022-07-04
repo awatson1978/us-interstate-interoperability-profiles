@@ -1,6 +1,6 @@
-# mehi-consent-exchange
+## US State Profiles
 
-Consent Exchange - Payor to Payor data exchange, with implementation guide and reference implementation.  
+Guidance on how to profile the US State and territories using Fast Healthcare Interoperability Resources (FHIR).
 
 ### Compiling Documentation  
 

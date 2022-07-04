@@ -3,13 +3,13 @@
   "id": "mehi.ig.fhir",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ConsentEngineIG</h2><p>The official URL for this implementation guide is: </p><pre>http://consent-engine-ig.awatson.mitre.org/ImplementationGuide/mehi.ig.fhir</pre></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>USStateProfiles</h2><p>The official URL for this implementation guide is: </p><pre>https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir</pre></div>"
   },
-  "url": "http://consent-engine-ig.awatson.mitre.org/ImplementationGuide/mehi.ig.fhir",
+  "url": "https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir",
   "version": "0.3.6",
-  "name": "ConsentEngineIG",
+  "name": "USStateProfiles",
   "status": "draft",
-  "date": "2022-01-18T10:08:08-06:00",
+  "date": "2022-07-03T23:04:30-05:00",
   "publisher": "MITRE, Inc",
   "contact": [
     {
@@ -17,7 +17,7 @@
       "telecom": [
         {
           "system": "url",
-          "value": "https://gitlab.mitre.org/awatson/consent-engine-ig"
+          "value": "https://gitlab.mitre.org/awatson/us-state-profiles"
         }
       ]
     }
@@ -149,7 +149,7 @@
           },
           {
             "url": "value",
-            "valueString": "http://consent-engine-ig.awatson.mitre.org/history.html"
+            "valueString": "https://gitlab.mitre.org/awatson/us-state-profiles/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -276,6 +276,45 @@
           {
             "url": "code",
             "valueString": "active-tables"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "fmm-definition"
+          },
+          {
+            "url": "value",
+            "valueString": "http://hl7.org/fhir/versions.html#maturity"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "propagate-status"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "excludelogbinaryformat"
           },
           {
             "url": "value",
@@ -550,7 +589,7 @@
         },
         "name": "jane-doe",
         "description": "Jane Doe patient not part of relationship model, used for checking security access.",
-        "exampleCanonical": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient"
+        "exampleCanonical": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient"
       },
       {
         "extension": [
@@ -564,7 +603,7 @@
         },
         "name": "jennifer-smith",
         "description": "Jennifer Smith - Patient demographics record.",
-        "exampleCanonical": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient"
+        "exampleCanonical": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient"
       },
       {
         "extension": [
@@ -788,7 +827,7 @@
         },
         "name": "patient-john-smith",
         "description": "John Smith - Patient demographics record.",
-        "exampleCanonical": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient"
+        "exampleCanonical": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient"
       },
       {
         "extension": [
@@ -844,7 +883,7 @@
         },
         "name": "related-person-jane-smith-wife",
         "description": "Jane Smith - Spouse relationship record.",
-        "exampleCanonical": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person"
+        "exampleCanonical": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-related-person"
       },
       {
         "extension": [
@@ -858,7 +897,7 @@
         },
         "name": "related-person-jennifer-smith-daughter",
         "description": "Jennifer Smith - Daughter relationship record.",
-        "exampleCanonical": "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person"
+        "exampleCanonical": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-related-person"
       },
       {
         "extension": [
@@ -900,23 +939,43 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "datacollection.html",
-          "title": "Data Collection",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "consentengine.html",
-          "title": "Consent Engine",
-          "generation": "markdown"
-        },
-        {
           "nameUrl": "profiles.html",
           "title": "Regional Profiles",
           "generation": "markdown"
         },
         {
-          "nameUrl": "blockchain.html",
-          "title": "Distributed Ledgers",
+          "nameUrl": "page-advanced-directives.html",
+          "title": "Advanced Directives",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "page-foster-care.html",
+          "title": "Foster Care",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "page-trans-sports.html",
+          "title": "Trans Sports",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "page-abortion.html",
+          "title": "Abortion",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "page-controlled-substances.html",
+          "title": "Controlled Substances",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "page-religious-exemptions.html",
+          "title": "Religious Exemptions",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "page-medicaid-expansion.html",
+          "title": "Medicaid Expansion",
           "generation": "markdown"
         }
       ]

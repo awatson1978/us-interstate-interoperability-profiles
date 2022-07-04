@@ -5,18 +5,18 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/ImplementationGuide/mehi.ig.fhir> a fhir:ImplementationGuide;
+<https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "mehi.ig.fhir"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ConsentEngineIG</h2><p>The official URL for this implementation guide is: </p><pre>http://consent-engine-ig.awatson.mitre.org/ImplementationGuide/mehi.ig.fhir</pre></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>USStateProfiles</h2><p>The official URL for this implementation guide is: </p><pre>https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir</pre></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "http://consent-engine-ig.awatson.mitre.org/ImplementationGuide/mehi.ig.fhir"];
+  fhir:ImplementationGuide.url [ fhir:value "https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir"];
   fhir:ImplementationGuide.version [ fhir:value "0.3.6"];
-  fhir:ImplementationGuide.name [ fhir:value "ConsentEngineIG"];
+  fhir:ImplementationGuide.name [ fhir:value "USStateProfiles"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-01-18T10:08:08-06:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-07-03T23:04:30-05:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "MITRE, Inc"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -24,7 +24,7 @@
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "https://gitlab.mitre.org/awatson/consent-engine-ig" ]
+       fhir:ContactPoint.value [ fhir:value "https://gitlab.mitre.org/awatson/us-state-profiles" ]
      ]
   ];
   fhir:ImplementationGuide.packageId [ fhir:value "mehi.ig.fhir"];
@@ -149,7 +149,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "http://consent-engine-ig.awatson.mitre.org/history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://gitlab.mitre.org/awatson/us-state-profiles/history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -272,6 +272,42 @@
          fhir:Extension.valueString [ fhir:value "true" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "fmm-definition" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "http://hl7.org/fhir/versions.html#maturity" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "propagate-status" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "excludelogbinaryformat" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ];
      fhir:ImplementationGuide.definition.resource [
        fhir:index 0;
@@ -281,7 +317,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-careteam>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-careteam>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/consent-exchange-careteam" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ConsentExchangeCareTeam" ];
@@ -295,7 +331,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-consent>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-consent>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/consent-exchange-consent" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ConsentExchangeConsent" ];
@@ -309,7 +345,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-organization>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-organization>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/consent-exchange-organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ConsentExchangeOrganization" ];
@@ -323,7 +359,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/consent-exchange-patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ConsentExchangePatient" ];
@@ -337,7 +373,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-practitioner>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-practitioner>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/consent-exchange-practitioner" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ConsentExchangePractitioner" ];
@@ -351,7 +387,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-related-person>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/consent-exchange-related-person" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ConsentExchangeRelatedPerson" ];
@@ -365,7 +401,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/ValueSet/consent-exchange-category-codes>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/consent-exchange-category-codes>;
          fhir:Reference.reference [ fhir:value "ValueSet/consent-exchange-category-codes" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ConsentExchangeCategoryCodes" ];
@@ -379,7 +415,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangePolicies>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies>;
          fhir:Reference.reference [ fhir:value "ValueSet/ConsentExchangePolicies" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ConsentExchangePolicies" ];
@@ -393,7 +429,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/ValueSet/ConsentExchangeRelations>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangeRelations>;
          fhir:Reference.reference [ fhir:value "ValueSet/ConsentExchangeRelations" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ConsentExchangeRelations" ];
@@ -407,7 +443,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/ValueSet/consent-exchange-scope-codes>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/consent-exchange-scope-codes>;
          fhir:Reference.reference [ fhir:value "ValueSet/consent-exchange-scope-codes" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ConsentExchangeScopeCodes" ];
@@ -421,7 +457,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/CodeSystem/CmsInteroperabilityPolicyCodes>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/CodeSystem/CmsInteroperabilityPolicyCodes>;
          fhir:Reference.reference [ fhir:value "CodeSystem/CmsInteroperabilityPolicyCodes" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CmsInteroperabilityPolicyCodes" ];
@@ -435,7 +471,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/CodeSystem/ConsentExchangeRelationships>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/CodeSystem/ConsentExchangeRelationships>;
          fhir:Reference.reference [ fhir:value "CodeSystem/ConsentExchangeRelationships" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ConsentExchangeRelationships" ];
@@ -449,7 +485,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/CodeSystem/PayorToPayorExchangePolicyCodes>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/CodeSystem/PayorToPayorExchangePolicyCodes>;
          fhir:Reference.reference [ fhir:value "CodeSystem/PayorToPayorExchangePolicyCodes" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PayorToPayorExchangePolicyCodes" ];
@@ -463,7 +499,7 @@
          fhir:Extension.valueString [ fhir:value "Bundle" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Bundle/Jennifer-Consents-MA>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Bundle/Jennifer-Consents-MA>;
          fhir:Reference.reference [ fhir:value "Bundle/Jennifer-Consents-MA" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Jennifer-Consents-MA" ];
@@ -477,7 +513,7 @@
          fhir:Extension.valueString [ fhir:value "Consent" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Consent/Jennifer-MA-Rollup>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/Jennifer-MA-Rollup>;
          fhir:Reference.reference [ fhir:value "Consent/Jennifer-MA-Rollup" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "jennifer-ma-rollup" ];
@@ -491,7 +527,7 @@
          fhir:Extension.valueString [ fhir:value "Medication" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Medication/estrodiol-contraceptive>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Medication/estrodiol-contraceptive>;
          fhir:Reference.reference [ fhir:value "Medication/estrodiol-contraceptive" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "estrodiol-contraceptive" ];
@@ -505,7 +541,7 @@
          fhir:Extension.valueString [ fhir:value "Consent" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Consent/example1>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/example1>;
          fhir:Reference.reference [ fhir:value "Consent/example1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "example1" ];
@@ -519,7 +555,7 @@
          fhir:Extension.valueString [ fhir:value "Consent" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Consent/example2>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/example2>;
          fhir:Reference.reference [ fhir:value "Consent/example2" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "example2" ];
@@ -533,14 +569,14 @@
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Patient/jane-doe>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Patient/jane-doe>;
          fhir:Reference.reference [ fhir:value "Patient/jane-doe" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "jane-doe" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Jane Doe patient not part of relationship model, used for checking security access." ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient";
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient>
+         fhir:value "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient";
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient>
        ]
      ], [
        fhir:index 19;
@@ -550,14 +586,14 @@
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Patient/jennifer-smith>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Patient/jennifer-smith>;
          fhir:Reference.reference [ fhir:value "Patient/jennifer-smith" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "jennifer-smith" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Jennifer Smith - Patient demographics record." ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient";
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient>
+         fhir:value "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient";
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient>
        ]
      ], [
        fhir:index 20;
@@ -567,7 +603,7 @@
          fhir:Extension.valueString [ fhir:value "Consent" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Consent/jennifersmith-al-1>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/jennifersmith-al-1>;
          fhir:Reference.reference [ fhir:value "Consent/jennifersmith-al-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "jennifersmith-al-1" ];
@@ -581,7 +617,7 @@
          fhir:Extension.valueString [ fhir:value "Consent" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Consent/jennifersmith-ma-1>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/jennifersmith-ma-1>;
          fhir:Reference.reference [ fhir:value "Consent/jennifersmith-ma-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "jennifersmith-ma-1" ];
@@ -595,7 +631,7 @@
          fhir:Extension.valueString [ fhir:value "Consent" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Consent/jennifersmith-ma-2>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/jennifersmith-ma-2>;
          fhir:Reference.reference [ fhir:value "Consent/jennifersmith-ma-2" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "jennifersmith-ma-2" ];
@@ -609,7 +645,7 @@
          fhir:Extension.valueString [ fhir:value "Consent" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Consent/johnsmith-consent-mass-community-insurance>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/johnsmith-consent-mass-community-insurance>;
          fhir:Reference.reference [ fhir:value "Consent/johnsmith-consent-mass-community-insurance" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "johnsmith-consent-mass-community-insurance" ];
@@ -623,7 +659,7 @@
          fhir:Extension.valueString [ fhir:value "Consent" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Consent/johnsmith-consent-org-acme-insurance>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/johnsmith-consent-org-acme-insurance>;
          fhir:Reference.reference [ fhir:value "Consent/johnsmith-consent-org-acme-insurance" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "johnsmith-consent-org-acme-insurance" ];
@@ -637,7 +673,7 @@
          fhir:Extension.valueString [ fhir:value "Consent" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Consent/johnsmith-consent-org-pillbox>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/johnsmith-consent-org-pillbox>;
          fhir:Reference.reference [ fhir:value "Consent/johnsmith-consent-org-pillbox" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "johnsmith-consent-org-pillbox" ];
@@ -651,7 +687,7 @@
          fhir:Extension.valueString [ fhir:value "Consent" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Consent/johnsmith-consent-plentyrx>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/johnsmith-consent-plentyrx>;
          fhir:Reference.reference [ fhir:value "Consent/johnsmith-consent-plentyrx" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "johnsmith-consent-plentyrx" ];
@@ -665,7 +701,7 @@
          fhir:Extension.valueString [ fhir:value "Consent" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Consent/johnsmith-consent-plentyrx-revoke>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/johnsmith-consent-plentyrx-revoke>;
          fhir:Reference.reference [ fhir:value "Consent/johnsmith-consent-plentyrx-revoke" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "johnsmith-consent-plentyrx-revoke" ];
@@ -679,7 +715,7 @@
          fhir:Extension.valueString [ fhir:value "MedicationRequest" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/MedicationRequest/medreq-1234557>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/MedicationRequest/medreq-1234557>;
          fhir:Reference.reference [ fhir:value "MedicationRequest/medreq-1234557" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "medreq-1234557" ];
@@ -693,7 +729,7 @@
          fhir:Extension.valueString [ fhir:value "MedicationRequest" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/MedicationRequest/medreq-22348957>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/MedicationRequest/medreq-22348957>;
          fhir:Reference.reference [ fhir:value "MedicationRequest/medreq-22348957" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "medreq-22348957" ];
@@ -707,7 +743,7 @@
          fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Organization/org-acme-insurance>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Organization/org-acme-insurance>;
          fhir:Reference.reference [ fhir:value "Organization/org-acme-insurance" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "org-acme-insurance" ];
@@ -721,7 +757,7 @@
          fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Organization/org-mass-community-insurance>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Organization/org-mass-community-insurance>;
          fhir:Reference.reference [ fhir:value "Organization/org-mass-community-insurance" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "org-mass-community-insurance" ];
@@ -735,7 +771,7 @@
          fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Organization/org-pillbox>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Organization/org-pillbox>;
          fhir:Reference.reference [ fhir:value "Organization/org-pillbox" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "org-pillbox" ];
@@ -749,7 +785,7 @@
          fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Organization/org-plentyrx>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Organization/org-plentyrx>;
          fhir:Reference.reference [ fhir:value "Organization/org-plentyrx" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "org-plentyrx" ];
@@ -763,7 +799,7 @@
          fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Organization/org-together-health>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Organization/org-together-health>;
          fhir:Reference.reference [ fhir:value "Organization/org-together-health" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "org-together-health" ];
@@ -777,14 +813,14 @@
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Patient/patient-john-smith>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Patient/patient-john-smith>;
          fhir:Reference.reference [ fhir:value "Patient/patient-john-smith" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "patient-john-smith" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "John Smith - Patient demographics record." ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient";
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-patient>
+         fhir:value "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient";
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient>
        ]
      ], [
        fhir:index 36;
@@ -794,7 +830,7 @@
          fhir:Extension.valueString [ fhir:value "Practitioner" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Practitioner/practitioner-alice-yin>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Practitioner/practitioner-alice-yin>;
          fhir:Reference.reference [ fhir:value "Practitioner/practitioner-alice-yin" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "practitioner-alice-yin" ];
@@ -808,7 +844,7 @@
          fhir:Extension.valueString [ fhir:value "Practitioner" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/Practitioner/practitioner-bernard-shuman>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Practitioner/practitioner-bernard-shuman>;
          fhir:Reference.reference [ fhir:value "Practitioner/practitioner-bernard-shuman" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "practitioner-bernard-shuman" ];
@@ -822,7 +858,7 @@
          fhir:Extension.valueString [ fhir:value "RelatedPerson" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/RelatedPerson/related-person-jane-smith>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/RelatedPerson/related-person-jane-smith>;
          fhir:Reference.reference [ fhir:value "RelatedPerson/related-person-jane-smith" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "related-person-jane-smith" ];
@@ -836,14 +872,14 @@
          fhir:Extension.valueString [ fhir:value "RelatedPerson" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/RelatedPerson/related-person-jane-smith-wife>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/RelatedPerson/related-person-jane-smith-wife>;
          fhir:Reference.reference [ fhir:value "RelatedPerson/related-person-jane-smith-wife" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "related-person-jane-smith-wife" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Jane Smith - Spouse relationship record." ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person";
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person>
+         fhir:value "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-related-person";
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-related-person>
        ]
      ], [
        fhir:index 40;
@@ -853,14 +889,14 @@
          fhir:Extension.valueString [ fhir:value "RelatedPerson" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/RelatedPerson/related-person-jennifer-smith-daughter>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/RelatedPerson/related-person-jennifer-smith-daughter>;
          fhir:Reference.reference [ fhir:value "RelatedPerson/related-person-jennifer-smith-daughter" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "related-person-jennifer-smith-daughter" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Jennifer Smith - Daughter relationship record." ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person";
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/StructureDefinition/consent-exchange-related-person>
+         fhir:value "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-related-person";
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-related-person>
        ]
      ], [
        fhir:index 41;
@@ -870,7 +906,7 @@
          fhir:Extension.valueString [ fhir:value "RelatedPerson" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/RelatedPerson/related-person-john-smith>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/RelatedPerson/related-person-john-smith>;
          fhir:Reference.reference [ fhir:value "RelatedPerson/related-person-john-smith" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "related-person-john-smith" ];
@@ -884,7 +920,7 @@
          fhir:Extension.valueString [ fhir:value "RelatedPerson" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://consent-engine-ig.awatson.mitre.org/RelatedPerson/stranger-001>;
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/RelatedPerson/stranger-001>;
          fhir:Reference.reference [ fhir:value "RelatedPerson/stranger-001" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "stranger-001" ];
@@ -902,23 +938,43 @@
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 1;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "datacollection.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Data Collection" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-       ], [
-         fhir:index 2;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "consentengine.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Consent Engine" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-       ], [
-         fhir:index 3;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "profiles.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Regional Profiles" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
+         fhir:index 2;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "page-advanced-directives.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Advanced Directives" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 3;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "page-foster-care.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Foster Care" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
          fhir:index 4;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "blockchain.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Distributed Ledgers" ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "page-trans-sports.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Trans Sports" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 5;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "page-abortion.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Abortion" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 6;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "page-controlled-substances.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Controlled Substances" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 7;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "page-religious-exemptions.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Religious Exemptions" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 8;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "page-medicaid-expansion.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Medicaid Expansion" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ]
      ];
@@ -987,7 +1043,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://consent-engine-ig.awatson.mitre.org/ImplementationGuide/mehi.ig.fhir.ttl> a owl:Ontology;
+<https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
