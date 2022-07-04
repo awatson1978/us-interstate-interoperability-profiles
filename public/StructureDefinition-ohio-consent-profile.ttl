@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "OhioConsentProfile"];
   fhir:StructureDefinition.title [ fhir:value "OhioConsentProfile"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-07-04T10:19:56-05:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-07-04T11:58:27-05:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "MITRE, Inc"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.4.0"];
   fhir:ImplementationGuide.name [ fhir:value "USStateProfiles"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-07-04T10:19:56-05:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-07-04T11:58:27-05:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "MITRE, Inc"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;

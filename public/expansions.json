@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "0b3e558f-2c7d-42a8-b9e7-6bd80411876f",
+  "id" : "444e3bcb-594b-45e9-a065-a969a05f0a91",
   "meta" : {
-    "lastUpdated" : "2022-07-04T10:19:56.052-05:00"
+    "lastUpdated" : "2022-07-04T11:58:27.169-05:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "name" : "ConsentExchangeCategoryCodes",
       "title" : "ConsentExchangeCategoryCodes",
       "status" : "active",
-      "date" : "2022-07-04T10:19:56-05:00",
+      "date" : "2022-07-04T11:58:27-05:00",
       "publisher" : "MITRE, Inc",
       "contact" : [{
         "name" : "MITRE, Inc",
@@ -30,8 +30,8 @@
       }],
       "description" : "Consent Exchange - Category Codes",
       "expansion" : {
-        "identifier" : "urn:uuid:0d575fc1-f233-4020-bae7-168758b0dbb1",
-        "timestamp" : "2022-07-04T10:21:14-05:00",
+        "identifier" : "urn:uuid:9607f5e2-437e-41fe-b3b2-56bc237023b1",
+        "timestamp" : "2022-07-04T11:59:44-05:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -187,7 +187,7 @@
       "name" : "ConsentExchangeRelations",
       "title" : "ConsentExchangeRelations",
       "status" : "active",
-      "date" : "2022-07-04T10:19:56-05:00",
+      "date" : "2022-07-04T11:58:27-05:00",
       "publisher" : "MITRE, Inc",
       "contact" : [{
         "name" : "MITRE, Inc",
@@ -198,8 +198,8 @@
       }],
       "description" : "Consent Exchange - Relationships",
       "expansion" : {
-        "identifier" : "urn:uuid:3e88c893-1edf-4e54-9bbc-bcd9fce5d6d8",
-        "timestamp" : "2022-07-04T10:21:14-05:00",
+        "identifier" : "urn:uuid:126652ab-9a1e-4bdc-b888-ccc1470e93d2",
+        "timestamp" : "2022-07-04T11:59:44-05:00",
         "total" : 1175,
         "parameter" : [{
           "name" : "excludeNested",
@@ -8519,7 +8519,7 @@
       "name" : "ConsentExchangeScopeCodes",
       "title" : "ConsentExchangeScopeCodes",
       "status" : "active",
-      "date" : "2022-07-04T10:19:56-05:00",
+      "date" : "2022-07-04T11:58:27-05:00",
       "publisher" : "MITRE, Inc",
       "contact" : [{
         "name" : "MITRE, Inc",
@@ -8530,8 +8530,8 @@
       }],
       "description" : "Consent Exchange - Scope Codes",
       "expansion" : {
-        "identifier" : "urn:uuid:19bc5892-3620-4077-b6a5-962ea1f41c2b",
-        "timestamp" : "2022-07-04T10:21:14-05:00",
+        "identifier" : "urn:uuid:70927691-25a6-419b-ad06-846a77b0fb03",
+        "timestamp" : "2022-07-04T11:59:44-05:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
