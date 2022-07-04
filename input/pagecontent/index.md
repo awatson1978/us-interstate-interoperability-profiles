@@ -1,43 +1,29 @@
 
 ### Background  
 
-Modern clinical information systems are regulated by various laws, including (but not limited to) HIPAA, GDPR, and 21st Century Cures.  These laws outline expectations for patient privacy and access that clinicians are bound to.  In practice, these laws specify a default expectation of privacy, with the patient having the right to grant or deny access to their information to others.  When viewed through the lens of computer information systems, these laws detail a combination of data collection forms that need to be implemented and respected, and which inform the access control lists of who may log into which systems, and what information they are allowed to access or modify.    
+Modern clinical information systems are regulated by various laws, including (but not limited to) HIPAA, GDPR, and 21st Century Cures.  These laws range specifying how many signatures are required for advanced directives, to laws prescribing expectations of patient privacy, to religious exemptions for clinicians from practicing certain types of medicine on the other, to whether LGBT members may participate in the adoption and foster care systems.  
 
 ### Purpose  
 
-The purpose of this implementation guide is to help developers implement systems that exchange consent and advance directives data to be used in generating access control lists.  These systems may range widely from Electronic Medical Records (EHR) running in data warehouses, to Personal Health Records (PHR) running on personal mobile devices, to dedicated Consent Engine services, to graph databases, to blockchains, and many other services or products yet to be imagined.  
+The purpose of this guide is to outline a format for encoding these laws using Fast Healthcare Interoperability Resources, so that healthcare systems can exchange information about the jurisdictional environment that data was collected in and will be used in.  The intent is to eventually provide something akin to USCore for the various US states and territories.  Thus, one might have an Illinois Core, or a Texas Core, or any of the other states.  And within that core profile for the state, would be encoded descriptions of various state laws that may impact the delivery of healthcare or the modeling of health data in that state.  
+
+Following this logic, one may deduce that the areas where such data modeling will be relevant are issues where there is disagreement between states, and therefore represent cultural hot-topics.  As such, this guide serves a dual purpose.  With these state profiles in hand, mappings can then be created, so as to translate health records from one environment to another, and thereby ease tensions and friction between regions that have different cultural values and priorities.  
 
 
-### Endpoints    
+### Jurisprudence  
+This implementation guide introduces an approach to jurisprudence interpretation that may be somewhat novel.  For the purposes of this implementation guide, and the systems that will use the profiles and artifacts it documents, this guide chooses to use the [FHIR Consent](https://www.hl7.org/fhir/consent.html) resource to model state laws.  This approach was chosen for the following reasons:
 
-Endpoint query patterns vary depending on business usecase and workflow, but are generally organized around the perspective of each of the actors or organizations.  Typical queries will be around the patient accessing his or her own consent records; an organization querying which records a practitioner has access to; an organization determining if a specific related person is authorized to access a patient's records, and so forth.  You will want to review the following endpoints and queries, and select the ones most relevant to your  use case. 
+- Consent provides a `policy.authority` field which explicitly specifies a jurisdictional body, such as a State or City.
+- The Consent record also contains the recursive `provision` field, which allows arbitrarily deep inclusion/exclusion provisions with permit/deny rules, which is flexible enough to encode most of the laws that are relevant to practice healthcare.
+- These profiles will eventually be useful in Consent Engines and other security infrastructure, and combined with Advanced Directives and other patient documents to calculate access control lists.  
 
+With these constraints guiding this data modeling decision, we therefore arrive at the notion of a US State participating as an actor in the provision of healthcare, and consenting to particular activities taking place within its borders.  In particular, we would encourage implementers to look at Citizens United and other case law which confers personhood on organizations.  The rational being that a collection of individuals has the same rights as any single individual, due to it being comprised of those members with those rights in the first place.  A democratically elected body such as a state legislature is even more explicitly so.
 
+And so, therefore, the notion is as follows:  the state Consent record represents the society of individuals who live in a geographic area consenting that a particular activity may occur within their jurisdiction per the democratic legislative process.
 
-*Consent Engine & Access Control List Generation*  
-```
-PUT /Consent/{patientId}/$parse
-GET /Consent/$parseToBundle?patient=Patient/{patientId}
-GET /Consent/$parseToBundle?organization=Organization/{organizationId}
-GET /Consent/$parseToBundle?consentor=RelatedPerson/{relatedPersonId}
-POST /Consent/{consentId}/$equals
-POST /Consent/{consentId}/$diff
-GET /Consent/$toAcl?patient=Patient/{patientId}
-GET /Consent/$toAcl?organization=Organization/{organizationId}
-GET /Consent/$toAcl?consentor=RelatedPerson/{relatedPersonId}
-GET /Consent/$oauthScopes?patient=Patient/{patientId}
-GET /Consent/$oauthScopes?organization=Organization/{organizationId}
-GET /Consent/$oauthScopes?consentor=RelatedPerson/{relatedPersonId}
-```
+This may be a novel jurisprudence interpretation.  If using the Consent resource is truly egregious from a legal perspective, this implementation guide can either use the Base resource or define a new Logical Model or Resource, and copy the needed fields over and create a new resource if need be.  
 
-
-
-
-### Learning Resources & Background Information  
-
-[Getting Started with FHIR](http://hl7.org/fhir/modules.html)  
-[FHIR Resource List](https://www.hl7.org/fhir/resourcelist.html)  
-[HL7 Education and Certification Course List](http://www.hl7.org/implement/courseList.cfm?ref=nav)  
+But for the purposes of expediency, we have chosen to use existing terminology where we can, and are starting with this data modeling approach.  
 
 # Contact Info  
 

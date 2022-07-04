@@ -13,9 +13,6 @@
       <li>
          <a href="#3">Terminology: Code Systems</a>
       </li>
-      <li>
-         <a href="#4">Example: Example Instances</a>
-      </li>
    </ul>
 </div>
 <div xmlns:html="http://www.w3.org/1999/xhtml"
@@ -32,10 +29,58 @@
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-consent-exchange-careteam.html"
-                     title="StructureDefinition/consent-exchange-careteam">ConsentExchangeCareTeam</a>
+                  <a href="StructureDefinition-alabama-consent-profile.html"
+                     title="StructureDefinition/alabama-consent-profile">AlabamaConsentProfile</a>
                </td>
-               <td>{% capture desc %}CareTeam resource for describing workflow actors and their relationships.{% endcapture %}
+               <td>{% capture desc %}Alabama consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-alaska-consent-profile.html"
+                     title="StructureDefinition/alaska-consent-profile">AlaskaConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Alaska consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-arizona-consent-profile.html"
+                     title="StructureDefinition/arizona-consent-profile">ArizonaConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Arizona consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-arkansas-consent-profile.html"
+                     title="StructureDefinition/arkansas-consent-profile">ArkansasConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Arkansas consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-california-consent-profile.html"
+                     title="StructureDefinition/california-consent-profile">CaliforniaConsentProfile</a>
+               </td>
+               <td>{% capture desc %}California consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-colorado-consent-profile.html"
+                     title="StructureDefinition/colorado-consent-profile">ColoradoConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Colorado consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-connecticut-consent-profile.html"
+                     title="StructureDefinition/connecticut-consent-profile">ConnecticutConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Connecticut consent profile.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
@@ -48,34 +93,338 @@
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-consent-exchange-organization.html"
-                     title="StructureDefinition/consent-exchange-organization">ConsentExchangeOrganization</a>
+                  <a href="StructureDefinition-delaware-consent-profile.html"
+                     title="StructureDefinition/delaware-consent-profile">DelawareConsentProfile</a>
                </td>
-               <td>{% capture desc %}Organization resource for describing actors in an payor-to-payor data exchange workflow.{% endcapture %}
+               <td>{% capture desc %}Delaware consent profile.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-consent-exchange-patient.html"
-                     title="StructureDefinition/consent-exchange-patient">ConsentExchangePatient</a>
+                  <a href="StructureDefinition-district-of-columbia-consent-profile.html"
+                     title="StructureDefinition/district-of-columbia-consent-profile">DistrictOfColumbiaConsentProfile</a>
                </td>
-               <td>{% capture desc %}Patient resource for describing actors in an payor-to-payor data exchange workflow.{% endcapture %}
+               <td>{% capture desc %}District Of Columbia consent profile.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-consent-exchange-practitioner.html"
-                     title="StructureDefinition/consent-exchange-practitioner">ConsentExchangePractitioner</a>
+                  <a href="StructureDefinition-florida-consent-profile.html"
+                     title="StructureDefinition/florida-consent-profile">FloridaConsentProfile</a>
                </td>
-               <td>{% capture desc %}Practitioner resource for describing actors in an payor-to-payor data exchange workflow.{% endcapture %}
+               <td>{% capture desc %}Florida consent profile.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-consent-exchange-related-person.html"
-                     title="StructureDefinition/consent-exchange-related-person">ConsentExchangeRelatedPerson</a>
+                  <a href="StructureDefinition-georgia-consent-profile.html"
+                     title="StructureDefinition/georgia-consent-profile">GeorgiaConsentProfile</a>
                </td>
-               <td>{% capture desc %}RelatedPerson resource for describing actors in an payor-to-payor data exchange workflow.{% endcapture %}
+               <td>{% capture desc %}Georgia consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-hawaii-consent-profile.html"
+                     title="StructureDefinition/hawaii-consent-profile">HawaiiConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Hawaii consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-idaho-consent-profile.html"
+                     title="StructureDefinition/idaho-consent-profile">IdahoConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Idaho consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-illinois-consent-profile.html"
+                     title="StructureDefinition/illinois-consent-profile">IllinoisConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Illinois consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-indiana-consent-profile.html"
+                     title="StructureDefinition/indiana-consent-profile">IndianaConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Indiana consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-iowa-consent-profile.html"
+                     title="StructureDefinition/iowa-consent-profile">IowaConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Iowa consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-kansas-consent-profile.html"
+                     title="StructureDefinition/kansas-consent-profile">KansasConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Kansas consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-kentucky-consent-profile.html"
+                     title="StructureDefinition/kentucky-consent-profile">KentuckyConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Kentucky consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-louisiana-consent-profile.html"
+                     title="StructureDefinition/louisiana-consent-profile">LouisianaConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Louisiana consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-maine-consent-profile.html"
+                     title="StructureDefinition/maine-consent-profile">MaineConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Maine consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-maryland-consent-profile.html"
+                     title="StructureDefinition/maryland-consent-profile">MarylandConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Maryland consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-massachusetts-consent-profile.html"
+                     title="StructureDefinition/massachusetts-consent-profile">MassachusettsConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Massachusetts consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-michigan-consent-profile.html"
+                     title="StructureDefinition/michigan-consent-profile">MichiganConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Michigan consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-minnesota-consent-profile.html"
+                     title="StructureDefinition/minnesota-consent-profile">MinnesotaConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Minnesota consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-mississippi-consent-profile.html"
+                     title="StructureDefinition/mississippi-consent-profile">MississippiConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Mississippi consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-missouri-consent-profile.html"
+                     title="StructureDefinition/missouri-consent-profile">MissouriConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Missouri consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-montana-consent-profile.html"
+                     title="StructureDefinition/montana-consent-profile">MontanaConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Montana consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-nebraska-consent-profile.html"
+                     title="StructureDefinition/nebraska-consent-profile">NebraskaConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Nebraska consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-nevada-consent-profile.html"
+                     title="StructureDefinition/nevada-consent-profile">NevadaConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Nevada consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-new-hampshire-consent-profile.html"
+                     title="StructureDefinition/new-hampshire-consent-profile">NewHampshireConsentProfile</a>
+               </td>
+               <td>{% capture desc %}New Hampshire consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-new-jersey-consent-profile.html"
+                     title="StructureDefinition/new-jersey-consent-profile">NewJerseyConsentProfile</a>
+               </td>
+               <td>{% capture desc %}New Jersey consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-new-mexico-consent-profile.html"
+                     title="StructureDefinition/new-mexico-consent-profile">NewMexicoConsentProfile</a>
+               </td>
+               <td>{% capture desc %}New Mexico consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-new-york-consent-profile.html"
+                     title="StructureDefinition/new-york-consent-profile">NewYorkConsentProfile</a>
+               </td>
+               <td>{% capture desc %}New York consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-north-carolina-consent-profile.html"
+                     title="StructureDefinition/north-carolina-consent-profile">NorthCarolinaConsentProfile</a>
+               </td>
+               <td>{% capture desc %}NorthCarolina consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-north-dakota-consent-profile.html"
+                     title="StructureDefinition/north-dakota-consent-profile">NorthDakotaConsentProfile</a>
+               </td>
+               <td>{% capture desc %}North Dakota consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ohio-consent-profile.html"
+                     title="StructureDefinition/ohio-consent-profile">OhioConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Ohio consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-oklahoma-consent-profile.html"
+                     title="StructureDefinition/oklahoma-consent-profile">OklahomaConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Oklahoma consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-oregon-consent-profile.html"
+                     title="StructureDefinition/oregon-consent-profile">OregonConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Oregon consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-pennsylvania-consent-profile.html"
+                     title="StructureDefinition/pennsylvania-consent-profile">PennsylvaniaConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Pennsylvania consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-rhode-island-consent-profile.html"
+                     title="StructureDefinition/rhode-island-consent-profile">RhodeIslandConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Rhode Island consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-south-carolina-consent-profile.html"
+                     title="StructureDefinition/south-carolina-consent-profile">SouthCarolinaConsentProfile</a>
+               </td>
+               <td>{% capture desc %}South Carolina consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-south-dakota-consent-profile.html"
+                     title="StructureDefinition/south-dakota-consent-profile">SouthDakotaConsentProfile</a>
+               </td>
+               <td>{% capture desc %}South Dakota consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-tennessee-consent-profile.html"
+                     title="StructureDefinition/tennessee-consent-profile">TennesseeConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Tennessee consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-texas-consent-profile.html"
+                     title="StructureDefinition/texas-consent-profile">TexasConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Texas consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-utah-consent-profile.html"
+                     title="StructureDefinition/utah-consent-profile">UtahConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Utah consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-vermont-consent-profile.html"
+                     title="StructureDefinition/vermont-consent-profile">VermontConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Vermont consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-virginia-consent-profile.html"
+                     title="StructureDefinition/virginia-consent-profile">VirginiaConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Virginia consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-washington-consent-profile.html"
+                     title="StructureDefinition/washington-consent-profile">WashingtonConsentProfile</a>
+               </td>
+               <td>{% capture desc %}Washington consent profile.{% endcapture %}
+{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-west-virginia-consent-profile.html"
+                     title="StructureDefinition/west-virginia-consent-profile">WestVirginiaConsentProfile</a>
+               </td>
+               <td>{% capture desc %}West Virginia consent profile.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
          </tbody>
@@ -154,251 +503,6 @@
                      title="CodeSystem/PayorToPayorExchangePolicyCodes">PayorToPayorExchangePolicyCodes</a>
                </td>
                <td>{% capture desc %}Policy codes used to define legal frameworks under which consent exchange occurs between payors.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="4"> </a>
-   <h3>Example: Example Instances </h3>
-   <p>{% capture grouping_desc %}These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like{% endcapture %}
-    {{ grouping_desc | markdownify}}</p>
-   <p>
-      <table class="grid">
-         <col style="width:20%"/>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Bundle-Jennifer-Consents-MA.html"
-                     title="Bundle/Jennifer-Consents-MA">Jennifer-Consents-MA</a>
-               </td>
-               <td>{% capture desc %}Example of all Jennifer Smith consent records from Massachuesettes delivered delivered in a bundle of files.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Consent-Jennifer-MA-Rollup.html"
-                     title="Consent/Jennifer-MA-Rollup">jennifer-ma-rollup</a>
-               </td>
-               <td>{% capture desc %}Example rollup of all Jennifer Smith consent records from Massachuesettes delivered in a single file.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Medication-estrodiol-contraceptive.html"
-                     title="Medication/estrodiol-contraceptive">estrodiol-contraceptive</a>
-               </td>
-               <td>{% capture desc %}Contraceptive birth control medication.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Consent-example1.html" title="Consent/example1">example1</a>
-               </td>
-               <td>{% capture desc %}Example 1{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Consent-example2.html" title="Consent/example2">example2</a>
-               </td>
-               <td>{% capture desc %}Example 2{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Patient-jane-doe.html" title="Patient/jane-doe">jane-doe</a>
-               </td>
-               <td>{% capture desc %}Jane Doe patient not part of relationship model, used for checking security access.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Patient-jennifer-smith.html" title="Patient/jennifer-smith">jennifer-smith</a>
-               </td>
-               <td>{% capture desc %}Jennifer Smith - Patient demographics record.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Consent-jennifersmith-al-1.html"
-                     title="Consent/jennifersmith-al-1">jennifersmith-al-1</a>
-               </td>
-               <td>{% capture desc %}Consent record from Alabama{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Consent-jennifersmith-ma-1.html"
-                     title="Consent/jennifersmith-ma-1">jennifersmith-ma-1</a>
-               </td>
-               <td>{% capture desc %}Consent record from Massachuesetts for treatment.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Consent-jennifersmith-ma-2.html"
-                     title="Consent/jennifersmith-ma-2">jennifersmith-ma-2</a>
-               </td>
-               <td>{% capture desc %}Consent record from Massachuesetts for parental access.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Consent-johnsmith-consent-mass-community-insurance.html"
-                     title="Consent/johnsmith-consent-mass-community-insurance">johnsmith-consent-mass-community-insurance</a>
-               </td>
-               <td>{% capture desc %}Consent for AMCE Insurance to share data with Mass.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Consent-johnsmith-consent-org-acme-insurance.html"
-                     title="Consent/johnsmith-consent-org-acme-insurance">johnsmith-consent-org-acme-insurance</a>
-               </td>
-               <td>{% capture desc %}Consent for AMCE Insurance to access hospital data.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Consent-johnsmith-consent-org-pillbox.html"
-                     title="Consent/johnsmith-consent-org-pillbox">johnsmith-consent-org-pillbox</a>
-               </td>
-               <td>{% capture desc %}Consent to access data for Pillbox app{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Consent-johnsmith-consent-plentyrx.html"
-                     title="Consent/johnsmith-consent-plentyrx">johnsmith-consent-plentyrx</a>
-               </td>
-               <td>{% capture desc %}Consent to access data for Pillbox app{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Consent-johnsmith-consent-plentyrx-revoke.html"
-                     title="Consent/johnsmith-consent-plentyrx-revoke">johnsmith-consent-plentyrx-revoke</a>
-               </td>
-               <td>{% capture desc %}Consent to access data for PlentyRx app after it was revoked.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="MedicationRequest-medreq-1234557.html"
-                     title="MedicationRequest/medreq-1234557">medreq-1234557</a>
-               </td>
-               <td>{% capture desc %}Medication prescription writtin in Alabama by Dr. Shuman{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="MedicationRequest-medreq-22348957.html"
-                     title="MedicationRequest/medreq-22348957">medreq-22348957</a>
-               </td>
-               <td>{% capture desc %}Medication prescription writtin in Massachuesetts by Dr. Yin{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Organization-org-acme-insurance.html"
-                     title="Organization/org-acme-insurance">org-acme-insurance</a>
-               </td>
-               <td>{% capture desc %}ACME Insurance Company (Payor 1){% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Organization-org-mass-community-insurance.html"
-                     title="Organization/org-mass-community-insurance">org-mass-community-insurance</a>
-               </td>
-               <td>{% capture desc %}Massachusetts Community Insurance (Payor 2){% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Organization-org-pillbox.html" title="Organization/org-pillbox">org-pillbox</a>
-               </td>
-               <td>{% capture desc %}Online pharmacy organization that offers a mobile app.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Organization-org-plentyrx.html" title="Organization/org-plentyrx">org-plentyrx</a>
-               </td>
-               <td>{% capture desc %}Online pharmacy organization that offers a mobile app.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Organization-org-together-health.html"
-                     title="Organization/org-together-health">org-together-health</a>
-               </td>
-               <td>{% capture desc %}Clinical management software with patient portal.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Patient-patient-john-smith.html"
-                     title="Patient/patient-john-smith">patient-john-smith</a>
-               </td>
-               <td>{% capture desc %}John Smith - Patient demographics record.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Practitioner-practitioner-alice-yin.html"
-                     title="Practitioner/practitioner-alice-yin">practitioner-alice-yin</a>
-               </td>
-               <td>{% capture desc %}Dr. Alice Yin - Clinical practitioner located in Massacheusetts.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Practitioner-practitioner-bernard-shuman.html"
-                     title="Practitioner/practitioner-bernard-shuman">practitioner-bernard-shuman</a>
-               </td>
-               <td>{% capture desc %}Dr. Bernard Shuman - Clinical practitioner located in Alabama.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="RelatedPerson-related-person-jane-smith.html"
-                     title="RelatedPerson/related-person-jane-smith">related-person-jane-smith</a>
-               </td>
-               <td>{% capture desc %}Jane Smith - Parental relationship record.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="RelatedPerson-related-person-jane-smith-wife.html"
-                     title="RelatedPerson/related-person-jane-smith-wife">related-person-jane-smith-wife</a>
-               </td>
-               <td>{% capture desc %}Jane Smith - Spouse relationship record.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="RelatedPerson-related-person-jennifer-smith-daughter.html"
-                     title="RelatedPerson/related-person-jennifer-smith-daughter">related-person-jennifer-smith-daughter</a>
-               </td>
-               <td>{% capture desc %}Jennifer Smith - Daughter relationship record.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="RelatedPerson-related-person-john-smith.html"
-                     title="RelatedPerson/related-person-john-smith">related-person-john-smith</a>
-               </td>
-               <td>{% capture desc %}John Smith - Parental relationship record.{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="RelatedPerson-stranger-001.html"
-                     title="RelatedPerson/stranger-001">stranger-001</a>
-               </td>
-               <td>{% capture desc %}A random stranger to test security access against.{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
          </tbody>

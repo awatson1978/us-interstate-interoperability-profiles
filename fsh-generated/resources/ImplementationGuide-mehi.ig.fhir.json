@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "mehi.ig.fhir",
   "url": "https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir",
-  "version": "0.3.6",
+  "version": "0.4.0",
   "name": "USStateProfiles",
   "status": "draft",
   "publisher": "MITRE, Inc",
@@ -33,10 +33,58 @@
     "resource": [
       {
         "reference": {
-          "reference": "StructureDefinition/consent-exchange-careteam"
+          "reference": "StructureDefinition/alabama-consent-profile"
         },
-        "name": "ConsentExchangeCareTeam",
-        "description": "CareTeam resource for describing workflow actors and their relationships.",
+        "name": "AlabamaConsentProfile",
+        "description": "Alabama consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/alaska-consent-profile"
+        },
+        "name": "AlaskaConsentProfile",
+        "description": "Alaska consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/arizona-consent-profile"
+        },
+        "name": "ArizonaConsentProfile",
+        "description": "Arizona consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/arkansas-consent-profile"
+        },
+        "name": "ArkansasConsentProfile",
+        "description": "Arkansas consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/california-consent-profile"
+        },
+        "name": "CaliforniaConsentProfile",
+        "description": "California consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/colorado-consent-profile"
+        },
+        "name": "ColoradoConsentProfile",
+        "description": "Colorado consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/connecticut-consent-profile"
+        },
+        "name": "ConnecticutConsentProfile",
+        "description": "Connecticut consent profile.",
         "exampleBoolean": false
       },
       {
@@ -49,34 +97,338 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/consent-exchange-organization"
+          "reference": "StructureDefinition/delaware-consent-profile"
         },
-        "name": "ConsentExchangeOrganization",
-        "description": "Organization resource for describing actors in an payor-to-payor data exchange workflow.",
+        "name": "DelawareConsentProfile",
+        "description": "Delaware consent profile.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/consent-exchange-patient"
+          "reference": "StructureDefinition/district-of-columbia-consent-profile"
         },
-        "name": "ConsentExchangePatient",
-        "description": "Patient resource for describing actors in an payor-to-payor data exchange workflow.",
+        "name": "DistrictOfColumbiaConsentProfile",
+        "description": "District Of Columbia consent profile.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/consent-exchange-practitioner"
+          "reference": "StructureDefinition/florida-consent-profile"
         },
-        "name": "ConsentExchangePractitioner",
-        "description": "Practitioner resource for describing actors in an payor-to-payor data exchange workflow.",
+        "name": "FloridaConsentProfile",
+        "description": "Florida consent profile.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/consent-exchange-related-person"
+          "reference": "StructureDefinition/georgia-consent-profile"
         },
-        "name": "ConsentExchangeRelatedPerson",
-        "description": "RelatedPerson resource for describing actors in an payor-to-payor data exchange workflow.",
+        "name": "GeorgiaConsentProfile",
+        "description": "Georgia consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/hawaii-consent-profile"
+        },
+        "name": "HawaiiConsentProfile",
+        "description": "Hawaii consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/idaho-consent-profile"
+        },
+        "name": "IdahoConsentProfile",
+        "description": "Idaho consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/illinois-consent-profile"
+        },
+        "name": "IllinoisConsentProfile",
+        "description": "Illinois consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/indiana-consent-profile"
+        },
+        "name": "IndianaConsentProfile",
+        "description": "Indiana consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/iowa-consent-profile"
+        },
+        "name": "IowaConsentProfile",
+        "description": "Iowa consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/kansas-consent-profile"
+        },
+        "name": "KansasConsentProfile",
+        "description": "Kansas consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/kentucky-consent-profile"
+        },
+        "name": "KentuckyConsentProfile",
+        "description": "Kentucky consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/louisiana-consent-profile"
+        },
+        "name": "LouisianaConsentProfile",
+        "description": "Louisiana consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/maine-consent-profile"
+        },
+        "name": "MaineConsentProfile",
+        "description": "Maine consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/maryland-consent-profile"
+        },
+        "name": "MarylandConsentProfile",
+        "description": "Maryland consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/massachusetts-consent-profile"
+        },
+        "name": "MassachusettsConsentProfile",
+        "description": "Massachusetts consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/michigan-consent-profile"
+        },
+        "name": "MichiganConsentProfile",
+        "description": "Michigan consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/minnesota-consent-profile"
+        },
+        "name": "MinnesotaConsentProfile",
+        "description": "Minnesota consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mississippi-consent-profile"
+        },
+        "name": "MississippiConsentProfile",
+        "description": "Mississippi consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/missouri-consent-profile"
+        },
+        "name": "MissouriConsentProfile",
+        "description": "Missouri consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/montana-consent-profile"
+        },
+        "name": "MontanaConsentProfile",
+        "description": "Montana consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nebraska-consent-profile"
+        },
+        "name": "NebraskaConsentProfile",
+        "description": "Nebraska consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nevada-consent-profile"
+        },
+        "name": "NevadaConsentProfile",
+        "description": "Nevada consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/new-hampshire-consent-profile"
+        },
+        "name": "NewHampshireConsentProfile",
+        "description": "New Hampshire consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/new-jersey-consent-profile"
+        },
+        "name": "NewJerseyConsentProfile",
+        "description": "New Jersey consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/new-mexico-consent-profile"
+        },
+        "name": "NewMexicoConsentProfile",
+        "description": "New Mexico consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/new-york-consent-profile"
+        },
+        "name": "NewYorkConsentProfile",
+        "description": "New York consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/north-carolina-consent-profile"
+        },
+        "name": "NorthCarolinaConsentProfile",
+        "description": "NorthCarolina consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/north-dakota-consent-profile"
+        },
+        "name": "NorthDakotaConsentProfile",
+        "description": "North Dakota consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/ohio-consent-profile"
+        },
+        "name": "OhioConsentProfile",
+        "description": "Ohio consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/oklahoma-consent-profile"
+        },
+        "name": "OklahomaConsentProfile",
+        "description": "Oklahoma consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/oregon-consent-profile"
+        },
+        "name": "OregonConsentProfile",
+        "description": "Oregon consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/pennsylvania-consent-profile"
+        },
+        "name": "PennsylvaniaConsentProfile",
+        "description": "Pennsylvania consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/rhode-island-consent-profile"
+        },
+        "name": "RhodeIslandConsentProfile",
+        "description": "Rhode Island consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/south-carolina-consent-profile"
+        },
+        "name": "SouthCarolinaConsentProfile",
+        "description": "South Carolina consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/south-dakota-consent-profile"
+        },
+        "name": "SouthDakotaConsentProfile",
+        "description": "South Dakota consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/tennessee-consent-profile"
+        },
+        "name": "TennesseeConsentProfile",
+        "description": "Tennessee consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/texas-consent-profile"
+        },
+        "name": "TexasConsentProfile",
+        "description": "Texas consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/utah-consent-profile"
+        },
+        "name": "UtahConsentProfile",
+        "description": "Utah consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/vermont-consent-profile"
+        },
+        "name": "VermontConsentProfile",
+        "description": "Vermont consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/virginia-consent-profile"
+        },
+        "name": "VirginiaConsentProfile",
+        "description": "Virginia consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/washington-consent-profile"
+        },
+        "name": "WashingtonConsentProfile",
+        "description": "Washington consent profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/west-virginia-consent-profile"
+        },
+        "name": "WestVirginiaConsentProfile",
+        "description": "West Virginia consent profile.",
         "exampleBoolean": false
       },
       {
@@ -134,246 +486,6 @@
         "name": "PayorToPayorExchangePolicyCodes",
         "description": "Policy codes used to define legal frameworks under which consent exchange occurs between payors.",
         "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "Bundle/Jennifer-Consents-MA"
-        },
-        "name": "Jennifer-Consents-MA",
-        "description": "Example of all Jennifer Smith consent records from Massachuesettes delivered delivered in a bundle of files.",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Consent/Jennifer-MA-Rollup"
-        },
-        "name": "jennifer-ma-rollup",
-        "description": "Example rollup of all Jennifer Smith consent records from Massachuesettes delivered in a single file.",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Medication/estrodiol-contraceptive"
-        },
-        "name": "estrodiol-contraceptive",
-        "description": "Contraceptive birth control medication.",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Consent/example1"
-        },
-        "name": "example1",
-        "description": "Example 1",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Consent/example2"
-        },
-        "name": "example2",
-        "description": "Example 2",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Patient/jane-doe"
-        },
-        "name": "jane-doe",
-        "description": "Jane Doe patient not part of relationship model, used for checking security access.",
-        "exampleCanonical": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient"
-      },
-      {
-        "reference": {
-          "reference": "Patient/jennifer-smith"
-        },
-        "name": "jennifer-smith",
-        "description": "Jennifer Smith - Patient demographics record.",
-        "exampleCanonical": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient"
-      },
-      {
-        "reference": {
-          "reference": "Consent/jennifersmith-al-1"
-        },
-        "name": "jennifersmith-al-1",
-        "description": "Consent record from Alabama",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Consent/jennifersmith-ma-1"
-        },
-        "name": "jennifersmith-ma-1",
-        "description": "Consent record from Massachuesetts for treatment.",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Consent/jennifersmith-ma-2"
-        },
-        "name": "jennifersmith-ma-2",
-        "description": "Consent record from Massachuesetts for parental access.",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Consent/johnsmith-consent-mass-community-insurance"
-        },
-        "name": "johnsmith-consent-mass-community-insurance",
-        "description": "Consent for AMCE Insurance to share data with Mass.",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Consent/johnsmith-consent-org-acme-insurance"
-        },
-        "name": "johnsmith-consent-org-acme-insurance",
-        "description": "Consent for AMCE Insurance to access hospital data.",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Consent/johnsmith-consent-org-pillbox"
-        },
-        "name": "johnsmith-consent-org-pillbox",
-        "description": "Consent to access data for Pillbox app",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Consent/johnsmith-consent-plentyrx"
-        },
-        "name": "johnsmith-consent-plentyrx",
-        "description": "Consent to access data for Pillbox app",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Consent/johnsmith-consent-plentyrx-revoke"
-        },
-        "name": "johnsmith-consent-plentyrx-revoke",
-        "description": "Consent to access data for PlentyRx app after it was revoked.",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "MedicationRequest/medreq-1234557"
-        },
-        "name": "medreq-1234557",
-        "description": "Medication prescription writtin in Alabama by Dr. Shuman",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "MedicationRequest/medreq-22348957"
-        },
-        "name": "medreq-22348957",
-        "description": "Medication prescription writtin in Massachuesetts by Dr. Yin",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Organization/org-acme-insurance"
-        },
-        "name": "org-acme-insurance",
-        "description": "ACME Insurance Company (Payor 1)",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Organization/org-mass-community-insurance"
-        },
-        "name": "org-mass-community-insurance",
-        "description": "Massachusetts Community Insurance (Payor 2)",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Organization/org-pillbox"
-        },
-        "name": "org-pillbox",
-        "description": "Online pharmacy organization that offers a mobile app.",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Organization/org-plentyrx"
-        },
-        "name": "org-plentyrx",
-        "description": "Online pharmacy organization that offers a mobile app.",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Organization/org-together-health"
-        },
-        "name": "org-together-health",
-        "description": "Clinical management software with patient portal.",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Patient/patient-john-smith"
-        },
-        "name": "patient-john-smith",
-        "description": "John Smith - Patient demographics record.",
-        "exampleCanonical": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-patient"
-      },
-      {
-        "reference": {
-          "reference": "Practitioner/practitioner-alice-yin"
-        },
-        "name": "practitioner-alice-yin",
-        "description": "Dr. Alice Yin - Clinical practitioner located in Massacheusetts.",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Practitioner/practitioner-bernard-shuman"
-        },
-        "name": "practitioner-bernard-shuman",
-        "description": "Dr. Bernard Shuman - Clinical practitioner located in Alabama.",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "RelatedPerson/related-person-jane-smith"
-        },
-        "name": "related-person-jane-smith",
-        "description": "Jane Smith - Parental relationship record.",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "RelatedPerson/related-person-jane-smith-wife"
-        },
-        "name": "related-person-jane-smith-wife",
-        "description": "Jane Smith - Spouse relationship record.",
-        "exampleCanonical": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-related-person"
-      },
-      {
-        "reference": {
-          "reference": "RelatedPerson/related-person-jennifer-smith-daughter"
-        },
-        "name": "related-person-jennifer-smith-daughter",
-        "description": "Jennifer Smith - Daughter relationship record.",
-        "exampleCanonical": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/consent-exchange-related-person"
-      },
-      {
-        "reference": {
-          "reference": "RelatedPerson/related-person-john-smith"
-        },
-        "name": "related-person-john-smith",
-        "description": "John Smith - Parental relationship record.",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "RelatedPerson/stranger-001"
-        },
-        "name": "stranger-001",
-        "description": "A random stranger to test security access against.",
-        "exampleBoolean": true
       }
     ],
     "page": {
@@ -383,7 +495,7 @@
       "page": [
         {
           "nameUrl": "index.html",
-          "title": "Consent Engine Implementation Guide",
+          "title": "US State Interoperability Profiles",
           "generation": "markdown"
         },
         {

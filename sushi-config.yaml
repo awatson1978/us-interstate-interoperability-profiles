@@ -7,7 +7,7 @@ id: mehi.ig.fhir
 canonical: https://gitlab.mitre.org/awatson/us-state-profiles
 name: US State Profiles
 status: draft
-version: 0.3.6
+version: 0.4.0
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: ci-build
@@ -24,12 +24,12 @@ menu:
   Home: index.html
   Regional Profiles: 
     Advanced Directives:  page-advanced-directives.html
-    Religious Exemptions:  page-religious-exemptions.html
+    Medicaid Expansion:  page-medicaid-expansion.html
     Controlled Substances:  page-controlled-substances.html
+    Religious Exemptions:  page-religious-exemptions.html
     Abortion:  page-abortion.html
     Foster Care:  page-foster-care.html
     Trans Sports:  page-trans-sports.html
-    Medicaid Expansion:  page-medicaid-expansion.html
   Artifacts: artifacts.html
 pages:
   index.md:

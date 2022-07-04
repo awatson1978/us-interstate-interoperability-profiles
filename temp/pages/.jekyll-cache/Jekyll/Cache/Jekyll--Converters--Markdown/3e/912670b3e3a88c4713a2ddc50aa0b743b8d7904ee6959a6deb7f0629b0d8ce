@@ -1,0 +1,50 @@
+I"(<p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<h4 id="example-3---controlled-substance-laws">Example 3 - Controlled Substance Laws</h4>
+
+<p>Marijuana has been listed as a Schedule I controlled substance since the Controlled Substances Act was passed in 1970. However, many states have been taking proactive measures to enact state level laws allowing for medical marijuana, cannabis byproducts such as CBD, industrial hemp, or even outright legalizing it.</p>
+
+<p><img src="./MarijuanaLegalization.png" alt="./MarijuanaLegalization.png" width="100%" /></p>
+
+<p><code class="language-plaintext highlighter-rouge">WY denies consent for clinicians to use or prescribe medical marijuana during care management</code></p>
+
+<h4 id="example-encoding">Example Encoding</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{ 
+    "resourceType": "Consent",
+    "policy": {
+        "authority": "https://www.wyo.gov/"
+    },
+    "provision": {
+        "type": "permit",
+        "purpose": [{
+            "code": "CAREMGT",
+            "display": "care management",
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason"
+        }],
+        "provision": [{
+            "type": "deny",
+            "class": [{
+                "code": "Medication",
+                "display": "Medication",
+                "system": "http://hl7.org/fhir/resource-types"
+            }],
+            "code": [{
+                "text": "Marijuana",
+                "coding": [{
+                    "code": "1484855",
+                    "display": "Cannabis sativa subsp. flowering top extract",
+                    "system": " http://www.nlm.nih.gov/research/umls/rxnorm#rxcui"
+                }]
+            }]
+        }]
+    }
+}
+</code></pre></div></div>
+
+<h4 id="references">References</h4>
+<p><a href="https://disa.com/map-of-marijuana-legality-by-state">Map of Marijuana Legality by State</a></p>
+
+:ET

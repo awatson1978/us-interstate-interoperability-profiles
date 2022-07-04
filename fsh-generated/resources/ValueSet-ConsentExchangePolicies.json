@@ -5,7 +5,7 @@
   "id": "ConsentExchangePolicies",
   "title": "ConsentExchangePolicies",
   "description": "Consent Exchange - Policies",
-  "version": "0.3.6",
+  "version": "0.4.0",
   "url": "https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies",
   "compose": {
     "include": [
