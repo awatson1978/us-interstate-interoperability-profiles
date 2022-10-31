@@ -20,7 +20,7 @@
   "name": "RhodeIslandConsentProfile",
   "title": "RhodeIslandConsentProfile",
   "status": "active",
-  "date": "2022-07-04T11:58:27-05:00",
+  "date": "2022-10-31T09:22:00-05:00",
   "publisher": "MITRE, Inc",
   "contact": [
     {
@@ -208,7 +208,7 @@
             "extension": [
               {
                 "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-                "valueUrl": "string"
+                "valueUrl": "id"
               }
             ],
             "code": "http://hl7.org/fhirpath/System.String"
