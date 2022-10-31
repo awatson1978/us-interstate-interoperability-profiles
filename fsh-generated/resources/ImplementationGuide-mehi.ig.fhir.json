@@ -515,7 +515,7 @@
         },
         {
           "nameUrl": "page-trans-sports.html",
-          "title": "Trans Sports",
+          "title": "Trans Sports Participation",
           "generation": "markdown"
         },
         {
@@ -536,6 +536,11 @@
         {
           "nameUrl": "page-medicaid-expansion.html",
           "title": "Medicaid Expansion",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "page-wpath-at-risk.html",
+          "title": "WPATH At Risk",
           "generation": "markdown"
         }
       ]

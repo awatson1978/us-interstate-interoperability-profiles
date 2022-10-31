@@ -4,7 +4,7 @@
 ![./FosterCareLaws.png](./FosterCareLaws.png){:width="100%"}
  -->
 
-![./Map-MedicaidExpansion.png](./Map-MedicaidExpansion.png){:width="100%"}
+![./Map-USStates-MedicaidExpansion.jpeg](./Map-USStates-MedicaidExpansion.jpeg){:width="100%"}
 
 #### Example Encoding  
 

@@ -1,0 +1,21 @@
+---
+---
+<!-- get modelType -->
+{% include fragment-modelType.html id='south-carolina-consent-profile' %}
+
+{% include fragment-pagebegin.html %}
+
+<div style="counter-reset: section 10" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-profile-navtabs.html type='StructureDefinition' id='south-carolina-consent-profile' active='history' %}
+
+  <a name="root"> </a>
+  <h2 id="root">{{modelType}}: SouthCarolinaConsentProfile - Change History</h2>
+{% include fragment-simpletable.html %}
+  <p>Changes in the south-carolina-consent-profile {{modelType | downcase}}.</p>
+
+  {%include StructureDefinition-south-carolina-consent-profile-history.xhtml%}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}

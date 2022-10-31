@@ -1,7 +1,7 @@
 
 With the overturning of Roe vs Wade, patients must now consider where they are able to receive certain types of medical care.  
 
-![./Map-Abortion.png](./Map-Abortion.png){:width="100%"}
+![./Map-USStates-Abortion.jpeg](./Map-USStates-Abortion.jpeg){:width="100%"}
 
 #### Example Encoding  
 

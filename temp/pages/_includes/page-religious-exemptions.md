@@ -4,7 +4,7 @@
 ![./FosterCareLaws.png](./FosterCareLaws.png){:width="100%"}
  -->
 
-![./Map-ReligiousExemptions.png](./Map-ReligiousExemptions.png){:width="100%"}
+![./Map-USStates-ReligiousFreedom.jpeg](./Map-USStates-ReligiousFreedom.jpeg){:width="100%"}
 
 #### Example Encoding  
 

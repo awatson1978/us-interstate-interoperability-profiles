@@ -155,3 +155,131 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "57016-8"
+      },
+      {
+        "code" : "57017-6"
+      },
+      {
+        "code" : "64292-6"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:2ce18cad-e275-4eca-ad55-7b91370f18a6",
+    "timestamp" : "2022-10-31T05:54:18.748Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.73"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "57016-8",
+      "display" : "Privacy policy acknowledgment Document"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "57017-6",
+      "display" : "Privacy policy Organization Document"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "64292-6",
+      "display" : "Release of information consent Document"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "59284-0",
+        "display" : "Patient Consent "
+      },
+      {
+        "code" : "57016-8",
+        "display" : "Privacy policy acknowledgement Document"
+      },
+      {
+        "code" : "57017-6",
+        "display" : "Privacy policy Organization Document "
+      },
+      {
+        "code" : "64292-6",
+        "display" : "Release of information consent "
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:23911834-01cf-4082-836d-1ba3d60d704f",
+    "timestamp" : "2022-10-31T05:55:23.498Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.73"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "59284-0",
+      "display" : "Patient Consent "
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "57016-8",
+      "display" : "Privacy policy acknowledgement Document"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "57017-6",
+      "display" : "Privacy policy Organization Document "
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "64292-6",
+      "display" : "Release of information consent "
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

@@ -1,0 +1,8 @@
+{
+  "version": "0.4.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "date": "20221031012104",
+  "name": "mehi.ig.fhir"
+}

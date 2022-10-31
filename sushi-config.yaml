@@ -29,7 +29,8 @@ menu:
     Religious Exemptions:  page-religious-exemptions.html
     Abortion:  page-abortion.html
     Foster Care:  page-foster-care.html
-    Trans Sports:  page-trans-sports.html
+    Trans Sports Participation:  page-trans-sports.html
+    WPATH At Risk:  page-wpath-at-risk.html
   Artifacts: artifacts.html
 pages:
   index.md:
@@ -41,7 +42,7 @@ pages:
   page-foster-care.md:
     title: Foster Care
   page-trans-sports.md:
-    title: Trans Sports
+    title: Trans Sports Participation
   page-abortion.md:
     title: Abortion
   page-controlled-substances.md:
@@ -50,6 +51,8 @@ pages:
     title: Religious Exemptions
   page-medicaid-expansion.md:
     title: Medicaid Expansion
+  page-wpath-at-risk.md:
+    title: WPATH At Risk
 
 
 

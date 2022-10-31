@@ -4,7 +4,7 @@
 ![./FosterCareLaws.png](./FosterCareLaws.png){:width="100%"}
  -->
 
-![./Map-TransSportsBans.png](./Map-TransSportsBans.png){:width="100%"}
+![./Map-USStates-TransYouthParticipation.jpeg](./Map-USStates-TransYouthParticipation.jpeg){:width="100%"}
 
 #### Example Encoding  
 
