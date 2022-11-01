@@ -17,13 +17,16 @@ git clone https://github.com/FHIR/sushi
 npm install -g fsh-sushi
 sushi --help
 
+# get a copy of the sourcecode
+git clone https://gitlab.mitre.org/awatson/us-state-profiles
+cd us-state-profiles
+
 # compile the documentation  
-cd output
+./_updatePublisher.sh
 ./_genonce.sh
 
 # open the documentation (assuming Mac + Chrome)
-cd output
-open -a "Google Chrome" index.html
+open output/index.html
 ```
 
 # Contact Info  
