@@ -1,0 +1,16 @@
+I"—<p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+
+<!-- Foster care nondiscrimination laws protect LGBTQ foster parents and families from discrimination by foster care agencies and officials. Some states permit state-licensed child welfare agencies to refuse to place and provide services to children and families, including LGBTQ people and same-sex couples, if doing so conflicts with their religious beliefs.
+
+![./FosterCareLaws.png](./FosterCareLaws.png){:width="100%"}
+ -->
+
+<p><img src="./Map-USStates-TransYouthParticipation.jpeg" alt="./Map-USStates-TransYouthParticipation.jpeg" width="100%" /></p>
+
+<h4 id="references">References</h4>
+<p><a href="https://www.lgbtmap.org/equality-maps/sports_participation_bans">Bans on Transgender Youth Participation in Sports</a></p>
+
+:ET

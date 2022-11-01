@@ -3,6 +3,9 @@
 
 Modern clinical information systems are regulated by various laws, including (but not limited to) HIPAA, GDPR, and 21st Century Cures.  These laws range specifying how many signatures are required for advanced directives, to laws prescribing expectations of patient privacy, to religious exemptions for clinicians from practicing certain types of medicine on the other, to whether LGBT members may participate in the adoption and foster care systems.  
 
+![./PolicyAnalysis-Examples-3x2.jpg](./PolicyAnalysis-Examples-3x2.jpg){:width="100%"}
+
+
 ### Purpose  
 
 The purpose of this guide is to outline a format for encoding these laws using Fast Healthcare Interoperability Resources, so that healthcare systems can exchange information about the jurisdictional environment that data was collected in and will be used in.  The intent is to eventually provide something akin to USCore for the various US states and territories.  Thus, one might have an Illinois Core, or a Texas Core, or any of the other states.  And within that core profile for the state, would be encoded descriptions of various state laws that may impact the delivery of healthcare or the modeling of health data in that state.  

@@ -11,7 +11,7 @@
          <a href="#2">Terminology: Value Sets</a>
       </li>
       <li>
-         <a href="#3">Terminology: Code Systems</a>
+         <a href="#3">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -440,42 +440,18 @@
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-consent-exchange-category-codes.html"
-                     title="ValueSet/consent-exchange-category-codes">ConsentExchangeCategoryCodes</a>
-               </td>
-               <td>{% capture desc %}Consent Exchange - Category Codes{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="ValueSet-ConsentExchangePolicies.html"
                      title="ValueSet/ConsentExchangePolicies">ConsentExchangePolicies</a>
                </td>
                <td>{% capture desc %}Consent Exchange - Policies{% endcapture %}
 {{ desc | markdownify}}</td>
             </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ValueSet-ConsentExchangeRelations.html"
-                     title="ValueSet/ConsentExchangeRelations">ConsentExchangeRelations</a>
-               </td>
-               <td>{% capture desc %}Consent Exchange - Relationships{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ValueSet-consent-exchange-scope-codes.html"
-                     title="ValueSet/consent-exchange-scope-codes">ConsentExchangeScopeCodes</a>
-               </td>
-               <td>{% capture desc %}Consent Exchange - Scope Codes{% endcapture %}
-{{ desc | markdownify}}</td>
-            </tr>
          </tbody>
       </table>
    </p>
    <a name="3"> </a>
-   <h3>Terminology: Code Systems </h3>
-   <p>{% capture grouping_desc %}These define new code systems used by systems conforming to this implementation guide{% endcapture %}
+   <h3>Example: Example Instances </h3>
+   <p>{% capture grouping_desc %}These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like{% endcapture %}
     {{ grouping_desc | markdownify}}</p>
    <p>
       <table class="grid">
@@ -483,27 +459,315 @@
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="CodeSystem-CmsInteroperabilityPolicyCodes.html"
-                     title="CodeSystem/CmsInteroperabilityPolicyCodes">CmsInteroperabilityPolicyCodes</a>
+                  <a href="Location-2cdHJo5nLPDtnbfnS.html"
+                     title="Location/2cdHJo5nLPDtnbfnS">US-State-Indiana</a>
                </td>
-               <td>{% capture desc %}Policy provisions defined under CMS-9115-F, CMS Interoperability and Patient Access final rule{% endcapture %}
-{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="CodeSystem-ConsentExchangeRelationships.html"
-                     title="CodeSystem/ConsentExchangeRelationships">ConsentExchangeRelationships</a>
+                  <a href="Location-36Ad9SeqqzcWjZELq.html"
+                     title="Location/36Ad9SeqqzcWjZELq">US-State-Alabama</a>
                </td>
-               <td>{% capture desc %}Relationships used to model and exchange consent relationships{% endcapture %}
-{{ desc | markdownify}}</td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="CodeSystem-PayorToPayorExchangePolicyCodes.html"
-                     title="CodeSystem/PayorToPayorExchangePolicyCodes">PayorToPayorExchangePolicyCodes</a>
+                  <a href="Location-3L8sHLL4cyBoLfQ5X.html"
+                     title="Location/3L8sHLL4cyBoLfQ5X">US-State-Georgia</a>
                </td>
-               <td>{% capture desc %}Policy codes used to define legal frameworks under which consent exchange occurs between payors.{% endcapture %}
-{{ desc | markdownify}}</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-3zjF5MkrEZEErco7v.html"
+                     title="Location/3zjF5MkrEZEErco7v">US-State-California</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-4G954mNr3nR5rfCvw.html"
+                     title="Location/4G954mNr3nR5rfCvw">US-State-Texas</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-4gJBt2RovtF8oBk8h.html"
+                     title="Location/4gJBt2RovtF8oBk8h">US-State-Louisiana</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-53z8N28EAfKtbvBNm.html"
+                     title="Location/53z8N28EAfKtbvBNm">US-State-Mississippi</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-5QYLy3D3fdD2BSGy5.html"
+                     title="Location/5QYLy3D3fdD2BSGy5">US-State-Delaware</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-6EBdzCFG6sXWYv3cy.html"
+                     title="Location/6EBdzCFG6sXWYv3cy">US-State-Hawaii</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-7ZqFrka5qdYameBAM.html"
+                     title="Location/7ZqFrka5qdYameBAM">US-State-Missouri</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-8MoDhJYvb4sMLeTRT.html"
+                     title="Location/8MoDhJYvb4sMLeTRT">US-State-Vermont</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-9KxMxodWCSpsmFAsx.html"
+                     title="Location/9KxMxodWCSpsmFAsx">US-State-Utah</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-BdPME6PAm7McYxize.html"
+                     title="Location/BdPME6PAm7McYxize">US-State-NewJersey</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-C3mPJq92ijWAT4M95.html"
+                     title="Location/C3mPJq92ijWAT4M95">US-State-Kansas</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-D5xG52A3yC2YTz8uG.html"
+                     title="Location/D5xG52A3yC2YTz8uG">US-State-Maryland</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-E34hsfDZnFzWDDvrH.html"
+                     title="Location/E34hsfDZnFzWDDvrH">US-State-Oklahoma</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-ErMYAiSgWFYzPYxd4.html"
+                     title="Location/ErMYAiSgWFYzPYxd4">US-State-Virginia</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-JAjsaAFPbnjmqm7ht.html"
+                     title="Location/JAjsaAFPbnjmqm7ht">US-State-Montana</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-K59AJPYJwW6QNQ7wA.html"
+                     title="Location/K59AJPYJwW6QNQ7wA">US-State-Idaho</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-KuCc5Qat7hFGKYzCf.html"
+                     title="Location/KuCc5Qat7hFGKYzCf">US-State-Nevada</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-Kvwi377gEtBCdbZui.html"
+                     title="Location/Kvwi377gEtBCdbZui">US-State-Arkansas</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-LhboPGc7jCgzL2vvu.html"
+                     title="Location/LhboPGc7jCgzL2vvu">US-State-Maine</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-Q2qPZtAbJHeMucE9d.html"
+                     title="Location/Q2qPZtAbJHeMucE9d">US-State-NewMexico</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-RFiBZbbFiHxjujhSn.html"
+                     title="Location/RFiBZbbFiHxjujhSn">US-State-Colorado</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-SB8aHDPgnMC27fvo4.html"
+                     title="Location/SB8aHDPgnMC27fvo4">US-State-Wyoming</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-T4MtGfNFjuataQdmY.html"
+                     title="Location/T4MtGfNFjuataQdmY">US-State-PuertoRico</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-TEejwFj6hM8NoMfNY.html"
+                     title="Location/TEejwFj6hM8NoMfNY">US-State-NorthCarolina</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-XM35CMNxTr5trv5LA.html"
+                     title="Location/XM35CMNxTr5trv5LA">US-State-Connecticut</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-ZNDWz9oPsWGnxsBCC.html"
+                     title="Location/ZNDWz9oPsWGnxsBCC">US-State-Ohio</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-ZYESg5qBTnJ6Yijb3.html"
+                     title="Location/ZYESg5qBTnJ6Yijb3">US-State-SouthCarolina</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-ZgqTvzE4GzyiJvsh2.html"
+                     title="Location/ZgqTvzE4GzyiJvsh2">US-State-WestVirginia</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-b5QxdJzPkhFgumnCq.html"
+                     title="Location/b5QxdJzPkhFgumnCq">US-State-Oregon</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-bZyK2jj2SW4P9tXXn.html"
+                     title="Location/bZyK2jj2SW4P9tXXn">US-State-RhodeIsland</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-d35Ka8DnExxJqrshG.html"
+                     title="Location/d35Ka8DnExxJqrshG">US-State-Florida</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-eGek52kjH2A5Kw855.html"
+                     title="Location/eGek52kjH2A5Kw855">US-State-Wisconsin</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-f78yCcaohY4ME86e9.html"
+                     title="Location/f78yCcaohY4ME86e9">US-State-Nebraska</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-gapeRqTrszacBkTdH.html"
+                     title="Location/gapeRqTrszacBkTdH">US-State-SouthDakota</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-jCAKbSgksLZANgKAD.html"
+                     title="Location/jCAKbSgksLZANgKAD">US-State-Minnesota</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-kvacH8wZ3GPPwYsdZ.html"
+                     title="Location/kvacH8wZ3GPPwYsdZ">US-State-NewHampshire</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-mvv8hrmBhBtYe6gKs.html"
+                     title="Location/mvv8hrmBhBtYe6gKs">US-State-Iowa</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-ngowMEzNaA4oozNx5.html"
+                     title="Location/ngowMEzNaA4oozNx5">US-State-Michigan</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-rBSqMxWb3XMFYHecM.html"
+                     title="Location/rBSqMxWb3XMFYHecM">US-State-Washington</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-ruvBXFKrhrsfkryfF.html"
+                     title="Location/ruvBXFKrhrsfkryfF">US-State-Alaska</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-sSjfnXC8HBabjnQwF.html"
+                     title="Location/sSjfnXC8HBabjnQwF">US-State-NewYork</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-tBzzRo7D9RGzKQenT.html"
+                     title="Location/tBzzRo7D9RGzKQenT">US-State-Illinois</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-tEexgTiqCd5LiijCe.html"
+                     title="Location/tEexgTiqCd5LiijCe">US-State-Arizona</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-uEkrqm29DjZbHYZiT.html"
+                     title="Location/uEkrqm29DjZbHYZiT">US-State-DistrictofColumbia</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-ug9T4cPp6NDRqMfcc.html"
+                     title="Location/ug9T4cPp6NDRqMfcc">US-State-NorthDakota</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-wPs7mzdsNAwpBQCio.html"
+                     title="Location/wPs7mzdsNAwpBQCio">US-State-Kentucky</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-wpPSL9vjHDXAJQWmC.html"
+                     title="Location/wpPSL9vjHDXAJQWmC">US-State-Pennsylvania</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-yAKjzRQx3mBSdSei4.html"
+                     title="Location/yAKjzRQx3mBSdSei4">US-State-Tennessee</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Location-zTQuTGuHEy6TsqZFH.html"
+                     title="Location/zTQuTGuHEy6TsqZFH">US-State-Massachusetts</a>
+               </td>
             </tr>
          </tbody>
       </table>

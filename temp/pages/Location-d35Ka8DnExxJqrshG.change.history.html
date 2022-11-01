@@ -1,0 +1,21 @@
+---
+---
+<!-- layouts\layout-changehistory.html -->
+<!-- get modelType -->
+
+
+{% include fragment-pagebegin.html %}
+
+<div style="counter-reset: section 10" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-base-navtabs.html type='Location' id='d35Ka8DnExxJqrshG' active='history' %}
+
+  <a name="root"> </a>
+  <h2 id="root">{{type}}: State of Florida - Change History</h2>
+  <p>History of changes for d35Ka8DnExxJqrshG {{type | downcase}}.</p>
+
+  {%include Location-d35Ka8DnExxJqrshG-history.xhtml%}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}

@@ -31,6 +31,7 @@ menu:
     Foster Care:  page-foster-care.html
     Trans Sports Participation:  page-trans-sports.html
     WPATH At Risk:  page-wpath-at-risk.html
+  Location Records:  state-records.html
   Artifacts: artifacts.html
 pages:
   index.md:
@@ -42,7 +43,7 @@ pages:
   page-foster-care.md:
     title: Foster Care
   page-trans-sports.md:
-    title: Trans Sports Participation
+    title: Trans Youth Participation in Sports
   page-abortion.md:
     title: Abortion
   page-controlled-substances.md:
@@ -53,6 +54,8 @@ pages:
     title: Medicaid Expansion
   page-wpath-at-risk.md:
     title: WPATH At Risk
+  state-records.md:
+    title: Location Records
 
 
 

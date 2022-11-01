@@ -5,16 +5,16 @@
   "igName": "USStateProfiles",
   "packageId": "mehi.ig.fhir",
   "igVer": "0.4.0",
-  "errorCount": 50,
+  "errorCount": 102,
   "version": "4.0.1",
   "revision": "a53ec6ee1b",
   "versionFull": "4.0.1-a53ec6ee1b",
   "toolingVersion": "5.0.0-ballot",
   "toolingRevision": "3",
   "toolingVersionFull": "5.0.0-ballot (3)",
-  "totalFiles": 58,
-  "processedFiles": 106,
-  "genDate": "Mon, Oct 31, 2022 09:22-0500",
+  "totalFiles": 104,
+  "processedFiles": 154,
+  "genDate": "Mon, Oct 31, 2022 21:59-0500",
   "genDay": "31/10/2022",
   "ig": {
     "id": "mehi.ig.fhir",
@@ -33,7 +33,7 @@
         ]
       }
     ],
-    "date": "2022-10-31T09:22:00-05:00",
+    "date": "2022-10-31T21:59:07-05:00",
     "fhirVersion": "4.0.1"
   },
   "hl7tx": "http://terminology.hl7.org",
