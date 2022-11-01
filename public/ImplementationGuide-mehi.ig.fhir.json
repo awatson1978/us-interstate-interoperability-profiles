@@ -9,7 +9,7 @@
   "version": "0.4.0",
   "name": "USStateProfiles",
   "status": "draft",
-  "date": "2022-10-31T09:22:00-05:00",
+  "date": "2022-10-31T22:09:52-05:00",
   "publisher": "MITRE, Inc",
   "contact": [
     {
@@ -1377,20 +1377,6 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/consent-exchange-category-codes"
-        },
-        "name": "ConsentExchangeCategoryCodes",
-        "description": "Consent Exchange - Category Codes",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
           "reference": "ValueSet/ConsentExchangePolicies"
         },
         "name": "ConsentExchangePolicies",
@@ -1401,71 +1387,677 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
+            "valueString": "Location"
           }
         ],
         "reference": {
-          "reference": "ValueSet/ConsentExchangeRelations"
+          "reference": "Location/2cdHJo5nLPDtnbfnS"
         },
-        "name": "ConsentExchangeRelations",
-        "description": "Consent Exchange - Relationships",
-        "exampleBoolean": false
+        "name": "US-State-Indiana",
+        "exampleBoolean": true
       },
       {
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
+            "valueString": "Location"
           }
         ],
         "reference": {
-          "reference": "ValueSet/consent-exchange-scope-codes"
+          "reference": "Location/36Ad9SeqqzcWjZELq"
         },
-        "name": "ConsentExchangeScopeCodes",
-        "description": "Consent Exchange - Scope Codes",
-        "exampleBoolean": false
+        "name": "US-State-Alabama",
+        "exampleBoolean": true
       },
       {
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
+            "valueString": "Location"
           }
         ],
         "reference": {
-          "reference": "CodeSystem/CmsInteroperabilityPolicyCodes"
+          "reference": "Location/3L8sHLL4cyBoLfQ5X"
         },
-        "name": "CmsInteroperabilityPolicyCodes",
-        "description": "Policy provisions defined under CMS-9115-F, CMS Interoperability and Patient Access final rule",
-        "exampleBoolean": false
+        "name": "US-State-Georgia",
+        "exampleBoolean": true
       },
       {
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
+            "valueString": "Location"
           }
         ],
         "reference": {
-          "reference": "CodeSystem/ConsentExchangeRelationships"
+          "reference": "Location/3zjF5MkrEZEErco7v"
         },
-        "name": "ConsentExchangeRelationships",
-        "description": "Relationships used to model and exchange consent relationships",
-        "exampleBoolean": false
+        "name": "US-State-California",
+        "exampleBoolean": true
       },
       {
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
+            "valueString": "Location"
           }
         ],
         "reference": {
-          "reference": "CodeSystem/PayorToPayorExchangePolicyCodes"
+          "reference": "Location/4G954mNr3nR5rfCvw"
         },
-        "name": "PayorToPayorExchangePolicyCodes",
-        "description": "Policy codes used to define legal frameworks under which consent exchange occurs between payors.",
-        "exampleBoolean": false
+        "name": "US-State-Texas",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/4gJBt2RovtF8oBk8h"
+        },
+        "name": "US-State-Louisiana",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/53z8N28EAfKtbvBNm"
+        },
+        "name": "US-State-Mississippi",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/5QYLy3D3fdD2BSGy5"
+        },
+        "name": "US-State-Delaware",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/6EBdzCFG6sXWYv3cy"
+        },
+        "name": "US-State-Hawaii",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/7ZqFrka5qdYameBAM"
+        },
+        "name": "US-State-Missouri",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/8MoDhJYvb4sMLeTRT"
+        },
+        "name": "US-State-Vermont",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/9KxMxodWCSpsmFAsx"
+        },
+        "name": "US-State-Utah",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/BdPME6PAm7McYxize"
+        },
+        "name": "US-State-NewJersey",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/C3mPJq92ijWAT4M95"
+        },
+        "name": "US-State-Kansas",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/D5xG52A3yC2YTz8uG"
+        },
+        "name": "US-State-Maryland",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/E34hsfDZnFzWDDvrH"
+        },
+        "name": "US-State-Oklahoma",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/ErMYAiSgWFYzPYxd4"
+        },
+        "name": "US-State-Virginia",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/JAjsaAFPbnjmqm7ht"
+        },
+        "name": "US-State-Montana",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/K59AJPYJwW6QNQ7wA"
+        },
+        "name": "US-State-Idaho",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/KuCc5Qat7hFGKYzCf"
+        },
+        "name": "US-State-Nevada",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/Kvwi377gEtBCdbZui"
+        },
+        "name": "US-State-Arkansas",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/LhboPGc7jCgzL2vvu"
+        },
+        "name": "US-State-Maine",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/Q2qPZtAbJHeMucE9d"
+        },
+        "name": "US-State-NewMexico",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/RFiBZbbFiHxjujhSn"
+        },
+        "name": "US-State-Colorado",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/SB8aHDPgnMC27fvo4"
+        },
+        "name": "US-State-Wyoming",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/T4MtGfNFjuataQdmY"
+        },
+        "name": "US-State-PuertoRico",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/TEejwFj6hM8NoMfNY"
+        },
+        "name": "US-State-NorthCarolina",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/XM35CMNxTr5trv5LA"
+        },
+        "name": "US-State-Connecticut",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/ZNDWz9oPsWGnxsBCC"
+        },
+        "name": "US-State-Ohio",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/ZYESg5qBTnJ6Yijb3"
+        },
+        "name": "US-State-SouthCarolina",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/ZgqTvzE4GzyiJvsh2"
+        },
+        "name": "US-State-WestVirginia",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/b5QxdJzPkhFgumnCq"
+        },
+        "name": "US-State-Oregon",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/bZyK2jj2SW4P9tXXn"
+        },
+        "name": "US-State-RhodeIsland",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/d35Ka8DnExxJqrshG"
+        },
+        "name": "US-State-Florida",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/eGek52kjH2A5Kw855"
+        },
+        "name": "US-State-Wisconsin",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/f78yCcaohY4ME86e9"
+        },
+        "name": "US-State-Nebraska",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/gapeRqTrszacBkTdH"
+        },
+        "name": "US-State-SouthDakota",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/jCAKbSgksLZANgKAD"
+        },
+        "name": "US-State-Minnesota",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/kvacH8wZ3GPPwYsdZ"
+        },
+        "name": "US-State-NewHampshire",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/mvv8hrmBhBtYe6gKs"
+        },
+        "name": "US-State-Iowa",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/ngowMEzNaA4oozNx5"
+        },
+        "name": "US-State-Michigan",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/rBSqMxWb3XMFYHecM"
+        },
+        "name": "US-State-Washington",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/ruvBXFKrhrsfkryfF"
+        },
+        "name": "US-State-Alaska",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/sSjfnXC8HBabjnQwF"
+        },
+        "name": "US-State-NewYork",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/tBzzRo7D9RGzKQenT"
+        },
+        "name": "US-State-Illinois",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/tEexgTiqCd5LiijCe"
+        },
+        "name": "US-State-Arizona",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/uEkrqm29DjZbHYZiT"
+        },
+        "name": "US-State-DistrictofColumbia",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/ug9T4cPp6NDRqMfcc"
+        },
+        "name": "US-State-NorthDakota",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/wPs7mzdsNAwpBQCio"
+        },
+        "name": "US-State-Kentucky",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/wpPSL9vjHDXAJQWmC"
+        },
+        "name": "US-State-Pennsylvania",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/yAKjzRQx3mBSdSei4"
+        },
+        "name": "US-State-Tennessee",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/zTQuTGuHEy6TsqZFH"
+        },
+        "name": "US-State-Massachusetts",
+        "exampleBoolean": true
       }
     ],
     "page": {
@@ -1531,7 +2123,7 @@
             }
           ],
           "nameUrl": "page-trans-sports.html",
-          "title": "Trans Sports Participation",
+          "title": "Trans Youth Participation in Sports",
           "generation": "markdown"
         },
         {
@@ -1587,6 +2179,17 @@
           ],
           "nameUrl": "page-wpath-at-risk.html",
           "title": "WPATH At Risk",
+          "generation": "markdown"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "state-records.html"
+            }
+          ],
+          "nameUrl": "state-records.html",
+          "title": "Location Records",
           "generation": "markdown"
         }
       ]

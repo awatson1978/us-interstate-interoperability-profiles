@@ -1,26 +1,5 @@
 [
   {
-    "id": "CmsInteroperabilityPolicyCodes",
-    "type": "CodeSystem",
-    "url": "https://gitlab.mitre.org/awatson/us-state-profiles/CodeSystem/CmsInteroperabilityPolicyCodes",
-    "version": "0.4.0",
-    "name": "CmsInteroperabilityPolicyCodes"
-  },
-  {
-    "id": "ConsentExchangeRelationships",
-    "type": "CodeSystem",
-    "url": "https://gitlab.mitre.org/awatson/us-state-profiles/CodeSystem/ConsentExchangeRelationships",
-    "version": "0.4.0",
-    "name": "ConsentExchangeRelationships"
-  },
-  {
-    "id": "PayorToPayorExchangePolicyCodes",
-    "type": "CodeSystem",
-    "url": "https://gitlab.mitre.org/awatson/us-state-profiles/CodeSystem/PayorToPayorExchangePolicyCodes",
-    "version": "0.4.0",
-    "name": "PayorToPayorExchangePolicyCodes"
-  },
-  {
     "id": "mehi.ig.fhir",
     "type": "ImplementationGuide",
     "url": "https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir",
@@ -383,26 +362,5 @@
     "url": "https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies",
     "version": "0.4.0",
     "name": "ConsentExchangePolicies"
-  },
-  {
-    "id": "ConsentExchangeRelations",
-    "type": "ValueSet",
-    "url": "https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangeRelations",
-    "version": "0.4.0",
-    "name": "ConsentExchangeRelations"
-  },
-  {
-    "id": "consent-exchange-category-codes",
-    "type": "ValueSet",
-    "url": "https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/consent-exchange-category-codes",
-    "version": "0.4.0",
-    "name": "ConsentExchangeCategoryCodes"
-  },
-  {
-    "id": "consent-exchange-scope-codes",
-    "type": "ValueSet",
-    "url": "https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/consent-exchange-scope-codes",
-    "version": "0.4.0",
-    "name": "ConsentExchangeScopeCodes"
   }
 ]
