@@ -9,7 +9,7 @@
   "version": "0.4.0",
   "name": "USStateProfiles",
   "status": "draft",
-  "date": "2022-10-31T22:09:52-05:00",
+  "date": "2022-11-17T11:26:37-06:00",
   "publisher": "MITRE, Inc",
   "contact": [
     {
@@ -32,7 +32,7 @@
       "id": "hl7tx",
       "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
       "packageId": "hl7.terminology.r4",
-      "version": "4.0.0"
+      "version": "5.0.0"
     },
     {
       "id": "hl7_fhir_us_core",

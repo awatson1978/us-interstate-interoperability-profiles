@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.4.0"];
   fhir:ImplementationGuide.name [ fhir:value "USStateProfiles"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-10-31T22:09:52-05:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-11-17T11:26:37-06:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "MITRE, Inc"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -41,7 +41,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ];
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology.r4" ];
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "4.0.0" ]
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "5.0.0" ]
   ], [
      fhir:index 1;
      fhir:Element.id [ fhir:value "hl7_fhir_us_core" ];

@@ -21,7 +21,7 @@
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
    <a name="1"> </a>
    <h3>Structures: Resource Profiles </h3>
-   <p>{% capture grouping_desc %}These define constraints on FHIR resources for systems conforming to this implementation guide{% endcapture %}
+   <p>{% capture grouping_desc %}These define constraints on FHIR resources for systems conforming to this implementation guide.{% endcapture %}
     {{ grouping_desc | markdownify}}</p>
    <p>
       <table class="grid">
@@ -432,7 +432,7 @@
    </p>
    <a name="2"> </a>
    <h3>Terminology: Value Sets </h3>
-   <p>{% capture grouping_desc %}These define sets of codes used by systems conforming to this implementation guide{% endcapture %}
+   <p>{% capture grouping_desc %}These define sets of codes used by systems conforming to this implementation guide.{% endcapture %}
     {{ grouping_desc | markdownify}}</p>
    <p>
       <table class="grid">
@@ -451,7 +451,7 @@
    </p>
    <a name="3"> </a>
    <h3>Example: Example Instances </h3>
-   <p>{% capture grouping_desc %}These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like{% endcapture %}
+   <p>{% capture grouping_desc %}These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.{% endcapture %}
     {{ grouping_desc | markdownify}}</p>
    <p>
       <table class="grid">

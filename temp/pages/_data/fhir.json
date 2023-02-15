@@ -14,8 +14,8 @@
   "toolingVersionFull": "5.0.0-ballot (3)",
   "totalFiles": 104,
   "processedFiles": 154,
-  "genDate": "Mon, Oct 31, 2022 22:09-0500",
-  "genDay": "31/10/2022",
+  "genDate": "Thu, Nov 17, 2022 11:26-0600",
+  "genDay": "17/11/2022",
   "ig": {
     "id": "mehi.ig.fhir",
     "name": "USStateProfiles",
@@ -33,19 +33,21 @@
         ]
       }
     ],
-    "date": "2022-10-31T22:09:52-05:00",
+    "date": "2022-11-17T11:26:37-06:00",
     "fhirVersion": "4.0.1"
   },
   "hl7tx": "http://terminology.hl7.org",
   "ver": {
-    "hl7tx": "http://terminology.hl7.org/4.0.0",
+    "hl7tx": "http://terminology.hl7.org/5.0.0",
     "hl7_fhir_us_core": "http://hl7.org/fhir/us/core/2021Jan",
     "us.nlm.vsac": "http://fhir.org/packages/us.nlm.vsac",
     "igtools": "https://build.fhir.org/ig/FHIR/fhir-tools-ig/",
+    "hl7.terminology.r4": "http://terminology.hl7.org/4.0.0",
     "hl7.fhir.r5.core": "http://build.fhir.org/"
   },
   "hl7_fhir_us_core": "http://hl7.org/fhir/us/core",
   "us.nlm.vsac": "http://fhir.org/packages/us.nlm.vsac",
   "igtools": "http://hl7.org/fhir/tools",
+  "hl7.terminology.r4": "http://terminology.hl7.org",
   "hl7.fhir.r5.core": "http://build.fhir.org"
 }
