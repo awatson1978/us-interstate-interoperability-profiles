@@ -16,3 +16,4 @@ WPATH, WPATH8, standards of care, suicide, prevention, mental health, depression
 - [FiveThirtyEight’s Pollster Ratings](https://projects.fivethirtyeight.com/pollster-ratings/)
 - [How Red Or Blue Is Your State?](https://fivethirtyeight.com/features/how-red-or-blue-is-your-state-your-congressional-district/)
 - [US States - Ranked by Population 2022](https://worldpopulationreview.com/states)  
+- [As more transgender children seek medical care, families confront many unknowns](https://www.reuters.com/investigates/special-report/usa-transyouth-care/)  

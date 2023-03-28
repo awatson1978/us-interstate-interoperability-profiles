@@ -25,3 +25,7 @@ With the overturning of Roe vs Wade, patients must now consider where they are a
 
 #### References  
 [Tracking where abortion laws stand in every state](https://www.theguardian.com/us-news/ng-interactive/2022/jun/28/tracking-where-abortion-laws-stand-in-every-state)
+
+
+#### Datasets
+[Locations.US.States.AbortionAccess.20230327.ndjson](Locations.US.States.AbortionAccess.20230327.ndjson)  

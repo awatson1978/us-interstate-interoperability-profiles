@@ -1,8 +1,6 @@
 {
-  "version": "0.4.0",
-  "fhirVersion": [
-    "4.0.1"
-  ],
-  "date": "20221031220925",
-  "name": "mehi.ig.fhir"
+  "version" : "0.4.0",
+  "fhirVersion" : ["4.0.1"],
+  "date" : "20230328030531",
+  "name" : "mehi.ig.fhir"
 }

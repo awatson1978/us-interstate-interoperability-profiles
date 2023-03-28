@@ -1,11 +1,11 @@
 ﻿USStateProfiles : Validation Results
 =========================================
 
-err = 102, warn = 108, info = 0
-IG Publisher Version: 1.2.12
-Generated Mon Oct 31 22:12:19 CDT 2022. FHIR version 4.0.1 for mehi.ig.fhir#0.4.0 (canonical = https://gitlab.mitre.org/awatson/us-state-profiles)
+err = 162, warn = 108, info = 0
+IG Publisher Version: 1.3.3
+Generated Tue Mar 28 03:09:13 CDT 2023. FHIR version 4.0.1 for mehi.ig.fhir#0.4.0 (canonical = https://gitlab.mitre.org/awatson/us-state-profiles)
  Build Errors : 0 / 56 / 0
- /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/ImplementationGuide-mehi.ig.fhir : 0 / 0 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/ImplementationGuide-mehi.ig.fhir : 60 / 0 / 1
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Location-2cdHJo5nLPDtnbfnS : 1 / 0 / 1
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Location-36Ad9SeqqzcWjZELq : 1 / 0 / 1
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Location-3L8sHLL4cyBoLfQ5X : 1 / 0 / 1
@@ -164,10 +164,70 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/yAKjzRQx3mBSdSei4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/zTQuTGuHEy6TsqZFH.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 2: The HTML fragment 'cross-version-analysis.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 3: The HTML fragment 'dependency-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/ImplementationGuide-mehi.ig.fhir.json ==
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[1].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[2].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[3].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[4].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[5].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[6].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[7].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[8].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[9].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[10].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[11].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[12].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[13].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[14].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[15].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[16].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[17].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[18].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[19].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[20].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[21].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[22].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[23].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[24].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[25].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[26].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[27].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[28].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[29].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[30].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[31].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[32].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[33].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[34].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[35].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[36].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[37].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[38].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[39].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[40].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[41].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[42].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[43].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[44].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[45].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[46].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.extension[47].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-parameter' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.page.extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.page.page[0].extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.page.page[1].extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.page.page[2].extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.page.page[3].extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.page.page[4].extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.page.page[5].extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.page.page[6].extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.page.page[7].extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.page.page[8].extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.page.page[9].extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' does not resolve
+ERROR: ImplementationGuide/mehi.ig.fhir: ImplementationGuide.definition.page.page[10].extension[0].url: URL value 'http://hl7.org/fhir/tools/StructureDefinition/ig-page-name' does not resolve
 == fsh-generated/resources/Location-2cdHJo5nLPDtnbfnS.json ==
 ERROR: Location/2cdHJo5nLPDtnbfnS: Location.extension[0]: Extension.url must be an absolute URL
 == fsh-generated/resources/Location-36Ad9SeqqzcWjZELq.json ==
