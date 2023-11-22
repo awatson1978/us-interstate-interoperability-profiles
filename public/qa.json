@@ -1,0 +1,12 @@
+{
+  "url" : "https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir",
+  "name" : "USStateProfiles",
+  "package-id" : "mehi.ig.fhir",
+  "ig-ver" : "0.4.0",
+  "date" : "Wed, 22 Nov, 2023 13:03:22 -0500",
+  "errs" : 102,
+  "warnings" : 108,
+  "hints" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)"
+}
