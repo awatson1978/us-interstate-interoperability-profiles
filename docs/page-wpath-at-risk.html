@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>MEHI.IG.FHIR\WPATH At Risk - FHIR v4.0.1</title>
+    <title>WPATH At Risk -  v0.4.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -29,18 +29,18 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"10"}
-    h3,h4,h5,h6{--heading-prefix:"10"}</style>
+    <style type="text/css">h2{--heading-prefix:"13"}
+    h3,h4,h5,h6{--heading-prefix:"13"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -100,7 +100,16 @@
         <a href="page-abortion.html">Abortion</a>
       </li>
       <li>
+        <a href="page-ivf.html">In-vitro Fertilization</a>
+      </li>
+      <li>
+        <a href="page-doulas.html">Doula Access</a>
+      </li>
+      <li>
         <a href="page-foster-care.html">Foster Care</a>
+      </li>
+      <li>
+        <a href="page-assisted-suicide.html">Assisted Suicide</a>
       </li>
       <li>
         <a href="page-trans-sports.html">Trans Sports Participation</a>
@@ -109,6 +118,9 @@
         <a href="page-wpath-at-risk.html">WPATH At Risk</a>
       </li>
     </ul>
+  </li>
+  <li>
+    <a href="state-records.html">Location Records</a>
   </li>
   <li>
     <a href="artifacts.html">Artifacts</a>
@@ -167,29 +179,23 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p><img src="./Map-USStates-WpathAtRisk.jpeg" alt="./Map-USStates-WpathAtRisk.jpeg" width="100%" /></p>
 
-<h4 id="example-encoding">Example Encoding</h4>
+<h4 id="keywords">Keywords</h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{ 
-    "resourceType": "Consent",
-    "policy": {
-
-    },
-    "provision": {
-        "type": "permit",
-        "purpose": [{
-            "code": "COC",
-            "display": "coordination of care",
-            "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason"
-        }],
-        "provision": []
-    }
-}
-</code></pre></div></div>
+<p>WPATH, WPATH8, standards of care, suicide, prevention, mental health, depression, trans, transgender, youth, puberty blockers, sex change</p>
 
 <h4 id="references">References</h4>
-<p><a href="https://www.lgbtmap.org/equality-maps/sports_participation_bans">Bans on Transgender Youth Participation in Sports</a><br />
-<a href="https://www.commonsense.news/p/top-trans-doctors-blow-the-whistle">Top Trans Doctors Blow the Whistle on ‘Sloppy’ Care</a></p>
-
+<ul>
+  <li><a href="https://www.lgbtmap.org/equality-maps/sports_participation_bans">Bans on Transgender Youth Participation in Sports</a></li>
+  <li><a href="https://www.commonsense.news/p/top-trans-doctors-blow-the-whistle">Top Trans Doctors Blow the Whistle on ‘Sloppy’ Care</a></li>
+  <li><a href="https://abcnews.go.com/Politics/florida-department-health-pushes-back-federal-guidance-trans/story?id=84193565">Florida Department of Health pushes back on federal guidance on trans youth care</a></li>
+  <li><a href="https://www.medscape.com/viewarticle/980935">WPATH Removes Age Limits From Transgender Treatment Guidelines</a></li>
+  <li><a href="https://www.dailywire.com/news/wpath-explains-why-they-removed-minimum-age-guidelines-for-children-to-access-transgender-medical-treatments-so-doctors-wont-get-sued">WPATH Explains Why They Removed Minimum Age Guidelines</a></li>
+  <li><a href="https://www.breitbart.com/politics/2022/10/21/poll-majority-do-not-support-sex-changes-minors/">Poll: Majority Do Not Support Sex Changes for Minors</a></li>
+  <li><a href="https://projects.fivethirtyeight.com/pollster-ratings/">FiveThirtyEight’s Pollster Ratings</a></li>
+  <li><a href="https://fivethirtyeight.com/features/how-red-or-blue-is-your-state-your-congressional-district/">How Red Or Blue Is Your State?</a></li>
+  <li><a href="https://worldpopulationreview.com/states">US States - Ranked by Population 2022</a></li>
+  <li><a href="https://www.reuters.com/investigates/special-report/usa-transyouth-care/">As more transgender children seek medical care, families confront many unknowns</a></li>
+</ul>
 
 
 
@@ -215,7 +221,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://gitlab.mitre.org/awatson/us-state-profiles">MITRE, Inc</a>.  Package mehi.ig.fhir#0.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Oct 31, 2022 09:00-0500">2022-10-31</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://gitlab.mitre.org/awatson/us-state-profiles">MITRE, Inc</a>.  Package mehi.ig.fhir#0.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Nov 18, 2023 22:49-0600">2023-11-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

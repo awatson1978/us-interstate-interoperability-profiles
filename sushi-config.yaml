@@ -28,7 +28,10 @@ menu:
     Controlled Substances:  page-controlled-substances.html
     Religious Exemptions:  page-religious-exemptions.html
     Abortion:  page-abortion.html
+    In-vitro Fertilization:  page-ivf.html
+    Doula Access:  page-doulas.html
     Foster Care:  page-foster-care.html
+    Assisted Suicide:  page-assisted-suicide.html
     Trans Sports Participation:  page-trans-sports.html
     WPATH At Risk:  page-wpath-at-risk.html
   Location Records:  state-records.html
@@ -46,6 +49,12 @@ pages:
     title: Trans Youth Participation in Sports
   page-abortion.md:
     title: Abortion
+  page-ivf.md:
+    title: In-vitro Fertilization (IVF)
+  page-assisted-suicide.md:
+    title: Assisted Suicide
+  page-doulas.md:
+    title: Doulas
   page-controlled-substances.md:
     title: Controlled Substances
   page-religious-exemptions.md:

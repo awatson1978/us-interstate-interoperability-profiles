@@ -16,7 +16,7 @@
   fhir:version [ fhir:v "0.4.0"] ; # 
   fhir:name [ fhir:v "USStateProfiles"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-03-28T03:06:02-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-18T22:49:36-06:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "MITRE, Inc"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "MITRE, Inc" ] ;
@@ -39,7 +39,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "5.0.0" ]
+     fhir:version [ fhir:v "5.3.0" ]
   ] [
      fhir:id [ fhir:v "hl7_fhir_us_core" ] ;
      fhir:uri [
@@ -224,6 +224,15 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-wg" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "active-tables" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
@@ -440,6 +449,15 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-wg" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "active-tables" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
@@ -578,6 +596,18 @@
        ] ;
        fhir:name [ fhir:v "ConnecticutConsentProfile" ] ;
        fhir:description [ fhir:v "Connecticut consent profile." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies> ;
+         fhir:reference [ fhir:v "ValueSet/ConsentExchangePolicies" ]
+       ] ;
+       fhir:name [ fhir:v "ConsentExchangePolicies" ] ;
+       fhir:description [ fhir:v "Consent Exchange - Policies" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -1026,6 +1056,578 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/36Ad9SeqqzcWjZELq> ;
+         fhir:reference [ fhir:v "Location/36Ad9SeqqzcWjZELq" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Alabama" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/ruvBXFKrhrsfkryfF> ;
+         fhir:reference [ fhir:v "Location/ruvBXFKrhrsfkryfF" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Alaska" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/tEexgTiqCd5LiijCe> ;
+         fhir:reference [ fhir:v "Location/tEexgTiqCd5LiijCe" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Arizona" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/Kvwi377gEtBCdbZui> ;
+         fhir:reference [ fhir:v "Location/Kvwi377gEtBCdbZui" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Arkansas" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/3zjF5MkrEZEErco7v> ;
+         fhir:reference [ fhir:v "Location/3zjF5MkrEZEErco7v" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-California" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/RFiBZbbFiHxjujhSn> ;
+         fhir:reference [ fhir:v "Location/RFiBZbbFiHxjujhSn" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Colorado" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/XM35CMNxTr5trv5LA> ;
+         fhir:reference [ fhir:v "Location/XM35CMNxTr5trv5LA" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Connecticut" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/5QYLy3D3fdD2BSGy5> ;
+         fhir:reference [ fhir:v "Location/5QYLy3D3fdD2BSGy5" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Delaware" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/uEkrqm29DjZbHYZiT> ;
+         fhir:reference [ fhir:v "Location/uEkrqm29DjZbHYZiT" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-DistrictofColumbia" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/d35Ka8DnExxJqrshG> ;
+         fhir:reference [ fhir:v "Location/d35Ka8DnExxJqrshG" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Florida" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/3L8sHLL4cyBoLfQ5X> ;
+         fhir:reference [ fhir:v "Location/3L8sHLL4cyBoLfQ5X" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Georgia" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/6EBdzCFG6sXWYv3cy> ;
+         fhir:reference [ fhir:v "Location/6EBdzCFG6sXWYv3cy" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Hawaii" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/K59AJPYJwW6QNQ7wA> ;
+         fhir:reference [ fhir:v "Location/K59AJPYJwW6QNQ7wA" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Idaho" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/tBzzRo7D9RGzKQenT> ;
+         fhir:reference [ fhir:v "Location/tBzzRo7D9RGzKQenT" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Illinois" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/2cdHJo5nLPDtnbfnS> ;
+         fhir:reference [ fhir:v "Location/2cdHJo5nLPDtnbfnS" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Indiana" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/mvv8hrmBhBtYe6gKs> ;
+         fhir:reference [ fhir:v "Location/mvv8hrmBhBtYe6gKs" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Iowa" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/C3mPJq92ijWAT4M95> ;
+         fhir:reference [ fhir:v "Location/C3mPJq92ijWAT4M95" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Kansas" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/wPs7mzdsNAwpBQCio> ;
+         fhir:reference [ fhir:v "Location/wPs7mzdsNAwpBQCio" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Kentucky" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/4gJBt2RovtF8oBk8h> ;
+         fhir:reference [ fhir:v "Location/4gJBt2RovtF8oBk8h" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Louisiana" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/LhboPGc7jCgzL2vvu> ;
+         fhir:reference [ fhir:v "Location/LhboPGc7jCgzL2vvu" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Maine" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/D5xG52A3yC2YTz8uG> ;
+         fhir:reference [ fhir:v "Location/D5xG52A3yC2YTz8uG" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Maryland" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/zTQuTGuHEy6TsqZFH> ;
+         fhir:reference [ fhir:v "Location/zTQuTGuHEy6TsqZFH" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Massachusetts" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/ngowMEzNaA4oozNx5> ;
+         fhir:reference [ fhir:v "Location/ngowMEzNaA4oozNx5" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Michigan" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/jCAKbSgksLZANgKAD> ;
+         fhir:reference [ fhir:v "Location/jCAKbSgksLZANgKAD" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Minnesota" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/53z8N28EAfKtbvBNm> ;
+         fhir:reference [ fhir:v "Location/53z8N28EAfKtbvBNm" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Mississippi" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/7ZqFrka5qdYameBAM> ;
+         fhir:reference [ fhir:v "Location/7ZqFrka5qdYameBAM" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Missouri" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/JAjsaAFPbnjmqm7ht> ;
+         fhir:reference [ fhir:v "Location/JAjsaAFPbnjmqm7ht" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Montana" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/f78yCcaohY4ME86e9> ;
+         fhir:reference [ fhir:v "Location/f78yCcaohY4ME86e9" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Nebraska" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/KuCc5Qat7hFGKYzCf> ;
+         fhir:reference [ fhir:v "Location/KuCc5Qat7hFGKYzCf" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Nevada" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/kvacH8wZ3GPPwYsdZ> ;
+         fhir:reference [ fhir:v "Location/kvacH8wZ3GPPwYsdZ" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-NewHampshire" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/BdPME6PAm7McYxize> ;
+         fhir:reference [ fhir:v "Location/BdPME6PAm7McYxize" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-NewJersey" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/Q2qPZtAbJHeMucE9d> ;
+         fhir:reference [ fhir:v "Location/Q2qPZtAbJHeMucE9d" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-NewMexico" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/sSjfnXC8HBabjnQwF> ;
+         fhir:reference [ fhir:v "Location/sSjfnXC8HBabjnQwF" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-NewYork" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/TEejwFj6hM8NoMfNY> ;
+         fhir:reference [ fhir:v "Location/TEejwFj6hM8NoMfNY" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-NorthCarolina" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/ug9T4cPp6NDRqMfcc> ;
+         fhir:reference [ fhir:v "Location/ug9T4cPp6NDRqMfcc" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-NorthDakota" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/ZNDWz9oPsWGnxsBCC> ;
+         fhir:reference [ fhir:v "Location/ZNDWz9oPsWGnxsBCC" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Ohio" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/E34hsfDZnFzWDDvrH> ;
+         fhir:reference [ fhir:v "Location/E34hsfDZnFzWDDvrH" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Oklahoma" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/b5QxdJzPkhFgumnCq> ;
+         fhir:reference [ fhir:v "Location/b5QxdJzPkhFgumnCq" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Oregon" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/wpPSL9vjHDXAJQWmC> ;
+         fhir:reference [ fhir:v "Location/wpPSL9vjHDXAJQWmC" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Pennsylvania" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/T4MtGfNFjuataQdmY> ;
+         fhir:reference [ fhir:v "Location/T4MtGfNFjuataQdmY" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-PuertoRico" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/bZyK2jj2SW4P9tXXn> ;
+         fhir:reference [ fhir:v "Location/bZyK2jj2SW4P9tXXn" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-RhodeIsland" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/ZYESg5qBTnJ6Yijb3> ;
+         fhir:reference [ fhir:v "Location/ZYESg5qBTnJ6Yijb3" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-SouthCarolina" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/gapeRqTrszacBkTdH> ;
+         fhir:reference [ fhir:v "Location/gapeRqTrszacBkTdH" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-SouthDakota" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/yAKjzRQx3mBSdSei4> ;
+         fhir:reference [ fhir:v "Location/yAKjzRQx3mBSdSei4" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Tennessee" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/4G954mNr3nR5rfCvw> ;
+         fhir:reference [ fhir:v "Location/4G954mNr3nR5rfCvw" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Texas" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/9KxMxodWCSpsmFAsx> ;
+         fhir:reference [ fhir:v "Location/9KxMxodWCSpsmFAsx" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Utah" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/8MoDhJYvb4sMLeTRT> ;
+         fhir:reference [ fhir:v "Location/8MoDhJYvb4sMLeTRT" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Vermont" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/ErMYAiSgWFYzPYxd4> ;
+         fhir:reference [ fhir:v "Location/ErMYAiSgWFYzPYxd4" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Virginia" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/rBSqMxWb3XMFYHecM> ;
+         fhir:reference [ fhir:v "Location/rBSqMxWb3XMFYHecM" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Washington" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/ZgqTvzE4GzyiJvsh2> ;
+         fhir:reference [ fhir:v "Location/ZgqTvzE4GzyiJvsh2" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-WestVirginia" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/eGek52kjH2A5Kw855> ;
+         fhir:reference [ fhir:v "Location/eGek52kjH2A5Kw855" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Wisconsin" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/SB8aHDPgnMC27fvo4> ;
+         fhir:reference [ fhir:v "Location/SB8aHDPgnMC27fvo4" ]
+       ] ;
+       fhir:name [ fhir:v "US-State-Wyoming" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
@@ -1083,590 +1685,6 @@
        fhir:name [ fhir:v "WestVirginiaConsentProfile" ] ;
        fhir:description [ fhir:v "West Virginia consent profile." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies> ;
-         fhir:reference [ fhir:v "ValueSet/ConsentExchangePolicies" ]
-       ] ;
-       fhir:name [ fhir:v "ConsentExchangePolicies" ] ;
-       fhir:description [ fhir:v "Consent Exchange - Policies" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/2cdHJo5nLPDtnbfnS> ;
-         fhir:reference [ fhir:v "Location/2cdHJo5nLPDtnbfnS" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Indiana" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/36Ad9SeqqzcWjZELq> ;
-         fhir:reference [ fhir:v "Location/36Ad9SeqqzcWjZELq" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Alabama" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/3L8sHLL4cyBoLfQ5X> ;
-         fhir:reference [ fhir:v "Location/3L8sHLL4cyBoLfQ5X" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Georgia" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/3zjF5MkrEZEErco7v> ;
-         fhir:reference [ fhir:v "Location/3zjF5MkrEZEErco7v" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-California" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/4G954mNr3nR5rfCvw> ;
-         fhir:reference [ fhir:v "Location/4G954mNr3nR5rfCvw" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Texas" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/4gJBt2RovtF8oBk8h> ;
-         fhir:reference [ fhir:v "Location/4gJBt2RovtF8oBk8h" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Louisiana" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/53z8N28EAfKtbvBNm> ;
-         fhir:reference [ fhir:v "Location/53z8N28EAfKtbvBNm" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Mississippi" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/5QYLy3D3fdD2BSGy5> ;
-         fhir:reference [ fhir:v "Location/5QYLy3D3fdD2BSGy5" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Delaware" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/6EBdzCFG6sXWYv3cy> ;
-         fhir:reference [ fhir:v "Location/6EBdzCFG6sXWYv3cy" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Hawaii" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/7ZqFrka5qdYameBAM> ;
-         fhir:reference [ fhir:v "Location/7ZqFrka5qdYameBAM" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Missouri" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/8MoDhJYvb4sMLeTRT> ;
-         fhir:reference [ fhir:v "Location/8MoDhJYvb4sMLeTRT" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Vermont" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/9KxMxodWCSpsmFAsx> ;
-         fhir:reference [ fhir:v "Location/9KxMxodWCSpsmFAsx" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Utah" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/BdPME6PAm7McYxize> ;
-         fhir:reference [ fhir:v "Location/BdPME6PAm7McYxize" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-NewJersey" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/C3mPJq92ijWAT4M95> ;
-         fhir:reference [ fhir:v "Location/C3mPJq92ijWAT4M95" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Kansas" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/D5xG52A3yC2YTz8uG> ;
-         fhir:reference [ fhir:v "Location/D5xG52A3yC2YTz8uG" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Maryland" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/E34hsfDZnFzWDDvrH> ;
-         fhir:reference [ fhir:v "Location/E34hsfDZnFzWDDvrH" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Oklahoma" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/ErMYAiSgWFYzPYxd4> ;
-         fhir:reference [ fhir:v "Location/ErMYAiSgWFYzPYxd4" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Virginia" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/JAjsaAFPbnjmqm7ht> ;
-         fhir:reference [ fhir:v "Location/JAjsaAFPbnjmqm7ht" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Montana" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/K59AJPYJwW6QNQ7wA> ;
-         fhir:reference [ fhir:v "Location/K59AJPYJwW6QNQ7wA" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Idaho" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/KuCc5Qat7hFGKYzCf> ;
-         fhir:reference [ fhir:v "Location/KuCc5Qat7hFGKYzCf" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Nevada" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/Kvwi377gEtBCdbZui> ;
-         fhir:reference [ fhir:v "Location/Kvwi377gEtBCdbZui" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Arkansas" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/LhboPGc7jCgzL2vvu> ;
-         fhir:reference [ fhir:v "Location/LhboPGc7jCgzL2vvu" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Maine" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/Q2qPZtAbJHeMucE9d> ;
-         fhir:reference [ fhir:v "Location/Q2qPZtAbJHeMucE9d" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-NewMexico" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/RFiBZbbFiHxjujhSn> ;
-         fhir:reference [ fhir:v "Location/RFiBZbbFiHxjujhSn" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Colorado" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/SB8aHDPgnMC27fvo4> ;
-         fhir:reference [ fhir:v "Location/SB8aHDPgnMC27fvo4" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Wyoming" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/T4MtGfNFjuataQdmY> ;
-         fhir:reference [ fhir:v "Location/T4MtGfNFjuataQdmY" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-PuertoRico" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/TEejwFj6hM8NoMfNY> ;
-         fhir:reference [ fhir:v "Location/TEejwFj6hM8NoMfNY" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-NorthCarolina" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/XM35CMNxTr5trv5LA> ;
-         fhir:reference [ fhir:v "Location/XM35CMNxTr5trv5LA" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Connecticut" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/ZNDWz9oPsWGnxsBCC> ;
-         fhir:reference [ fhir:v "Location/ZNDWz9oPsWGnxsBCC" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Ohio" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/ZYESg5qBTnJ6Yijb3> ;
-         fhir:reference [ fhir:v "Location/ZYESg5qBTnJ6Yijb3" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-SouthCarolina" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/ZgqTvzE4GzyiJvsh2> ;
-         fhir:reference [ fhir:v "Location/ZgqTvzE4GzyiJvsh2" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-WestVirginia" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/b5QxdJzPkhFgumnCq> ;
-         fhir:reference [ fhir:v "Location/b5QxdJzPkhFgumnCq" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Oregon" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/bZyK2jj2SW4P9tXXn> ;
-         fhir:reference [ fhir:v "Location/bZyK2jj2SW4P9tXXn" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-RhodeIsland" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/d35Ka8DnExxJqrshG> ;
-         fhir:reference [ fhir:v "Location/d35Ka8DnExxJqrshG" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Florida" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/eGek52kjH2A5Kw855> ;
-         fhir:reference [ fhir:v "Location/eGek52kjH2A5Kw855" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Wisconsin" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/f78yCcaohY4ME86e9> ;
-         fhir:reference [ fhir:v "Location/f78yCcaohY4ME86e9" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Nebraska" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/gapeRqTrszacBkTdH> ;
-         fhir:reference [ fhir:v "Location/gapeRqTrszacBkTdH" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-SouthDakota" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/jCAKbSgksLZANgKAD> ;
-         fhir:reference [ fhir:v "Location/jCAKbSgksLZANgKAD" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Minnesota" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/kvacH8wZ3GPPwYsdZ> ;
-         fhir:reference [ fhir:v "Location/kvacH8wZ3GPPwYsdZ" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-NewHampshire" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/mvv8hrmBhBtYe6gKs> ;
-         fhir:reference [ fhir:v "Location/mvv8hrmBhBtYe6gKs" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Iowa" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/ngowMEzNaA4oozNx5> ;
-         fhir:reference [ fhir:v "Location/ngowMEzNaA4oozNx5" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Michigan" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/rBSqMxWb3XMFYHecM> ;
-         fhir:reference [ fhir:v "Location/rBSqMxWb3XMFYHecM" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Washington" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/ruvBXFKrhrsfkryfF> ;
-         fhir:reference [ fhir:v "Location/ruvBXFKrhrsfkryfF" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Alaska" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/sSjfnXC8HBabjnQwF> ;
-         fhir:reference [ fhir:v "Location/sSjfnXC8HBabjnQwF" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-NewYork" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/tBzzRo7D9RGzKQenT> ;
-         fhir:reference [ fhir:v "Location/tBzzRo7D9RGzKQenT" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Illinois" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/tEexgTiqCd5LiijCe> ;
-         fhir:reference [ fhir:v "Location/tEexgTiqCd5LiijCe" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Arizona" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/uEkrqm29DjZbHYZiT> ;
-         fhir:reference [ fhir:v "Location/uEkrqm29DjZbHYZiT" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-DistrictofColumbia" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/ug9T4cPp6NDRqMfcc> ;
-         fhir:reference [ fhir:v "Location/ug9T4cPp6NDRqMfcc" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-NorthDakota" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/wPs7mzdsNAwpBQCio> ;
-         fhir:reference [ fhir:v "Location/wPs7mzdsNAwpBQCio" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Kentucky" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/wpPSL9vjHDXAJQWmC> ;
-         fhir:reference [ fhir:v "Location/wpPSL9vjHDXAJQWmC" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Pennsylvania" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/yAKjzRQx3mBSdSei4> ;
-         fhir:reference [ fhir:v "Location/yAKjzRQx3mBSdSei4" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Tennessee" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Location" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Location/zTQuTGuHEy6TsqZFH> ;
-         fhir:reference [ fhir:v "Location/zTQuTGuHEy6TsqZFH" ]
-       ] ;
-       fhir:name [ fhir:v "US-State-Massachusetts" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] ) ;
      fhir:page [
        fhir:extension ( [
@@ -1723,6 +1741,30 @@
          ] ) ;
          fhir:name [ fhir:v "page-abortion.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Abortion" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "page-ivf.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "page-ivf.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "In-vitro Fertilization (IVF)" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "page-assisted-suicide.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "page-assisted-suicide.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Assisted Suicide" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "page-doulas.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "page-doulas.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Doulas" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [

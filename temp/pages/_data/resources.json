@@ -9,7 +9,7 @@
     "url" : "https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir",
     "version" : "0.4.0",
     "name" : "USStateProfiles",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "status" : {
       "class" : "colsd",
       "owner" : "MITRE, Inc",
@@ -39,13 +39,13 @@
     "version" : "0.4.0",
     "name" : "IowaConsentProfile",
     "title" : "IowaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Iowa consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/colorado-consent-profile" : {
@@ -59,13 +59,13 @@
     "version" : "0.4.0",
     "name" : "ColoradoConsentProfile",
     "title" : "ColoradoConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Colorado consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/base-consent-profile" : {
@@ -79,13 +79,13 @@
     "version" : "0.4.0",
     "name" : "BaseConsentProfile",
     "title" : "BaseConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Base consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/gapeRqTrszacBkTdH" : {
@@ -154,13 +154,13 @@
     "version" : "0.4.0",
     "name" : "LouisianaConsentProfile",
     "title" : "LouisianaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Louisiana consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/4G954mNr3nR5rfCvw" : {
@@ -185,13 +185,13 @@
     "version" : "0.4.0",
     "name" : "OregonConsentProfile",
     "title" : "OregonConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Oregon consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/california-consent-profile" : {
@@ -205,13 +205,13 @@
     "version" : "0.4.0",
     "name" : "CaliforniaConsentProfile",
     "title" : "CaliforniaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "California consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/vermont-consent-profile" : {
@@ -225,13 +225,13 @@
     "version" : "0.4.0",
     "name" : "VermontConsentProfile",
     "title" : "VermontConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Vermont consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/florida-consent-profile" : {
@@ -245,13 +245,13 @@
     "version" : "0.4.0",
     "name" : "FloridaConsentProfile",
     "title" : "FloridaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Florida consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/south-dakota-consent-profile" : {
@@ -265,13 +265,13 @@
     "version" : "0.4.0",
     "name" : "SouthDakotaConsentProfile",
     "title" : "SouthDakotaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "South Dakota consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/new-mexico-consent-profile" : {
@@ -285,13 +285,13 @@
     "version" : "0.4.0",
     "name" : "NewMexicoConsentProfile",
     "title" : "NewMexicoConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "New Mexico consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/3L8sHLL4cyBoLfQ5X" : {
@@ -316,13 +316,13 @@
     "version" : "0.4.0",
     "name" : "ConnecticutConsentProfile",
     "title" : "ConnecticutConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Connecticut consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/idaho-consent-profile" : {
@@ -336,13 +336,13 @@
     "version" : "0.4.0",
     "name" : "IdahoConsentProfile",
     "title" : "IdahoConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Idaho consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/E34hsfDZnFzWDDvrH" : {
@@ -367,13 +367,13 @@
     "version" : "0.4.0",
     "name" : "KansasConsentProfile",
     "title" : "KansasConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Kansas consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/utah-consent-profile" : {
@@ -387,13 +387,13 @@
     "version" : "0.4.0",
     "name" : "UtahConsentProfile",
     "title" : "UtahConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Utah consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/district-of-columbia-consent-profile" : {
@@ -407,13 +407,13 @@
     "version" : "0.4.0",
     "name" : "DistrictOfColumbiaConsentProfile",
     "title" : "DistrictOfColumbiaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "District Of Columbia consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/arkansas-consent-profile" : {
@@ -427,13 +427,13 @@
     "version" : "0.4.0",
     "name" : "ArkansasConsentProfile",
     "title" : "ArkansasConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Arkansas consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/jCAKbSgksLZANgKAD" : {
@@ -491,13 +491,13 @@
     "version" : "0.4.0",
     "name" : "DelawareConsentProfile",
     "title" : "DelawareConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Delaware consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/TEejwFj6hM8NoMfNY" : {
@@ -522,13 +522,13 @@
     "version" : "0.4.0",
     "name" : "TennesseeConsentProfile",
     "title" : "TennesseeConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Tennessee consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "ValueSet/ConsentExchangePolicies" : {
@@ -542,13 +542,13 @@
     "version" : "0.4.0",
     "name" : "ConsentExchangePolicies",
     "title" : "ConsentExchangePolicies",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Consent Exchange - Policies",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/ohio-consent-profile" : {
@@ -562,13 +562,13 @@
     "version" : "0.4.0",
     "name" : "OhioConsentProfile",
     "title" : "OhioConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Ohio consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/oklahoma-consent-profile" : {
@@ -582,13 +582,13 @@
     "version" : "0.4.0",
     "name" : "OklahomaConsentProfile",
     "title" : "OklahomaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Oklahoma consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/georgia-consent-profile" : {
@@ -602,13 +602,13 @@
     "version" : "0.4.0",
     "name" : "GeorgiaConsentProfile",
     "title" : "GeorgiaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Georgia consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/eGek52kjH2A5Kw855" : {
@@ -633,13 +633,13 @@
     "version" : "0.4.0",
     "name" : "SouthCarolinaConsentProfile",
     "title" : "SouthCarolinaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "South Carolina consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/maryland-consent-profile" : {
@@ -653,13 +653,13 @@
     "version" : "0.4.0",
     "name" : "MarylandConsentProfile",
     "title" : "MarylandConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Maryland consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/b5QxdJzPkhFgumnCq" : {
@@ -684,13 +684,13 @@
     "version" : "0.4.0",
     "name" : "MissouriConsentProfile",
     "title" : "MissouriConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Missouri consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/ZgqTvzE4GzyiJvsh2" : {
@@ -726,13 +726,13 @@
     "version" : "0.4.0",
     "name" : "MontanaConsentProfile",
     "title" : "MontanaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Montana consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/west-virginia-consent-profile" : {
@@ -746,13 +746,13 @@
     "version" : "0.4.0",
     "name" : "WestVirginiaConsentProfile",
     "title" : "WestVirginiaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "West Virginia consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/hawaii-consent-profile" : {
@@ -766,13 +766,13 @@
     "version" : "0.4.0",
     "name" : "HawaiiConsentProfile",
     "title" : "HawaiiConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Hawaii consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/washington-consent-profile" : {
@@ -786,13 +786,13 @@
     "version" : "0.4.0",
     "name" : "WashingtonConsentProfile",
     "title" : "WashingtonConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Washington consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/kvacH8wZ3GPPwYsdZ" : {
@@ -817,13 +817,13 @@
     "version" : "0.4.0",
     "name" : "NorthDakotaConsentProfile",
     "title" : "NorthDakotaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "North Dakota consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/texas-consent-profile" : {
@@ -837,13 +837,13 @@
     "version" : "0.4.0",
     "name" : "TexasConsentProfile",
     "title" : "TexasConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Texas consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/d35Ka8DnExxJqrshG" : {
@@ -879,13 +879,13 @@
     "version" : "0.4.0",
     "name" : "MinnesotaConsentProfile",
     "title" : "MinnesotaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Minnesota consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/ruvBXFKrhrsfkryfF" : {
@@ -910,13 +910,13 @@
     "version" : "0.4.0",
     "name" : "KentuckyConsentProfile",
     "title" : "KentuckyConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Kentucky consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/SB8aHDPgnMC27fvo4" : {
@@ -941,13 +941,13 @@
     "version" : "0.4.0",
     "name" : "NevadaConsentProfile",
     "title" : "NevadaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Nevada consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/maine-consent-profile" : {
@@ -961,13 +961,13 @@
     "version" : "0.4.0",
     "name" : "MaineConsentProfile",
     "title" : "MaineConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Maine consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/pennsylvania-consent-profile" : {
@@ -981,13 +981,13 @@
     "version" : "0.4.0",
     "name" : "PennsylvaniaConsentProfile",
     "title" : "PennsylvaniaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Pennsylvania consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/uEkrqm29DjZbHYZiT" : {
@@ -1012,13 +1012,13 @@
     "version" : "0.4.0",
     "name" : "NewYorkConsentProfile",
     "title" : "NewYorkConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "New York consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/mvv8hrmBhBtYe6gKs" : {
@@ -1076,13 +1076,13 @@
     "version" : "0.4.0",
     "name" : "IndianaConsentProfile",
     "title" : "IndianaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Indiana consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/mississippi-consent-profile" : {
@@ -1096,13 +1096,13 @@
     "version" : "0.4.0",
     "name" : "MississippiConsentProfile",
     "title" : "MississippiConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Mississippi consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/ZYESg5qBTnJ6Yijb3" : {
@@ -1160,13 +1160,13 @@
     "version" : "0.4.0",
     "name" : "ArizonaConsentProfile",
     "title" : "ArizonaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Arizona consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/alabama-consent-profile" : {
@@ -1180,13 +1180,13 @@
     "version" : "0.4.0",
     "name" : "AlabamaConsentProfile",
     "title" : "AlabamaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Alabama consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/ug9T4cPp6NDRqMfcc" : {
@@ -1244,13 +1244,13 @@
     "version" : "0.4.0",
     "name" : "NewHampshireConsentProfile",
     "title" : "NewHampshireConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "New Hampshire consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/zTQuTGuHEy6TsqZFH" : {
@@ -1308,13 +1308,13 @@
     "version" : "0.4.0",
     "name" : "MichiganConsentProfile",
     "title" : "MichiganConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Michigan consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/rBSqMxWb3XMFYHecM" : {
@@ -1372,13 +1372,13 @@
     "version" : "0.4.0",
     "name" : "NorthCarolinaConsentProfile",
     "title" : "NorthCarolinaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "NorthCarolina consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/ZNDWz9oPsWGnxsBCC" : {
@@ -1414,13 +1414,13 @@
     "version" : "0.4.0",
     "name" : "VirginiaConsentProfile",
     "title" : "VirginiaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Virginia consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/8MoDhJYvb4sMLeTRT" : {
@@ -1467,13 +1467,13 @@
     "version" : "0.4.0",
     "name" : "IllinoisConsentProfile",
     "title" : "IllinoisConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Illinois consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/nebraska-consent-profile" : {
@@ -1487,13 +1487,13 @@
     "version" : "0.4.0",
     "name" : "NebraskaConsentProfile",
     "title" : "NebraskaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Nebraska consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/alaska-consent-profile" : {
@@ -1507,13 +1507,13 @@
     "version" : "0.4.0",
     "name" : "AlaskaConsentProfile",
     "title" : "AlaskaConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Alaska consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "StructureDefinition/rhode-island-consent-profile" : {
@@ -1527,13 +1527,13 @@
     "version" : "0.4.0",
     "name" : "RhodeIslandConsentProfile",
     "title" : "RhodeIslandConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Rhode Island consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/tEexgTiqCd5LiijCe" : {
@@ -1558,13 +1558,13 @@
     "version" : "0.4.0",
     "name" : "NewJerseyConsentProfile",
     "title" : "NewJerseyConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "New Jersey consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   },
   "Location/LhboPGc7jCgzL2vvu" : {
@@ -1600,13 +1600,13 @@
     "version" : "0.4.0",
     "name" : "MassachusettsConsentProfile",
     "title" : "MassachusettsConsentProfile",
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "Massachusetts consent profile.",
     "status" : {
-      "class" : "colsi",
+      "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-      "status" : "Active"
+      "status" : "Draft"
     }
   }
 }

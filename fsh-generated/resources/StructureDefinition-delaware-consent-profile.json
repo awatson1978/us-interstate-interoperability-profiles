@@ -1,21 +1,10 @@
 {
   "resourceType": "StructureDefinition",
   "id": "delaware-consent-profile",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Foundation.Security"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/delaware-consent-profile",
-  "version": "0.4.0",
   "name": "DelawareConsentProfile",
   "title": "DelawareConsentProfile",
-  "status": "active",
+  "status": "draft",
   "description": "Delaware consent profile.",
   "fhirVersion": "4.0.1",
   "mapping": [

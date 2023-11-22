@@ -1,21 +1,10 @@
 {
   "resourceType": "StructureDefinition",
   "id": "south-dakota-consent-profile",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Foundation.Security"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/south-dakota-consent-profile",
-  "version": "0.4.0",
   "name": "SouthDakotaConsentProfile",
   "title": "SouthDakotaConsentProfile",
-  "status": "active",
+  "status": "draft",
   "description": "South Dakota consent profile.",
   "fhirVersion": "4.0.1",
   "mapping": [

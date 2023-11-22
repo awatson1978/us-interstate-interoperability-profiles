@@ -5,7 +5,7 @@
   "igName" : "USStateProfiles",
   "packageId" : "mehi.ig.fhir",
   "igVer" : "0.4.0",
-  "errorCount" : 162,
+  "errorCount" : 102,
   "version" : "4.0.1",
   "revision" : "a53ec6ee1b",
   "versionFull" : "4.0.1-a53ec6ee1b",
@@ -13,9 +13,9 @@
   "toolingRevision" : "3",
   "toolingVersionFull" : "5.0.0 (3)",
   "totalFiles" : 104,
-  "processedFiles" : 163,
-  "genDate" : "Tue, Mar 28, 2023 03:06-0500",
-  "genDay" : "28/03/2023",
+  "processedFiles" : 170,
+  "genDate" : "Sat, Nov 18, 2023 22:49-0600",
+  "genDay" : "18/11/2023",
   "resourceTypes" : [
     "Account",
     "ActivityDefinition",
@@ -243,7 +243,7 @@
         "telecom" : ["https://gitlab.mitre.org/awatson/us-state-profiles"]
       }
     ],
-    "date" : "2023-03-28T03:06:02-05:00",
+    "date" : "2023-11-18T22:49:36-06:00",
     "description" : "",
     "copyright" : null,
     "fhirVersion" : "4.0.1"
@@ -251,7 +251,7 @@
   "basespec" : "http://hl7.org/fhir/R4",
   "ver" : {
     "basespec" : null,
-    "hl7tx" : "http://terminology.hl7.org/5.0.0",
+    "hl7tx" : "http://terminology.hl7.org/5.3.0",
     "hl7_fhir_us_core" : "http://hl7.org/fhir/us/core/2021Jan",
     "us.nlm.vsac_0.3.0" : "http://fhir.org/packages/us.nlm.vsac",
     "igtools" : "https://build.fhir.org/ig/FHIR/fhir-tools-ig/"

@@ -97,6 +97,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/ConsentExchangePolicies"
+        },
+        "name": "ConsentExchangePolicies",
+        "description": "Consent Exchange - Policies",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/delaware-consent-profile"
         },
         "name": "DelawareConsentProfile",
@@ -393,6 +401,370 @@
       },
       {
         "reference": {
+          "reference": "Location/36Ad9SeqqzcWjZELq"
+        },
+        "name": "US-State-Alabama",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/ruvBXFKrhrsfkryfF"
+        },
+        "name": "US-State-Alaska",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/tEexgTiqCd5LiijCe"
+        },
+        "name": "US-State-Arizona",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/Kvwi377gEtBCdbZui"
+        },
+        "name": "US-State-Arkansas",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/3zjF5MkrEZEErco7v"
+        },
+        "name": "US-State-California",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/RFiBZbbFiHxjujhSn"
+        },
+        "name": "US-State-Colorado",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/XM35CMNxTr5trv5LA"
+        },
+        "name": "US-State-Connecticut",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/5QYLy3D3fdD2BSGy5"
+        },
+        "name": "US-State-Delaware",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/uEkrqm29DjZbHYZiT"
+        },
+        "name": "US-State-DistrictofColumbia",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/d35Ka8DnExxJqrshG"
+        },
+        "name": "US-State-Florida",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/3L8sHLL4cyBoLfQ5X"
+        },
+        "name": "US-State-Georgia",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/6EBdzCFG6sXWYv3cy"
+        },
+        "name": "US-State-Hawaii",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/K59AJPYJwW6QNQ7wA"
+        },
+        "name": "US-State-Idaho",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/tBzzRo7D9RGzKQenT"
+        },
+        "name": "US-State-Illinois",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/2cdHJo5nLPDtnbfnS"
+        },
+        "name": "US-State-Indiana",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/mvv8hrmBhBtYe6gKs"
+        },
+        "name": "US-State-Iowa",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/C3mPJq92ijWAT4M95"
+        },
+        "name": "US-State-Kansas",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/wPs7mzdsNAwpBQCio"
+        },
+        "name": "US-State-Kentucky",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/4gJBt2RovtF8oBk8h"
+        },
+        "name": "US-State-Louisiana",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/LhboPGc7jCgzL2vvu"
+        },
+        "name": "US-State-Maine",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/D5xG52A3yC2YTz8uG"
+        },
+        "name": "US-State-Maryland",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/zTQuTGuHEy6TsqZFH"
+        },
+        "name": "US-State-Massachusetts",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/ngowMEzNaA4oozNx5"
+        },
+        "name": "US-State-Michigan",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/jCAKbSgksLZANgKAD"
+        },
+        "name": "US-State-Minnesota",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/53z8N28EAfKtbvBNm"
+        },
+        "name": "US-State-Mississippi",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/7ZqFrka5qdYameBAM"
+        },
+        "name": "US-State-Missouri",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/JAjsaAFPbnjmqm7ht"
+        },
+        "name": "US-State-Montana",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/f78yCcaohY4ME86e9"
+        },
+        "name": "US-State-Nebraska",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/KuCc5Qat7hFGKYzCf"
+        },
+        "name": "US-State-Nevada",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/kvacH8wZ3GPPwYsdZ"
+        },
+        "name": "US-State-NewHampshire",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/BdPME6PAm7McYxize"
+        },
+        "name": "US-State-NewJersey",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/Q2qPZtAbJHeMucE9d"
+        },
+        "name": "US-State-NewMexico",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/sSjfnXC8HBabjnQwF"
+        },
+        "name": "US-State-NewYork",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/TEejwFj6hM8NoMfNY"
+        },
+        "name": "US-State-NorthCarolina",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/ug9T4cPp6NDRqMfcc"
+        },
+        "name": "US-State-NorthDakota",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/ZNDWz9oPsWGnxsBCC"
+        },
+        "name": "US-State-Ohio",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/E34hsfDZnFzWDDvrH"
+        },
+        "name": "US-State-Oklahoma",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/b5QxdJzPkhFgumnCq"
+        },
+        "name": "US-State-Oregon",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/wpPSL9vjHDXAJQWmC"
+        },
+        "name": "US-State-Pennsylvania",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/T4MtGfNFjuataQdmY"
+        },
+        "name": "US-State-PuertoRico",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/bZyK2jj2SW4P9tXXn"
+        },
+        "name": "US-State-RhodeIsland",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/ZYESg5qBTnJ6Yijb3"
+        },
+        "name": "US-State-SouthCarolina",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/gapeRqTrszacBkTdH"
+        },
+        "name": "US-State-SouthDakota",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/yAKjzRQx3mBSdSei4"
+        },
+        "name": "US-State-Tennessee",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/4G954mNr3nR5rfCvw"
+        },
+        "name": "US-State-Texas",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/9KxMxodWCSpsmFAsx"
+        },
+        "name": "US-State-Utah",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/8MoDhJYvb4sMLeTRT"
+        },
+        "name": "US-State-Vermont",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/ErMYAiSgWFYzPYxd4"
+        },
+        "name": "US-State-Virginia",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/rBSqMxWb3XMFYHecM"
+        },
+        "name": "US-State-Washington",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/ZgqTvzE4GzyiJvsh2"
+        },
+        "name": "US-State-WestVirginia",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/eGek52kjH2A5Kw855"
+        },
+        "name": "US-State-Wisconsin",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/SB8aHDPgnMC27fvo4"
+        },
+        "name": "US-State-Wyoming",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/utah-consent-profile"
         },
         "name": "UtahConsentProfile",
@@ -430,378 +802,6 @@
         "name": "WestVirginiaConsentProfile",
         "description": "West Virginia consent profile.",
         "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/ConsentExchangePolicies"
-        },
-        "name": "ConsentExchangePolicies",
-        "description": "Consent Exchange - Policies",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "Location/2cdHJo5nLPDtnbfnS"
-        },
-        "name": "US-State-Indiana",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/36Ad9SeqqzcWjZELq"
-        },
-        "name": "US-State-Alabama",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/3L8sHLL4cyBoLfQ5X"
-        },
-        "name": "US-State-Georgia",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/3zjF5MkrEZEErco7v"
-        },
-        "name": "US-State-California",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/4G954mNr3nR5rfCvw"
-        },
-        "name": "US-State-Texas",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/4gJBt2RovtF8oBk8h"
-        },
-        "name": "US-State-Louisiana",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/53z8N28EAfKtbvBNm"
-        },
-        "name": "US-State-Mississippi",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/5QYLy3D3fdD2BSGy5"
-        },
-        "name": "US-State-Delaware",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/6EBdzCFG6sXWYv3cy"
-        },
-        "name": "US-State-Hawaii",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/7ZqFrka5qdYameBAM"
-        },
-        "name": "US-State-Missouri",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/8MoDhJYvb4sMLeTRT"
-        },
-        "name": "US-State-Vermont",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/9KxMxodWCSpsmFAsx"
-        },
-        "name": "US-State-Utah",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/BdPME6PAm7McYxize"
-        },
-        "name": "US-State-NewJersey",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/C3mPJq92ijWAT4M95"
-        },
-        "name": "US-State-Kansas",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/D5xG52A3yC2YTz8uG"
-        },
-        "name": "US-State-Maryland",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/E34hsfDZnFzWDDvrH"
-        },
-        "name": "US-State-Oklahoma",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/ErMYAiSgWFYzPYxd4"
-        },
-        "name": "US-State-Virginia",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/JAjsaAFPbnjmqm7ht"
-        },
-        "name": "US-State-Montana",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/K59AJPYJwW6QNQ7wA"
-        },
-        "name": "US-State-Idaho",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/KuCc5Qat7hFGKYzCf"
-        },
-        "name": "US-State-Nevada",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/Kvwi377gEtBCdbZui"
-        },
-        "name": "US-State-Arkansas",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/LhboPGc7jCgzL2vvu"
-        },
-        "name": "US-State-Maine",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/Q2qPZtAbJHeMucE9d"
-        },
-        "name": "US-State-NewMexico",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/RFiBZbbFiHxjujhSn"
-        },
-        "name": "US-State-Colorado",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/SB8aHDPgnMC27fvo4"
-        },
-        "name": "US-State-Wyoming",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/T4MtGfNFjuataQdmY"
-        },
-        "name": "US-State-PuertoRico",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/TEejwFj6hM8NoMfNY"
-        },
-        "name": "US-State-NorthCarolina",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/XM35CMNxTr5trv5LA"
-        },
-        "name": "US-State-Connecticut",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/ZNDWz9oPsWGnxsBCC"
-        },
-        "name": "US-State-Ohio",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/ZYESg5qBTnJ6Yijb3"
-        },
-        "name": "US-State-SouthCarolina",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/ZgqTvzE4GzyiJvsh2"
-        },
-        "name": "US-State-WestVirginia",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/b5QxdJzPkhFgumnCq"
-        },
-        "name": "US-State-Oregon",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/bZyK2jj2SW4P9tXXn"
-        },
-        "name": "US-State-RhodeIsland",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/d35Ka8DnExxJqrshG"
-        },
-        "name": "US-State-Florida",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/eGek52kjH2A5Kw855"
-        },
-        "name": "US-State-Wisconsin",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/f78yCcaohY4ME86e9"
-        },
-        "name": "US-State-Nebraska",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/gapeRqTrszacBkTdH"
-        },
-        "name": "US-State-SouthDakota",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/jCAKbSgksLZANgKAD"
-        },
-        "name": "US-State-Minnesota",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/kvacH8wZ3GPPwYsdZ"
-        },
-        "name": "US-State-NewHampshire",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/mvv8hrmBhBtYe6gKs"
-        },
-        "name": "US-State-Iowa",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/ngowMEzNaA4oozNx5"
-        },
-        "name": "US-State-Michigan",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/rBSqMxWb3XMFYHecM"
-        },
-        "name": "US-State-Washington",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/ruvBXFKrhrsfkryfF"
-        },
-        "name": "US-State-Alaska",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/sSjfnXC8HBabjnQwF"
-        },
-        "name": "US-State-NewYork",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/tBzzRo7D9RGzKQenT"
-        },
-        "name": "US-State-Illinois",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/tEexgTiqCd5LiijCe"
-        },
-        "name": "US-State-Arizona",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/uEkrqm29DjZbHYZiT"
-        },
-        "name": "US-State-DistrictofColumbia",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/ug9T4cPp6NDRqMfcc"
-        },
-        "name": "US-State-NorthDakota",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/wPs7mzdsNAwpBQCio"
-        },
-        "name": "US-State-Kentucky",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/wpPSL9vjHDXAJQWmC"
-        },
-        "name": "US-State-Pennsylvania",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/yAKjzRQx3mBSdSei4"
-        },
-        "name": "US-State-Tennessee",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/zTQuTGuHEy6TsqZFH"
-        },
-        "name": "US-State-Massachusetts",
-        "exampleBoolean": true
       }
     ],
     "page": {
@@ -837,6 +837,21 @@
         {
           "nameUrl": "page-abortion.html",
           "title": "Abortion",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "page-ivf.html",
+          "title": "In-vitro Fertilization (IVF)",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "page-assisted-suicide.html",
+          "title": "Assisted Suicide",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "page-doulas.html",
+          "title": "Doulas",
           "generation": "markdown"
         },
         {

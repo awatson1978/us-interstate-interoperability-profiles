@@ -1,0 +1,38 @@
+
+
+
+
+![](){:width="100%"}
+
+
+
+<!-- With the overturning of Roe vs Wade, patients must now consider where they are able to receive certain types of medical care.  
+
+![./Map-USStates-Abortion.jpeg](./Map-USStates-Abortion.jpeg){:width="100%"} -->
+
+#### Example Encoding  
+
+<!-- ```
+{ 
+    "resourceType": "Consent",
+    "policy": {
+
+    },
+    "provision": {
+        "type": "permit",
+        "purpose": [{
+            "code": "COC",
+            "display": "coordination of care",
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason"
+        }],
+        "provision": []
+    }
+}
+``` -->
+
+#### References  
+<!-- [Tracking where abortion laws stand in every state](https://www.theguardian.com/us-news/ng-interactive/2022/jun/28/tracking-where-abortion-laws-stand-in-every-state) -->
+
+
+#### Datasets
+<!-- [Locations.US.States.AbortionAccess.20230327.ndjson](Locations.US.States.AbortionAccess.20230327.ndjson)   -->
