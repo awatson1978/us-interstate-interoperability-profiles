@@ -3,7 +3,7 @@
   "name" : "USStateProfiles",
   "package-id" : "mehi.ig.fhir",
   "ig-ver" : "0.4.0",
-  "date" : "Wed, 22 Nov, 2023 13:03:22 -0500",
+  "date" : "Sun, 26 Nov, 2023 23:28:50 -0500",
   "errs" : 102,
   "warnings" : 108,
   "hints" : 0,

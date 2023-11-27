@@ -2,9 +2,9 @@
 =========================================
 
 err = 102, warn = 108, info = 0
-IG Publisher Version: 1.3.3 Out of date - current version is 1.5.4
-Generated Wed Nov 22 13:05:19 EST 2023. FHIR version 4.0.1 for mehi.ig.fhir#0.4.0 (canonical = https://gitlab.mitre.org/awatson/us-state-profiles)
- Build Errors : 2 / 56 / 0
+IG Publisher Version: 1.3.3 Out of date - current version is 1.5.5
+Generated Sun Nov 26 23:30:41 EST 2023. FHIR version 4.0.1 for mehi.ig.fhir#0.4.0 (canonical = https://gitlab.mitre.org/awatson/us-state-profiles)
+ Build Errors : 1 / 56 / 0
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/ImplementationGuide-mehi.ig.fhir : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Location-2cdHJo5nLPDtnbfnS : 1 / 0 / 1
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Location-36Ad9SeqqzcWjZELq : 1 / 0 / 1
@@ -163,8 +163,7 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/ZgqTvzE4GzyiJvsh2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/eGek52kjH2A5Kw855.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/SB8aHDPgnMC27fvo4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/page-abortion.html#/html/body/div/div/div/div/div/p/a at Line 207, column 5: The link 'Locations.US.States.AbortionAccess.20230327.ndjson' for "Locations.US.States.AbortionAccess.20230327.ndjson" cannot be resolved
-ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/page-doulas.html#/html/body/div/div/div/div/div/p/img at Line 180, column 5: The image source '' cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/page-abortion.html#/html/body/div/div/div/div/div/p/a at Line 208, column 5: The link 'Locations.US.States.AbortionAccess.20230327.ndjson' for "Locations.US.States.AbortionAccess.20230327.ndjson" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide

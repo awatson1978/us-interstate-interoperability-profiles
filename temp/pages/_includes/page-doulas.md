@@ -1,18 +1,14 @@
+#### Controlled Substance Laws  
+
+Medicaid has increasingly recognized the importance of comprehensive maternal care, including the services provided by doulas. Doulas are non-medical professionals who offer physical, emotional, and informational support to women before, during, and shortly after childbirth. The integration of doula services into Medicaid coverage is a significant step towards improving maternal and infant health outcomes, particularly in underserved communities. This move acknowledges the role of doulas in reducing complications during childbirth, enhancing the birthing experience, and potentially decreasing healthcare costs by lowering the rates of medical interventions like cesarean sections. The expansion of Medicaid to cover doula services reflects a growing awareness of the importance of holistic care approaches in maternal health and the need to address disparities in healthcare access and outcomes.
 
 
+![./State-of-Medicaid-Doula-Reimbursement.Nov2023.png](./State-of-Medicaid-Doula-Reimbursement.Nov2023.png){:width="100%"}
 
-
-![](){:width="100%"}
-
-
-
-<!-- With the overturning of Roe vs Wade, patients must now consider where they are able to receive certain types of medical care.  
-
-![./Map-USStates-Abortion.jpeg](./Map-USStates-Abortion.jpeg){:width="100%"} -->
 
 #### Example Encoding  
 
-<!-- ```
+```
 { 
     "resourceType": "Consent",
     "policy": {
@@ -28,10 +24,10 @@
         "provision": []
     }
 }
-``` -->
+```
 
 #### References  
-<!-- [Tracking where abortion laws stand in every state](https://www.theguardian.com/us-news/ng-interactive/2022/jun/28/tracking-where-abortion-laws-stand-in-every-state) -->
+[Doula Services in Medicaid: State Progress in 2022](https://ccf.georgetown.edu/2022/06/02/doula-services-in-medicaid-state-progress-in-2022/)
 
 
 #### Datasets

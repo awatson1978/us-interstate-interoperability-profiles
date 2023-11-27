@@ -1,4 +1,4 @@
-#### Example 3 - Controlled Substance Laws  
+#### Controlled Substance Laws  
 
 Marijuana has been listed as a Schedule I controlled substance since the Controlled Substances Act was passed in 1970. However, many states have been taking proactive measures to enact state level laws allowing for medical marijuana, cannabis byproducts such as CBD, industrial hemp, or even outright legalizing it.
 

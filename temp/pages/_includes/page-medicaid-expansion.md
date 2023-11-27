@@ -1,8 +1,7 @@
+#### Medicaid Expansion  
 
-<!-- Foster care nondiscrimination laws protect LGBTQ foster parents and families from discrimination by foster care agencies and officials. Some states permit state-licensed child welfare agencies to refuse to place and provide services to children and families, including LGBTQ people and same-sex couples, if doing so conflicts with their religious beliefs.
+Medicaid expansion, a critical component of the Affordable Care Act (ACA), presents a varied landscape across the United States, shaped by individual state decisions. This expansion aims to extend healthcare coverage to more low-income adults by increasing the eligibility threshold. However, its adoption varies significantly from state to state, reflecting differing political, economic, and social perspectives. In states that have embraced expansion, millions of previously uninsured individuals have gained access to essential health services, leading to improved health outcomes and financial security. Conversely, in states opting out of expansion, many low-income adults remain without coverage, highlighting a stark divide in healthcare access across the country. This state-by-state approach to Medicaid expansion underscores the ongoing debate over healthcare policy in the U.S. and its direct impact on the health and well-being of its residents.
 
-![./FosterCareLaws.png](./FosterCareLaws.png){:width="100%"}
- -->
 
 ![./Map-USStates-MedicaidExpansion.jpeg](./Map-USStates-MedicaidExpansion.jpeg){:width="100%"}
 

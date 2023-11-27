@@ -1,3 +1,7 @@
+#### WPATH At Risk  
+
+WPATH's guidelines, once widely accepted as the benchmark for transgender healthcare, have faced increasing scrutiny and skepticism in various states. This shift has influenced local policies, leading to a mosaic of regulations that range from supportive to highly restrictive regarding access to gender-affirming treatments and surgeries for transgender individuals. In some states, lawmakers and medical bodies are questioning or moving away from WPATH's recommendations, potentially limiting the availability and scope of transgender healthcare services. These divergences reflect broader debates over medical authority, the role of government in healthcare decisions, and the evolving understanding of gender identity and transgender health needs. As a result, transgender individuals across the U.S. face a disparate and often challenging landscape when seeking healthcare, highlighting the need for a nuanced and informed approach to policy-making in this sensitive and vital area of public health.
+
 
 ![./Map-USStates-WpathAtRisk.jpeg](./Map-USStates-WpathAtRisk.jpeg){:width="100%"}
 
