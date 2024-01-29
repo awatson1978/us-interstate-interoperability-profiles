@@ -22,7 +22,7 @@ dependencies:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Lesgislative Debates: 
+  Legislative Debates: 
     Doula Access:  page-doulas.html
     Medical Cannabis:  page-controlled-substances.html
     Medicaid Expansion:  page-medicaid-expansion.html
