@@ -13,10 +13,10 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>USStateProfiles</h2><p>The official URL for this implementation guide is: </p><pre>https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir</pre></div>"
   ] ; # 
   fhir:url [ fhir:v "https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.4.0"] ; # 
+  fhir:version [ fhir:v "0.5.0"] ; # 
   fhir:name [ fhir:v "USStateProfiles"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-11-26T23:28:50-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-01-28T20:27:37-06:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "MITRE, Inc"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "MITRE, Inc" ] ;
@@ -684,6 +684,17 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/IllinoisConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/IllinoisConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Illinois State Consent Record" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
@@ -693,6 +704,17 @@
        fhir:name [ fhir:v "IllinoisConsentProfile" ] ;
        fhir:description [ fhir:v "Illinois consent profile." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/IndianaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/IndianaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Indiana State Consent Record" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -777,6 +799,17 @@
        fhir:name [ fhir:v "MarylandConsentProfile" ] ;
        fhir:description [ fhir:v "Maryland consent profile." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/MassachusettsConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/MassachusettsConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Massachusetts State Consent Record" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1041,6 +1074,17 @@
        fhir:name [ fhir:v "TennesseeConsentProfile" ] ;
        fhir:description [ fhir:v "Tennessee consent profile." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/TexasConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/TexasConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Texas State Consent Record" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1724,7 +1768,7 @@
            fhir:value [ fhir:v "page-foster-care.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "page-foster-care.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Foster Care" ] ;
+         fhir:title [ fhir:v "LGBT Foster Care" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -1740,7 +1784,7 @@
            fhir:value [ fhir:v "page-abortion.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "page-abortion.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Abortion" ] ;
+         fhir:title [ fhir:v "Abortion Access" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -1764,7 +1808,7 @@
            fhir:value [ fhir:v "page-doulas.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "page-doulas.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Doulas" ] ;
+         fhir:title [ fhir:v "Doula Access" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -1772,7 +1816,7 @@
            fhir:value [ fhir:v "page-controlled-substances.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "page-controlled-substances.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Controlled Substances" ] ;
+         fhir:title [ fhir:v "Controlled Substances - Cannabis" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -1796,7 +1840,7 @@
            fhir:value [ fhir:v "page-wpath-at-risk.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "page-wpath-at-risk.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "WPATH At Risk" ] ;
+         fhir:title [ fhir:v "WPATH Usage" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [

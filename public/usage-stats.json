@@ -1,6 +1,6 @@
 {
   "package": "mehi.ig.fhir",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "fhirVersion": "4.0.1",
   "extensions": [],
   "profiles": {

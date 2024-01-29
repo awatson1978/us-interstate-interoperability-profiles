@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Doulas -  v0.4.0</title>
+    <title>Doula Access -  v0.5.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -49,7 +49,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span>
             <br/>
-            <span style="display:inline-block;">0.4.0 - ci-build
+            <span style="display:inline-block;">0.5.0 - ci-build
 
 
             </span>
@@ -80,21 +80,18 @@
     <a href="index.html">Home</a>
   </li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Regional Profiles
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Lesgislative Debates
       <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="page-advanced-directives.html">Advanced Directives</a>
+        <a href="page-doulas.html">Doula Access</a>
+      </li>
+      <li>
+        <a href="page-controlled-substances.html">Medical Cannabis</a>
       </li>
       <li>
         <a href="page-medicaid-expansion.html">Medicaid Expansion</a>
-      </li>
-      <li>
-        <a href="page-controlled-substances.html">Controlled Substances</a>
-      </li>
-      <li>
-        <a href="page-religious-exemptions.html">Religious Exemptions</a>
       </li>
       <li>
         <a href="page-abortion.html">Abortion</a>
@@ -103,19 +100,22 @@
         <a href="page-ivf.html">In-vitro Fertilization</a>
       </li>
       <li>
-        <a href="page-doulas.html">Doula Access</a>
-      </li>
-      <li>
-        <a href="page-foster-care.html">Foster Care</a>
+        <a href="page-foster-care.html">LGBT Foster Care</a>
       </li>
       <li>
         <a href="page-assisted-suicide.html">Assisted Suicide</a>
       </li>
       <li>
+        <a href="page-wpath-at-risk.html">WPATH Usage</a>
+      </li>
+      <li>
         <a href="page-trans-sports.html">Trans Sports Participation</a>
       </li>
       <li>
-        <a href="page-wpath-at-risk.html">WPATH At Risk</a>
+        <a href="page-advanced-directives.html">Advanced Directives</a>
+      </li>
+      <li>
+        <a href="page-religious-exemptions.html">Religious Exemptions</a>
       </li>
     </ul>
   </li>
@@ -137,7 +137,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Doulas</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Doula Access</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -157,8 +157,8 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">USStateProfiles - Local Development build (v0.4.0). See the <a href="https://gitlab.mitre.org/awatson/us-state-profiles/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-  <h2>Doulas</h2>
+  <!--ReleaseHeader--><p id="publish-box">USStateProfiles - Local Development build (v0.5.0). See the <a href="https://gitlab.mitre.org/awatson/us-state-profiles/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Doula Access</h2>
   
 
 
@@ -176,11 +176,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div>
 <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
-<h4 id="controlled-substance-laws">Controlled Substance Laws</h4>
 
 <p>Medicaid has increasingly recognized the importance of comprehensive maternal care, including the services provided by doulas. Doulas are non-medical professionals who offer physical, emotional, and informational support to women before, during, and shortly after childbirth. The integration of doula services into Medicaid coverage is a significant step towards improving maternal and infant health outcomes, particularly in underserved communities. This move acknowledges the role of doulas in reducing complications during childbirth, enhancing the birthing experience, and potentially decreasing healthcare costs by lowering the rates of medical interventions like cesarean sections. The expansion of Medicaid to cover doula services reflects a growing awareness of the importance of holistic care approaches in maternal health and the need to address disparities in healthcare access and outcomes.</p>
 
-<p><img src="./State-of-Medicaid-Doula-Reimbursement.Nov2023.png" alt="./State-of-Medicaid-Doula-Reimbursement.Nov2023.png" width="100%" /></p>
+<p><img src="./Map-USStates-DoulaAccess.jpeg" alt="./Map-USStates-DoulaAccess.jpeg" width="100%" />
+Last Updated:  January 8th, 2024</p>
 
 <h4 id="example-encoding">Example Encoding</h4>
 
@@ -196,7 +196,22 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             "display": "coordination of care",
             "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason"
         }],
-        "provision": []
+        "provision": [{
+            "type": "permit",
+            "class": [{
+                "code": "Practitioner",
+                "display": "Practitioner",
+                "system": "http://hl7.org/fhir/resource-types"
+            }],
+            "code": [{
+                "text": "Doula",
+                "coding": [{
+                    "code": "768825008",
+                    "display": "Doula (occupation)",
+                    "system": " http://snomed.info/sct"
+                }]
+            }]
+        }]
     }
 }
 </code></pre></div></div>
@@ -205,7 +220,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p><a href="https://ccf.georgetown.edu/2022/06/02/doula-services-in-medicaid-state-progress-in-2022/">Doula Services in Medicaid: State Progress in 2022</a></p>
 
 <h4 id="datasets">Datasets</h4>
-<!-- [Locations.US.States.AbortionAccess.20230327.ndjson](Locations.US.States.AbortionAccess.20230327.ndjson)   -->
+<p><a href="Locations.US.States.DoulaAccess.20240128.ndjson">Locations.US.States.DoulaAccess.20240128.ndjson</a></p>
 
 
 
@@ -231,7 +246,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://gitlab.mitre.org/awatson/us-state-profiles">MITRE, Inc</a>.  Package mehi.ig.fhir#0.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Nov 26, 2023 23:28-0500">2023-11-26</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://gitlab.mitre.org/awatson/us-state-profiles">MITRE, Inc</a>.  Package mehi.ig.fhir#0.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jan 28, 2024 20:27-0600">2024-01-28</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

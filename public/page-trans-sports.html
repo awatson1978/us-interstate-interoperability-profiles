@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Trans Youth Participation in Sports -  v0.4.0</title>
+    <title>Trans Youth Participation in Sports -  v0.5.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -49,7 +49,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span>
             <br/>
-            <span style="display:inline-block;">0.4.0 - ci-build
+            <span style="display:inline-block;">0.5.0 - ci-build
 
 
             </span>
@@ -80,21 +80,18 @@
     <a href="index.html">Home</a>
   </li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Regional Profiles
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Lesgislative Debates
       <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="page-advanced-directives.html">Advanced Directives</a>
+        <a href="page-doulas.html">Doula Access</a>
+      </li>
+      <li>
+        <a href="page-controlled-substances.html">Medical Cannabis</a>
       </li>
       <li>
         <a href="page-medicaid-expansion.html">Medicaid Expansion</a>
-      </li>
-      <li>
-        <a href="page-controlled-substances.html">Controlled Substances</a>
-      </li>
-      <li>
-        <a href="page-religious-exemptions.html">Religious Exemptions</a>
       </li>
       <li>
         <a href="page-abortion.html">Abortion</a>
@@ -103,19 +100,22 @@
         <a href="page-ivf.html">In-vitro Fertilization</a>
       </li>
       <li>
-        <a href="page-doulas.html">Doula Access</a>
-      </li>
-      <li>
-        <a href="page-foster-care.html">Foster Care</a>
+        <a href="page-foster-care.html">LGBT Foster Care</a>
       </li>
       <li>
         <a href="page-assisted-suicide.html">Assisted Suicide</a>
       </li>
       <li>
+        <a href="page-wpath-at-risk.html">WPATH Usage</a>
+      </li>
+      <li>
         <a href="page-trans-sports.html">Trans Sports Participation</a>
       </li>
       <li>
-        <a href="page-wpath-at-risk.html">WPATH At Risk</a>
+        <a href="page-advanced-directives.html">Advanced Directives</a>
+      </li>
+      <li>
+        <a href="page-religious-exemptions.html">Religious Exemptions</a>
       </li>
     </ul>
   </li>
@@ -157,7 +157,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">USStateProfiles - Local Development build (v0.4.0). See the <a href="https://gitlab.mitre.org/awatson/us-state-profiles/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">USStateProfiles - Local Development build (v0.5.0). See the <a href="https://gitlab.mitre.org/awatson/us-state-profiles/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Trans Youth Participation in Sports</h2>
   
 
@@ -176,13 +176,55 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div>
 <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
-<h4 id="trans-youth-participation-in-sports">Trans Youth Participation in Sports</h4>
 
 <p>The participation of transgender youth in sports has become a contentious issue in the United States, with state-level rulings creating a patchwork of policies that reflect diverse societal attitudes and legal interpretations. In some states, legislation has been enacted to fully support the inclusion of transgender athletes in school sports consistent with their gender identity, emphasizing principles of equality and non-discrimination. However, numerous other states have passed or are considering laws that restrict or outright ban the participation of transgender youth in sports aligning with their gender identity, often citing concerns about fair competition and physiological advantages. This state-by-state divergence not only underscores the polarized views on transgender rights and inclusion in the country but also places young athletes at the heart of a complex debate involving gender identity, sports ethics, and legal rights. As such, the situation highlights broader societal challenges and legal considerations surrounding the inclusion and fair treatment of transgender individuals in various aspects of public life.
 <img src="./Map-USStates-TransYouthParticipation.jpeg" alt="./Map-USStates-TransYouthParticipation.jpeg" width="100%" /></p>
 
+<h4 id="example-encoding">Example Encoding</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{ 
+    "resourceType": "Consent",
+    "policy": {
+        "authority": "https://www.texas.gov/"
+    },
+    "provision": {
+        "type": "permit",
+        "purpose": [{
+            "code": "COC",
+            "display": "coordination of care",
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason"
+        }],
+        "provision": [{
+            "type": "deny",
+            "class": [{
+                "code": "ActivityDefinition",
+                "display": "ActivityDefinition",
+                "system": "http://hl7.org/fhir/resource-types"
+            }],
+            "code": [{
+                "text": "Sports",
+                "coding": [{
+                    "code": "14468000",
+                    "display": "Sports activity (observable entity)",
+                    "system": " http://snomed.info/sct"
+                }, {
+                "text": "Swimming",
+                "coding": [{
+                    "code": "20461001",
+                    "display": "Swimming (qualifier value)",
+                    "system": " http://snomed.info/sct"
+                }]
+            }]
+        }]
+    }
+}
+</code></pre></div></div>
+
 <h4 id="references">References</h4>
 <p><a href="https://www.lgbtmap.org/equality-maps/sports_participation_bans">Bans on Transgender Youth Participation in Sports</a></p>
+
+<h4 id="datasets">Datasets</h4>
+<p><a href="Locations.US.States.TransParticipationSports.ndjson">Locations.US.States.TransParticipationSports.ndjson</a></p>
 
 
 
@@ -209,7 +251,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://gitlab.mitre.org/awatson/us-state-profiles">MITRE, Inc</a>.  Package mehi.ig.fhir#0.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Nov 26, 2023 23:28-0500">2023-11-26</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://gitlab.mitre.org/awatson/us-state-profiles">MITRE, Inc</a>.  Package mehi.ig.fhir#0.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jan 28, 2024 20:27-0600">2024-01-28</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

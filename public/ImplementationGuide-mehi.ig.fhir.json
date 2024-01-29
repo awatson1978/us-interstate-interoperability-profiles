@@ -6,10 +6,10 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>USStateProfiles</h2><p>The official URL for this implementation guide is: </p><pre>https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir</pre></div>"
   },
   "url" : "https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir",
-  "version" : "0.4.0",
+  "version" : "0.5.0",
   "name" : "USStateProfiles",
   "status" : "draft",
-  "date" : "2023-11-26T23:28:50-05:00",
+  "date" : "2024-01-28T20:27:37-06:00",
   "publisher" : "MITRE, Inc",
   "contact" : [{
     "name" : "MITRE, Inc",
@@ -771,6 +771,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Consent"
+      }],
+      "reference" : {
+        "reference" : "Consent/IllinoisConsentProfile"
+      },
+      "name" : "Illinois State Consent Record",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -779,6 +790,17 @@
       "name" : "IllinoisConsentProfile",
       "description" : "Illinois consent profile.",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Consent"
+      }],
+      "reference" : {
+        "reference" : "Consent/IndianaConsentProfile"
+      },
+      "name" : "Indiana State Consent Record",
+      "exampleBoolean" : true
     },
     {
       "extension" : [{
@@ -863,6 +885,17 @@
       "name" : "MarylandConsentProfile",
       "description" : "Maryland consent profile.",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Consent"
+      }],
+      "reference" : {
+        "reference" : "Consent/MassachusettsConsentProfile"
+      },
+      "name" : "Massachusetts State Consent Record",
+      "exampleBoolean" : true
     },
     {
       "extension" : [{
@@ -1127,6 +1160,17 @@
       "name" : "TennesseeConsentProfile",
       "description" : "Tennessee consent profile.",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Consent"
+      }],
+      "reference" : {
+        "reference" : "Consent/TexasConsentProfile"
+      },
+      "name" : "Texas State Consent Record",
+      "exampleBoolean" : true
     },
     {
       "extension" : [{
@@ -1813,7 +1857,7 @@
           "valueUrl" : "page-foster-care.html"
         }],
         "nameUrl" : "page-foster-care.html",
-        "title" : "Foster Care",
+        "title" : "LGBT Foster Care",
         "generation" : "markdown"
       },
       {
@@ -1831,7 +1875,7 @@
           "valueUrl" : "page-abortion.html"
         }],
         "nameUrl" : "page-abortion.html",
-        "title" : "Abortion",
+        "title" : "Abortion Access",
         "generation" : "markdown"
       },
       {
@@ -1858,7 +1902,7 @@
           "valueUrl" : "page-doulas.html"
         }],
         "nameUrl" : "page-doulas.html",
-        "title" : "Doulas",
+        "title" : "Doula Access",
         "generation" : "markdown"
       },
       {
@@ -1867,7 +1911,7 @@
           "valueUrl" : "page-controlled-substances.html"
         }],
         "nameUrl" : "page-controlled-substances.html",
-        "title" : "Controlled Substances",
+        "title" : "Controlled Substances - Cannabis",
         "generation" : "markdown"
       },
       {
@@ -1894,7 +1938,7 @@
           "valueUrl" : "page-wpath-at-risk.html"
         }],
         "nameUrl" : "page-wpath-at-risk.html",
-        "title" : "WPATH At Risk",
+        "title" : "WPATH Usage",
         "generation" : "markdown"
       },
       {
