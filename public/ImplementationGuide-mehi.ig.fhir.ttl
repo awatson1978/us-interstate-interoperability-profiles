@@ -16,7 +16,7 @@
   fhir:version [ fhir:v "0.5.0"] ; # 
   fhir:name [ fhir:v "USStateProfiles"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-01-28T20:27:37-06:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-01-29T11:57:02-06:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "MITRE, Inc"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "MITRE, Inc" ] ;
@@ -600,6 +600,501 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/AlabamaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/AlabamaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Alabama" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/ArizonaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/ArizonaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Arizona" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/ArkansasConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/ArkansasConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Arkansas" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/CaliforniaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/CaliforniaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - California" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/ColoradoConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/ColoradoConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Colorado" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/ConnecticutConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/ConnecticutConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Connecticut" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/DelawareConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/DelawareConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Delaware" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/FloridaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/FloridaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Florida" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/GeorgiaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/GeorgiaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Georgia" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/IdahoConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/IdahoConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Idaho" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/IllinoisConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/IllinoisConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Illinois" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/IndianaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/IndianaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Indiana" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/IowaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/IowaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Iowa" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/KansasConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/KansasConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Kansas" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/KentuckyConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/KentuckyConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Kentucky" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/LouisianaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/LouisianaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Louisiana" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/MaineConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/MaineConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Maine" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/MarylandConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/MarylandConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Maryland" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/MassachusettsConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/MassachusettsConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Massachusetts" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/MichiganConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/MichiganConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Michigan" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/MinnesotaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/MinnesotaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Minnesota" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/MississippiConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/MississippiConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Mississippi" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/MissouriConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/MissouriConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Missouri" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/MontanaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/MontanaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Montana" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/NebraskaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/NebraskaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Nebraska" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/NevadaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/NevadaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Nevada" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/NewHampshireConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/NewHampshireConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - New Hampshire" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/NewJerseyConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/NewJerseyConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - New Jersey" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/NewMexicoConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/NewMexicoConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - New Mexico" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/NewYorkConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/NewYorkConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - New York" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/NorthDakotaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/NorthDakotaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - North Dakota" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/OhioConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/OhioConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Ohio" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/OklahomaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/OklahomaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Oklahoma" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/OregonConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/OregonConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Oregon" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/PennsylvaniaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/PennsylvaniaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Pennsylvania" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/RhodeIslandConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/RhodeIslandConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Rhode Island" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/SouthCarolinaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/SouthCarolinaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - South Carolina" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/SouthDakotaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/SouthDakotaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - South Dakota" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/TennesseeConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/TennesseeConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Tennessee State" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/TexasConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/TexasConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Texas State" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/UtahConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/UtahConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Utah State" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/VermontConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/VermontConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Vermont" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/VirginiaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/VirginiaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Virginia State" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/WashingtonConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/WashingtonConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - Washington" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Consent" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/WestVirginiaConsentProfile> ;
+         fhir:reference [ fhir:v "Consent/WestVirginiaConsentProfile" ]
+       ] ;
+       fhir:name [ fhir:v "Consent Record - West Virginia" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
@@ -684,17 +1179,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Consent" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/IllinoisConsentProfile> ;
-         fhir:reference [ fhir:v "Consent/IllinoisConsentProfile" ]
-       ] ;
-       fhir:name [ fhir:v "Illinois State Consent Record" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
@@ -704,17 +1188,6 @@
        fhir:name [ fhir:v "IllinoisConsentProfile" ] ;
        fhir:description [ fhir:v "Illinois consent profile." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Consent" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/IndianaConsentProfile> ;
-         fhir:reference [ fhir:v "Consent/IndianaConsentProfile" ]
-       ] ;
-       fhir:name [ fhir:v "Indiana State Consent Record" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -799,17 +1272,6 @@
        fhir:name [ fhir:v "MarylandConsentProfile" ] ;
        fhir:description [ fhir:v "Maryland consent profile." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Consent" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/MassachusettsConsentProfile> ;
-         fhir:reference [ fhir:v "Consent/MassachusettsConsentProfile" ]
-       ] ;
-       fhir:name [ fhir:v "Massachusetts State Consent Record" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1074,17 +1536,6 @@
        fhir:name [ fhir:v "TennesseeConsentProfile" ] ;
        fhir:description [ fhir:v "Tennessee consent profile." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Consent" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://gitlab.mitre.org/awatson/us-state-profiles/Consent/TexasConsentProfile> ;
-         fhir:reference [ fhir:v "Consent/TexasConsentProfile" ]
-       ] ;
-       fhir:name [ fhir:v "Texas State Consent Record" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

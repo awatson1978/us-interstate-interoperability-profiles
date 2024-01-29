@@ -1,14 +1,55 @@
 ﻿USStateProfiles : Validation Results
 =========================================
 
-err = 113, warn = 125, info = 3
+err = 202, warn = 257, info = 69
 IG Publisher Version: 1.3.3 Out of date - current version is 1.5.15
-Generated Sun Jan 28 20:29:32 CST 2024. FHIR version 4.0.1 for mehi.ig.fhir#0.5.0 (canonical = https://gitlab.mitre.org/awatson/us-state-profiles)
- Build Errors : 4 / 60 / 0
+Generated Mon Jan 29 11:59:01 CST 2024. FHIR version 4.0.1 for mehi.ig.fhir#0.5.0 (canonical = https://gitlab.mitre.org/awatson/us-state-profiles)
+ Build Errors : 45 / 101 / 0
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-AlabamaConsentProfile : 2 / 2 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-ArizonaConsentProfile : 2 / 3 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-ArkansasConsentProfile : 2 / 3 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-CaliforniaConsentProfile : 2 / 3 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-ColoradoConsentProfile : 2 / 3 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-ConnecticutConsentProfile : 2 / 2 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-DelawareConsentProfile : 2 / 2 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-FloridaConsentProfile : 2 / 2 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-GeorgiaConsentProfile : 3 / 2 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-IdahoConsentProfile : 3 / 2 / 1
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-IllinoisConsentProfile : 2 / 3 / 1
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-IndianaConsentProfile : 4 / 4 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-IowaConsentProfile : 3 / 3 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-KansasConsentProfile : 3 / 2 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-KentuckyConsentProfile : 3 / 3 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-LouisianaConsentProfile : 2 / 2 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-MaineConsentProfile : 2 / 3 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-MarylandConsentProfile : 2 / 3 / 4
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-MassachusettsConsentProfile : 2 / 4 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-MichiganConsentProfile : 2 / 2 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-MinnesotaConsentProfile : 2 / 3 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-MississippiConsentProfile : 2 / 1 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-MissouriConsentProfile : 2 / 2 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-MontanaConsentProfile : 2 / 2 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-NebraskaConsentProfile : 2 / 2 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-NevadaConsentProfile : 2 / 2 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-NewHampshireConsentProfile : 2 / 2 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-NewJerseyConsentProfile : 2 / 2 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-NewMexicoConsentProfile : 2 / 2 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-NewYorkConsentProfile : 2 / 2 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-NorthDakotaConsentProfile : 2 / 3 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-OhioConsentProfile : 2 / 3 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-OklahomaConsentProfile : 2 / 2 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-OregonConsentProfile : 2 / 2 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-PennsylvaniaConsentProfile : 2 / 2 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-RhodeIslandConsentProfile : 2 / 2 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-SouthCarolinaConsentProfile : 3 / 1 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-SouthDakotaConsentProfile : 2 / 2 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-TennesseeConsentProfile : 3 / 1 / 1
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-TexasConsentProfile : 3 / 2 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-UtahConsentProfile : 2 / 2 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-VermontConsentProfile : 2 / 2 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-VirginiaConsentProfile : 2 / 2 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-WashingtonConsentProfile : 2 / 3 / 4
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-WestVirginiaConsentProfile : 2 / 2 / 4
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/ImplementationGuide-mehi.ig.fhir : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Location-2cdHJo5nLPDtnbfnS : 1 / 0 / 1
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Location-36Ad9SeqqzcWjZELq : 1 / 0 / 1
@@ -115,10 +156,51 @@ Generated Sun Jan 28 20:29:32 CST 2024. FHIR version 4.0.1 for mehi.ig.fhir#0.5.
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/ValueSet-ConsentExchangePolicies : 0 / 2 / 1
 </table>
 == n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/AlabamaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/ArizonaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/ArkansasConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/CaliforniaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/ColoradoConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/ConnecticutConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/DelawareConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/FloridaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/GeorgiaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/IdahoConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/IllinoisConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/IndianaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/IowaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/KansasConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/KentuckyConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/LouisianaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/MaineConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/MarylandConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/MassachusettsConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/MichiganConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/MinnesotaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/MississippiConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/MissouriConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/MontanaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/NebraskaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/NevadaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/NewHampshireConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/NewJerseyConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/NewMexicoConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/NewYorkConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/NorthDakotaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/OhioConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/OklahomaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/OregonConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/PennsylvaniaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/RhodeIslandConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/SouthCarolinaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/SouthDakotaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/TennesseeConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/TexasConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/UtahConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/VermontConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/VirginiaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/WashingtonConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Consent/WestVirginiaConsentProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/36Ad9SeqqzcWjZELq.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/ruvBXFKrhrsfkryfF.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/tEexgTiqCd5LiijCe.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -171,14 +253,126 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/ZgqTvzE4GzyiJvsh2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/eGek52kjH2A5Kw855.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Location/SB8aHDPgnMC27fvo4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-AlabamaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 860: The link 'AL' for "AL: State of Alabama" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-ArizonaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 860: The link 'AZ' for "AZ: State of Arizona" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-ArkansasConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 862: The link 'AR' for "AR: State of Arkansas" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-CaliforniaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 866: The link 'CA' for "CA: State of California" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-ColoradoConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 862: The link 'CO' for "CO: State of Colorado" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-ConnecticutConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 923: The link 'CT' for "CT: State of Connecticut" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-DelawareConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 917: The link 'DE' for "DE: State of Delaware" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-FloridaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 915: The link 'FL' for "FL: State of Florida" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-GeorgiaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 915: The link 'GA' for "GA: State of Georgia" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-IdahoConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 911: The link 'ID' for "ID: State of Idaho" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-IllinoisConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 862: The link 'IL' for "IL: State of Illinois" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-IndianaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 860: The link 'IN' for "IN: State of Indiana" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-IowaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 909: The link 'IA' for "IA: State of Iowa" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-KansasConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 913: The link 'KS' for "KS: State of Kansas" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-KentuckyConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 917: The link 'KY' for "KY: State of Kentucky" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-LouisianaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 919: The link 'LA' for "LA: State of Louisiana" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-MaineConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 911: The link 'ME' for "ME: State of Maine" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-MarylandConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 917: The link 'MD' for "MD: State of Maryland" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-MassachusettsConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 872: The link 'MA' for "MA: State of Massachusetts" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-MichiganConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 917: The link 'MI' for "MI: State of Michigan" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-MinnesotaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 919: The link 'MN' for "MN: State of Minnesota" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-MississippiConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 923: The link 'MS' for "MS: State of Mississippi" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-MissouriConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 917: The link 'MO' for "MO: State of Missouri" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-MontanaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 915: The link 'MT' for "MT: State of Montana" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-NebraskaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 917: The link 'NE' for "NE: State of Nebraska" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-NevadaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 913: The link 'NV' for "NV: State of Nevada" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-NewHampshireConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 925: The link 'NH' for "NH: State of New Hampshire" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-NewJerseyConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 919: The link 'NJ' for "NJ: State of New Jersey" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-NewMexicoConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 919: The link 'NM' for "NM: State of New Mexico" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-NewYorkConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 915: The link 'NY' for "NY: State of New York" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-NorthDakotaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 923: The link 'ND' for "ND: State of North Dakota" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-OhioConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 909: The link 'OH' for "OH: State of Ohio" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-OklahomaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 917: The link 'OK' for "OK: State of Oklahoma" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-OregonConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 913: The link 'OR' for "OR: State of Oregon" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-PennsylvaniaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 925: The link 'PA' for "PA: State of Pennsylvania" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-RhodeIslandConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 923: The link 'RI' for "RI: State of Rhode Island" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-SouthCarolinaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 927: The link 'SC' for "SC: State of South Carolina" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-SouthDakotaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 923: The link 'SD' for "SD: State of South Dakota" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-TennesseeConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 919: The link 'TN' for "TN: State of Tennessee" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-TexasConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 856: The link 'TX' for "TX: State of Texas" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-UtahConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 909: The link 'UT' for "UT: State of Utah" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-VermontConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 915: The link 'VT' for "VT: State of Vermont" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-VirginiaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 917: The link 'VA' for "VA: State of Virginia" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-WashingtonConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 921: The link 'WA' for "WA: State of Washington" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/Consent-WestVirginiaConsentProfile.html#/html/body/div/div/div/div/div/div/p/a at Line 210, column 925: The link 'WV' for "WV: State of West Virginia" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/Consent-AlabamaConsentProfile.json ==
+ERROR: Consent/AlabamaConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+WARNING: Consent/AlabamaConsentProfile: Consent.category[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: Consent/AlabamaConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'AL'
+WARNING: Consent/AlabamaConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+== fsh-generated/resources/Consent-ArizonaConsentProfile.json ==
+ERROR: Consent/ArizonaConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+WARNING: Consent/ArizonaConsentProfile: Consent.category[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: Consent/ArizonaConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'AZ'
+WARNING: Consent/ArizonaConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/ArizonaConsentProfile: Consent.provision.provision[0].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/ArizonaConsentProfile: Consent.provision.provision[2].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/ArizonaConsentProfile: Consent.provision.provision[2].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/ArizonaConsentProfile: Consent.provision.provision[2].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+== fsh-generated/resources/Consent-ArkansasConsentProfile.json ==
+ERROR: Consent/ArkansasConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+WARNING: Consent/ArkansasConsentProfile: Consent.category[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: Consent/ArkansasConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'AR'
+WARNING: Consent/ArkansasConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/ArkansasConsentProfile: Consent.provision.provision[4].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-CaliforniaConsentProfile.json ==
+ERROR: Consent/CaliforniaConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+WARNING: Consent/CaliforniaConsentProfile: Consent.category[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: Consent/CaliforniaConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'CA'
+WARNING: Consent/CaliforniaConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/CaliforniaConsentProfile: Consent.provision.provision[1].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/CaliforniaConsentProfile: Consent.provision.provision[2].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/CaliforniaConsentProfile: Consent.provision.provision[2].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/CaliforniaConsentProfile: Consent.provision.provision[2].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+== fsh-generated/resources/Consent-ColoradoConsentProfile.json ==
+ERROR: Consent/ColoradoConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+WARNING: Consent/ColoradoConsentProfile: Consent.category[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: Consent/ColoradoConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'CO'
+WARNING: Consent/ColoradoConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/ColoradoConsentProfile: Consent.provision.provision[0].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/ColoradoConsentProfile: Consent.provision.provision[2].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/ColoradoConsentProfile: Consent.provision.provision[2].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/ColoradoConsentProfile: Consent.provision.provision[2].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+== fsh-generated/resources/Consent-ConnecticutConsentProfile.json ==
+ERROR: Consent/ConnecticutConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/ConnecticutConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'CT'
+WARNING: Consent/ConnecticutConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/ConnecticutConsentProfile: Consent.provision.provision[0].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/ConnecticutConsentProfile: Consent.provision.provision[2].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/ConnecticutConsentProfile: Consent.provision.provision[2].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/ConnecticutConsentProfile: Consent.provision.provision[2].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+== fsh-generated/resources/Consent-DelawareConsentProfile.json ==
+ERROR: Consent/DelawareConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/DelawareConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'DE'
+WARNING: Consent/DelawareConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/DelawareConsentProfile: Consent.provision.provision[1].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/DelawareConsentProfile: Consent.provision.provision[3].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/DelawareConsentProfile: Consent.provision.provision[3].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/DelawareConsentProfile: Consent.provision.provision[3].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+== fsh-generated/resources/Consent-FloridaConsentProfile.json ==
+ERROR: Consent/FloridaConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/FloridaConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'FL'
+WARNING: Consent/FloridaConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/FloridaConsentProfile: Consent.provision.provision[4].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-GeorgiaConsentProfile.json ==
+ERROR: Consent/GeorgiaConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/GeorgiaConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'GA'
+WARNING: Consent/GeorgiaConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+ERROR: Consent/GeorgiaConsentProfile: Consent.provision.provision[0].code[0].coding[0]: Local Error: Resolved system http://www.nlm.nih.gov/research/umls/rxnorm (v3.0.1), but the definition is not complete. Server Error: Unknown code 'rxcui#1484855' in the CodeSystem 'http://www.nlm.nih.gov/research/umls/rxnorm' version '??rx1' (from http://tx.fhir.org/r4) for 'http://www.nlm.nih.gov/research/umls/rxnorm#rxcui#1484855'
+WARNING: Consent/GeorgiaConsentProfile: Consent.provision.provision[2].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-IdahoConsentProfile.json ==
+ERROR: Consent/IdahoConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/IdahoConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'ID'
+WARNING: Consent/IdahoConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+ERROR: Consent/IdahoConsentProfile: Consent.provision.provision[0].code[0].coding[0]: Local Error: Resolved system http://www.nlm.nih.gov/research/umls/rxnorm (v3.0.1), but the definition is not complete. Server Error: Unknown code 'rxcui#1484855' in the CodeSystem 'http://www.nlm.nih.gov/research/umls/rxnorm' version '??rx1' (from http://tx.fhir.org/r4) for 'http://www.nlm.nih.gov/research/umls/rxnorm#rxcui#1484855'
+WARNING: Consent/IdahoConsentProfile: Consent.provision.provision[1].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
 == fsh-generated/resources/Consent-IllinoisConsentProfile.json ==
 ERROR: Consent/IllinoisConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
 WARNING: Consent/IllinoisConsentProfile: Consent.category[0].coding[0]: A code with no system has no defined meaning. A system should be provided
@@ -194,6 +388,55 @@ WARNING: Consent/IndianaConsentProfile: Consent.provision.provision[0].code[0].c
 WARNING: Consent/IndianaConsentProfile: Consent.provision.provision[2].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
 ERROR: Consent/IndianaConsentProfile: Consent.provision.provision[4].code[0].coding[0]: Local Error: Resolved system http://www.nlm.nih.gov/research/umls/rxnorm (v3.0.1), but the definition is not complete. Server Error: Unknown code 'rxcui#1484855' in the CodeSystem 'http://www.nlm.nih.gov/research/umls/rxnorm' version '??rx1' (from http://tx.fhir.org/r4) for 'http://www.nlm.nih.gov/research/umls/rxnorm#rxcui#1484855'
 ERROR: Consent/IndianaConsentProfile: Consent.provision.provision[5].code[0].coding[1]: Local Error: Resolved system http://snomed.info/sct, but the definition is not complete. Server Error: Wrong Display Name 'Swimming (qualifier value))' for http://snomed.info/sct#20461001. Valid display is one of 2 choices: 'Swimming (qualifier value)' or 'Swimming' (for the language(s) '--') (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#20461001'
+== fsh-generated/resources/Consent-IowaConsentProfile.json ==
+ERROR: Consent/IowaConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/IowaConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'IA'
+WARNING: Consent/IowaConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+ERROR: Consent/IowaConsentProfile: Consent.provision.provision[0].code[0].coding[0]: Local Error: Resolved system http://www.nlm.nih.gov/research/umls/rxnorm (v3.0.1), but the definition is not complete. Server Error: Unknown code 'rxcui#1484855' in the CodeSystem 'http://www.nlm.nih.gov/research/umls/rxnorm' version '??rx1' (from http://tx.fhir.org/r4) for 'http://www.nlm.nih.gov/research/umls/rxnorm#rxcui#1484855'
+WARNING: Consent/IowaConsentProfile: Consent.provision.provision[1].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/IowaConsentProfile: Consent.provision.provision[2].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/IowaConsentProfile: Consent.provision.provision[2].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/IowaConsentProfile: Consent.provision.provision[2].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+WARNING: Consent/IowaConsentProfile: Consent.provision.provision[6].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-KansasConsentProfile.json ==
+ERROR: Consent/KansasConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/KansasConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'KS'
+WARNING: Consent/KansasConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+ERROR: Consent/KansasConsentProfile: Consent.provision.provision[0].code[0].coding[0]: Local Error: Resolved system http://www.nlm.nih.gov/research/umls/rxnorm (v3.0.1), but the definition is not complete. Server Error: Unknown code 'rxcui#1484855' in the CodeSystem 'http://www.nlm.nih.gov/research/umls/rxnorm' version '??rx1' (from http://tx.fhir.org/r4) for 'http://www.nlm.nih.gov/research/umls/rxnorm#rxcui#1484855'
+WARNING: Consent/KansasConsentProfile: Consent.provision.provision[1].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-KentuckyConsentProfile.json ==
+ERROR: Consent/KentuckyConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/KentuckyConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'KY'
+WARNING: Consent/KentuckyConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+ERROR: Consent/KentuckyConsentProfile: Consent.provision.provision[1].code[0].coding[0]: Local Error: Resolved system http://www.nlm.nih.gov/research/umls/rxnorm (v3.0.1), but the definition is not complete. Server Error: Unknown code 'rxcui#1484855' in the CodeSystem 'http://www.nlm.nih.gov/research/umls/rxnorm' version '??rx1' (from http://tx.fhir.org/r4) for 'http://www.nlm.nih.gov/research/umls/rxnorm#rxcui#1484855'
+WARNING: Consent/KentuckyConsentProfile: Consent.provision.provision[2].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/KentuckyConsentProfile: Consent.provision.provision[4].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/KentuckyConsentProfile: Consent.provision.provision[4].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/KentuckyConsentProfile: Consent.provision.provision[4].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+WARNING: Consent/KentuckyConsentProfile: Consent.provision.provision[8].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-LouisianaConsentProfile.json ==
+ERROR: Consent/LouisianaConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/LouisianaConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'LA'
+WARNING: Consent/LouisianaConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/LouisianaConsentProfile: Consent.provision.provision[0].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-MaineConsentProfile.json ==
+ERROR: Consent/MaineConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/MaineConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'ME'
+WARNING: Consent/MaineConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/MaineConsentProfile: Consent.provision.provision[0].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/MaineConsentProfile: Consent.provision.provision[1].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/MaineConsentProfile: Consent.provision.provision[1].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/MaineConsentProfile: Consent.provision.provision[1].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+WARNING: Consent/MaineConsentProfile: Consent.provision.provision[2].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-MarylandConsentProfile.json ==
+ERROR: Consent/MarylandConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/MarylandConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'MD'
+WARNING: Consent/MarylandConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/MarylandConsentProfile: Consent.provision.provision[0].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/MarylandConsentProfile: Consent.provision.provision[2].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/MarylandConsentProfile: Consent.provision.provision[2].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/MarylandConsentProfile: Consent.provision.provision[2].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+WARNING: Consent/MarylandConsentProfile: Consent.provision.provision[3].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
 == fsh-generated/resources/Consent-MassachusettsConsentProfile.json ==
 ERROR: Consent/MassachusettsConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
 WARNING: Consent/MassachusettsConsentProfile: Consent.category[0].coding[0]: A code with no system has no defined meaning. A system should be provided
@@ -204,12 +447,179 @@ WARNING: Consent/MassachusettsConsentProfile: Consent.provision.provision[1].cod
 INFORMATION: Consent/MassachusettsConsentProfile: Consent.provision.provision[4].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
 INFORMATION: Consent/MassachusettsConsentProfile: Consent.provision.provision[4].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
 INFORMATION: Consent/MassachusettsConsentProfile: Consent.provision.provision[4].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+== fsh-generated/resources/Consent-MichiganConsentProfile.json ==
+ERROR: Consent/MichiganConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/MichiganConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'MI'
+WARNING: Consent/MichiganConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/MichiganConsentProfile: Consent.provision.provision[1].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-MinnesotaConsentProfile.json ==
+ERROR: Consent/MinnesotaConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/MinnesotaConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'MN'
+WARNING: Consent/MinnesotaConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/MinnesotaConsentProfile: Consent.provision.provision[1].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/MinnesotaConsentProfile: Consent.provision.provision[2].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/MinnesotaConsentProfile: Consent.provision.provision[2].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/MinnesotaConsentProfile: Consent.provision.provision[2].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+WARNING: Consent/MinnesotaConsentProfile: Consent.provision.provision[3].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-MississippiConsentProfile.json ==
+ERROR: Consent/MississippiConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/MississippiConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'MS'
+WARNING: Consent/MississippiConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+== fsh-generated/resources/Consent-MissouriConsentProfile.json ==
+ERROR: Consent/MissouriConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/MissouriConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'MO'
+WARNING: Consent/MissouriConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/MissouriConsentProfile: Consent.provision.provision[0].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/MissouriConsentProfile: Consent.provision.provision[3].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/MissouriConsentProfile: Consent.provision.provision[3].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/MissouriConsentProfile: Consent.provision.provision[3].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+== fsh-generated/resources/Consent-MontanaConsentProfile.json ==
+ERROR: Consent/MontanaConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/MontanaConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'MT'
+WARNING: Consent/MontanaConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/MontanaConsentProfile: Consent.provision.provision[0].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/MontanaConsentProfile: Consent.provision.provision[1].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/MontanaConsentProfile: Consent.provision.provision[1].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/MontanaConsentProfile: Consent.provision.provision[1].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+== fsh-generated/resources/Consent-NebraskaConsentProfile.json ==
+ERROR: Consent/NebraskaConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/NebraskaConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'NE'
+WARNING: Consent/NebraskaConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/NebraskaConsentProfile: Consent.provision.provision[1].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-NevadaConsentProfile.json ==
+ERROR: Consent/NevadaConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/NevadaConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'NV'
+WARNING: Consent/NevadaConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/NevadaConsentProfile: Consent.provision.provision[1].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/NevadaConsentProfile: Consent.provision.provision[2].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/NevadaConsentProfile: Consent.provision.provision[2].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/NevadaConsentProfile: Consent.provision.provision[2].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+== fsh-generated/resources/Consent-NewHampshireConsentProfile.json ==
+ERROR: Consent/NewHampshireConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/NewHampshireConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'NH'
+WARNING: Consent/NewHampshireConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/NewHampshireConsentProfile: Consent.provision.provision[0].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/NewHampshireConsentProfile: Consent.provision.provision[1].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/NewHampshireConsentProfile: Consent.provision.provision[1].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/NewHampshireConsentProfile: Consent.provision.provision[1].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+== fsh-generated/resources/Consent-NewJerseyConsentProfile.json ==
+ERROR: Consent/NewJerseyConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/NewJerseyConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'NJ'
+WARNING: Consent/NewJerseyConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/NewJerseyConsentProfile: Consent.provision.provision[1].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/NewJerseyConsentProfile: Consent.provision.provision[2].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/NewJerseyConsentProfile: Consent.provision.provision[2].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/NewJerseyConsentProfile: Consent.provision.provision[2].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+== fsh-generated/resources/Consent-NewMexicoConsentProfile.json ==
+ERROR: Consent/NewMexicoConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/NewMexicoConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'NM'
+WARNING: Consent/NewMexicoConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/NewMexicoConsentProfile: Consent.provision.provision[0].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/NewMexicoConsentProfile: Consent.provision.provision[1].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/NewMexicoConsentProfile: Consent.provision.provision[1].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/NewMexicoConsentProfile: Consent.provision.provision[1].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+== fsh-generated/resources/Consent-NewYorkConsentProfile.json ==
+ERROR: Consent/NewYorkConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/NewYorkConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'NY'
+WARNING: Consent/NewYorkConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/NewYorkConsentProfile: Consent.provision.provision[0].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/NewYorkConsentProfile: Consent.provision.provision[2].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/NewYorkConsentProfile: Consent.provision.provision[2].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/NewYorkConsentProfile: Consent.provision.provision[2].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+== fsh-generated/resources/Consent-NorthDakotaConsentProfile.json ==
+ERROR: Consent/NorthDakotaConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/NorthDakotaConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'ND'
+WARNING: Consent/NorthDakotaConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/NorthDakotaConsentProfile: Consent.provision.provision[0].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: Consent/NorthDakotaConsentProfile: Consent.provision.provision[2].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-OhioConsentProfile.json ==
+ERROR: Consent/OhioConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/OhioConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'OH'
+WARNING: Consent/OhioConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/OhioConsentProfile: Consent.provision.provision[1].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: Consent/OhioConsentProfile: Consent.provision.provision[5].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-OklahomaConsentProfile.json ==
+ERROR: Consent/OklahomaConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/OklahomaConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'OK'
+WARNING: Consent/OklahomaConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/OklahomaConsentProfile: Consent.provision.provision[1].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-OregonConsentProfile.json ==
+ERROR: Consent/OregonConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/OregonConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'OR'
+WARNING: Consent/OregonConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/OregonConsentProfile: Consent.provision.provision[1].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/OregonConsentProfile: Consent.provision.provision[3].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/OregonConsentProfile: Consent.provision.provision[3].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/OregonConsentProfile: Consent.provision.provision[3].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+== fsh-generated/resources/Consent-PennsylvaniaConsentProfile.json ==
+ERROR: Consent/PennsylvaniaConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/PennsylvaniaConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'PA'
+WARNING: Consent/PennsylvaniaConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/PennsylvaniaConsentProfile: Consent.provision.provision[1].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-RhodeIslandConsentProfile.json ==
+ERROR: Consent/RhodeIslandConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/RhodeIslandConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'RI'
+WARNING: Consent/RhodeIslandConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/RhodeIslandConsentProfile: Consent.provision.provision[2].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/RhodeIslandConsentProfile: Consent.provision.provision[3].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/RhodeIslandConsentProfile: Consent.provision.provision[3].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/RhodeIslandConsentProfile: Consent.provision.provision[3].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+== fsh-generated/resources/Consent-SouthCarolinaConsentProfile.json ==
+ERROR: Consent/SouthCarolinaConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/SouthCarolinaConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'SC'
+WARNING: Consent/SouthCarolinaConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+ERROR: Consent/SouthCarolinaConsentProfile: Consent.provision.provision[1].code[0].coding[0]: Local Error: Resolved system http://www.nlm.nih.gov/research/umls/rxnorm (v3.0.1), but the definition is not complete. Server Error: Unknown code 'rxcui#1484855' in the CodeSystem 'http://www.nlm.nih.gov/research/umls/rxnorm' version '??rx1' (from http://tx.fhir.org/r4) for 'http://www.nlm.nih.gov/research/umls/rxnorm#rxcui#1484855'
+== fsh-generated/resources/Consent-SouthDakotaConsentProfile.json ==
+ERROR: Consent/SouthDakotaConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/SouthDakotaConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'SD'
+WARNING: Consent/SouthDakotaConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/SouthDakotaConsentProfile: Consent.provision.provision[2].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-TennesseeConsentProfile.json ==
+ERROR: Consent/TennesseeConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/TennesseeConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'TN'
+WARNING: Consent/TennesseeConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+ERROR: Consent/TennesseeConsentProfile: Consent.provision.provision[1].code[0].coding[0]: Local Error: Resolved system http://www.nlm.nih.gov/research/umls/rxnorm (v3.0.1), but the definition is not complete. Server Error: Unknown code 'rxcui#1484855' in the CodeSystem 'http://www.nlm.nih.gov/research/umls/rxnorm' version '??rx1' (from http://tx.fhir.org/r4) for 'http://www.nlm.nih.gov/research/umls/rxnorm#rxcui#1484855'
 == fsh-generated/resources/Consent-TexasConsentProfile.json ==
 ERROR: Consent/TexasConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
 WARNING: Consent/TexasConsentProfile: Consent.category[0].coding[0]: A code with no system has no defined meaning. A system should be provided
 ERROR: Consent/TexasConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'TX'
 WARNING: Consent/TexasConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
 ERROR: Consent/TexasConsentProfile: Consent.provision.provision[1].code[0].coding[0]: Local Error: Resolved system http://www.nlm.nih.gov/research/umls/rxnorm (v3.0.1), but the definition is not complete. Server Error: Unknown code 'rxcui#1484855' in the CodeSystem 'http://www.nlm.nih.gov/research/umls/rxnorm' version '??rx1' (from http://tx.fhir.org/r4) for 'http://www.nlm.nih.gov/research/umls/rxnorm#rxcui#1484855'
+== fsh-generated/resources/Consent-UtahConsentProfile.json ==
+ERROR: Consent/UtahConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/UtahConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'UT'
+WARNING: Consent/UtahConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/UtahConsentProfile: Consent.provision.provision[0].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-VermontConsentProfile.json ==
+ERROR: Consent/VermontConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/VermontConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'VT'
+WARNING: Consent/VermontConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/VermontConsentProfile: Consent.provision.provision[2].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/VermontConsentProfile: Consent.provision.provision[3].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/VermontConsentProfile: Consent.provision.provision[3].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/VermontConsentProfile: Consent.provision.provision[3].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+== fsh-generated/resources/Consent-VirginiaConsentProfile.json ==
+ERROR: Consent/VirginiaConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/VirginiaConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'VA'
+WARNING: Consent/VirginiaConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/VirginiaConsentProfile: Consent.provision.provision[2].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-WashingtonConsentProfile.json ==
+ERROR: Consent/WashingtonConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/WashingtonConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'WA'
+WARNING: Consent/WashingtonConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/WashingtonConsentProfile: Consent.provision.provision[0].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/WashingtonConsentProfile: Consent.provision.provision[1].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/WashingtonConsentProfile: Consent.provision.provision[1].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/WashingtonConsentProfile: Consent.provision.provision[1].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+WARNING: Consent/WashingtonConsentProfile: Consent.provision.provision[2].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/Consent-WestVirginiaConsentProfile.json ==
+ERROR: Consent/WestVirginiaConsentProfile: Consent: Rule ppc-1: 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/WestVirginiaConsentProfile: Consent.organization[0]: Unable to resolve resource with reference 'WV'
+WARNING: Consent/WestVirginiaConsentProfile: Consent.source.ofType(Attachment): Attachments have data and/or url, or else SHOULD have either contentType and/or language
+WARNING: Consent/WestVirginiaConsentProfile: Consent.provision.provision[0].code[0].coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Consent/WestVirginiaConsentProfile: Consent.provision.provision[1].code[1].coding[0]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/WestVirginiaConsentProfile: Consent.provision.provision[1].code[1].coding[1]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
+INFORMATION: Consent/WestVirginiaConsentProfile: Consent.provision.provision[1].code[1].coding[2]: Code System URI 'http://terminology.hl7.org/CodeSystem/v3-FamilyMember' is unknown so the code cannot be validated
 == fsh-generated/resources/ImplementationGuide-mehi.ig.fhir.json ==
 == fsh-generated/resources/Location-2cdHJo5nLPDtnbfnS.json ==
 ERROR: Location/2cdHJo5nLPDtnbfnS: Location.extension[0]: Extension.url must be an absolute URL
