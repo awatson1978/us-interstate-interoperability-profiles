@@ -16,7 +16,7 @@ Alias: $v3-FamilyMember = http://terminology.hl7.org/CodeSystem/v3-FamilyMember
 
 Instance: MassachusettsConsentProfile
 InstanceOf: Consent
-Title: "Massachusetts State Consent Record"
+Title: "Consent Record - Massachusetts"
 Usage: #example
 * status = #active
 * category[0].coding[0].code = http://loinc.org#57017-6 "Privacy policy Organization Document"

@@ -1,0 +1,79 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://gitlab.mitre.org/awatson/us-state-profiles/Consent/PennsylvaniaConsentProfile> a fhir:Consent ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "PennsylvaniaConsentProfile"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Consent</b><a name=\"PennsylvaniaConsentProfile\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Consent &quot;PennsylvaniaConsentProfile&quot; </p></div><p><b>status</b>: active</p><p><b>scope</b>: Privacy Consent <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-consentscope.html\">Consent Scope Codes</a>#patient-privacy)</span></p><p><b>category</b>: Privacy policy Organization Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#57017-6)</span></p><p><b>dateTime</b>: 2024-01-29 16:57:23+0000</p><p><b>organization</b>: <a href=\"PA\">PA: State of Pennsylvania</a></p><p><b>source</b>: </p><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><h3>Provisions</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Class</b></td><td><b>Code</b></td></tr><tr><td>*</td><td>permit</td><td>Practitioner (Details: http://hl7.org/fhir/resource-types code Practitioner = 'Practitioner', stated as 'Practitioner')</td><td>Doula <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#768825008 &quot;Doula (occupation)&quot;)</span></td></tr><tr><td>*</td><td>permit</td><td>Coverage (Details: http://hl7.org/fhir/resource-types code Coverage = 'Coverage', stated as 'Coverage')</td><td>Medicaid Expansion <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#SUBSUPP &quot;subsidized supplemental health program&quot;)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:scope [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/consentscope"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "patient-privacy" ] ;
+       fhir:display [ fhir:v "Privacy Consent" ]
+     ] )
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       a loinc:57017-6 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "57017-6" ] ;
+       fhir:display [ fhir:v "Privacy policy Organization Document" ]
+     ] )
+  ] ) ; # 
+  fhir:dateTime [ fhir:v "2024-01-29T16:57:23.718Z"^^xsd:dateTime] ; # 
+  fhir:organization ( [
+     fhir:reference [ fhir:v "PA" ] ;
+     fhir:display [ fhir:v "State of Pennsylvania" ]
+  ] ) ; # 
+  fhir:source [
+     a fhir:Attachment ;
+     fhir:title [ fhir:v "The terms of the consent in lawyer speak." ] ;
+     fhir:creation [ fhir:v "2016-08-22"^^xsd:date ]
+  ] ; # 
+  fhir:provision [
+     fhir:type [ fhir:v "permit" ] ;
+     fhir:provision ( [
+       fhir:type [ fhir:v "permit" ] ;
+       fhir:class ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/resource-types"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Practitioner" ] ;
+         fhir:display [ fhir:v "Practitioner" ]
+       ] ) ;
+       fhir:code ( [
+         fhir:coding ( [
+           a sct:768825008 ;
+           fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "768825008" ] ;
+           fhir:display [ fhir:v "Doula (occupation)" ]
+         ] ) ;
+         fhir:text [ fhir:v "Doula" ]
+       ] )
+     ] [
+       fhir:type [ fhir:v "permit" ] ;
+       fhir:class ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/resource-types"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Coverage" ] ;
+         fhir:display [ fhir:v "Coverage" ]
+       ] ) ;
+       fhir:code ( [
+         fhir:coding ( [
+           fhir:code [ fhir:v "SUBSUPP" ] ;
+           fhir:display [ fhir:v "subsidized supplemental health program" ]
+         ] ) ;
+         fhir:text [ fhir:v "Medicaid Expansion" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,172 @@
+{
+  "resourceType": "Consent",
+  "id": "WestVirginiaConsentProfile",
+  "status": "active",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "57017-6",
+          "system": "http://loinc.org",
+          "display": "Privacy policy Organization Document"
+        }
+      ]
+    }
+  ],
+  "scope": {
+    "coding": [
+      {
+        "code": "patient-privacy",
+        "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+        "display": "Privacy Consent"
+      }
+    ]
+  },
+  "dateTime": "2024-01-29T17:45:16.035Z",
+  "organization": [
+    {
+      "reference": "WV",
+      "display": "State of West Virginia"
+    }
+  ],
+  "sourceAttachment": {
+    "title": "The terms of the consent in lawyer speak.",
+    "creation": "2016-08-22"
+  },
+  "provision": {
+    "type": "permit",
+    "provision": [
+      {
+        "type": "permit",
+        "class": [
+          {
+            "code": "Coverage",
+            "system": "http://hl7.org/fhir/resource-types",
+            "display": "Coverage"
+          }
+        ],
+        "code": [
+          {
+            "text": "Medicaid Expansion",
+            "coding": [
+              {
+                "code": "SUBSUPP",
+                "display": "subsidized supplemental health program"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "permit",
+        "class": [
+          {
+            "code": "RelatedPerson",
+            "system": "http://hl7.org/fhir/resource-types",
+            "display": "RelatedPerson"
+          }
+        ],
+        "code": [
+          {
+            "text": "Marital Status",
+            "coding": [
+              {
+                "code": "P",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "display": "Polygamous"
+              },
+              {
+                "code": "T",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "display": "Domestic partner"
+              }
+            ]
+          },
+          {
+            "text": "relation",
+            "coding": [
+              {
+                "code": "FTHFOST",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-FamilyMember",
+                "display": "Foster Father"
+              },
+              {
+                "code": "MTHFOST",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-FamilyMember",
+                "display": "Foster Mother"
+              },
+              {
+                "code": "PRNFOST",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-FamilyMember",
+                "display": "Foster Parent"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "deny",
+        "class": [
+          {
+            "code": "Procedure",
+            "system": "http://hl7.org/fhir/resource-types",
+            "display": "Procedure"
+          }
+        ],
+        "code": [
+          {
+            "text": "Pediatric Gender Medicine",
+            "coding": [
+              {
+                "code": "266717002",
+                "system": "http://snomed.info/sct",
+                "display": "Hormone replacement therapy (procedure)"
+              },
+              {
+                "code": "719670005",
+                "system": "http://snomed.info/sct",
+                "display": "Gender confirmation surgery (procedure)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "deny",
+        "class": [
+          {
+            "code": "ActivityDefinition",
+            "system": "http://hl7.org/fhir/resource-types",
+            "display": "ActivityDefinition"
+          }
+        ],
+        "code": [
+          {
+            "text": "Sports",
+            "coding": [
+              {
+                "code": "14468000",
+                "system": "http://snomed.info/sct",
+                "display": "Sports activity (observable entity)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": [
+          {
+            "text": "Swimming",
+            "coding": [
+              {
+                "code": "20461001",
+                "system": "http://snomed.info/sct",
+                "display": "Swimming (qualifier value)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

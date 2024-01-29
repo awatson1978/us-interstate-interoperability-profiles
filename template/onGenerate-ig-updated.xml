@@ -12,7 +12,7 @@
    <version value="0.5.0"/>
    <name value="USStateProfiles"/>
    <status value="draft"/>
-   <date value="2024-01-28T20:27:37-06:00"/>
+   <date value="2024-01-29T11:57:02-06:00"/>
    <publisher value="MITRE, Inc"/>
    <contact>
       <name value="MITRE, Inc"/>
@@ -273,6 +273,47 @@
          <name value="Example: Example Instances"/>
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like."/>
       </grouping>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       
       
       
@@ -1349,12 +1390,182 @@
             <valueString value="Consent"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-AlabamaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/AlabamaConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Alabama"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-ArizonaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/ArizonaConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Arizona"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-ArkansasConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/ArkansasConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Arkansas"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-CaliforniaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/CaliforniaConsentProfile"/>
+         </reference>
+         <name value="Consent Record - California"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-ColoradoConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/ColoradoConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Colorado"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-ConnecticutConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/ConnecticutConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Connecticut"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-DelawareConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/DelawareConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Delaware"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-FloridaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/FloridaConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Florida"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-GeorgiaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/GeorgiaConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Georgia"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-IdahoConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/IdahoConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Idaho"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="Consent-IllinoisConsentProfile.html"/>
          </extension>
          <reference>
             <reference value="Consent/IllinoisConsentProfile"/>
          </reference>
-         <name value="Illinois State Consent Record"/>
+         <name value="Consent Record - Illinois"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1371,7 +1582,109 @@
          <reference>
             <reference value="Consent/IndianaConsentProfile"/>
          </reference>
-         <name value="Indiana State Consent Record"/>
+         <name value="Consent Record - Indiana"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-IowaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/IowaConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Iowa"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-KansasConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/KansasConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Kansas"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-KentuckyConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/KentuckyConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Kentucky"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-LouisianaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/LouisianaConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Louisiana"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-MaineConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/MaineConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Maine"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-MarylandConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/MarylandConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Maryland"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1388,7 +1701,347 @@
          <reference>
             <reference value="Consent/MassachusettsConsentProfile"/>
          </reference>
-         <name value="Massachusetts State Consent Record"/>
+         <name value="Consent Record - Massachusetts"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-MichiganConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/MichiganConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Michigan"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-MinnesotaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/MinnesotaConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Minnesota"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-MississippiConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/MississippiConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Mississippi"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-MissouriConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/MissouriConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Missouri"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-MontanaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/MontanaConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Montana"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-NebraskaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/NebraskaConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Nebraska"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-NevadaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/NevadaConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Nevada"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-NewHampshireConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/NewHampshireConsentProfile"/>
+         </reference>
+         <name value="Consent Record - New Hampshire"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-NewJerseyConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/NewJerseyConsentProfile"/>
+         </reference>
+         <name value="Consent Record - New Jersey"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-NewMexicoConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/NewMexicoConsentProfile"/>
+         </reference>
+         <name value="Consent Record - New Mexico"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-NewYorkConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/NewYorkConsentProfile"/>
+         </reference>
+         <name value="Consent Record - New York"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-NorthDakotaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/NorthDakotaConsentProfile"/>
+         </reference>
+         <name value="Consent Record - North Dakota"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-OhioConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/OhioConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Ohio"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-OklahomaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/OklahomaConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Oklahoma"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-OregonConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/OregonConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Oregon"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-PennsylvaniaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/PennsylvaniaConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Pennsylvania"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-RhodeIslandConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/RhodeIslandConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Rhode Island"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-SouthCarolinaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/SouthCarolinaConsentProfile"/>
+         </reference>
+         <name value="Consent Record - South Carolina"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-SouthDakotaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/SouthDakotaConsentProfile"/>
+         </reference>
+         <name value="Consent Record - South Dakota"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-TennesseeConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/TennesseeConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Tennessee State"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -1405,7 +2058,92 @@
          <reference>
             <reference value="Consent/TexasConsentProfile"/>
          </reference>
-         <name value="Texas State Consent Record"/>
+         <name value="Consent Record - Texas State"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-UtahConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/UtahConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Utah State"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-VermontConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/VermontConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Vermont"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-VirginiaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/VirginiaConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Virginia State"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-WashingtonConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/WashingtonConsentProfile"/>
+         </reference>
+         <name value="Consent Record - Washington"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-WestVirginiaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/WestVirginiaConsentProfile"/>
+         </reference>
+         <name value="Consent Record - West Virginia"/>
          <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -2672,23 +3410,228 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="Consent-AlabamaConsentProfile.html"/>
+               <title value="Consent Record - Alabama"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-ArizonaConsentProfile.html"/>
+               <title value="Consent Record - Arizona"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-ArkansasConsentProfile.html"/>
+               <title value="Consent Record - Arkansas"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-CaliforniaConsentProfile.html"/>
+               <title value="Consent Record - California"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-ColoradoConsentProfile.html"/>
+               <title value="Consent Record - Colorado"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-ConnecticutConsentProfile.html"/>
+               <title value="Consent Record - Connecticut"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-DelawareConsentProfile.html"/>
+               <title value="Consent Record - Delaware"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-FloridaConsentProfile.html"/>
+               <title value="Consent Record - Florida"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-GeorgiaConsentProfile.html"/>
+               <title value="Consent Record - Georgia"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-IdahoConsentProfile.html"/>
+               <title value="Consent Record - Idaho"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="Consent-IllinoisConsentProfile.html"/>
-               <title value="Illinois State Consent Record"/>
+               <title value="Consent Record - Illinois"/>
                <generation value="generated"/>
             </page>
             <page>
                <nameUrl value="Consent-IndianaConsentProfile.html"/>
-               <title value="Indiana State Consent Record"/>
+               <title value="Consent Record - Indiana"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-IowaConsentProfile.html"/>
+               <title value="Consent Record - Iowa"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-KansasConsentProfile.html"/>
+               <title value="Consent Record - Kansas"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-KentuckyConsentProfile.html"/>
+               <title value="Consent Record - Kentucky"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-LouisianaConsentProfile.html"/>
+               <title value="Consent Record - Louisiana"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-MaineConsentProfile.html"/>
+               <title value="Consent Record - Maine"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-MarylandConsentProfile.html"/>
+               <title value="Consent Record - Maryland"/>
                <generation value="generated"/>
             </page>
             <page>
                <nameUrl value="Consent-MassachusettsConsentProfile.html"/>
-               <title value="Massachusetts State Consent Record"/>
+               <title value="Consent Record - Massachusetts"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-MichiganConsentProfile.html"/>
+               <title value="Consent Record - Michigan"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-MinnesotaConsentProfile.html"/>
+               <title value="Consent Record - Minnesota"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-MississippiConsentProfile.html"/>
+               <title value="Consent Record - Mississippi"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-MissouriConsentProfile.html"/>
+               <title value="Consent Record - Missouri"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-MontanaConsentProfile.html"/>
+               <title value="Consent Record - Montana"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-NebraskaConsentProfile.html"/>
+               <title value="Consent Record - Nebraska"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-NevadaConsentProfile.html"/>
+               <title value="Consent Record - Nevada"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-NewHampshireConsentProfile.html"/>
+               <title value="Consent Record - New Hampshire"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-NewJerseyConsentProfile.html"/>
+               <title value="Consent Record - New Jersey"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-NewMexicoConsentProfile.html"/>
+               <title value="Consent Record - New Mexico"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-NewYorkConsentProfile.html"/>
+               <title value="Consent Record - New York"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-NorthDakotaConsentProfile.html"/>
+               <title value="Consent Record - North Dakota"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-OhioConsentProfile.html"/>
+               <title value="Consent Record - Ohio"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-OklahomaConsentProfile.html"/>
+               <title value="Consent Record - Oklahoma"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-OregonConsentProfile.html"/>
+               <title value="Consent Record - Oregon"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-PennsylvaniaConsentProfile.html"/>
+               <title value="Consent Record - Pennsylvania"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-RhodeIslandConsentProfile.html"/>
+               <title value="Consent Record - Rhode Island"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-SouthCarolinaConsentProfile.html"/>
+               <title value="Consent Record - South Carolina"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-SouthDakotaConsentProfile.html"/>
+               <title value="Consent Record - South Dakota"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-TennesseeConsentProfile.html"/>
+               <title value="Consent Record - Tennessee State"/>
                <generation value="generated"/>
             </page>
             <page>
                <nameUrl value="Consent-TexasConsentProfile.html"/>
-               <title value="Texas State Consent Record"/>
+               <title value="Consent Record - Texas State"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-UtahConsentProfile.html"/>
+               <title value="Consent Record - Utah State"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-VermontConsentProfile.html"/>
+               <title value="Consent Record - Vermont"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-VirginiaConsentProfile.html"/>
+               <title value="Consent Record - Virginia State"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-WashingtonConsentProfile.html"/>
+               <title value="Consent Record - Washington"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Consent-WestVirginiaConsentProfile.html"/>
+               <title value="Consent Record - West Virginia"/>
                <generation value="generated"/>
             </page>
             <page>

@@ -14,7 +14,7 @@ Alias: $resource-types = http://hl7.org/fhir/resource-types
 
 Instance: TexasConsentProfile
 InstanceOf: Consent
-Title: "Texas State Consent Record"
+Title: "Consent Record - Texas State"
 Usage: #example
 * status = #active
 * category[0].coding[0].code = http://loinc.org#57017-6 "Privacy policy Organization Document"

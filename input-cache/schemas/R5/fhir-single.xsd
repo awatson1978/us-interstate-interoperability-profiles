@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Thu, Dec 28, 2023 02:26+0000 for FHIR v6.0.0-cibuild 
+  Generated on Mon, Jan 29, 2024 07:44+0000 for FHIR v6.0.0-cibuild 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="6.0.0-cibuild">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -17859,7 +17859,7 @@ The duration (usually in minutes) could also be provided to indicate the length 
         <xs:sequence>
           <xs:element name="category" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Classification of the type of event.</xs:documentation>
+              <xs:documentation xml:lang="en">Partitions the audit event into one or more categories that can be used to filter searching, to govern access control and/or to guide system behavior.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="code" minOccurs="1" maxOccurs="1" type="CodeableConcept">
@@ -38137,6 +38137,11 @@ See guidance around (not) making local changes to elements [here](canonicalresou
           <xs:documentation xml:lang="en">InsurancePlan</xs:documentation>
         </xs:annotation>
       </xs:enumeration>
+      <xs:enumeration value="InsuranceProduct">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">InsuranceProduct</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
       <xs:enumeration value="InventoryItem">
         <xs:annotation>
           <xs:documentation xml:lang="en">InventoryItem</xs:documentation>
@@ -38750,6 +38755,11 @@ See guidance around (not) making local changes to elements [here](canonicalresou
       <xs:enumeration value="SubstanceSpecification">
         <xs:annotation>
           <xs:documentation xml:lang="en">SubstanceSpecification</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="InsuranceProduct">
+        <xs:annotation>
+          <xs:documentation xml:lang="en">InsuranceProduct</xs:documentation>
         </xs:annotation>
       </xs:enumeration>
     </xs:restriction>
@@ -39484,6 +39494,16 @@ See guidance around (not) making local changes to elements [here](canonicalresou
               <xs:documentation xml:lang="en">The current state of the ImagingSelection resource. This is not the status of any ImagingStudy, ServiceRequest, or Task resources associated with the ImagingSelection.</xs:documentation>
            </xs:annotation>
           </xs:element>
+          <xs:element name="category" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Classifies the imaging selection.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="code" minOccurs="1" maxOccurs="1" type="CodeableConcept">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Reason for referencing the selected content.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
           <xs:element name="subject" minOccurs="0" maxOccurs="1" type="Reference">
             <xs:annotation>
               <xs:documentation xml:lang="en">The patient, or group of patients, location, device, organization, procedure or practitioner this imaging selection is about and into whose or what record the imaging selection is placed.</xs:documentation>
@@ -39502,16 +39522,6 @@ See guidance around (not) making local changes to elements [here](canonicalresou
           <xs:element name="basedOn" minOccurs="0" maxOccurs="unbounded" type="Reference">
             <xs:annotation>
               <xs:documentation xml:lang="en">A list of the diagnostic requests that resulted in this imaging selection being performed.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:element name="category" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">Classifies the imaging selection.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:element name="code" minOccurs="1" maxOccurs="1" type="CodeableConcept">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">Reason for referencing the selected content.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="studyUid" minOccurs="0" maxOccurs="1" type="id">
@@ -39606,7 +39616,7 @@ See guidance around (not) making local changes to elements [here](canonicalresou
               <xs:documentation xml:lang="en">The Instance Number for the selected DICOM instance.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="sopClass" minOccurs="0" maxOccurs="1" type="Coding">
+          <xs:element name="sopClass" minOccurs="0" maxOccurs="1" type="oid">
             <xs:annotation>
               <xs:documentation xml:lang="en">The SOP Class UID for the selected DICOM instance.</xs:documentation>
            </xs:annotation>
@@ -39960,7 +39970,7 @@ See guidance around (not) making local changes to elements [here](canonicalresou
               <xs:documentation xml:lang="en">The DICOM SOP Instance UID for this image or other DICOM content.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="sopClass" minOccurs="1" maxOccurs="1" type="Coding">
+          <xs:element name="sopClass" minOccurs="1" maxOccurs="1" type="oid">
             <xs:annotation>
               <xs:documentation xml:lang="en">DICOM instance  type.</xs:documentation>
            </xs:annotation>
@@ -54558,12 +54568,17 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:element name="location" minOccurs="0" maxOccurs="1" type="Reference">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Where the activity occurred, if relevant.</xs:documentation>
+              <xs:documentation xml:lang="en">Where the activity occurred.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="authorization" minOccurs="0" maxOccurs="unbounded" type="CodeableReference">
             <xs:annotation>
               <xs:documentation xml:lang="en">The authorization (e.g., PurposeOfUse) that was used during the event being recorded.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="why" minOccurs="0" maxOccurs="1" type="markdown">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">Describes why the event recorded in this provenenace occurred in textual form.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="activity" minOccurs="0" maxOccurs="1" type="CodeableConcept">
@@ -54573,7 +54588,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:element name="basedOn" minOccurs="0" maxOccurs="unbounded" type="Reference">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Allows tracing of authorizatino for the events and tracking whether proposals/recommendations were acted upon.</xs:documentation>
+              <xs:documentation xml:lang="en">A plan, proposal or order that is fulfilled in whole or in part by this provenance.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="patient" minOccurs="0" maxOccurs="1" type="Reference">

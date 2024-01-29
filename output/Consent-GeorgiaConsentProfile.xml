@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Consent xmlns="http://hl7.org/fhir">
+  <id value="GeorgiaConsentProfile"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Consent</b><a name="GeorgiaConsentProfile"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Consent &quot;GeorgiaConsentProfile&quot; </p></div><p><b>status</b>: active</p><p><b>scope</b>: Privacy Consent <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-consentscope.html">Consent Scope Codes</a>#patient-privacy)</span></p><p><b>category</b>: Privacy policy Organization Document <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#57017-6)</span></p><p><b>dateTime</b>: 2024-01-29 15:28:32+0000</p><p><b>organization</b>: <a href="GA">GA: State of Georgia</a></p><p><b>source</b>: </p><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><h3>Provisions</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Class</b></td><td><b>Code</b></td></tr><tr><td>*</td><td>deny</td><td>Medication (Details: http://hl7.org/fhir/resource-types code Medication = 'Medication', stated as 'Medication')</td><td>Cannabis <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-v3-rxNorm.html">RxNorm</a>#rxcui#1484855 &quot;Cannabis sativa subsp. flowering top extract&quot;)</span></td></tr><tr><td>*</td><td>deny</td><td>Procedure (Details: http://hl7.org/fhir/resource-types code Procedure = 'Procedure', stated as 'Procedure')</td><td>Abortion <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#386639001 &quot;Termination of pregnancy (procedure)&quot;)</span></td></tr><tr><td>*</td><td>permit</td><td>RelatedPerson (Details: http://hl7.org/fhir/resource-types code RelatedPerson = 'RelatedPerson', stated as 'RelatedPerson')</td><td>Power of Attorney <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#POWATT &quot;power of attorney&quot;)</span></td></tr></table></blockquote></div>
+  </text>
+  <status value="active"/>
+  <scope>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/consentscope"/>
+      <code value="patient-privacy"/>
+      <display value="Privacy Consent"/>
+    </coding>
+  </scope>
+  <category>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="57017-6"/>
+      <display value="Privacy policy Organization Document"/>
+    </coding>
+  </category>
+  <dateTime value="2024-01-29T15:28:32.636Z"/>
+  <organization>
+    <reference value="GA"/>
+    <display value="State of Georgia"/>
+  </organization>
+  <sourceAttachment>
+    <title value="The terms of the consent in lawyer speak."/>
+    <creation value="2016-08-22"/>
+  </sourceAttachment>
+  <provision>
+    <type value="permit"/>
+    <provision>
+      <type value="deny"/>
+      <class>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Medication"/>
+        <display value="Medication"/>
+      </class>
+      <code>
+        <coding>
+          <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+          <code value="rxcui#1484855"/>
+          <display value="Cannabis sativa subsp. flowering top extract"/>
+        </coding>
+        <text value="Cannabis"/>
+      </code>
+    </provision>
+    <provision>
+      <type value="deny"/>
+      <class>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="Procedure"/>
+        <display value="Procedure"/>
+      </class>
+      <code>
+        <coding>
+          <system value="http://snomed.info/sct"/>
+          <code value="386639001"/>
+          <display value="Termination of pregnancy (procedure)"/>
+        </coding>
+        <text value="Abortion"/>
+      </code>
+    </provision>
+    <provision>
+      <type value="permit"/>
+      <class>
+        <system value="http://hl7.org/fhir/resource-types"/>
+        <code value="RelatedPerson"/>
+        <display value="RelatedPerson"/>
+      </class>
+      <code>
+        <coding>
+          <code value="POWATT"/>
+          <display value="power of attorney"/>
+        </coding>
+        <text value="Power of Attorney"/>
+      </code>
+    </provision>
+  </provision>
+</Consent>

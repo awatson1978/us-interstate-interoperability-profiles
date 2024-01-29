@@ -1,0 +1,192 @@
+{
+  "resourceType": "Consent",
+  "id": "TennesseeConsentProfile",
+  "status": "active",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "57017-6",
+          "system": "http://loinc.org",
+          "display": "Privacy policy Organization Document"
+        }
+      ]
+    }
+  ],
+  "scope": {
+    "coding": [
+      {
+        "code": "patient-privacy",
+        "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+        "display": "Privacy Consent"
+      }
+    ]
+  },
+  "dateTime": "2024-01-29T17:32:17.695Z",
+  "organization": [
+    {
+      "reference": "TN",
+      "display": "State of Tennessee"
+    }
+  ],
+  "sourceAttachment": {
+    "title": "The terms of the consent in lawyer speak.",
+    "creation": "2016-08-22"
+  },
+  "provision": {
+    "type": "permit",
+    "provision": [
+      {
+        "type": "permit",
+        "class": [
+          {
+            "code": "Practitioner",
+            "system": "http://hl7.org/fhir/resource-types",
+            "display": "Practitioner"
+          }
+        ],
+        "code": [
+          {
+            "text": "Doula",
+            "coding": [
+              {
+                "code": "768825008",
+                "system": "http://snomed.info/sct",
+                "display": "Doula (occupation)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "deny",
+        "class": [
+          {
+            "code": "Medication",
+            "system": "http://hl7.org/fhir/resource-types",
+            "display": "Medication"
+          }
+        ],
+        "code": [
+          {
+            "text": "Cannabis",
+            "coding": [
+              {
+                "code": "rxcui#1484855",
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "display": "Cannabis sativa subsp. flowering top extract"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "deny",
+        "class": [
+          {
+            "code": "Procedure",
+            "system": "http://hl7.org/fhir/resource-types",
+            "display": "Procedure"
+          }
+        ],
+        "code": [
+          {
+            "text": "Abortion",
+            "coding": [
+              {
+                "code": "386639001",
+                "system": "http://snomed.info/sct",
+                "display": "Termination of pregnancy (procedure)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "deny",
+        "class": [
+          {
+            "code": "ActivityDefinition",
+            "system": "http://hl7.org/fhir/resource-types",
+            "display": "ActivityDefinition"
+          }
+        ],
+        "code": [
+          {
+            "text": "Sports",
+            "coding": [
+              {
+                "code": "14468000",
+                "system": "http://snomed.info/sct",
+                "display": "Sports activity (observable entity)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "code": [
+          {
+            "text": "Swimming",
+            "coding": [
+              {
+                "code": "20461001",
+                "system": "http://snomed.info/sct",
+                "display": "Swimming (qualifier value)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "deny",
+        "class": [
+          {
+            "code": "Procedure",
+            "system": "http://hl7.org/fhir/resource-types",
+            "display": "Procedure"
+          }
+        ],
+        "code": [
+          {
+            "text": "Pediatric Gender Medicine",
+            "coding": [
+              {
+                "code": "266717002",
+                "system": "http://snomed.info/sct",
+                "display": "Hormone replacement therapy (procedure)"
+              },
+              {
+                "code": "719670005",
+                "system": "http://snomed.info/sct",
+                "display": "Gender confirmation surgery (procedure)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "permit",
+        "class": [
+          {
+            "code": "Practitioner",
+            "system": "http://hl7.org/fhir/resource-types",
+            "display": "Practitioner"
+          }
+        ],
+        "code": [
+          {
+            "text": "Decline",
+            "coding": [
+              {
+                "code": "443390004",
+                "system": "http://snomed.info/sct",
+                "display": "Refused (qualifier value)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

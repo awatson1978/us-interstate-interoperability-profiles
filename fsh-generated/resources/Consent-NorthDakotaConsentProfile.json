@@ -1,0 +1,127 @@
+{
+  "resourceType": "Consent",
+  "id": "NorthDakotaConsentProfile",
+  "status": "active",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "57017-6",
+          "system": "http://loinc.org",
+          "display": "Privacy policy Organization Document"
+        }
+      ]
+    }
+  ],
+  "scope": {
+    "coding": [
+      {
+        "code": "patient-privacy",
+        "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+        "display": "Privacy Consent"
+      }
+    ]
+  },
+  "dateTime": "2024-01-29T16:32:01.276Z",
+  "organization": [
+    {
+      "reference": "ND",
+      "display": "State of North Dakota"
+    }
+  ],
+  "sourceAttachment": {
+    "title": "The terms of the consent in lawyer speak.",
+    "creation": "2016-08-22"
+  },
+  "provision": {
+    "type": "permit",
+    "provision": [
+      {
+        "type": "permit",
+        "class": [
+          {
+            "code": "Coverage",
+            "system": "http://hl7.org/fhir/resource-types",
+            "display": "Coverage"
+          }
+        ],
+        "code": [
+          {
+            "text": "Medicaid Expansion",
+            "coding": [
+              {
+                "code": "SUBSUPP",
+                "display": "subsidized supplemental health program"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "deny",
+        "class": [
+          {
+            "code": "Procedure",
+            "system": "http://hl7.org/fhir/resource-types",
+            "display": "Procedure"
+          }
+        ],
+        "code": [
+          {
+            "text": "Abortion",
+            "coding": [
+              {
+                "code": "386639001",
+                "system": "http://snomed.info/sct",
+                "display": "Termination of pregnancy (procedure)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "permit",
+        "class": [
+          {
+            "code": "RelatedPerson",
+            "system": "http://hl7.org/fhir/resource-types",
+            "display": "RelatedPerson"
+          }
+        ],
+        "code": [
+          {
+            "text": "Power of Attorney",
+            "coding": [
+              {
+                "code": "POWATT",
+                "display": "power of attorney"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "permit",
+        "class": [
+          {
+            "code": "Practitioner",
+            "system": "http://hl7.org/fhir/resource-types",
+            "display": "Practitioner"
+          }
+        ],
+        "code": [
+          {
+            "text": "Decline",
+            "coding": [
+              {
+                "code": "443390004",
+                "system": "http://snomed.info/sct",
+                "display": "Refused (qualifier value)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

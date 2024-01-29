@@ -1,0 +1,84 @@
+{
+  "resourceType": "Consent",
+  "id": "KansasConsentProfile",
+  "status": "active",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "57017-6",
+          "system": "http://loinc.org",
+          "display": "Privacy policy Organization Document"
+        }
+      ]
+    }
+  ],
+  "scope": {
+    "coding": [
+      {
+        "code": "patient-privacy",
+        "system": "http://terminology.hl7.org/CodeSystem/consentscope",
+        "display": "Privacy Consent"
+      }
+    ]
+  },
+  "dateTime": "2024-01-29T15:54:52.383Z",
+  "organization": [
+    {
+      "reference": "KS",
+      "display": "State of Kansas"
+    }
+  ],
+  "sourceAttachment": {
+    "title": "The terms of the consent in lawyer speak.",
+    "creation": "2016-08-22"
+  },
+  "provision": {
+    "type": "permit",
+    "provision": [
+      {
+        "type": "deny",
+        "class": [
+          {
+            "code": "Medication",
+            "system": "http://hl7.org/fhir/resource-types",
+            "display": "Medication"
+          }
+        ],
+        "code": [
+          {
+            "text": "Cannabis",
+            "coding": [
+              {
+                "code": "rxcui#1484855",
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                "display": "Cannabis sativa subsp. flowering top extract"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "permit",
+        "class": [
+          {
+            "code": "RelatedPerson",
+            "system": "http://hl7.org/fhir/resource-types",
+            "display": "RelatedPerson"
+          }
+        ],
+        "code": [
+          {
+            "text": "Power of Attorney",
+            "coding": [
+              {
+                "code": "POWATT",
+                "display": "power of attorney"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

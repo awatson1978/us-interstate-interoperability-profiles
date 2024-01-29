@@ -97,6 +97,321 @@
       },
       {
         "reference": {
+          "reference": "Consent/AlabamaConsentProfile"
+        },
+        "name": "Consent Record - Alabama",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/ArizonaConsentProfile"
+        },
+        "name": "Consent Record - Arizona",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/ArkansasConsentProfile"
+        },
+        "name": "Consent Record - Arkansas",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/CaliforniaConsentProfile"
+        },
+        "name": "Consent Record - California",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/ColoradoConsentProfile"
+        },
+        "name": "Consent Record - Colorado",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/ConnecticutConsentProfile"
+        },
+        "name": "Consent Record - Connecticut",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/DelawareConsentProfile"
+        },
+        "name": "Consent Record - Delaware",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/FloridaConsentProfile"
+        },
+        "name": "Consent Record - Florida",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/GeorgiaConsentProfile"
+        },
+        "name": "Consent Record - Georgia",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/IdahoConsentProfile"
+        },
+        "name": "Consent Record - Idaho",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/IllinoisConsentProfile"
+        },
+        "name": "Consent Record - Illinois",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/IndianaConsentProfile"
+        },
+        "name": "Consent Record - Indiana",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/IowaConsentProfile"
+        },
+        "name": "Consent Record - Iowa",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/KansasConsentProfile"
+        },
+        "name": "Consent Record - Kansas",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/KentuckyConsentProfile"
+        },
+        "name": "Consent Record - Kentucky",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/LouisianaConsentProfile"
+        },
+        "name": "Consent Record - Louisiana",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/MaineConsentProfile"
+        },
+        "name": "Consent Record - Maine",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/MarylandConsentProfile"
+        },
+        "name": "Consent Record - Maryland",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/MassachusettsConsentProfile"
+        },
+        "name": "Consent Record - Massachusetts",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/MichiganConsentProfile"
+        },
+        "name": "Consent Record - Michigan",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/MinnesotaConsentProfile"
+        },
+        "name": "Consent Record - Minnesota",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/MississippiConsentProfile"
+        },
+        "name": "Consent Record - Mississippi",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/MissouriConsentProfile"
+        },
+        "name": "Consent Record - Missouri",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/MontanaConsentProfile"
+        },
+        "name": "Consent Record - Montana",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/NebraskaConsentProfile"
+        },
+        "name": "Consent Record - Nebraska",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/NevadaConsentProfile"
+        },
+        "name": "Consent Record - Nevada",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/NewHampshireConsentProfile"
+        },
+        "name": "Consent Record - New Hampshire",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/NewJerseyConsentProfile"
+        },
+        "name": "Consent Record - New Jersey",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/NewMexicoConsentProfile"
+        },
+        "name": "Consent Record - New Mexico",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/NewYorkConsentProfile"
+        },
+        "name": "Consent Record - New York",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/NorthDakotaConsentProfile"
+        },
+        "name": "Consent Record - North Dakota",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/OhioConsentProfile"
+        },
+        "name": "Consent Record - Ohio",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/OklahomaConsentProfile"
+        },
+        "name": "Consent Record - Oklahoma",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/OregonConsentProfile"
+        },
+        "name": "Consent Record - Oregon",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/PennsylvaniaConsentProfile"
+        },
+        "name": "Consent Record - Pennsylvania",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/RhodeIslandConsentProfile"
+        },
+        "name": "Consent Record - Rhode Island",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/SouthCarolinaConsentProfile"
+        },
+        "name": "Consent Record - South Carolina",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/SouthDakotaConsentProfile"
+        },
+        "name": "Consent Record - South Dakota",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/TennesseeConsentProfile"
+        },
+        "name": "Consent Record - Tennessee State",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/TexasConsentProfile"
+        },
+        "name": "Consent Record - Texas State",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/UtahConsentProfile"
+        },
+        "name": "Consent Record - Utah State",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/VermontConsentProfile"
+        },
+        "name": "Consent Record - Vermont",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/VirginiaConsentProfile"
+        },
+        "name": "Consent Record - Virginia State",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/WashingtonConsentProfile"
+        },
+        "name": "Consent Record - Washington",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Consent/WestVirginiaConsentProfile"
+        },
+        "name": "Consent Record - West Virginia",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "ValueSet/ConsentExchangePolicies"
         },
         "name": "ConsentExchangePolicies",
@@ -153,25 +468,11 @@
       },
       {
         "reference": {
-          "reference": "Consent/IllinoisConsentProfile"
-        },
-        "name": "Illinois State Consent Record",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/illinois-consent-profile"
         },
         "name": "IllinoisConsentProfile",
         "description": "Illinois consent profile.",
         "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "Consent/IndianaConsentProfile"
-        },
-        "name": "Indiana State Consent Record",
-        "exampleBoolean": true
       },
       {
         "reference": {
@@ -228,13 +529,6 @@
         "name": "MarylandConsentProfile",
         "description": "Maryland consent profile.",
         "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "Consent/MassachusettsConsentProfile"
-        },
-        "name": "Massachusetts State Consent Record",
-        "exampleBoolean": true
       },
       {
         "reference": {
@@ -411,13 +705,6 @@
         "name": "TennesseeConsentProfile",
         "description": "Tennessee consent profile.",
         "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "Consent/TexasConsentProfile"
-        },
-        "name": "Texas State Consent Record",
-        "exampleBoolean": true
       },
       {
         "reference": {

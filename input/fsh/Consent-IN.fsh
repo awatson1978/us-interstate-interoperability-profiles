@@ -15,7 +15,7 @@ Alias: $v3-MaritalStatus = http://terminology.hl7.org/CodeSystem/v3-MaritalStatu
 Alias: $v3-FamilyMember = http://terminology.hl7.org/CodeSystem/v3-FamilyMember
 
 Instance: IndianaConsentProfile
-Title:    "Indiana State Consent Record"
+Title:    "Consent Record - Indiana"
 InstanceOf: Consent
 Usage: #example
 * status = #active

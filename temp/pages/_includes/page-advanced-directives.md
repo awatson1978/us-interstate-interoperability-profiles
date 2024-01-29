@@ -49,6 +49,22 @@ Witness requirements and notary public functions have been part of US jurisprude
             "display": "care management",
             "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason"
         }]
+        "provision": [{
+            "type": "permit",
+            "class": [{
+                "code": "RelatedPerson",
+                "display": "RelatedPerson",
+                "system": "http://hl7.org/fhir/resource-types"
+            }],
+            "code": [{
+                "text": "Power of Attorney",
+                "coding": [{
+                    "code": "POWATT",
+                    "display": "power of attorney",
+                    "system": " http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype"
+                }]
+            }]
+        }]
     }
 }
 ```
