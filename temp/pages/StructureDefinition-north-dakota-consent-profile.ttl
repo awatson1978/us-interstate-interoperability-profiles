@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "NorthDakotaConsentProfile"] ; # 
   fhir:title [ fhir:v "NorthDakotaConsentProfile"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-01-29T12:17:23-06:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-01-29T13:10:12-06:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "MITRE, Inc"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "MITRE, Inc" ] ;
