@@ -44,3 +44,8 @@ e: {
   "error" : "Error from server: Unable to provide support for code system http://mehi-ig.tranquildata.com/CodeSystem/PayorToPayorExchangePolicyCodes"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies", "version": "0.5.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://mehi-ig.tranquildata.com/CodeSystem/PayorToPayorExchangePolicyCodes"
+}
+-------------------------------------------------------------------------------------

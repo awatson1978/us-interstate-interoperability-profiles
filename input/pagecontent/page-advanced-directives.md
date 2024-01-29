@@ -1,4 +1,3 @@
-#### Remote Execution for Advanced Directives  
 
 Witness requirements and notary public functions have been part of US jurisprudence since it’s founding, being largely based on English, French, and Spanish contract law respectively. Yet, these legal traditions each presented slightly different requirements, which eventually resulted in the situation where some US states require no signatures for advanced directives, others require a witness, some require two witnesses, and yet others require a notary public. To further complicate matters, COVID19 has created yet more variations in the law, in that people are now allowed to enter contracts remotely using online software services as a witness/notary intermediary.
 
@@ -62,10 +61,5 @@ Witness requirements and notary public functions have been part of US jurisprude
 [Find Advance Directives Forms By State](https://www.aarp.org/caregiving/financial-legal/free-printable-advance-directives/)  
   
 
-
-
-
-
-
-
-
+#### Datasets
+[Locations.US.States.AdvancedDirectives.20240128.ndjson](Locations.US.States.AdvancedDirectives.20240128.ndjson)  

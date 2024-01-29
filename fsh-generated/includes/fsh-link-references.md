@@ -13,7 +13,9 @@
 [GeorgiaConsentProfile]: StructureDefinition-georgia-consent-profile.html
 [HawaiiConsentProfile]: StructureDefinition-hawaii-consent-profile.html
 [IdahoConsentProfile]: StructureDefinition-idaho-consent-profile.html
+[IllinoisConsentProfile]: Consent-IllinoisConsentProfile.html
 [IllinoisConsentProfile]: StructureDefinition-illinois-consent-profile.html
+[IndianaConsentProfile]: Consent-IndianaConsentProfile.html
 [IndianaConsentProfile]: StructureDefinition-indiana-consent-profile.html
 [IowaConsentProfile]: StructureDefinition-iowa-consent-profile.html
 [KansasConsentProfile]: StructureDefinition-kansas-consent-profile.html
@@ -21,6 +23,7 @@
 [LouisianaConsentProfile]: StructureDefinition-louisiana-consent-profile.html
 [MaineConsentProfile]: StructureDefinition-maine-consent-profile.html
 [MarylandConsentProfile]: StructureDefinition-maryland-consent-profile.html
+[MassachusettsConsentProfile]: Consent-MassachusettsConsentProfile.html
 [MassachusettsConsentProfile]: StructureDefinition-massachusetts-consent-profile.html
 [MichiganConsentProfile]: StructureDefinition-michigan-consent-profile.html
 [MinnesotaConsentProfile]: StructureDefinition-minnesota-consent-profile.html
@@ -43,6 +46,7 @@
 [SouthCarolinaConsentProfile]: StructureDefinition-south-carolina-consent-profile.html
 [SouthDakotaConsentProfile]: StructureDefinition-south-dakota-consent-profile.html
 [TennesseeConsentProfile]: StructureDefinition-tennessee-consent-profile.html
+[TexasConsentProfile]: Consent-TexasConsentProfile.html
 [TexasConsentProfile]: StructureDefinition-texas-consent-profile.html
 [36Ad9SeqqzcWjZELq]: Location-36Ad9SeqqzcWjZELq.html
 [ruvBXFKrhrsfkryfF]: Location-ruvBXFKrhrsfkryfF.html

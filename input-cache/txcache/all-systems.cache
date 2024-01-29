@@ -47,3 +47,14 @@ v: {
   "system" : "https://www.usps.com/"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "code" : "57017-6"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/consent-category", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"CHECK_MEMERSHIP_ONLY", "versionFlexible":"true"+}####
+v: {
+  "severity" : "error",
+  "error" : "Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided; No valid coding was found for the value set 'http://hl7.org/fhir/ValueSet/consent-category|4.0.1'; The provided code '#57017-6' was not found in the value set 'http://hl7.org/fhir/ValueSet/consent-category|4.0.1' (from http://tx.fhir.org/r4)",
+  "class" : "UNKNOWN"
+}
+-------------------------------------------------------------------------------------

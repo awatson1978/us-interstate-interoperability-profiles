@@ -1,4 +1,3 @@
-#### WPATH At Risk  
 
 WPATH's guidelines, once widely accepted as the benchmark for transgender healthcare, have faced increasing scrutiny and skepticism in various states. This shift has influenced local policies, leading to a mosaic of regulations that range from supportive to highly restrictive regarding access to gender-affirming treatments and surgeries for transgender individuals. In some states, lawmakers and medical bodies are questioning or moving away from WPATH's recommendations, potentially limiting the availability and scope of transgender healthcare services. These divergences reflect broader debates over medical authority, the role of government in healthcare decisions, and the evolving understanding of gender identity and transgender health needs. As a result, transgender individuals across the U.S. face a disparate and often challenging landscape when seeking healthcare, highlighting the need for a nuanced and informed approach to policy-making in this sensitive and vital area of public health.
 
@@ -9,6 +8,48 @@ WPATH's guidelines, once widely accepted as the benchmark for transgender health
 
 WPATH, WPATH8, standards of care, suicide, prevention, mental health, depression, trans, transgender, youth, puberty blockers, sex change
 
+
+
+#### Example Encoding  
+
+```
+{ 
+    "resourceType": "Consent",
+    "policy": {
+        "authority": "https://www.texas.gov/"
+    },
+    "provision": {
+        "type": "permit",
+        "purpose": [{
+            "code": "COC",
+            "display": "coordination of care",
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason"
+        }],
+        "provision": [{
+            "type": "deny",
+            "class": [{
+                "code": "Procedure",
+                "display": "Procedure",
+                "system": "http://hl7.org/fhir/resource-types"
+            }],
+            "code": [{
+                "text": "Hormone replacement therapy",
+                "coding": [{
+                    "code": "266717002",
+                    "display": "Hormone replacement therapy (procedure)",
+                    "system": " http://snomed.info/sct"
+                }, {
+                "text": "Gender affirming surgery",
+                "coding": [{
+                    "code": "719670005",
+                    "display": "Gender confirmation surgery (procedure)",
+                    "system": " http://snomed.info/sct"
+                }]
+            }]
+        }]
+    }
+}
+```
 
 #### References  
 - [Bans on Transgender Youth Participation in Sports](https://www.lgbtmap.org/equality-maps/sports_participation_bans)  
@@ -21,3 +62,8 @@ WPATH, WPATH8, standards of care, suicide, prevention, mental health, depression
 - [How Red Or Blue Is Your State?](https://fivethirtyeight.com/features/how-red-or-blue-is-your-state-your-congressional-district/)
 - [US States - Ranked by Population 2022](https://worldpopulationreview.com/states)  
 - [As more transgender children seek medical care, families confront many unknowns](https://www.reuters.com/investigates/special-report/usa-transyouth-care/)  
+
+
+
+#### Datasets
+[Locations.US.States.WPATH.atRisk.20240128.ndjson](Locations.US.States.WPATH.atRisk.20240128.ndjson)  

@@ -1,4 +1,3 @@
-#### LGBTI Foster Care
 
 Foster care nondiscrimination laws protect LGBTQ foster parents and families from discrimination by foster care agencies and officials. Some states permit state-licensed child welfare agencies to refuse to place and provide services to children and families, including LGBTQ people and same-sex couples, if doing so conflicts with their religious beliefs.
 
@@ -24,8 +23,8 @@ Foster care nondiscrimination laws protect LGBTQ foster parents and families fro
         "provision": [{
             "type": "deny",
             "class": [{
-                "code": "Patient",
-                "display": "Patient",
+                "code": "RelatedPerson",
+                "display": "RelatedPerson",
                 "system": "http://hl7.org/fhir/resource-types"
             }],
             "code": [{
@@ -39,6 +38,21 @@ Foster care nondiscrimination laws protect LGBTQ foster parents and families fro
                     "display": "Domestic partner",
                     "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
                 }]
+            }, {
+                "text": "relation",
+                "coding": [{
+                    "code": "FTHFOST",
+                    "display": "Foster Father",
+                    "system": "http://terminology.hl7.org/ValueSet/v3-FamilyMember"
+                },{
+                    "code": "MTHFOST",
+                    "display": "Foster Mother",
+                    "system": "http://terminology.hl7.org/ValueSet/v3-FamilyMember"
+                },{
+                    "code": "PRNFOST",
+                    "display": "Foster Parent",
+                    "system": "http://terminology.hl7.org/ValueSet/v3-FamilyMember"
+                }]
             }]
         }]
     }
@@ -47,3 +61,7 @@ Foster care nondiscrimination laws protect LGBTQ foster parents and families fro
 
 #### References  
 [Foster and Adoption Laws](https://www.lgbtmap.org/equality-maps/foster_and_adoption_laws)  
+
+
+#### Datasets
+[Locations.US.States.LGBTFosterCare.20240128.ndjson](Locations.US.States.LGBTFosterCare.20240128.ndjson)  

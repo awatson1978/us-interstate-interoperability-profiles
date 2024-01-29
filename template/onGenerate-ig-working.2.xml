@@ -9,10 +9,10 @@
       </div>
    </text>
    <url value="https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir"/>
-   <version value="0.4.0"/>
+   <version value="0.5.0"/>
    <name value="USStateProfiles"/>
    <status value="draft"/>
-   <date value="2023-11-26T23:28:50-05:00"/>
+   <date value="2024-01-28T20:27:37-06:00"/>
    <publisher value="MITRE, Inc"/>
    <contact>
       <name value="MITRE, Inc"/>
@@ -625,6 +625,23 @@
             <valueInteger value="999999999"/>
          </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-IllinoisConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/IllinoisConsentProfile"/>
+         </reference>
+         <name value="Illinois State Consent Record"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:resource"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -637,6 +654,23 @@
          <description value="Illinois consent profile."/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-IndianaConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/IndianaConsentProfile"/>
+         </reference>
+         <name value="Indiana State Consent Record"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
@@ -763,6 +797,23 @@
          <description value="Maryland consent profile."/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-MassachusettsConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/MassachusettsConsentProfile"/>
+         </reference>
+         <name value="Massachusetts State Consent Record"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
@@ -1159,6 +1210,23 @@
          <description value="Tennessee consent profile."/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Consent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Consent-TexasConsentProfile.html"/>
+         </extension>
+         <reference>
+            <reference value="Consent/TexasConsentProfile"/>
+         </reference>
+         <name value="Texas State Consent Record"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
@@ -2188,7 +2256,7 @@
                <valueUrl value="page-foster-care.html"/>
             </extension>
             <nameUrl value="page-foster-care.html"/>
-            <title value="Foster Care"/>
+            <title value="LGBT Foster Care"/>
             <generation value="markdown"/>
          </page>
          <page>
@@ -2204,7 +2272,7 @@
                <valueUrl value="page-abortion.html"/>
             </extension>
             <nameUrl value="page-abortion.html"/>
-            <title value="Abortion"/>
+            <title value="Abortion Access"/>
             <generation value="markdown"/>
          </page>
          <page>
@@ -2228,7 +2296,7 @@
                <valueUrl value="page-doulas.html"/>
             </extension>
             <nameUrl value="page-doulas.html"/>
-            <title value="Doulas"/>
+            <title value="Doula Access"/>
             <generation value="markdown"/>
          </page>
          <page>
@@ -2236,7 +2304,7 @@
                <valueUrl value="page-controlled-substances.html"/>
             </extension>
             <nameUrl value="page-controlled-substances.html"/>
-            <title value="Controlled Substances"/>
+            <title value="Controlled Substances - Cannabis"/>
             <generation value="markdown"/>
          </page>
          <page>
@@ -2260,7 +2328,7 @@
                <valueUrl value="page-wpath-at-risk.html"/>
             </extension>
             <nameUrl value="page-wpath-at-risk.html"/>
-            <title value="WPATH At Risk"/>
+            <title value="WPATH Usage"/>
             <generation value="markdown"/>
          </page>
          <page>

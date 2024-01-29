@@ -27,9 +27,9 @@
     "next" : "page-foster-care.html"
   },
   "page-foster-care.html" : {
-    "title" : "Foster Care",
+    "title" : "LGBT Foster Care",
     "label" : "4",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Foster Care</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>LGBT Foster Care</b></li>",
     "previous" : "page-advanced-directives.html",
     "next" : "page-trans-sports.html"
   },
@@ -41,9 +41,9 @@
     "next" : "page-abortion.html"
   },
   "page-abortion.html" : {
-    "title" : "Abortion",
+    "title" : "Abortion Access",
     "label" : "6",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Abortion</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Abortion Access</b></li>",
     "previous" : "page-trans-sports.html",
     "next" : "page-ivf.html"
   },
@@ -62,16 +62,16 @@
     "next" : "page-doulas.html"
   },
   "page-doulas.html" : {
-    "title" : "Doulas",
+    "title" : "Doula Access",
     "label" : "9",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Doulas</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Doula Access</b></li>",
     "previous" : "page-assisted-suicide.html",
     "next" : "page-controlled-substances.html"
   },
   "page-controlled-substances.html" : {
-    "title" : "Controlled Substances",
+    "title" : "Controlled Substances - Cannabis",
     "label" : "10",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Controlled Substances</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Controlled Substances - Cannabis</b></li>",
     "previous" : "page-doulas.html",
     "next" : "page-religious-exemptions.html"
   },
@@ -90,9 +90,9 @@
     "next" : "page-wpath-at-risk.html"
   },
   "page-wpath-at-risk.html" : {
-    "title" : "WPATH At Risk",
+    "title" : "WPATH Usage",
     "label" : "13",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>WPATH At Risk</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>WPATH Usage</b></li>",
     "previous" : "page-medicaid-expansion.html",
     "next" : "state-records.html"
   },
@@ -2695,41 +2695,161 @@
     "label" : "15.51",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ConsentExchangePolicies</b></li>",
     "previous" : "ValueSet-ConsentExchangePolicies.json.html",
+    "next" : "Consent-IllinoisConsentProfile.html"
+  },
+  "Consent-IllinoisConsentProfile.html" : {
+    "title" : "Illinois State Consent Record",
+    "label" : "15.52",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Illinois State Consent Record</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "ValueSet-ConsentExchangePolicies.ttl.html",
+    "next" : "Consent-IllinoisConsentProfile.xml.html"
+  },
+  "Consent-IllinoisConsentProfile.xml.html" : {
+    "title" : "Illinois State Consent Record - XML Representation",
+    "label" : "15.52",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Illinois State Consent Record</b></li>",
+    "previous" : "Consent-IllinoisConsentProfile.html",
+    "next" : "Consent-IllinoisConsentProfile.json.html"
+  },
+  "Consent-IllinoisConsentProfile.json.html" : {
+    "title" : "Illinois State Consent Record - JSON Representation",
+    "label" : "15.52",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Illinois State Consent Record</b></li>",
+    "previous" : "Consent-IllinoisConsentProfile.xml.html",
+    "next" : "Consent-IllinoisConsentProfile.ttl.html"
+  },
+  "Consent-IllinoisConsentProfile.ttl.html" : {
+    "title" : "Illinois State Consent Record - TTL Representation",
+    "label" : "15.52",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Illinois State Consent Record</b></li>",
+    "previous" : "Consent-IllinoisConsentProfile.json.html",
+    "next" : "Consent-IndianaConsentProfile.html"
+  },
+  "Consent-IndianaConsentProfile.html" : {
+    "title" : "Indiana State Consent Record",
+    "label" : "15.53",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Indiana State Consent Record</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "Consent-IllinoisConsentProfile.ttl.html",
+    "next" : "Consent-IndianaConsentProfile.xml.html"
+  },
+  "Consent-IndianaConsentProfile.xml.html" : {
+    "title" : "Indiana State Consent Record - XML Representation",
+    "label" : "15.53",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Indiana State Consent Record</b></li>",
+    "previous" : "Consent-IndianaConsentProfile.html",
+    "next" : "Consent-IndianaConsentProfile.json.html"
+  },
+  "Consent-IndianaConsentProfile.json.html" : {
+    "title" : "Indiana State Consent Record - JSON Representation",
+    "label" : "15.53",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Indiana State Consent Record</b></li>",
+    "previous" : "Consent-IndianaConsentProfile.xml.html",
+    "next" : "Consent-IndianaConsentProfile.ttl.html"
+  },
+  "Consent-IndianaConsentProfile.ttl.html" : {
+    "title" : "Indiana State Consent Record - TTL Representation",
+    "label" : "15.53",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Indiana State Consent Record</b></li>",
+    "previous" : "Consent-IndianaConsentProfile.json.html",
+    "next" : "Consent-MassachusettsConsentProfile.html"
+  },
+  "Consent-MassachusettsConsentProfile.html" : {
+    "title" : "Massachusetts State Consent Record",
+    "label" : "15.54",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Massachusetts State Consent Record</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "Consent-IndianaConsentProfile.ttl.html",
+    "next" : "Consent-MassachusettsConsentProfile.xml.html"
+  },
+  "Consent-MassachusettsConsentProfile.xml.html" : {
+    "title" : "Massachusetts State Consent Record - XML Representation",
+    "label" : "15.54",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Massachusetts State Consent Record</b></li>",
+    "previous" : "Consent-MassachusettsConsentProfile.html",
+    "next" : "Consent-MassachusettsConsentProfile.json.html"
+  },
+  "Consent-MassachusettsConsentProfile.json.html" : {
+    "title" : "Massachusetts State Consent Record - JSON Representation",
+    "label" : "15.54",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Massachusetts State Consent Record</b></li>",
+    "previous" : "Consent-MassachusettsConsentProfile.xml.html",
+    "next" : "Consent-MassachusettsConsentProfile.ttl.html"
+  },
+  "Consent-MassachusettsConsentProfile.ttl.html" : {
+    "title" : "Massachusetts State Consent Record - TTL Representation",
+    "label" : "15.54",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Massachusetts State Consent Record</b></li>",
+    "previous" : "Consent-MassachusettsConsentProfile.json.html",
+    "next" : "Consent-TexasConsentProfile.html"
+  },
+  "Consent-TexasConsentProfile.html" : {
+    "title" : "Texas State Consent Record",
+    "label" : "15.55",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Texas State Consent Record</b></li>",
+    "examples" : [],
+    "testscripts" : [],
+    "previous" : "Consent-MassachusettsConsentProfile.ttl.html",
+    "next" : "Consent-TexasConsentProfile.xml.html"
+  },
+  "Consent-TexasConsentProfile.xml.html" : {
+    "title" : "Texas State Consent Record - XML Representation",
+    "label" : "15.55",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Texas State Consent Record</b></li>",
+    "previous" : "Consent-TexasConsentProfile.html",
+    "next" : "Consent-TexasConsentProfile.json.html"
+  },
+  "Consent-TexasConsentProfile.json.html" : {
+    "title" : "Texas State Consent Record - JSON Representation",
+    "label" : "15.55",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Texas State Consent Record</b></li>",
+    "previous" : "Consent-TexasConsentProfile.xml.html",
+    "next" : "Consent-TexasConsentProfile.ttl.html"
+  },
+  "Consent-TexasConsentProfile.ttl.html" : {
+    "title" : "Texas State Consent Record - TTL Representation",
+    "label" : "15.55",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Texas State Consent Record</b></li>",
+    "previous" : "Consent-TexasConsentProfile.json.html",
     "next" : "Location-36Ad9SeqqzcWjZELq.html"
   },
   "Location-36Ad9SeqqzcWjZELq.html" : {
     "title" : "US-State-Alabama",
-    "label" : "15.52",
+    "label" : "15.56",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Alabama</b></li>",
     "examples" : [],
     "testscripts" : [],
-    "previous" : "ValueSet-ConsentExchangePolicies.ttl.html",
+    "previous" : "Consent-TexasConsentProfile.ttl.html",
     "next" : "Location-36Ad9SeqqzcWjZELq.xml.html"
   },
   "Location-36Ad9SeqqzcWjZELq.xml.html" : {
     "title" : "US-State-Alabama - XML Representation",
-    "label" : "15.52",
+    "label" : "15.56",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Alabama</b></li>",
     "previous" : "Location-36Ad9SeqqzcWjZELq.html",
     "next" : "Location-36Ad9SeqqzcWjZELq.json.html"
   },
   "Location-36Ad9SeqqzcWjZELq.json.html" : {
     "title" : "US-State-Alabama - JSON Representation",
-    "label" : "15.52",
+    "label" : "15.56",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Alabama</b></li>",
     "previous" : "Location-36Ad9SeqqzcWjZELq.xml.html",
     "next" : "Location-36Ad9SeqqzcWjZELq.ttl.html"
   },
   "Location-36Ad9SeqqzcWjZELq.ttl.html" : {
     "title" : "US-State-Alabama - TTL Representation",
-    "label" : "15.52",
+    "label" : "15.56",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Alabama</b></li>",
     "previous" : "Location-36Ad9SeqqzcWjZELq.json.html",
     "next" : "Location-ruvBXFKrhrsfkryfF.html"
   },
   "Location-ruvBXFKrhrsfkryfF.html" : {
     "title" : "US-State-Alaska",
-    "label" : "15.53",
+    "label" : "15.57",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Alaska</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -2738,28 +2858,28 @@
   },
   "Location-ruvBXFKrhrsfkryfF.xml.html" : {
     "title" : "US-State-Alaska - XML Representation",
-    "label" : "15.53",
+    "label" : "15.57",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Alaska</b></li>",
     "previous" : "Location-ruvBXFKrhrsfkryfF.html",
     "next" : "Location-ruvBXFKrhrsfkryfF.json.html"
   },
   "Location-ruvBXFKrhrsfkryfF.json.html" : {
     "title" : "US-State-Alaska - JSON Representation",
-    "label" : "15.53",
+    "label" : "15.57",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Alaska</b></li>",
     "previous" : "Location-ruvBXFKrhrsfkryfF.xml.html",
     "next" : "Location-ruvBXFKrhrsfkryfF.ttl.html"
   },
   "Location-ruvBXFKrhrsfkryfF.ttl.html" : {
     "title" : "US-State-Alaska - TTL Representation",
-    "label" : "15.53",
+    "label" : "15.57",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Alaska</b></li>",
     "previous" : "Location-ruvBXFKrhrsfkryfF.json.html",
     "next" : "Location-tEexgTiqCd5LiijCe.html"
   },
   "Location-tEexgTiqCd5LiijCe.html" : {
     "title" : "US-State-Arizona",
-    "label" : "15.54",
+    "label" : "15.58",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Arizona</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -2768,28 +2888,28 @@
   },
   "Location-tEexgTiqCd5LiijCe.xml.html" : {
     "title" : "US-State-Arizona - XML Representation",
-    "label" : "15.54",
+    "label" : "15.58",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Arizona</b></li>",
     "previous" : "Location-tEexgTiqCd5LiijCe.html",
     "next" : "Location-tEexgTiqCd5LiijCe.json.html"
   },
   "Location-tEexgTiqCd5LiijCe.json.html" : {
     "title" : "US-State-Arizona - JSON Representation",
-    "label" : "15.54",
+    "label" : "15.58",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Arizona</b></li>",
     "previous" : "Location-tEexgTiqCd5LiijCe.xml.html",
     "next" : "Location-tEexgTiqCd5LiijCe.ttl.html"
   },
   "Location-tEexgTiqCd5LiijCe.ttl.html" : {
     "title" : "US-State-Arizona - TTL Representation",
-    "label" : "15.54",
+    "label" : "15.58",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Arizona</b></li>",
     "previous" : "Location-tEexgTiqCd5LiijCe.json.html",
     "next" : "Location-Kvwi377gEtBCdbZui.html"
   },
   "Location-Kvwi377gEtBCdbZui.html" : {
     "title" : "US-State-Arkansas",
-    "label" : "15.55",
+    "label" : "15.59",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Arkansas</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -2798,28 +2918,28 @@
   },
   "Location-Kvwi377gEtBCdbZui.xml.html" : {
     "title" : "US-State-Arkansas - XML Representation",
-    "label" : "15.55",
+    "label" : "15.59",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Arkansas</b></li>",
     "previous" : "Location-Kvwi377gEtBCdbZui.html",
     "next" : "Location-Kvwi377gEtBCdbZui.json.html"
   },
   "Location-Kvwi377gEtBCdbZui.json.html" : {
     "title" : "US-State-Arkansas - JSON Representation",
-    "label" : "15.55",
+    "label" : "15.59",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Arkansas</b></li>",
     "previous" : "Location-Kvwi377gEtBCdbZui.xml.html",
     "next" : "Location-Kvwi377gEtBCdbZui.ttl.html"
   },
   "Location-Kvwi377gEtBCdbZui.ttl.html" : {
     "title" : "US-State-Arkansas - TTL Representation",
-    "label" : "15.55",
+    "label" : "15.59",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Arkansas</b></li>",
     "previous" : "Location-Kvwi377gEtBCdbZui.json.html",
     "next" : "Location-3zjF5MkrEZEErco7v.html"
   },
   "Location-3zjF5MkrEZEErco7v.html" : {
     "title" : "US-State-California",
-    "label" : "15.56",
+    "label" : "15.60",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-California</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -2828,28 +2948,28 @@
   },
   "Location-3zjF5MkrEZEErco7v.xml.html" : {
     "title" : "US-State-California - XML Representation",
-    "label" : "15.56",
+    "label" : "15.60",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-California</b></li>",
     "previous" : "Location-3zjF5MkrEZEErco7v.html",
     "next" : "Location-3zjF5MkrEZEErco7v.json.html"
   },
   "Location-3zjF5MkrEZEErco7v.json.html" : {
     "title" : "US-State-California - JSON Representation",
-    "label" : "15.56",
+    "label" : "15.60",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-California</b></li>",
     "previous" : "Location-3zjF5MkrEZEErco7v.xml.html",
     "next" : "Location-3zjF5MkrEZEErco7v.ttl.html"
   },
   "Location-3zjF5MkrEZEErco7v.ttl.html" : {
     "title" : "US-State-California - TTL Representation",
-    "label" : "15.56",
+    "label" : "15.60",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-California</b></li>",
     "previous" : "Location-3zjF5MkrEZEErco7v.json.html",
     "next" : "Location-RFiBZbbFiHxjujhSn.html"
   },
   "Location-RFiBZbbFiHxjujhSn.html" : {
     "title" : "US-State-Colorado",
-    "label" : "15.57",
+    "label" : "15.61",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Colorado</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -2858,28 +2978,28 @@
   },
   "Location-RFiBZbbFiHxjujhSn.xml.html" : {
     "title" : "US-State-Colorado - XML Representation",
-    "label" : "15.57",
+    "label" : "15.61",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Colorado</b></li>",
     "previous" : "Location-RFiBZbbFiHxjujhSn.html",
     "next" : "Location-RFiBZbbFiHxjujhSn.json.html"
   },
   "Location-RFiBZbbFiHxjujhSn.json.html" : {
     "title" : "US-State-Colorado - JSON Representation",
-    "label" : "15.57",
+    "label" : "15.61",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Colorado</b></li>",
     "previous" : "Location-RFiBZbbFiHxjujhSn.xml.html",
     "next" : "Location-RFiBZbbFiHxjujhSn.ttl.html"
   },
   "Location-RFiBZbbFiHxjujhSn.ttl.html" : {
     "title" : "US-State-Colorado - TTL Representation",
-    "label" : "15.57",
+    "label" : "15.61",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Colorado</b></li>",
     "previous" : "Location-RFiBZbbFiHxjujhSn.json.html",
     "next" : "Location-XM35CMNxTr5trv5LA.html"
   },
   "Location-XM35CMNxTr5trv5LA.html" : {
     "title" : "US-State-Connecticut",
-    "label" : "15.58",
+    "label" : "15.62",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Connecticut</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -2888,28 +3008,28 @@
   },
   "Location-XM35CMNxTr5trv5LA.xml.html" : {
     "title" : "US-State-Connecticut - XML Representation",
-    "label" : "15.58",
+    "label" : "15.62",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Connecticut</b></li>",
     "previous" : "Location-XM35CMNxTr5trv5LA.html",
     "next" : "Location-XM35CMNxTr5trv5LA.json.html"
   },
   "Location-XM35CMNxTr5trv5LA.json.html" : {
     "title" : "US-State-Connecticut - JSON Representation",
-    "label" : "15.58",
+    "label" : "15.62",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Connecticut</b></li>",
     "previous" : "Location-XM35CMNxTr5trv5LA.xml.html",
     "next" : "Location-XM35CMNxTr5trv5LA.ttl.html"
   },
   "Location-XM35CMNxTr5trv5LA.ttl.html" : {
     "title" : "US-State-Connecticut - TTL Representation",
-    "label" : "15.58",
+    "label" : "15.62",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Connecticut</b></li>",
     "previous" : "Location-XM35CMNxTr5trv5LA.json.html",
     "next" : "Location-5QYLy3D3fdD2BSGy5.html"
   },
   "Location-5QYLy3D3fdD2BSGy5.html" : {
     "title" : "US-State-Delaware",
-    "label" : "15.59",
+    "label" : "15.63",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Delaware</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -2918,28 +3038,28 @@
   },
   "Location-5QYLy3D3fdD2BSGy5.xml.html" : {
     "title" : "US-State-Delaware - XML Representation",
-    "label" : "15.59",
+    "label" : "15.63",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Delaware</b></li>",
     "previous" : "Location-5QYLy3D3fdD2BSGy5.html",
     "next" : "Location-5QYLy3D3fdD2BSGy5.json.html"
   },
   "Location-5QYLy3D3fdD2BSGy5.json.html" : {
     "title" : "US-State-Delaware - JSON Representation",
-    "label" : "15.59",
+    "label" : "15.63",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Delaware</b></li>",
     "previous" : "Location-5QYLy3D3fdD2BSGy5.xml.html",
     "next" : "Location-5QYLy3D3fdD2BSGy5.ttl.html"
   },
   "Location-5QYLy3D3fdD2BSGy5.ttl.html" : {
     "title" : "US-State-Delaware - TTL Representation",
-    "label" : "15.59",
+    "label" : "15.63",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Delaware</b></li>",
     "previous" : "Location-5QYLy3D3fdD2BSGy5.json.html",
     "next" : "Location-uEkrqm29DjZbHYZiT.html"
   },
   "Location-uEkrqm29DjZbHYZiT.html" : {
     "title" : "US-State-DistrictofColumbia",
-    "label" : "15.60",
+    "label" : "15.64",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-DistrictofColumbia</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -2948,28 +3068,28 @@
   },
   "Location-uEkrqm29DjZbHYZiT.xml.html" : {
     "title" : "US-State-DistrictofColumbia - XML Representation",
-    "label" : "15.60",
+    "label" : "15.64",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-DistrictofColumbia</b></li>",
     "previous" : "Location-uEkrqm29DjZbHYZiT.html",
     "next" : "Location-uEkrqm29DjZbHYZiT.json.html"
   },
   "Location-uEkrqm29DjZbHYZiT.json.html" : {
     "title" : "US-State-DistrictofColumbia - JSON Representation",
-    "label" : "15.60",
+    "label" : "15.64",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-DistrictofColumbia</b></li>",
     "previous" : "Location-uEkrqm29DjZbHYZiT.xml.html",
     "next" : "Location-uEkrqm29DjZbHYZiT.ttl.html"
   },
   "Location-uEkrqm29DjZbHYZiT.ttl.html" : {
     "title" : "US-State-DistrictofColumbia - TTL Representation",
-    "label" : "15.60",
+    "label" : "15.64",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-DistrictofColumbia</b></li>",
     "previous" : "Location-uEkrqm29DjZbHYZiT.json.html",
     "next" : "Location-d35Ka8DnExxJqrshG.html"
   },
   "Location-d35Ka8DnExxJqrshG.html" : {
     "title" : "US-State-Florida",
-    "label" : "15.61",
+    "label" : "15.65",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Florida</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -2978,28 +3098,28 @@
   },
   "Location-d35Ka8DnExxJqrshG.xml.html" : {
     "title" : "US-State-Florida - XML Representation",
-    "label" : "15.61",
+    "label" : "15.65",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Florida</b></li>",
     "previous" : "Location-d35Ka8DnExxJqrshG.html",
     "next" : "Location-d35Ka8DnExxJqrshG.json.html"
   },
   "Location-d35Ka8DnExxJqrshG.json.html" : {
     "title" : "US-State-Florida - JSON Representation",
-    "label" : "15.61",
+    "label" : "15.65",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Florida</b></li>",
     "previous" : "Location-d35Ka8DnExxJqrshG.xml.html",
     "next" : "Location-d35Ka8DnExxJqrshG.ttl.html"
   },
   "Location-d35Ka8DnExxJqrshG.ttl.html" : {
     "title" : "US-State-Florida - TTL Representation",
-    "label" : "15.61",
+    "label" : "15.65",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Florida</b></li>",
     "previous" : "Location-d35Ka8DnExxJqrshG.json.html",
     "next" : "Location-3L8sHLL4cyBoLfQ5X.html"
   },
   "Location-3L8sHLL4cyBoLfQ5X.html" : {
     "title" : "US-State-Georgia",
-    "label" : "15.62",
+    "label" : "15.66",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Georgia</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3008,28 +3128,28 @@
   },
   "Location-3L8sHLL4cyBoLfQ5X.xml.html" : {
     "title" : "US-State-Georgia - XML Representation",
-    "label" : "15.62",
+    "label" : "15.66",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Georgia</b></li>",
     "previous" : "Location-3L8sHLL4cyBoLfQ5X.html",
     "next" : "Location-3L8sHLL4cyBoLfQ5X.json.html"
   },
   "Location-3L8sHLL4cyBoLfQ5X.json.html" : {
     "title" : "US-State-Georgia - JSON Representation",
-    "label" : "15.62",
+    "label" : "15.66",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Georgia</b></li>",
     "previous" : "Location-3L8sHLL4cyBoLfQ5X.xml.html",
     "next" : "Location-3L8sHLL4cyBoLfQ5X.ttl.html"
   },
   "Location-3L8sHLL4cyBoLfQ5X.ttl.html" : {
     "title" : "US-State-Georgia - TTL Representation",
-    "label" : "15.62",
+    "label" : "15.66",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Georgia</b></li>",
     "previous" : "Location-3L8sHLL4cyBoLfQ5X.json.html",
     "next" : "Location-6EBdzCFG6sXWYv3cy.html"
   },
   "Location-6EBdzCFG6sXWYv3cy.html" : {
     "title" : "US-State-Hawaii",
-    "label" : "15.63",
+    "label" : "15.67",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Hawaii</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3038,28 +3158,28 @@
   },
   "Location-6EBdzCFG6sXWYv3cy.xml.html" : {
     "title" : "US-State-Hawaii - XML Representation",
-    "label" : "15.63",
+    "label" : "15.67",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Hawaii</b></li>",
     "previous" : "Location-6EBdzCFG6sXWYv3cy.html",
     "next" : "Location-6EBdzCFG6sXWYv3cy.json.html"
   },
   "Location-6EBdzCFG6sXWYv3cy.json.html" : {
     "title" : "US-State-Hawaii - JSON Representation",
-    "label" : "15.63",
+    "label" : "15.67",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Hawaii</b></li>",
     "previous" : "Location-6EBdzCFG6sXWYv3cy.xml.html",
     "next" : "Location-6EBdzCFG6sXWYv3cy.ttl.html"
   },
   "Location-6EBdzCFG6sXWYv3cy.ttl.html" : {
     "title" : "US-State-Hawaii - TTL Representation",
-    "label" : "15.63",
+    "label" : "15.67",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Hawaii</b></li>",
     "previous" : "Location-6EBdzCFG6sXWYv3cy.json.html",
     "next" : "Location-K59AJPYJwW6QNQ7wA.html"
   },
   "Location-K59AJPYJwW6QNQ7wA.html" : {
     "title" : "US-State-Idaho",
-    "label" : "15.64",
+    "label" : "15.68",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Idaho</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3068,28 +3188,28 @@
   },
   "Location-K59AJPYJwW6QNQ7wA.xml.html" : {
     "title" : "US-State-Idaho - XML Representation",
-    "label" : "15.64",
+    "label" : "15.68",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Idaho</b></li>",
     "previous" : "Location-K59AJPYJwW6QNQ7wA.html",
     "next" : "Location-K59AJPYJwW6QNQ7wA.json.html"
   },
   "Location-K59AJPYJwW6QNQ7wA.json.html" : {
     "title" : "US-State-Idaho - JSON Representation",
-    "label" : "15.64",
+    "label" : "15.68",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Idaho</b></li>",
     "previous" : "Location-K59AJPYJwW6QNQ7wA.xml.html",
     "next" : "Location-K59AJPYJwW6QNQ7wA.ttl.html"
   },
   "Location-K59AJPYJwW6QNQ7wA.ttl.html" : {
     "title" : "US-State-Idaho - TTL Representation",
-    "label" : "15.64",
+    "label" : "15.68",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Idaho</b></li>",
     "previous" : "Location-K59AJPYJwW6QNQ7wA.json.html",
     "next" : "Location-tBzzRo7D9RGzKQenT.html"
   },
   "Location-tBzzRo7D9RGzKQenT.html" : {
     "title" : "US-State-Illinois",
-    "label" : "15.65",
+    "label" : "15.69",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Illinois</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3098,28 +3218,28 @@
   },
   "Location-tBzzRo7D9RGzKQenT.xml.html" : {
     "title" : "US-State-Illinois - XML Representation",
-    "label" : "15.65",
+    "label" : "15.69",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Illinois</b></li>",
     "previous" : "Location-tBzzRo7D9RGzKQenT.html",
     "next" : "Location-tBzzRo7D9RGzKQenT.json.html"
   },
   "Location-tBzzRo7D9RGzKQenT.json.html" : {
     "title" : "US-State-Illinois - JSON Representation",
-    "label" : "15.65",
+    "label" : "15.69",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Illinois</b></li>",
     "previous" : "Location-tBzzRo7D9RGzKQenT.xml.html",
     "next" : "Location-tBzzRo7D9RGzKQenT.ttl.html"
   },
   "Location-tBzzRo7D9RGzKQenT.ttl.html" : {
     "title" : "US-State-Illinois - TTL Representation",
-    "label" : "15.65",
+    "label" : "15.69",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Illinois</b></li>",
     "previous" : "Location-tBzzRo7D9RGzKQenT.json.html",
     "next" : "Location-2cdHJo5nLPDtnbfnS.html"
   },
   "Location-2cdHJo5nLPDtnbfnS.html" : {
     "title" : "US-State-Indiana",
-    "label" : "15.66",
+    "label" : "15.70",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Indiana</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3128,28 +3248,28 @@
   },
   "Location-2cdHJo5nLPDtnbfnS.xml.html" : {
     "title" : "US-State-Indiana - XML Representation",
-    "label" : "15.66",
+    "label" : "15.70",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Indiana</b></li>",
     "previous" : "Location-2cdHJo5nLPDtnbfnS.html",
     "next" : "Location-2cdHJo5nLPDtnbfnS.json.html"
   },
   "Location-2cdHJo5nLPDtnbfnS.json.html" : {
     "title" : "US-State-Indiana - JSON Representation",
-    "label" : "15.66",
+    "label" : "15.70",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Indiana</b></li>",
     "previous" : "Location-2cdHJo5nLPDtnbfnS.xml.html",
     "next" : "Location-2cdHJo5nLPDtnbfnS.ttl.html"
   },
   "Location-2cdHJo5nLPDtnbfnS.ttl.html" : {
     "title" : "US-State-Indiana - TTL Representation",
-    "label" : "15.66",
+    "label" : "15.70",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Indiana</b></li>",
     "previous" : "Location-2cdHJo5nLPDtnbfnS.json.html",
     "next" : "Location-mvv8hrmBhBtYe6gKs.html"
   },
   "Location-mvv8hrmBhBtYe6gKs.html" : {
     "title" : "US-State-Iowa",
-    "label" : "15.67",
+    "label" : "15.71",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Iowa</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3158,28 +3278,28 @@
   },
   "Location-mvv8hrmBhBtYe6gKs.xml.html" : {
     "title" : "US-State-Iowa - XML Representation",
-    "label" : "15.67",
+    "label" : "15.71",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Iowa</b></li>",
     "previous" : "Location-mvv8hrmBhBtYe6gKs.html",
     "next" : "Location-mvv8hrmBhBtYe6gKs.json.html"
   },
   "Location-mvv8hrmBhBtYe6gKs.json.html" : {
     "title" : "US-State-Iowa - JSON Representation",
-    "label" : "15.67",
+    "label" : "15.71",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Iowa</b></li>",
     "previous" : "Location-mvv8hrmBhBtYe6gKs.xml.html",
     "next" : "Location-mvv8hrmBhBtYe6gKs.ttl.html"
   },
   "Location-mvv8hrmBhBtYe6gKs.ttl.html" : {
     "title" : "US-State-Iowa - TTL Representation",
-    "label" : "15.67",
+    "label" : "15.71",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Iowa</b></li>",
     "previous" : "Location-mvv8hrmBhBtYe6gKs.json.html",
     "next" : "Location-C3mPJq92ijWAT4M95.html"
   },
   "Location-C3mPJq92ijWAT4M95.html" : {
     "title" : "US-State-Kansas",
-    "label" : "15.68",
+    "label" : "15.72",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Kansas</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3188,28 +3308,28 @@
   },
   "Location-C3mPJq92ijWAT4M95.xml.html" : {
     "title" : "US-State-Kansas - XML Representation",
-    "label" : "15.68",
+    "label" : "15.72",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Kansas</b></li>",
     "previous" : "Location-C3mPJq92ijWAT4M95.html",
     "next" : "Location-C3mPJq92ijWAT4M95.json.html"
   },
   "Location-C3mPJq92ijWAT4M95.json.html" : {
     "title" : "US-State-Kansas - JSON Representation",
-    "label" : "15.68",
+    "label" : "15.72",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Kansas</b></li>",
     "previous" : "Location-C3mPJq92ijWAT4M95.xml.html",
     "next" : "Location-C3mPJq92ijWAT4M95.ttl.html"
   },
   "Location-C3mPJq92ijWAT4M95.ttl.html" : {
     "title" : "US-State-Kansas - TTL Representation",
-    "label" : "15.68",
+    "label" : "15.72",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Kansas</b></li>",
     "previous" : "Location-C3mPJq92ijWAT4M95.json.html",
     "next" : "Location-wPs7mzdsNAwpBQCio.html"
   },
   "Location-wPs7mzdsNAwpBQCio.html" : {
     "title" : "US-State-Kentucky",
-    "label" : "15.69",
+    "label" : "15.73",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Kentucky</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3218,28 +3338,28 @@
   },
   "Location-wPs7mzdsNAwpBQCio.xml.html" : {
     "title" : "US-State-Kentucky - XML Representation",
-    "label" : "15.69",
+    "label" : "15.73",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Kentucky</b></li>",
     "previous" : "Location-wPs7mzdsNAwpBQCio.html",
     "next" : "Location-wPs7mzdsNAwpBQCio.json.html"
   },
   "Location-wPs7mzdsNAwpBQCio.json.html" : {
     "title" : "US-State-Kentucky - JSON Representation",
-    "label" : "15.69",
+    "label" : "15.73",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Kentucky</b></li>",
     "previous" : "Location-wPs7mzdsNAwpBQCio.xml.html",
     "next" : "Location-wPs7mzdsNAwpBQCio.ttl.html"
   },
   "Location-wPs7mzdsNAwpBQCio.ttl.html" : {
     "title" : "US-State-Kentucky - TTL Representation",
-    "label" : "15.69",
+    "label" : "15.73",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Kentucky</b></li>",
     "previous" : "Location-wPs7mzdsNAwpBQCio.json.html",
     "next" : "Location-4gJBt2RovtF8oBk8h.html"
   },
   "Location-4gJBt2RovtF8oBk8h.html" : {
     "title" : "US-State-Louisiana",
-    "label" : "15.70",
+    "label" : "15.74",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Louisiana</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3248,28 +3368,28 @@
   },
   "Location-4gJBt2RovtF8oBk8h.xml.html" : {
     "title" : "US-State-Louisiana - XML Representation",
-    "label" : "15.70",
+    "label" : "15.74",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Louisiana</b></li>",
     "previous" : "Location-4gJBt2RovtF8oBk8h.html",
     "next" : "Location-4gJBt2RovtF8oBk8h.json.html"
   },
   "Location-4gJBt2RovtF8oBk8h.json.html" : {
     "title" : "US-State-Louisiana - JSON Representation",
-    "label" : "15.70",
+    "label" : "15.74",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Louisiana</b></li>",
     "previous" : "Location-4gJBt2RovtF8oBk8h.xml.html",
     "next" : "Location-4gJBt2RovtF8oBk8h.ttl.html"
   },
   "Location-4gJBt2RovtF8oBk8h.ttl.html" : {
     "title" : "US-State-Louisiana - TTL Representation",
-    "label" : "15.70",
+    "label" : "15.74",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Louisiana</b></li>",
     "previous" : "Location-4gJBt2RovtF8oBk8h.json.html",
     "next" : "Location-LhboPGc7jCgzL2vvu.html"
   },
   "Location-LhboPGc7jCgzL2vvu.html" : {
     "title" : "US-State-Maine",
-    "label" : "15.71",
+    "label" : "15.75",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Maine</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3278,28 +3398,28 @@
   },
   "Location-LhboPGc7jCgzL2vvu.xml.html" : {
     "title" : "US-State-Maine - XML Representation",
-    "label" : "15.71",
+    "label" : "15.75",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Maine</b></li>",
     "previous" : "Location-LhboPGc7jCgzL2vvu.html",
     "next" : "Location-LhboPGc7jCgzL2vvu.json.html"
   },
   "Location-LhboPGc7jCgzL2vvu.json.html" : {
     "title" : "US-State-Maine - JSON Representation",
-    "label" : "15.71",
+    "label" : "15.75",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Maine</b></li>",
     "previous" : "Location-LhboPGc7jCgzL2vvu.xml.html",
     "next" : "Location-LhboPGc7jCgzL2vvu.ttl.html"
   },
   "Location-LhboPGc7jCgzL2vvu.ttl.html" : {
     "title" : "US-State-Maine - TTL Representation",
-    "label" : "15.71",
+    "label" : "15.75",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Maine</b></li>",
     "previous" : "Location-LhboPGc7jCgzL2vvu.json.html",
     "next" : "Location-D5xG52A3yC2YTz8uG.html"
   },
   "Location-D5xG52A3yC2YTz8uG.html" : {
     "title" : "US-State-Maryland",
-    "label" : "15.72",
+    "label" : "15.76",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Maryland</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3308,28 +3428,28 @@
   },
   "Location-D5xG52A3yC2YTz8uG.xml.html" : {
     "title" : "US-State-Maryland - XML Representation",
-    "label" : "15.72",
+    "label" : "15.76",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Maryland</b></li>",
     "previous" : "Location-D5xG52A3yC2YTz8uG.html",
     "next" : "Location-D5xG52A3yC2YTz8uG.json.html"
   },
   "Location-D5xG52A3yC2YTz8uG.json.html" : {
     "title" : "US-State-Maryland - JSON Representation",
-    "label" : "15.72",
+    "label" : "15.76",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Maryland</b></li>",
     "previous" : "Location-D5xG52A3yC2YTz8uG.xml.html",
     "next" : "Location-D5xG52A3yC2YTz8uG.ttl.html"
   },
   "Location-D5xG52A3yC2YTz8uG.ttl.html" : {
     "title" : "US-State-Maryland - TTL Representation",
-    "label" : "15.72",
+    "label" : "15.76",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Maryland</b></li>",
     "previous" : "Location-D5xG52A3yC2YTz8uG.json.html",
     "next" : "Location-zTQuTGuHEy6TsqZFH.html"
   },
   "Location-zTQuTGuHEy6TsqZFH.html" : {
     "title" : "US-State-Massachusetts",
-    "label" : "15.73",
+    "label" : "15.77",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Massachusetts</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3338,28 +3458,28 @@
   },
   "Location-zTQuTGuHEy6TsqZFH.xml.html" : {
     "title" : "US-State-Massachusetts - XML Representation",
-    "label" : "15.73",
+    "label" : "15.77",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Massachusetts</b></li>",
     "previous" : "Location-zTQuTGuHEy6TsqZFH.html",
     "next" : "Location-zTQuTGuHEy6TsqZFH.json.html"
   },
   "Location-zTQuTGuHEy6TsqZFH.json.html" : {
     "title" : "US-State-Massachusetts - JSON Representation",
-    "label" : "15.73",
+    "label" : "15.77",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Massachusetts</b></li>",
     "previous" : "Location-zTQuTGuHEy6TsqZFH.xml.html",
     "next" : "Location-zTQuTGuHEy6TsqZFH.ttl.html"
   },
   "Location-zTQuTGuHEy6TsqZFH.ttl.html" : {
     "title" : "US-State-Massachusetts - TTL Representation",
-    "label" : "15.73",
+    "label" : "15.77",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Massachusetts</b></li>",
     "previous" : "Location-zTQuTGuHEy6TsqZFH.json.html",
     "next" : "Location-ngowMEzNaA4oozNx5.html"
   },
   "Location-ngowMEzNaA4oozNx5.html" : {
     "title" : "US-State-Michigan",
-    "label" : "15.74",
+    "label" : "15.78",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Michigan</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3368,28 +3488,28 @@
   },
   "Location-ngowMEzNaA4oozNx5.xml.html" : {
     "title" : "US-State-Michigan - XML Representation",
-    "label" : "15.74",
+    "label" : "15.78",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Michigan</b></li>",
     "previous" : "Location-ngowMEzNaA4oozNx5.html",
     "next" : "Location-ngowMEzNaA4oozNx5.json.html"
   },
   "Location-ngowMEzNaA4oozNx5.json.html" : {
     "title" : "US-State-Michigan - JSON Representation",
-    "label" : "15.74",
+    "label" : "15.78",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Michigan</b></li>",
     "previous" : "Location-ngowMEzNaA4oozNx5.xml.html",
     "next" : "Location-ngowMEzNaA4oozNx5.ttl.html"
   },
   "Location-ngowMEzNaA4oozNx5.ttl.html" : {
     "title" : "US-State-Michigan - TTL Representation",
-    "label" : "15.74",
+    "label" : "15.78",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Michigan</b></li>",
     "previous" : "Location-ngowMEzNaA4oozNx5.json.html",
     "next" : "Location-jCAKbSgksLZANgKAD.html"
   },
   "Location-jCAKbSgksLZANgKAD.html" : {
     "title" : "US-State-Minnesota",
-    "label" : "15.75",
+    "label" : "15.79",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Minnesota</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3398,28 +3518,28 @@
   },
   "Location-jCAKbSgksLZANgKAD.xml.html" : {
     "title" : "US-State-Minnesota - XML Representation",
-    "label" : "15.75",
+    "label" : "15.79",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Minnesota</b></li>",
     "previous" : "Location-jCAKbSgksLZANgKAD.html",
     "next" : "Location-jCAKbSgksLZANgKAD.json.html"
   },
   "Location-jCAKbSgksLZANgKAD.json.html" : {
     "title" : "US-State-Minnesota - JSON Representation",
-    "label" : "15.75",
+    "label" : "15.79",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Minnesota</b></li>",
     "previous" : "Location-jCAKbSgksLZANgKAD.xml.html",
     "next" : "Location-jCAKbSgksLZANgKAD.ttl.html"
   },
   "Location-jCAKbSgksLZANgKAD.ttl.html" : {
     "title" : "US-State-Minnesota - TTL Representation",
-    "label" : "15.75",
+    "label" : "15.79",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Minnesota</b></li>",
     "previous" : "Location-jCAKbSgksLZANgKAD.json.html",
     "next" : "Location-53z8N28EAfKtbvBNm.html"
   },
   "Location-53z8N28EAfKtbvBNm.html" : {
     "title" : "US-State-Mississippi",
-    "label" : "15.76",
+    "label" : "15.80",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Mississippi</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3428,28 +3548,28 @@
   },
   "Location-53z8N28EAfKtbvBNm.xml.html" : {
     "title" : "US-State-Mississippi - XML Representation",
-    "label" : "15.76",
+    "label" : "15.80",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Mississippi</b></li>",
     "previous" : "Location-53z8N28EAfKtbvBNm.html",
     "next" : "Location-53z8N28EAfKtbvBNm.json.html"
   },
   "Location-53z8N28EAfKtbvBNm.json.html" : {
     "title" : "US-State-Mississippi - JSON Representation",
-    "label" : "15.76",
+    "label" : "15.80",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Mississippi</b></li>",
     "previous" : "Location-53z8N28EAfKtbvBNm.xml.html",
     "next" : "Location-53z8N28EAfKtbvBNm.ttl.html"
   },
   "Location-53z8N28EAfKtbvBNm.ttl.html" : {
     "title" : "US-State-Mississippi - TTL Representation",
-    "label" : "15.76",
+    "label" : "15.80",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Mississippi</b></li>",
     "previous" : "Location-53z8N28EAfKtbvBNm.json.html",
     "next" : "Location-7ZqFrka5qdYameBAM.html"
   },
   "Location-7ZqFrka5qdYameBAM.html" : {
     "title" : "US-State-Missouri",
-    "label" : "15.77",
+    "label" : "15.81",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Missouri</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3458,28 +3578,28 @@
   },
   "Location-7ZqFrka5qdYameBAM.xml.html" : {
     "title" : "US-State-Missouri - XML Representation",
-    "label" : "15.77",
+    "label" : "15.81",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Missouri</b></li>",
     "previous" : "Location-7ZqFrka5qdYameBAM.html",
     "next" : "Location-7ZqFrka5qdYameBAM.json.html"
   },
   "Location-7ZqFrka5qdYameBAM.json.html" : {
     "title" : "US-State-Missouri - JSON Representation",
-    "label" : "15.77",
+    "label" : "15.81",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Missouri</b></li>",
     "previous" : "Location-7ZqFrka5qdYameBAM.xml.html",
     "next" : "Location-7ZqFrka5qdYameBAM.ttl.html"
   },
   "Location-7ZqFrka5qdYameBAM.ttl.html" : {
     "title" : "US-State-Missouri - TTL Representation",
-    "label" : "15.77",
+    "label" : "15.81",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Missouri</b></li>",
     "previous" : "Location-7ZqFrka5qdYameBAM.json.html",
     "next" : "Location-JAjsaAFPbnjmqm7ht.html"
   },
   "Location-JAjsaAFPbnjmqm7ht.html" : {
     "title" : "US-State-Montana",
-    "label" : "15.78",
+    "label" : "15.82",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Montana</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3488,28 +3608,28 @@
   },
   "Location-JAjsaAFPbnjmqm7ht.xml.html" : {
     "title" : "US-State-Montana - XML Representation",
-    "label" : "15.78",
+    "label" : "15.82",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Montana</b></li>",
     "previous" : "Location-JAjsaAFPbnjmqm7ht.html",
     "next" : "Location-JAjsaAFPbnjmqm7ht.json.html"
   },
   "Location-JAjsaAFPbnjmqm7ht.json.html" : {
     "title" : "US-State-Montana - JSON Representation",
-    "label" : "15.78",
+    "label" : "15.82",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Montana</b></li>",
     "previous" : "Location-JAjsaAFPbnjmqm7ht.xml.html",
     "next" : "Location-JAjsaAFPbnjmqm7ht.ttl.html"
   },
   "Location-JAjsaAFPbnjmqm7ht.ttl.html" : {
     "title" : "US-State-Montana - TTL Representation",
-    "label" : "15.78",
+    "label" : "15.82",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Montana</b></li>",
     "previous" : "Location-JAjsaAFPbnjmqm7ht.json.html",
     "next" : "Location-f78yCcaohY4ME86e9.html"
   },
   "Location-f78yCcaohY4ME86e9.html" : {
     "title" : "US-State-Nebraska",
-    "label" : "15.79",
+    "label" : "15.83",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Nebraska</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3518,28 +3638,28 @@
   },
   "Location-f78yCcaohY4ME86e9.xml.html" : {
     "title" : "US-State-Nebraska - XML Representation",
-    "label" : "15.79",
+    "label" : "15.83",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Nebraska</b></li>",
     "previous" : "Location-f78yCcaohY4ME86e9.html",
     "next" : "Location-f78yCcaohY4ME86e9.json.html"
   },
   "Location-f78yCcaohY4ME86e9.json.html" : {
     "title" : "US-State-Nebraska - JSON Representation",
-    "label" : "15.79",
+    "label" : "15.83",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Nebraska</b></li>",
     "previous" : "Location-f78yCcaohY4ME86e9.xml.html",
     "next" : "Location-f78yCcaohY4ME86e9.ttl.html"
   },
   "Location-f78yCcaohY4ME86e9.ttl.html" : {
     "title" : "US-State-Nebraska - TTL Representation",
-    "label" : "15.79",
+    "label" : "15.83",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Nebraska</b></li>",
     "previous" : "Location-f78yCcaohY4ME86e9.json.html",
     "next" : "Location-KuCc5Qat7hFGKYzCf.html"
   },
   "Location-KuCc5Qat7hFGKYzCf.html" : {
     "title" : "US-State-Nevada",
-    "label" : "15.80",
+    "label" : "15.84",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Nevada</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3548,28 +3668,28 @@
   },
   "Location-KuCc5Qat7hFGKYzCf.xml.html" : {
     "title" : "US-State-Nevada - XML Representation",
-    "label" : "15.80",
+    "label" : "15.84",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Nevada</b></li>",
     "previous" : "Location-KuCc5Qat7hFGKYzCf.html",
     "next" : "Location-KuCc5Qat7hFGKYzCf.json.html"
   },
   "Location-KuCc5Qat7hFGKYzCf.json.html" : {
     "title" : "US-State-Nevada - JSON Representation",
-    "label" : "15.80",
+    "label" : "15.84",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Nevada</b></li>",
     "previous" : "Location-KuCc5Qat7hFGKYzCf.xml.html",
     "next" : "Location-KuCc5Qat7hFGKYzCf.ttl.html"
   },
   "Location-KuCc5Qat7hFGKYzCf.ttl.html" : {
     "title" : "US-State-Nevada - TTL Representation",
-    "label" : "15.80",
+    "label" : "15.84",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Nevada</b></li>",
     "previous" : "Location-KuCc5Qat7hFGKYzCf.json.html",
     "next" : "Location-kvacH8wZ3GPPwYsdZ.html"
   },
   "Location-kvacH8wZ3GPPwYsdZ.html" : {
     "title" : "US-State-NewHampshire",
-    "label" : "15.81",
+    "label" : "15.85",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NewHampshire</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3578,28 +3698,28 @@
   },
   "Location-kvacH8wZ3GPPwYsdZ.xml.html" : {
     "title" : "US-State-NewHampshire - XML Representation",
-    "label" : "15.81",
+    "label" : "15.85",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NewHampshire</b></li>",
     "previous" : "Location-kvacH8wZ3GPPwYsdZ.html",
     "next" : "Location-kvacH8wZ3GPPwYsdZ.json.html"
   },
   "Location-kvacH8wZ3GPPwYsdZ.json.html" : {
     "title" : "US-State-NewHampshire - JSON Representation",
-    "label" : "15.81",
+    "label" : "15.85",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NewHampshire</b></li>",
     "previous" : "Location-kvacH8wZ3GPPwYsdZ.xml.html",
     "next" : "Location-kvacH8wZ3GPPwYsdZ.ttl.html"
   },
   "Location-kvacH8wZ3GPPwYsdZ.ttl.html" : {
     "title" : "US-State-NewHampshire - TTL Representation",
-    "label" : "15.81",
+    "label" : "15.85",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NewHampshire</b></li>",
     "previous" : "Location-kvacH8wZ3GPPwYsdZ.json.html",
     "next" : "Location-BdPME6PAm7McYxize.html"
   },
   "Location-BdPME6PAm7McYxize.html" : {
     "title" : "US-State-NewJersey",
-    "label" : "15.82",
+    "label" : "15.86",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NewJersey</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3608,28 +3728,28 @@
   },
   "Location-BdPME6PAm7McYxize.xml.html" : {
     "title" : "US-State-NewJersey - XML Representation",
-    "label" : "15.82",
+    "label" : "15.86",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NewJersey</b></li>",
     "previous" : "Location-BdPME6PAm7McYxize.html",
     "next" : "Location-BdPME6PAm7McYxize.json.html"
   },
   "Location-BdPME6PAm7McYxize.json.html" : {
     "title" : "US-State-NewJersey - JSON Representation",
-    "label" : "15.82",
+    "label" : "15.86",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NewJersey</b></li>",
     "previous" : "Location-BdPME6PAm7McYxize.xml.html",
     "next" : "Location-BdPME6PAm7McYxize.ttl.html"
   },
   "Location-BdPME6PAm7McYxize.ttl.html" : {
     "title" : "US-State-NewJersey - TTL Representation",
-    "label" : "15.82",
+    "label" : "15.86",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NewJersey</b></li>",
     "previous" : "Location-BdPME6PAm7McYxize.json.html",
     "next" : "Location-Q2qPZtAbJHeMucE9d.html"
   },
   "Location-Q2qPZtAbJHeMucE9d.html" : {
     "title" : "US-State-NewMexico",
-    "label" : "15.83",
+    "label" : "15.87",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NewMexico</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3638,28 +3758,28 @@
   },
   "Location-Q2qPZtAbJHeMucE9d.xml.html" : {
     "title" : "US-State-NewMexico - XML Representation",
-    "label" : "15.83",
+    "label" : "15.87",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NewMexico</b></li>",
     "previous" : "Location-Q2qPZtAbJHeMucE9d.html",
     "next" : "Location-Q2qPZtAbJHeMucE9d.json.html"
   },
   "Location-Q2qPZtAbJHeMucE9d.json.html" : {
     "title" : "US-State-NewMexico - JSON Representation",
-    "label" : "15.83",
+    "label" : "15.87",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NewMexico</b></li>",
     "previous" : "Location-Q2qPZtAbJHeMucE9d.xml.html",
     "next" : "Location-Q2qPZtAbJHeMucE9d.ttl.html"
   },
   "Location-Q2qPZtAbJHeMucE9d.ttl.html" : {
     "title" : "US-State-NewMexico - TTL Representation",
-    "label" : "15.83",
+    "label" : "15.87",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NewMexico</b></li>",
     "previous" : "Location-Q2qPZtAbJHeMucE9d.json.html",
     "next" : "Location-sSjfnXC8HBabjnQwF.html"
   },
   "Location-sSjfnXC8HBabjnQwF.html" : {
     "title" : "US-State-NewYork",
-    "label" : "15.84",
+    "label" : "15.88",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NewYork</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3668,28 +3788,28 @@
   },
   "Location-sSjfnXC8HBabjnQwF.xml.html" : {
     "title" : "US-State-NewYork - XML Representation",
-    "label" : "15.84",
+    "label" : "15.88",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NewYork</b></li>",
     "previous" : "Location-sSjfnXC8HBabjnQwF.html",
     "next" : "Location-sSjfnXC8HBabjnQwF.json.html"
   },
   "Location-sSjfnXC8HBabjnQwF.json.html" : {
     "title" : "US-State-NewYork - JSON Representation",
-    "label" : "15.84",
+    "label" : "15.88",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NewYork</b></li>",
     "previous" : "Location-sSjfnXC8HBabjnQwF.xml.html",
     "next" : "Location-sSjfnXC8HBabjnQwF.ttl.html"
   },
   "Location-sSjfnXC8HBabjnQwF.ttl.html" : {
     "title" : "US-State-NewYork - TTL Representation",
-    "label" : "15.84",
+    "label" : "15.88",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NewYork</b></li>",
     "previous" : "Location-sSjfnXC8HBabjnQwF.json.html",
     "next" : "Location-TEejwFj6hM8NoMfNY.html"
   },
   "Location-TEejwFj6hM8NoMfNY.html" : {
     "title" : "US-State-NorthCarolina",
-    "label" : "15.85",
+    "label" : "15.89",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NorthCarolina</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3698,28 +3818,28 @@
   },
   "Location-TEejwFj6hM8NoMfNY.xml.html" : {
     "title" : "US-State-NorthCarolina - XML Representation",
-    "label" : "15.85",
+    "label" : "15.89",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NorthCarolina</b></li>",
     "previous" : "Location-TEejwFj6hM8NoMfNY.html",
     "next" : "Location-TEejwFj6hM8NoMfNY.json.html"
   },
   "Location-TEejwFj6hM8NoMfNY.json.html" : {
     "title" : "US-State-NorthCarolina - JSON Representation",
-    "label" : "15.85",
+    "label" : "15.89",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NorthCarolina</b></li>",
     "previous" : "Location-TEejwFj6hM8NoMfNY.xml.html",
     "next" : "Location-TEejwFj6hM8NoMfNY.ttl.html"
   },
   "Location-TEejwFj6hM8NoMfNY.ttl.html" : {
     "title" : "US-State-NorthCarolina - TTL Representation",
-    "label" : "15.85",
+    "label" : "15.89",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NorthCarolina</b></li>",
     "previous" : "Location-TEejwFj6hM8NoMfNY.json.html",
     "next" : "Location-ug9T4cPp6NDRqMfcc.html"
   },
   "Location-ug9T4cPp6NDRqMfcc.html" : {
     "title" : "US-State-NorthDakota",
-    "label" : "15.86",
+    "label" : "15.90",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NorthDakota</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3728,28 +3848,28 @@
   },
   "Location-ug9T4cPp6NDRqMfcc.xml.html" : {
     "title" : "US-State-NorthDakota - XML Representation",
-    "label" : "15.86",
+    "label" : "15.90",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NorthDakota</b></li>",
     "previous" : "Location-ug9T4cPp6NDRqMfcc.html",
     "next" : "Location-ug9T4cPp6NDRqMfcc.json.html"
   },
   "Location-ug9T4cPp6NDRqMfcc.json.html" : {
     "title" : "US-State-NorthDakota - JSON Representation",
-    "label" : "15.86",
+    "label" : "15.90",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NorthDakota</b></li>",
     "previous" : "Location-ug9T4cPp6NDRqMfcc.xml.html",
     "next" : "Location-ug9T4cPp6NDRqMfcc.ttl.html"
   },
   "Location-ug9T4cPp6NDRqMfcc.ttl.html" : {
     "title" : "US-State-NorthDakota - TTL Representation",
-    "label" : "15.86",
+    "label" : "15.90",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-NorthDakota</b></li>",
     "previous" : "Location-ug9T4cPp6NDRqMfcc.json.html",
     "next" : "Location-ZNDWz9oPsWGnxsBCC.html"
   },
   "Location-ZNDWz9oPsWGnxsBCC.html" : {
     "title" : "US-State-Ohio",
-    "label" : "15.87",
+    "label" : "15.91",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Ohio</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3758,28 +3878,28 @@
   },
   "Location-ZNDWz9oPsWGnxsBCC.xml.html" : {
     "title" : "US-State-Ohio - XML Representation",
-    "label" : "15.87",
+    "label" : "15.91",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Ohio</b></li>",
     "previous" : "Location-ZNDWz9oPsWGnxsBCC.html",
     "next" : "Location-ZNDWz9oPsWGnxsBCC.json.html"
   },
   "Location-ZNDWz9oPsWGnxsBCC.json.html" : {
     "title" : "US-State-Ohio - JSON Representation",
-    "label" : "15.87",
+    "label" : "15.91",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Ohio</b></li>",
     "previous" : "Location-ZNDWz9oPsWGnxsBCC.xml.html",
     "next" : "Location-ZNDWz9oPsWGnxsBCC.ttl.html"
   },
   "Location-ZNDWz9oPsWGnxsBCC.ttl.html" : {
     "title" : "US-State-Ohio - TTL Representation",
-    "label" : "15.87",
+    "label" : "15.91",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Ohio</b></li>",
     "previous" : "Location-ZNDWz9oPsWGnxsBCC.json.html",
     "next" : "Location-E34hsfDZnFzWDDvrH.html"
   },
   "Location-E34hsfDZnFzWDDvrH.html" : {
     "title" : "US-State-Oklahoma",
-    "label" : "15.88",
+    "label" : "15.92",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Oklahoma</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3788,28 +3908,28 @@
   },
   "Location-E34hsfDZnFzWDDvrH.xml.html" : {
     "title" : "US-State-Oklahoma - XML Representation",
-    "label" : "15.88",
+    "label" : "15.92",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Oklahoma</b></li>",
     "previous" : "Location-E34hsfDZnFzWDDvrH.html",
     "next" : "Location-E34hsfDZnFzWDDvrH.json.html"
   },
   "Location-E34hsfDZnFzWDDvrH.json.html" : {
     "title" : "US-State-Oklahoma - JSON Representation",
-    "label" : "15.88",
+    "label" : "15.92",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Oklahoma</b></li>",
     "previous" : "Location-E34hsfDZnFzWDDvrH.xml.html",
     "next" : "Location-E34hsfDZnFzWDDvrH.ttl.html"
   },
   "Location-E34hsfDZnFzWDDvrH.ttl.html" : {
     "title" : "US-State-Oklahoma - TTL Representation",
-    "label" : "15.88",
+    "label" : "15.92",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Oklahoma</b></li>",
     "previous" : "Location-E34hsfDZnFzWDDvrH.json.html",
     "next" : "Location-b5QxdJzPkhFgumnCq.html"
   },
   "Location-b5QxdJzPkhFgumnCq.html" : {
     "title" : "US-State-Oregon",
-    "label" : "15.89",
+    "label" : "15.93",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Oregon</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3818,28 +3938,28 @@
   },
   "Location-b5QxdJzPkhFgumnCq.xml.html" : {
     "title" : "US-State-Oregon - XML Representation",
-    "label" : "15.89",
+    "label" : "15.93",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Oregon</b></li>",
     "previous" : "Location-b5QxdJzPkhFgumnCq.html",
     "next" : "Location-b5QxdJzPkhFgumnCq.json.html"
   },
   "Location-b5QxdJzPkhFgumnCq.json.html" : {
     "title" : "US-State-Oregon - JSON Representation",
-    "label" : "15.89",
+    "label" : "15.93",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Oregon</b></li>",
     "previous" : "Location-b5QxdJzPkhFgumnCq.xml.html",
     "next" : "Location-b5QxdJzPkhFgumnCq.ttl.html"
   },
   "Location-b5QxdJzPkhFgumnCq.ttl.html" : {
     "title" : "US-State-Oregon - TTL Representation",
-    "label" : "15.89",
+    "label" : "15.93",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Oregon</b></li>",
     "previous" : "Location-b5QxdJzPkhFgumnCq.json.html",
     "next" : "Location-wpPSL9vjHDXAJQWmC.html"
   },
   "Location-wpPSL9vjHDXAJQWmC.html" : {
     "title" : "US-State-Pennsylvania",
-    "label" : "15.90",
+    "label" : "15.94",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Pennsylvania</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3848,28 +3968,28 @@
   },
   "Location-wpPSL9vjHDXAJQWmC.xml.html" : {
     "title" : "US-State-Pennsylvania - XML Representation",
-    "label" : "15.90",
+    "label" : "15.94",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Pennsylvania</b></li>",
     "previous" : "Location-wpPSL9vjHDXAJQWmC.html",
     "next" : "Location-wpPSL9vjHDXAJQWmC.json.html"
   },
   "Location-wpPSL9vjHDXAJQWmC.json.html" : {
     "title" : "US-State-Pennsylvania - JSON Representation",
-    "label" : "15.90",
+    "label" : "15.94",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Pennsylvania</b></li>",
     "previous" : "Location-wpPSL9vjHDXAJQWmC.xml.html",
     "next" : "Location-wpPSL9vjHDXAJQWmC.ttl.html"
   },
   "Location-wpPSL9vjHDXAJQWmC.ttl.html" : {
     "title" : "US-State-Pennsylvania - TTL Representation",
-    "label" : "15.90",
+    "label" : "15.94",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Pennsylvania</b></li>",
     "previous" : "Location-wpPSL9vjHDXAJQWmC.json.html",
     "next" : "Location-T4MtGfNFjuataQdmY.html"
   },
   "Location-T4MtGfNFjuataQdmY.html" : {
     "title" : "US-State-PuertoRico",
-    "label" : "15.91",
+    "label" : "15.95",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-PuertoRico</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3878,28 +3998,28 @@
   },
   "Location-T4MtGfNFjuataQdmY.xml.html" : {
     "title" : "US-State-PuertoRico - XML Representation",
-    "label" : "15.91",
+    "label" : "15.95",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-PuertoRico</b></li>",
     "previous" : "Location-T4MtGfNFjuataQdmY.html",
     "next" : "Location-T4MtGfNFjuataQdmY.json.html"
   },
   "Location-T4MtGfNFjuataQdmY.json.html" : {
     "title" : "US-State-PuertoRico - JSON Representation",
-    "label" : "15.91",
+    "label" : "15.95",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-PuertoRico</b></li>",
     "previous" : "Location-T4MtGfNFjuataQdmY.xml.html",
     "next" : "Location-T4MtGfNFjuataQdmY.ttl.html"
   },
   "Location-T4MtGfNFjuataQdmY.ttl.html" : {
     "title" : "US-State-PuertoRico - TTL Representation",
-    "label" : "15.91",
+    "label" : "15.95",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-PuertoRico</b></li>",
     "previous" : "Location-T4MtGfNFjuataQdmY.json.html",
     "next" : "Location-bZyK2jj2SW4P9tXXn.html"
   },
   "Location-bZyK2jj2SW4P9tXXn.html" : {
     "title" : "US-State-RhodeIsland",
-    "label" : "15.92",
+    "label" : "15.96",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-RhodeIsland</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3908,28 +4028,28 @@
   },
   "Location-bZyK2jj2SW4P9tXXn.xml.html" : {
     "title" : "US-State-RhodeIsland - XML Representation",
-    "label" : "15.92",
+    "label" : "15.96",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-RhodeIsland</b></li>",
     "previous" : "Location-bZyK2jj2SW4P9tXXn.html",
     "next" : "Location-bZyK2jj2SW4P9tXXn.json.html"
   },
   "Location-bZyK2jj2SW4P9tXXn.json.html" : {
     "title" : "US-State-RhodeIsland - JSON Representation",
-    "label" : "15.92",
+    "label" : "15.96",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-RhodeIsland</b></li>",
     "previous" : "Location-bZyK2jj2SW4P9tXXn.xml.html",
     "next" : "Location-bZyK2jj2SW4P9tXXn.ttl.html"
   },
   "Location-bZyK2jj2SW4P9tXXn.ttl.html" : {
     "title" : "US-State-RhodeIsland - TTL Representation",
-    "label" : "15.92",
+    "label" : "15.96",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-RhodeIsland</b></li>",
     "previous" : "Location-bZyK2jj2SW4P9tXXn.json.html",
     "next" : "Location-ZYESg5qBTnJ6Yijb3.html"
   },
   "Location-ZYESg5qBTnJ6Yijb3.html" : {
     "title" : "US-State-SouthCarolina",
-    "label" : "15.93",
+    "label" : "15.97",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-SouthCarolina</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3938,28 +4058,28 @@
   },
   "Location-ZYESg5qBTnJ6Yijb3.xml.html" : {
     "title" : "US-State-SouthCarolina - XML Representation",
-    "label" : "15.93",
+    "label" : "15.97",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-SouthCarolina</b></li>",
     "previous" : "Location-ZYESg5qBTnJ6Yijb3.html",
     "next" : "Location-ZYESg5qBTnJ6Yijb3.json.html"
   },
   "Location-ZYESg5qBTnJ6Yijb3.json.html" : {
     "title" : "US-State-SouthCarolina - JSON Representation",
-    "label" : "15.93",
+    "label" : "15.97",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-SouthCarolina</b></li>",
     "previous" : "Location-ZYESg5qBTnJ6Yijb3.xml.html",
     "next" : "Location-ZYESg5qBTnJ6Yijb3.ttl.html"
   },
   "Location-ZYESg5qBTnJ6Yijb3.ttl.html" : {
     "title" : "US-State-SouthCarolina - TTL Representation",
-    "label" : "15.93",
+    "label" : "15.97",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-SouthCarolina</b></li>",
     "previous" : "Location-ZYESg5qBTnJ6Yijb3.json.html",
     "next" : "Location-gapeRqTrszacBkTdH.html"
   },
   "Location-gapeRqTrszacBkTdH.html" : {
     "title" : "US-State-SouthDakota",
-    "label" : "15.94",
+    "label" : "15.98",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-SouthDakota</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3968,28 +4088,28 @@
   },
   "Location-gapeRqTrszacBkTdH.xml.html" : {
     "title" : "US-State-SouthDakota - XML Representation",
-    "label" : "15.94",
+    "label" : "15.98",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-SouthDakota</b></li>",
     "previous" : "Location-gapeRqTrszacBkTdH.html",
     "next" : "Location-gapeRqTrszacBkTdH.json.html"
   },
   "Location-gapeRqTrszacBkTdH.json.html" : {
     "title" : "US-State-SouthDakota - JSON Representation",
-    "label" : "15.94",
+    "label" : "15.98",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-SouthDakota</b></li>",
     "previous" : "Location-gapeRqTrszacBkTdH.xml.html",
     "next" : "Location-gapeRqTrszacBkTdH.ttl.html"
   },
   "Location-gapeRqTrszacBkTdH.ttl.html" : {
     "title" : "US-State-SouthDakota - TTL Representation",
-    "label" : "15.94",
+    "label" : "15.98",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-SouthDakota</b></li>",
     "previous" : "Location-gapeRqTrszacBkTdH.json.html",
     "next" : "Location-yAKjzRQx3mBSdSei4.html"
   },
   "Location-yAKjzRQx3mBSdSei4.html" : {
     "title" : "US-State-Tennessee",
-    "label" : "15.95",
+    "label" : "15.99",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Tennessee</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -3998,28 +4118,28 @@
   },
   "Location-yAKjzRQx3mBSdSei4.xml.html" : {
     "title" : "US-State-Tennessee - XML Representation",
-    "label" : "15.95",
+    "label" : "15.99",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Tennessee</b></li>",
     "previous" : "Location-yAKjzRQx3mBSdSei4.html",
     "next" : "Location-yAKjzRQx3mBSdSei4.json.html"
   },
   "Location-yAKjzRQx3mBSdSei4.json.html" : {
     "title" : "US-State-Tennessee - JSON Representation",
-    "label" : "15.95",
+    "label" : "15.99",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Tennessee</b></li>",
     "previous" : "Location-yAKjzRQx3mBSdSei4.xml.html",
     "next" : "Location-yAKjzRQx3mBSdSei4.ttl.html"
   },
   "Location-yAKjzRQx3mBSdSei4.ttl.html" : {
     "title" : "US-State-Tennessee - TTL Representation",
-    "label" : "15.95",
+    "label" : "15.99",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Tennessee</b></li>",
     "previous" : "Location-yAKjzRQx3mBSdSei4.json.html",
     "next" : "Location-4G954mNr3nR5rfCvw.html"
   },
   "Location-4G954mNr3nR5rfCvw.html" : {
     "title" : "US-State-Texas",
-    "label" : "15.96",
+    "label" : "15.100",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Texas</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -4028,28 +4148,28 @@
   },
   "Location-4G954mNr3nR5rfCvw.xml.html" : {
     "title" : "US-State-Texas - XML Representation",
-    "label" : "15.96",
+    "label" : "15.100",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Texas</b></li>",
     "previous" : "Location-4G954mNr3nR5rfCvw.html",
     "next" : "Location-4G954mNr3nR5rfCvw.json.html"
   },
   "Location-4G954mNr3nR5rfCvw.json.html" : {
     "title" : "US-State-Texas - JSON Representation",
-    "label" : "15.96",
+    "label" : "15.100",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Texas</b></li>",
     "previous" : "Location-4G954mNr3nR5rfCvw.xml.html",
     "next" : "Location-4G954mNr3nR5rfCvw.ttl.html"
   },
   "Location-4G954mNr3nR5rfCvw.ttl.html" : {
     "title" : "US-State-Texas - TTL Representation",
-    "label" : "15.96",
+    "label" : "15.100",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Texas</b></li>",
     "previous" : "Location-4G954mNr3nR5rfCvw.json.html",
     "next" : "Location-9KxMxodWCSpsmFAsx.html"
   },
   "Location-9KxMxodWCSpsmFAsx.html" : {
     "title" : "US-State-Utah",
-    "label" : "15.97",
+    "label" : "15.101",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Utah</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -4058,28 +4178,28 @@
   },
   "Location-9KxMxodWCSpsmFAsx.xml.html" : {
     "title" : "US-State-Utah - XML Representation",
-    "label" : "15.97",
+    "label" : "15.101",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Utah</b></li>",
     "previous" : "Location-9KxMxodWCSpsmFAsx.html",
     "next" : "Location-9KxMxodWCSpsmFAsx.json.html"
   },
   "Location-9KxMxodWCSpsmFAsx.json.html" : {
     "title" : "US-State-Utah - JSON Representation",
-    "label" : "15.97",
+    "label" : "15.101",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Utah</b></li>",
     "previous" : "Location-9KxMxodWCSpsmFAsx.xml.html",
     "next" : "Location-9KxMxodWCSpsmFAsx.ttl.html"
   },
   "Location-9KxMxodWCSpsmFAsx.ttl.html" : {
     "title" : "US-State-Utah - TTL Representation",
-    "label" : "15.97",
+    "label" : "15.101",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Utah</b></li>",
     "previous" : "Location-9KxMxodWCSpsmFAsx.json.html",
     "next" : "Location-8MoDhJYvb4sMLeTRT.html"
   },
   "Location-8MoDhJYvb4sMLeTRT.html" : {
     "title" : "US-State-Vermont",
-    "label" : "15.98",
+    "label" : "15.102",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Vermont</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -4088,28 +4208,28 @@
   },
   "Location-8MoDhJYvb4sMLeTRT.xml.html" : {
     "title" : "US-State-Vermont - XML Representation",
-    "label" : "15.98",
+    "label" : "15.102",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Vermont</b></li>",
     "previous" : "Location-8MoDhJYvb4sMLeTRT.html",
     "next" : "Location-8MoDhJYvb4sMLeTRT.json.html"
   },
   "Location-8MoDhJYvb4sMLeTRT.json.html" : {
     "title" : "US-State-Vermont - JSON Representation",
-    "label" : "15.98",
+    "label" : "15.102",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Vermont</b></li>",
     "previous" : "Location-8MoDhJYvb4sMLeTRT.xml.html",
     "next" : "Location-8MoDhJYvb4sMLeTRT.ttl.html"
   },
   "Location-8MoDhJYvb4sMLeTRT.ttl.html" : {
     "title" : "US-State-Vermont - TTL Representation",
-    "label" : "15.98",
+    "label" : "15.102",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Vermont</b></li>",
     "previous" : "Location-8MoDhJYvb4sMLeTRT.json.html",
     "next" : "Location-ErMYAiSgWFYzPYxd4.html"
   },
   "Location-ErMYAiSgWFYzPYxd4.html" : {
     "title" : "US-State-Virginia",
-    "label" : "15.99",
+    "label" : "15.103",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Virginia</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -4118,28 +4238,28 @@
   },
   "Location-ErMYAiSgWFYzPYxd4.xml.html" : {
     "title" : "US-State-Virginia - XML Representation",
-    "label" : "15.99",
+    "label" : "15.103",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Virginia</b></li>",
     "previous" : "Location-ErMYAiSgWFYzPYxd4.html",
     "next" : "Location-ErMYAiSgWFYzPYxd4.json.html"
   },
   "Location-ErMYAiSgWFYzPYxd4.json.html" : {
     "title" : "US-State-Virginia - JSON Representation",
-    "label" : "15.99",
+    "label" : "15.103",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Virginia</b></li>",
     "previous" : "Location-ErMYAiSgWFYzPYxd4.xml.html",
     "next" : "Location-ErMYAiSgWFYzPYxd4.ttl.html"
   },
   "Location-ErMYAiSgWFYzPYxd4.ttl.html" : {
     "title" : "US-State-Virginia - TTL Representation",
-    "label" : "15.99",
+    "label" : "15.103",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Virginia</b></li>",
     "previous" : "Location-ErMYAiSgWFYzPYxd4.json.html",
     "next" : "Location-rBSqMxWb3XMFYHecM.html"
   },
   "Location-rBSqMxWb3XMFYHecM.html" : {
     "title" : "US-State-Washington",
-    "label" : "15.100",
+    "label" : "15.104",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Washington</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -4148,28 +4268,28 @@
   },
   "Location-rBSqMxWb3XMFYHecM.xml.html" : {
     "title" : "US-State-Washington - XML Representation",
-    "label" : "15.100",
+    "label" : "15.104",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Washington</b></li>",
     "previous" : "Location-rBSqMxWb3XMFYHecM.html",
     "next" : "Location-rBSqMxWb3XMFYHecM.json.html"
   },
   "Location-rBSqMxWb3XMFYHecM.json.html" : {
     "title" : "US-State-Washington - JSON Representation",
-    "label" : "15.100",
+    "label" : "15.104",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Washington</b></li>",
     "previous" : "Location-rBSqMxWb3XMFYHecM.xml.html",
     "next" : "Location-rBSqMxWb3XMFYHecM.ttl.html"
   },
   "Location-rBSqMxWb3XMFYHecM.ttl.html" : {
     "title" : "US-State-Washington - TTL Representation",
-    "label" : "15.100",
+    "label" : "15.104",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Washington</b></li>",
     "previous" : "Location-rBSqMxWb3XMFYHecM.json.html",
     "next" : "Location-ZgqTvzE4GzyiJvsh2.html"
   },
   "Location-ZgqTvzE4GzyiJvsh2.html" : {
     "title" : "US-State-WestVirginia",
-    "label" : "15.101",
+    "label" : "15.105",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-WestVirginia</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -4178,28 +4298,28 @@
   },
   "Location-ZgqTvzE4GzyiJvsh2.xml.html" : {
     "title" : "US-State-WestVirginia - XML Representation",
-    "label" : "15.101",
+    "label" : "15.105",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-WestVirginia</b></li>",
     "previous" : "Location-ZgqTvzE4GzyiJvsh2.html",
     "next" : "Location-ZgqTvzE4GzyiJvsh2.json.html"
   },
   "Location-ZgqTvzE4GzyiJvsh2.json.html" : {
     "title" : "US-State-WestVirginia - JSON Representation",
-    "label" : "15.101",
+    "label" : "15.105",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-WestVirginia</b></li>",
     "previous" : "Location-ZgqTvzE4GzyiJvsh2.xml.html",
     "next" : "Location-ZgqTvzE4GzyiJvsh2.ttl.html"
   },
   "Location-ZgqTvzE4GzyiJvsh2.ttl.html" : {
     "title" : "US-State-WestVirginia - TTL Representation",
-    "label" : "15.101",
+    "label" : "15.105",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-WestVirginia</b></li>",
     "previous" : "Location-ZgqTvzE4GzyiJvsh2.json.html",
     "next" : "Location-eGek52kjH2A5Kw855.html"
   },
   "Location-eGek52kjH2A5Kw855.html" : {
     "title" : "US-State-Wisconsin",
-    "label" : "15.102",
+    "label" : "15.106",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Wisconsin</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -4208,28 +4328,28 @@
   },
   "Location-eGek52kjH2A5Kw855.xml.html" : {
     "title" : "US-State-Wisconsin - XML Representation",
-    "label" : "15.102",
+    "label" : "15.106",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Wisconsin</b></li>",
     "previous" : "Location-eGek52kjH2A5Kw855.html",
     "next" : "Location-eGek52kjH2A5Kw855.json.html"
   },
   "Location-eGek52kjH2A5Kw855.json.html" : {
     "title" : "US-State-Wisconsin - JSON Representation",
-    "label" : "15.102",
+    "label" : "15.106",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Wisconsin</b></li>",
     "previous" : "Location-eGek52kjH2A5Kw855.xml.html",
     "next" : "Location-eGek52kjH2A5Kw855.ttl.html"
   },
   "Location-eGek52kjH2A5Kw855.ttl.html" : {
     "title" : "US-State-Wisconsin - TTL Representation",
-    "label" : "15.102",
+    "label" : "15.106",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Wisconsin</b></li>",
     "previous" : "Location-eGek52kjH2A5Kw855.json.html",
     "next" : "Location-SB8aHDPgnMC27fvo4.html"
   },
   "Location-SB8aHDPgnMC27fvo4.html" : {
     "title" : "US-State-Wyoming",
-    "label" : "15.103",
+    "label" : "15.107",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Wyoming</b></li>",
     "examples" : [],
     "testscripts" : [],
@@ -4238,21 +4358,21 @@
   },
   "Location-SB8aHDPgnMC27fvo4.xml.html" : {
     "title" : "US-State-Wyoming - XML Representation",
-    "label" : "15.103",
+    "label" : "15.107",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Wyoming</b></li>",
     "previous" : "Location-SB8aHDPgnMC27fvo4.html",
     "next" : "Location-SB8aHDPgnMC27fvo4.json.html"
   },
   "Location-SB8aHDPgnMC27fvo4.json.html" : {
     "title" : "US-State-Wyoming - JSON Representation",
-    "label" : "15.103",
+    "label" : "15.107",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Wyoming</b></li>",
     "previous" : "Location-SB8aHDPgnMC27fvo4.xml.html",
     "next" : "Location-SB8aHDPgnMC27fvo4.ttl.html"
   },
   "Location-SB8aHDPgnMC27fvo4.ttl.html" : {
     "title" : "US-State-Wyoming - TTL Representation",
-    "label" : "15.103",
+    "label" : "15.107",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Wyoming</b></li>",
     "previous" : "Location-SB8aHDPgnMC27fvo4.json.html"
   }

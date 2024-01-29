@@ -1,10 +1,9 @@
-#### Controlled Substance Laws  
 
 Medicaid has increasingly recognized the importance of comprehensive maternal care, including the services provided by doulas. Doulas are non-medical professionals who offer physical, emotional, and informational support to women before, during, and shortly after childbirth. The integration of doula services into Medicaid coverage is a significant step towards improving maternal and infant health outcomes, particularly in underserved communities. This move acknowledges the role of doulas in reducing complications during childbirth, enhancing the birthing experience, and potentially decreasing healthcare costs by lowering the rates of medical interventions like cesarean sections. The expansion of Medicaid to cover doula services reflects a growing awareness of the importance of holistic care approaches in maternal health and the need to address disparities in healthcare access and outcomes.
 
 
-![./State-of-Medicaid-Doula-Reimbursement.Nov2023.png](./State-of-Medicaid-Doula-Reimbursement.Nov2023.png){:width="100%"}
-
+![./Map-USStates-DoulaAccess.jpeg](./Map-USStates-DoulaAccess.jpeg){:width="100%"}
+Last Updated:  January 8th, 2024
 
 #### Example Encoding  
 
@@ -21,7 +20,22 @@ Medicaid has increasingly recognized the importance of comprehensive maternal ca
             "display": "coordination of care",
             "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason"
         }],
-        "provision": []
+        "provision": [{
+            "type": "permit",
+            "class": [{
+                "code": "Practitioner",
+                "display": "Practitioner",
+                "system": "http://hl7.org/fhir/resource-types"
+            }],
+            "code": [{
+                "text": "Doula",
+                "coding": [{
+                    "code": "768825008",
+                    "display": "Doula (occupation)",
+                    "system": " http://snomed.info/sct"
+                }]
+            }]
+        }]
     }
 }
 ```
@@ -31,4 +45,4 @@ Medicaid has increasingly recognized the importance of comprehensive maternal ca
 
 
 #### Datasets
-<!-- [Locations.US.States.AbortionAccess.20230327.ndjson](Locations.US.States.AbortionAccess.20230327.ndjson)   -->
+[Locations.US.States.DoulaAccess.20240128.ndjson](Locations.US.States.DoulaAccess.20240128.ndjson)  

@@ -1,4 +1,3 @@
-#### In-Vitro Fertilization
 
 In-Vitro Fertilization (IVF), a pivotal technique in assisted reproductive technology, varies significantly in accessibility and regulation across different states in the United States. States like Massachusetts, New York, New Jersey, Illinois, Oregon, Washington, California, Delaware, New Hampshire, Maryland, Minnesota, Colorado, and New Mexico each offer distinct IVF landscapes, influenced by local policies and medical infrastructure. Oregon, Colorado, and New Mexico stand out as leading states in IVF services, offering liberal approaches to reproductive health. Notably, Oregon also allows for 'death with dignity' assisted suicide, influencing its broader stance on medical autonomy. The regulatory environment in states like Arizona, traditionally an IVF hub, is shifting, potentially leading to a migration of IVF providers to more permissive states like New Mexico. Meanwhile, states like Delaware and New Hampshire, though not renowned for robust IVF options, provide safe and reliable environments. This state-by-state variation highlights the diverse legal and ethical frameworks governing reproductive technologies, significantly impacting the choices and experiences of individuals seeking IVF treatments.
 
@@ -11,7 +10,7 @@ Also worth noting Oregon has death with dignity assisted suicide for residents a
 No restrictions of any kind on terminations in CO, OR, or NM. Late term terminations are allowed in other states with ethics committee approvals. -->
 
 
-![./State-of-IVF-Map.2023-Nov.png](./State-of-IVF-Map.2023-Nov.png){:width="100%"}
+![./Map-USStates-IVF-Coverage.jpeg](./Map-USStates-IVF-Coverage.jpeg){:width="100%"}
 
 #### Example Encoding  
 
@@ -28,14 +27,29 @@ No restrictions of any kind on terminations in CO, OR, or NM. Late term terminat
             "display": "coordination of care",
             "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason"
         }],
-        "provision": []
+        "provision": [{
+            "type": "permit",
+            "class": [{
+                "code": "Coverage",
+                "display": "Coverage",
+                "system": "http://hl7.org/fhir/resource-types"
+            }],
+            "code": [{
+                "text": "In-vitro fertilizaiton",
+                "coding": [{
+                    "code": "52637005",
+                    "display": "Test tube ovum fertilization (procedure)",
+                    "system": " http://snomed.info/sct"
+                }]
+            }]
+        }]
     }
 }
 ```
 
 #### References  
-<!-- [Tracking where abortion laws stand in every state](https://www.theguardian.com/us-news/ng-interactive/2022/jun/28/tracking-where-abortion-laws-stand-in-every-state) -->
+[IVF insurance laws by state](https://fertilityspace.io/blog/ivf-insurance-laws-by-state)
 
 
 #### Datasets
-<!-- [Locations.US.States.AbortionAccess.20230327.ndjson](Locations.US.States.AbortionAccess.20230327.ndjson)   -->
+[Locations.US.States.IVF.20240128.ndjson](Locations.US.States.IVF.20240128.ndjson)  

@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "mehi.ig.fhir",
   "url": "https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "name": "USStateProfiles",
   "status": "draft",
   "publisher": "MITRE, Inc",
@@ -153,11 +153,25 @@
       },
       {
         "reference": {
+          "reference": "Consent/IllinoisConsentProfile"
+        },
+        "name": "Illinois State Consent Record",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/illinois-consent-profile"
         },
         "name": "IllinoisConsentProfile",
         "description": "Illinois consent profile.",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Consent/IndianaConsentProfile"
+        },
+        "name": "Indiana State Consent Record",
+        "exampleBoolean": true
       },
       {
         "reference": {
@@ -214,6 +228,13 @@
         "name": "MarylandConsentProfile",
         "description": "Maryland consent profile.",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Consent/MassachusettsConsentProfile"
+        },
+        "name": "Massachusetts State Consent Record",
+        "exampleBoolean": true
       },
       {
         "reference": {
@@ -390,6 +411,13 @@
         "name": "TennesseeConsentProfile",
         "description": "Tennessee consent profile.",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Consent/TexasConsentProfile"
+        },
+        "name": "Texas State Consent Record",
+        "exampleBoolean": true
       },
       {
         "reference": {
@@ -826,7 +854,7 @@
         },
         {
           "nameUrl": "page-foster-care.html",
-          "title": "Foster Care",
+          "title": "LGBT Foster Care",
           "generation": "markdown"
         },
         {
@@ -836,7 +864,7 @@
         },
         {
           "nameUrl": "page-abortion.html",
-          "title": "Abortion",
+          "title": "Abortion Access",
           "generation": "markdown"
         },
         {
@@ -851,12 +879,12 @@
         },
         {
           "nameUrl": "page-doulas.html",
-          "title": "Doulas",
+          "title": "Doula Access",
           "generation": "markdown"
         },
         {
           "nameUrl": "page-controlled-substances.html",
-          "title": "Controlled Substances",
+          "title": "Controlled Substances - Cannabis",
           "generation": "markdown"
         },
         {
@@ -871,7 +899,7 @@
         },
         {
           "nameUrl": "page-wpath-at-risk.html",
-          "title": "WPATH At Risk",
+          "title": "WPATH Usage",
           "generation": "markdown"
         },
         {

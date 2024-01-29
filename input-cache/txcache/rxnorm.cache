@@ -10,3 +10,14 @@ v: {
   "system" : "http://www.nlm.nih.gov/research/umls/rxnorm"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+  "code" : "rxcui#1484855",
+  "display" : "Cannabis sativa subsp. flowering top extract"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "Local Error: Resolved system http://www.nlm.nih.gov/research/umls/rxnorm (v3.0.1), but the definition is not complete. Server Error: Unknown code 'rxcui#1484855' in the CodeSystem 'http://www.nlm.nih.gov/research/umls/rxnorm' version '??rx1' (from http://tx.fhir.org/r4)",
+  "class" : "UNKNOWN"
+}
+-------------------------------------------------------------------------------------

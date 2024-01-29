@@ -7,7 +7,7 @@ id: mehi.ig.fhir
 canonical: https://gitlab.mitre.org/awatson/us-state-profiles
 name: US State Profiles
 status: draft
-version: 0.4.0
+version: 0.5.0
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: ci-build
@@ -22,18 +22,18 @@ dependencies:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Regional Profiles: 
-    Advanced Directives:  page-advanced-directives.html
+  Lesgislative Debates: 
+    Doula Access:  page-doulas.html
+    Medical Cannabis:  page-controlled-substances.html
     Medicaid Expansion:  page-medicaid-expansion.html
-    Controlled Substances:  page-controlled-substances.html
-    Religious Exemptions:  page-religious-exemptions.html
     Abortion:  page-abortion.html
     In-vitro Fertilization:  page-ivf.html
-    Doula Access:  page-doulas.html
-    Foster Care:  page-foster-care.html
+    LGBT Foster Care:  page-foster-care.html
     Assisted Suicide:  page-assisted-suicide.html
+    WPATH Usage:  page-wpath-at-risk.html
     Trans Sports Participation:  page-trans-sports.html
-    WPATH At Risk:  page-wpath-at-risk.html
+    Advanced Directives:  page-advanced-directives.html    
+    Religious Exemptions:  page-religious-exemptions.html
   Location Records:  state-records.html
   Artifacts: artifacts.html
 pages:
@@ -44,25 +44,25 @@ pages:
   page-advanced-directives.md:
     title: Advanced Directives
   page-foster-care.md:
-    title: Foster Care
+    title: LGBT Foster Care
   page-trans-sports.md:
     title: Trans Youth Participation in Sports
   page-abortion.md:
-    title: Abortion
+    title: Abortion Access
   page-ivf.md:
     title: In-vitro Fertilization (IVF)
   page-assisted-suicide.md:
     title: Assisted Suicide
   page-doulas.md:
-    title: Doulas
+    title: Doula Access
   page-controlled-substances.md:
-    title: Controlled Substances
+    title: Controlled Substances - Cannabis
   page-religious-exemptions.md:
     title: Religious Exemptions
   page-medicaid-expansion.md:
     title: Medicaid Expansion
   page-wpath-at-risk.md:
-    title: WPATH At Risk
+    title: WPATH Usage
   state-records.md:
     title: Location Records
 
