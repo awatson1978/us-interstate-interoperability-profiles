@@ -14,7 +14,7 @@
     <a href="index.html">Home</a>
   </li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Lesgislative Debates
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Legislative Debates
       <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
