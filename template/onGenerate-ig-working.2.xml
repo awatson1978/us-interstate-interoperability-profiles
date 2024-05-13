@@ -1,27 +1,27 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-   <id value="mehi.ig.fhir"/>
+   <id value="ig.fhir.us-interstate-interoperability"/>
    <text>
       <status value="extensions"/>
       <div xmlns="http://www.w3.org/1999/xhtml">
-         <h2>USStateProfiles</h2>
+         <h2>USInterstateInteroperability</h2>
          <p>The official URL for this implementation guide is: </p>
-         <pre>https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir</pre>
+         <pre>https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability</pre>
       </div>
    </text>
-   <url value="https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir"/>
-   <version value="0.5.0"/>
-   <name value="USStateProfiles"/>
+   <url value="https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability"/>
+   <version value="0.6.0"/>
+   <name value="USInterstateInteroperability"/>
    <status value="draft"/>
-   <date value="2024-01-29T13:10:12-06:00"/>
+   <date value="2024-05-12T21:17:02-05:00"/>
    <publisher value="MITRE, Inc"/>
    <contact>
       <name value="MITRE, Inc"/>
       <telecom>
          <system value="url"/>
-         <value value="https://gitlab.mitre.org/awatson/us-state-profiles"/>
+         <value value="https://github.com/awatson1978/us-state-profiles"/>
       </telecom>
    </contact>
-   <packageId value="mehi.ig.fhir"/>
+   <packageId value="ig.fhir.us-interstate-interoperability"/>
    <license value="CC0-1.0"/>
    <fhirVersion value="4.0.1"/>
    <dependsOn id="hl7tx">
@@ -30,7 +30,7 @@
       </extension>
       <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
       <packageId value="hl7.terminology.r4"/>
-      <version value="5.3.0"/>
+      <version value="5.5.0"/>
    </dependsOn>
    <dependsOn id="hl7_fhir_us_core">
       <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
@@ -115,7 +115,7 @@
             <valueString value="path-history"/>
          </extension>
          <extension url="value">
-            <valueString value="https://gitlab.mitre.org/awatson/us-state-profiles/history.html"/>
+            <valueString value="https://github.com/awatson1978/us-state-profiles/history.html"/>
          </extension>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -3025,7 +3025,7 @@
                <valueUrl value="page-wpath-at-risk.html"/>
             </extension>
             <nameUrl value="page-wpath-at-risk.html"/>
-            <title value="WPATH Usage"/>
+            <title value="Pediatric Gender Medicine"/>
             <generation value="markdown"/>
          </page>
          <page>
@@ -3135,7 +3135,7 @@
       </parameter>
       <parameter>
          <code value="path-history"/>
-         <value value="https://gitlab.mitre.org/awatson/us-state-profiles/history.html"/>
+         <value value="https://github.com/awatson1978/us-state-profiles/history.html"/>
       </parameter>
       <parameter>
          <code value="template-html"/>

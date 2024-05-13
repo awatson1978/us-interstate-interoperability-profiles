@@ -1,10 +1,10 @@
 {
   "path" : "http://hl7.org/fhir/R4/",
-  "canonical" : "https://gitlab.mitre.org/awatson/us-state-profiles",
-  "igId" : "mehi.ig.fhir",
-  "igName" : "USStateProfiles",
-  "packageId" : "mehi.ig.fhir",
-  "igVer" : "0.5.0",
+  "canonical" : "https://github.com/awatson1978/us-state-profiles",
+  "igId" : "ig.fhir.us-interstate-interoperability",
+  "igName" : "USInterstateInteroperability",
+  "packageId" : "ig.fhir.us-interstate-interoperability",
+  "igVer" : "0.6.0",
   "errorCount" : 202,
   "version" : "4.0.1",
   "revision" : "a53ec6ee1b",
@@ -13,9 +13,9 @@
   "toolingRevision" : "3",
   "toolingVersionFull" : "5.0.0 (3)",
   "totalFiles" : 149,
-  "processedFiles" : 224,
-  "genDate" : "Mon, Jan 29, 2024 13:10-0600",
-  "genDay" : "29/01/2024",
+  "processedFiles" : 235,
+  "genDate" : "Sun, May 12, 2024 21:17-0500",
+  "genDay" : "12/05/2024",
   "resourceTypes" : [
     "Account",
     "ActivityDefinition",
@@ -228,11 +228,11 @@
     "xhtml"
   ],
   "ig" : {
-    "id" : "mehi.ig.fhir",
-    "name" : "USStateProfiles",
+    "id" : "ig.fhir.us-interstate-interoperability",
+    "name" : "USInterstateInteroperability",
     "title" : null,
-    "url" : "https://gitlab.mitre.org/awatson/us-state-profiles/ImplementationGuide/mehi.ig.fhir",
-    "version" : "0.5.0",
+    "url" : "https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability",
+    "version" : "0.6.0",
     "status" : "draft",
     "experimental" : false,
     "publisher" : "MITRE, Inc",
@@ -240,10 +240,10 @@
     "contact" : [
       {
         "name" : "MITRE, Inc",
-        "telecom" : ["https://gitlab.mitre.org/awatson/us-state-profiles"]
+        "telecom" : ["https://github.com/awatson1978/us-state-profiles"]
       }
     ],
-    "date" : "2024-01-29T13:10:12-06:00",
+    "date" : "2024-05-12T21:17:02-05:00",
     "description" : "",
     "copyright" : null,
     "fhirVersion" : "4.0.1"
@@ -251,7 +251,7 @@
   "basespec" : "http://hl7.org/fhir/R4",
   "ver" : {
     "basespec" : null,
-    "hl7tx" : "http://terminology.hl7.org/5.3.0",
+    "hl7tx" : "http://terminology.hl7.org/5.5.0",
     "hl7_fhir_us_core" : "http://hl7.org/fhir/us/core/2021Jan",
     "us.nlm.vsac_0.3.0" : "http://fhir.org/packages/us.nlm.vsac",
     "igtools" : "https://build.fhir.org/ig/FHIR/fhir-tools-ig/"

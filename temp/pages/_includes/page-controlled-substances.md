@@ -2,18 +2,18 @@
 
 Cannabis has been listed as a Schedule I controlled substance since the Controlled Substances Act was passed in 1970. However, many states have been taking proactive measures to enact state level laws allowing for medical marijuana, cannabis byproducts such as CBD, industrial hemp, or even outright legalizing it.
 
-![./Map-USStates-MedicalCannabis.jpeg](./Map-USStates-MedicalCannabis.jpeg){:width="100%"}
+![./Map-USStates-MedicalCannabis.jpeg](./Map-USStates-MedicalCannabis.jpg){:width="100%"}
 
 `WY denies consent for clinicians to use or prescribe medical marijuana during care management`  
 
 #### Example Encoding  
 
-```
+```json
 { 
     "resourceType": "Consent",
-    "policy": {
+    "policy": [{
         "authority": "https://www.wyo.gov/"
-    },
+    }],
     "provision": {
         "type": "permit",
         "purpose": [{
@@ -24,8 +24,8 @@ Cannabis has been listed as a Schedule I controlled substance since the Controll
         "provision": [{
             "type": "deny",
             "class": [{
-                "code": "Medication",
-                "display": "Medication",
+                "code": "MedicationRequest",
+                "display": "MedicationRequest",
                 "system": "http://hl7.org/fhir/resource-types"
             }],
             "code": [{

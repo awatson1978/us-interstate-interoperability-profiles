@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "california-consent-profile",
-  "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/california-consent-profile",
+  "url": "https://github.com/awatson1978/us-state-profiles/StructureDefinition/california-consent-profile",
   "name": "CaliforniaConsentProfile",
   "title": "CaliforniaConsentProfile",
   "status": "draft",
@@ -46,7 +46,7 @@
         "path": "Consent.policyRule",
         "binding": {
           "strength": "required",
-          "valueSet": "https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies"
+          "valueSet": "https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies"
         }
       },
       {

@@ -7,7 +7,7 @@ Usage: #example
 * identifier[=].value = "KY"
 * identifier[+].system = "https://www.census.gov/"
 * identifier[=].value = "0400000US21"
-* identifier[+].system = "https://gitlab.mitre.org/awatson/us-state-profiles/index"
+* identifier[+].system = "https://github.com/awatson1978/us-state-profiles/index"
 * identifier[=].value = "21"
 * address.state = "KY"
 * address.country = "USA"

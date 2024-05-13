@@ -33,12 +33,12 @@ Witness requirements and notary public functions have been part of US jurisprude
 
 `New Mexico has no requirements for a notary public or witness to verify an advanced directive`  
 
-```
+```json
 { 
     "resourceType": "Consent",
-    "policy": {
+    "policy": [{
         "authority": "https://www.wyo.gov/"
-    },
+    }],
     "verification": [],
     "provision": {
         "type": "permit",
@@ -53,12 +53,12 @@ Witness requirements and notary public functions have been part of US jurisprude
 
 `Florida requires an advanced directive to be verified (although it may be done online)`
 
-```
+```json
 { 
     "resourceType": "Consent",
-    "policy": {
+    "policy": [{
         "authority": "https://www.wyo.gov/"
-    },
+    }],
     "verification": [{
         "verified": true,
         "verifiedWith: {
@@ -87,12 +87,12 @@ Foster care nondiscrimination laws protect LGBTQ foster parents and families fro
 
 `TX may deny to consent to share data or treat a foster child, based on the sincere religious beliefs of the clinician`
 
-```
+```json
 { 
     "resourceType": "Consent",
-    "policy": {
+    "policy": [{
         "authority": "https://www.texas.gov/"
-    },
+    }],
     "provision": {
         "type": "permit",
         "purpose": [{
@@ -132,12 +132,12 @@ Marijuana has been listed as a Schedule I controlled substance since the Control
 
 `WY denies consent for clinicians to use or prescribe medical marijuana during care management`  
 
-```
+```json
 { 
     "resourceType": "Consent",
-    "policy": {
+    "policy": [{
         "authority": "https://www.wyo.gov/"
-    },
+    }],
     "provision": {
         "type": "permit",
         "purpose": [{

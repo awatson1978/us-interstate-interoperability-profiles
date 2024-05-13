@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://gitlab.mitre.org/awatson/us-state-profiles/Location/T4MtGfNFjuataQdmY> a fhir:Location ;
+<https://github.com/awatson1978/us-state-profiles/Location/T4MtGfNFjuataQdmY> a fhir:Location ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "T4MtGfNFjuataQdmY"] ; # 
   fhir:text [
@@ -23,7 +23,7 @@
      fhir:system [ fhir:v "https://www.census.gov/"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "0400000US72" ]
   ] [
-     fhir:system [ fhir:v "https://gitlab.mitre.org/awatson/us-state-profiles/index"^^xsd:anyURI ] ;
+     fhir:system [ fhir:v "https://github.com/awatson1978/us-state-profiles/index"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "72" ]
   ] ) ; # 
   fhir:status [ fhir:v "active"] ; # 

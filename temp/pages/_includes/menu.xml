@@ -14,18 +14,21 @@
     <a href="index.html">Home</a>
   </li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Legislative Debates
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Legislative Topics
       <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="page-doulas.html">Doula Access</a>
-      </li>
-      <li>
-        <a href="page-controlled-substances.html">Medical Cannabis</a>
+        <a href="page-advanced-directives.html">Advanced Directives</a>
       </li>
       <li>
         <a href="page-medicaid-expansion.html">Medicaid Expansion</a>
+      </li>
+      <li>
+        <a href="page-religious-exemptions.html">Religious Exemptions</a>
+      </li>
+      <li>
+        <a href="page-controlled-substances.html">Medical Cannabis</a>
       </li>
       <li>
         <a href="page-abortion.html">Abortion</a>
@@ -34,22 +37,19 @@
         <a href="page-ivf.html">In-vitro Fertilization</a>
       </li>
       <li>
+        <a href="page-doulas.html">Doula Access</a>
+      </li>
+      <li>
         <a href="page-foster-care.html">LGBT Foster Care</a>
       </li>
       <li>
-        <a href="page-assisted-suicide.html">Assisted Suicide</a>
-      </li>
-      <li>
-        <a href="page-wpath-at-risk.html">WPATH Usage</a>
+        <a href="page-wpath-at-risk.html">Pediatric Gender Medicine</a>
       </li>
       <li>
         <a href="page-trans-sports.html">Trans Sports Participation</a>
       </li>
       <li>
-        <a href="page-advanced-directives.html">Advanced Directives</a>
-      </li>
-      <li>
-        <a href="page-religious-exemptions.html">Religious Exemptions</a>
+        <a href="page-assisted-suicide.html">Assisted Suicide</a>
       </li>
     </ul>
   </li>

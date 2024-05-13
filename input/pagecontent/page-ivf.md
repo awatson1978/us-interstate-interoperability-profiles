@@ -10,16 +10,16 @@ Also worth noting Oregon has death with dignity assisted suicide for residents a
 No restrictions of any kind on terminations in CO, OR, or NM. Late term terminations are allowed in other states with ethics committee approvals. -->
 
 
-![./Map-USStates-IVF-Coverage.jpeg](./Map-USStates-IVF-Coverage.jpeg){:width="100%"}
+![./Map-USStates-IVF-Coverage.jpeg](./Map-USStates-IVF-Coverage.jpg){:width="100%"}
 
 #### Example Encoding  
 
-```
+```json
 { 
     "resourceType": "Consent",
-    "policy": {
-
-    },
+    "policy": [{
+        "authority": "https://www.colorado.gov/"
+    }],
     "provision": {
         "type": "permit",
         "purpose": [{

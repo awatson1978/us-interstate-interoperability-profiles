@@ -1,18 +1,18 @@
 
 Witness requirements and notary public functions have been part of US jurisprudence since it’s founding, being largely based on English, French, and Spanish contract law respectively. Yet, these legal traditions each presented slightly different requirements, which eventually resulted in the situation where some US states require no signatures for advanced directives, others require a witness, some require two witnesses, and yet others require a notary public. To further complicate matters, COVID19 has created yet more variations in the law, in that people are now allowed to enter contracts remotely using online software services as a witness/notary intermediary.
 
-![./Map-USStates-AdvancedDirectives.jpeg](./Map-USStates-AdvancedDirectives.jpeg){:width="100%"}
+![./Map-USStates-AdvancedDirectives.jpeg](./Map-USStates-AdvancedDirectives.jpg){:width="100%"}
 
 `New Mexico has no requirements for a notary public or witness to verify an advanced directive`  
 
 #### Example Encoding  
 
-```
+```json
 { 
     "resourceType": "Consent",
-    "policy": {
+    "policy": [{
         "authority": "https://www.wyo.gov/"
-    },
+    }],
     "verification": [],
     "provision": {
         "type": "permit",

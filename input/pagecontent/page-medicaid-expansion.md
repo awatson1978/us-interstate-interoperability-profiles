@@ -1,17 +1,17 @@
 
-Medicaid expansion, a critical component of the Affordable Care Act (ACA), presents a varied landscape across the United States, shaped by individual state decisions. This expansion aims to extend healthcare coverage to more low-income adults by increasing the eligibility threshold. However, its adoption varies significantly from state to state, reflecting differing political, economic, and social perspectives. In states that have embraced expansion, millions of previously uninsured individuals have gained access to essential health services, leading to improved health outcomes and financial security. Conversely, in states opting out of expansion, many low-income adults remain without coverage, highlighting a stark divide in healthcare access across the country. This state-by-state approach to Medicaid expansion underscores the ongoing debate over healthcare policy in the U.S. and its direct impact on the health and well-being of its residents.
+Medicaid expansion, a component of the Affordable Care Act (ACA), presents a varied landscape across the United States, shaped by individual state decisions. This expansion aims to extend healthcare coverage to more low-income adults by increasing the eligibility threshold. However, its adoption varies significantly from state to state, reflecting differing political, economic, and social perspectives. In states that have embraced expansion, millions of previously uninsured individuals have gained access to essential health services, leading to improved health outcomes and financial security. Conversely, in states opting out of expansion, many low-income adults remain without coverage, highlighting a  divide in healthcare access across the country. This state-by-state approach to Medicaid expansion underscores the ongoing debate over healthcare policy in the United States and its direct impact on the health and well-being of its residents.
 
 
-![./Map-USStates-MedicaidExpansion.jpeg](./Map-USStates-MedicaidExpansion.jpeg){:width="100%"}
+![./Map-USStates-MedicaidExpansion.jpeg](./Map-USStates-MedicaidExpansion.jpg){:width="100%"}
 
 #### Example Encoding  
 
-```
+```json
 { 
     "resourceType": "Consent",
-    "policy": {
-
-    },
+    "policy": [{
+        "authority": "https://www.in.gov/"
+    }],
     "provision": {
         "type": "permit",
         "purpose": [{

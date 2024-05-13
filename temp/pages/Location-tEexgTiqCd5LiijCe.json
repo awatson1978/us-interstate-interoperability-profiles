@@ -18,7 +18,7 @@
     "value" : "0400000US04"
   },
   {
-    "system" : "https://gitlab.mitre.org/awatson/us-state-profiles/index",
+    "system" : "https://github.com/awatson1978/us-state-profiles/index",
     "value" : "4"
   }],
   "status" : "active",

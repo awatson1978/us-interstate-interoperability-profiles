@@ -18,7 +18,7 @@ npm install -g fsh-sushi
 sushi --help
 
 # get a copy of the sourcecode
-git clone https://gitlab.mitre.org/awatson/us-state-profiles
+git clone https:// https://github.com/awatson1978/us-state-profiles
 cd us-state-profiles
 
 # compile the documentation  

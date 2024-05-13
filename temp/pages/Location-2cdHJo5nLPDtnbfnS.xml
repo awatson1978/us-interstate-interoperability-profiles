@@ -17,7 +17,7 @@
     <value value="0400000US18"/>
   </identifier>
   <identifier>
-    <system value="https://gitlab.mitre.org/awatson/us-state-profiles/index"/>
+    <system value="https://github.com/awatson1978/us-state-profiles/index"/>
     <value value="18"/>
   </identifier>
   <status value="active"/>

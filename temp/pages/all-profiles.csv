@@ -85,7 +85,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "iowa-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "iowa-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -282,7 +282,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "colorado-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "colorado-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -479,7 +479,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "base-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "base-consent-profile","Consent.verification","Consent.verification","","","",0,*,"","","Y","BackboneElement {[]} {[]}
@@ -676,7 +676,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "louisiana-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "louisiana-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -873,7 +873,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "oregon-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "oregon-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -1070,7 +1070,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "california-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "california-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -1267,7 +1267,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "vermont-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "vermont-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -1464,7 +1464,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "florida-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "florida-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -1661,7 +1661,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "south-dakota-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "south-dakota-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -1858,7 +1858,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "new-mexico-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "new-mexico-consent-profile","Consent.verification","Consent.verification","","","",0,*,"","","Y","BackboneElement {[]} {[]}
@@ -2055,7 +2055,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "connecticut-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "connecticut-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -2252,7 +2252,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "idaho-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "idaho-consent-profile","Consent.verification","Consent.verification","","","",0,*,"","","Y","BackboneElement {[]} {[]}
@@ -2449,7 +2449,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "kansas-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "kansas-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -2646,7 +2646,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "utah-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "utah-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -2843,7 +2843,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "district-of-columbia-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "district-of-columbia-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -3040,7 +3040,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "arkansas-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "arkansas-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -3237,7 +3237,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "delaware-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "delaware-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -3434,7 +3434,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "tennessee-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "tennessee-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -3631,7 +3631,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "ohio-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "ohio-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -3828,7 +3828,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "oklahoma-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "oklahoma-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -4025,7 +4025,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "georgia-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "georgia-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -4222,7 +4222,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "south-carolina-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "south-carolina-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -4419,7 +4419,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "maryland-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "maryland-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -4616,7 +4616,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "missouri-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "missouri-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -4813,7 +4813,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "montana-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "montana-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -5010,7 +5010,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "west-virginia-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "west-virginia-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -5207,7 +5207,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "hawaii-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "hawaii-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -5404,7 +5404,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "washington-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "washington-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -5601,7 +5601,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "north-dakota-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "north-dakota-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -5798,7 +5798,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "texas-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "texas-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -5995,7 +5995,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "minnesota-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "minnesota-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -6192,7 +6192,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "kentucky-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "kentucky-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -6389,7 +6389,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "nevada-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "nevada-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -6586,7 +6586,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "maine-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "maine-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -6783,7 +6783,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "pennsylvania-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "pennsylvania-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -6980,7 +6980,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "new-york-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "new-york-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -7177,7 +7177,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "indiana-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "indiana-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -7374,7 +7374,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mississippi-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "mississippi-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -7571,7 +7571,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "arizona-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "arizona-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -7768,7 +7768,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "alabama-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "alabama-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -7965,7 +7965,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "new-hampshire-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "new-hampshire-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -8162,7 +8162,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "michigan-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "michigan-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -8359,7 +8359,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "north-carolina-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "north-carolina-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -8556,7 +8556,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "virginia-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "virginia-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -8753,7 +8753,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "illinois-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "illinois-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -8950,7 +8950,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "nebraska-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "nebraska-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -9147,7 +9147,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "alaska-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "alaska-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -9344,7 +9344,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "rhode-island-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "rhode-island-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -9541,7 +9541,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "new-jersey-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "new-jersey-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}
@@ -9738,7 +9738,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "massachusetts-consent-profile","Consent.policyRule","Consent.policyRule","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
+","Regulation that this consents to","A reference to the specific base computable regulation or policy.","If the policyRule is absent, computable consent would need to be constructed from the elements of the Consent resource.","Might be a unique identifier of a policy set in XACML, or other rules engine.","","","","","","","",,"required","","https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies","",,,,"Consent.policyRule",0,1,"ppc-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "massachusetts-consent-profile","Consent.verification","Consent.verification","","","",1,*,"","","Y","BackboneElement {[]} {[]}

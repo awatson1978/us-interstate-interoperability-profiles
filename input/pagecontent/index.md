@@ -1,7 +1,7 @@
 
 ### Background  
 
-Modern clinical information systems are regulated by various laws, including (but not limited to) HIPAA, GDPR, and 21st Century Cures.  These laws range specifying how many signatures are required for advanced directives, to laws prescribing expectations of patient privacy, to religious exemptions for clinicians from practicing certain types of medicine on the other, to whether LGBT members may participate in the adoption and foster care systems.  
+Modern clinical information systems are regulated by various laws, including (but not limited to) HIPAA, GDPR, and 21st Century Cures.  These laws range from specifying how many signatures are required for advanced directives, to laws prescribing expectations of patient privacy, to religious exemptions for clinicians from practicing certain types of medicine on the other, to whether LGBT members may participate in the adoption and foster care systems.  
 
 ![./PolicyAnalysis-Examples-3x2.jpg](./PolicyAnalysis-Examples-3x2.jpg){:width="100%"}
 
@@ -14,7 +14,7 @@ Following this logic, one may deduce that the areas where such data modeling wil
 
 
 ### Jurisprudence  
-This implementation guide introduces an approach to jurisprudence interpretation that may be somewhat novel.  For the purposes of this implementation guide, and the systems that will use the profiles and artifacts it documents, this guide chooses to use the [FHIR Consent](https://www.hl7.org/fhir/consent.html) resource to model state laws.  This approach was chosen for the following reasons:
+This implementation guide introduces an approach to jurisprudence interpretation that may be somewhat novel.  For the purposes of this implementation guide, and the systems that will use the profiles and artifacts it documents, this guide chooses to use the [FHIR Consent](https://hl7.org/fhir/R4/consent.html) resource to model state laws.  This approach was chosen for the following reasons:
 
 - Consent provides a `policy.authority` field which explicitly specifies a jurisdictional body, such as a State or City.
 - The Consent record also contains the recursive `provision` field, which allows arbitrarily deep inclusion/exclusion provisions with permit/deny rules, which is flexible enough to encode most of the laws that are relevant to practice healthcare.
@@ -28,7 +28,36 @@ This may be a novel jurisprudence interpretation.  If using the Consent resource
 
 But for the purposes of expediency, we have chosen to use existing terminology where we can, and are starting with this data modeling approach.  
 
-# Contact Info  
+### Project History   
+
+This guide is a work-in-progress, and is still an early draft of a concept that we are trying to articulate, but have yet to fully flesh out.  The initial concept was that "we need to profile the 50 states".  That then became "we need to profile the 57 states and territories".  And 50+ profile stubs were then created, one for each state.  
+
+We then started considering use cases for using these profiles, which seemed to be driven by culture war topics.  The issues that need the most help with interstate interoperability are precisely those issues which differ from state to state, and those are the topics that are often being debated in the public sphere.  This led us to us converting various policy maps of various legislative debate topics into FHIR format, using the Location resource.  And it quickly became apparent that to manage these maps, we needed to save a copy of the Location records used to generate them.  
+
+After developing a small collection of use cases, the Locations records were then used to construct state specific Consent instances.  
+
+We are now at a point where we are considering which approach is best...  profiled Consent records, Location instances, or Consent instances.  The idea has been developed enough that we're generally confident that we have a proof of concept; and it's getting time to seek feedback from the broader HL7 community.  Location vs Consent; profile vs instance... these are technical details that may have performance implications, but in some aspect don't matter, because the general approach could be done in a couple of different ways.  
+
+Rather, we want to draw attention to the general idea that we could - and _should_ - be having a structured way of exchange data about the legislative and jurisprudence environment in which healthcare organizations and patients operate in.  It's this general idea we wish to bring to the HL7 community, and have it weigh in on how best to go forward with this idea.
+
+### Disclaimer  
+THIS IMPLEMENTATION GUIDE IS FOR INSTRUCTIONAL PURPOSES ONLY.  WHILE WE HAVE DONE OUR BEST TO ACCURATELY REFLECT POLICY AS OF THE DATE THIS IMPLEMENTATION GUIDE WAS AUTHORED, WE CANNOT GUARANTEE IT IS CORRECT NOW, NOR CAN WE GUARANTEE IT WILL REMAIN CORRECT IN THE FUTURE.  THIS GUIDE IS PROVIDED AS-IS.  PLEASE CONFIRM ALL STATE REGULATIONS BEFORE USE.  
+
+### Contributing  
+
+The above being said, we seek to develop a crowdsourcing model, where anybody can submit updates to the guide.  We need your help in keeping this guide up to date.  If you find a discrepency between what is in this guide and state law, please follow these steps:
+
+*Updating a Map*  
+- Go to the issues page, and find the topic that needs updating.  
+- Comment on the ongoing thread on the change in state law.  Please include citation to the state bill or court case, and/or any news articles related to the change.
+- Time permitting, use the `workflow-create-us-states-map` utility to generate a new map and array of Location records.  
+- Submit a pull-request on a new feature branch with the updated map and Location records.  
+
+*Adding a new topic map* 
+- File a new topic issue.  Please provide references to relevant legislative bills or laws, executive policies, or court cases.
+
+
+### Contact Info  
 
 For project maintenance, please contact:    
 

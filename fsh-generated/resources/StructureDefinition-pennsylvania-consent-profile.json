@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pennsylvania-consent-profile",
-  "url": "https://gitlab.mitre.org/awatson/us-state-profiles/StructureDefinition/pennsylvania-consent-profile",
+  "url": "https://github.com/awatson1978/us-state-profiles/StructureDefinition/pennsylvania-consent-profile",
   "name": "PennsylvaniaConsentProfile",
   "title": "PennsylvaniaConsentProfile",
   "status": "draft",
@@ -46,7 +46,7 @@
         "path": "Consent.policyRule",
         "binding": {
           "strength": "required",
-          "valueSet": "https://gitlab.mitre.org/awatson/us-state-profiles/ValueSet/ConsentExchangePolicies"
+          "valueSet": "https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies"
         }
       },
       {

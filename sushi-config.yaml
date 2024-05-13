@@ -3,17 +3,17 @@
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
-id: mehi.ig.fhir
-canonical: https://gitlab.mitre.org/awatson/us-state-profiles
-name: US State Profiles
+id: ig.fhir.us-interstate-interoperability
+canonical: https://github.com/awatson1978/us-state-profiles
+name: US Interstate Interoperability
 status: draft
-version: 0.5.0
+version: 0.6.0
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: ci-build
 publisher:
   name: MITRE, Inc
-  url: https://gitlab.mitre.org/awatson/us-state-profiles
+  url: https://github.com/awatson1978/us-state-profiles
 dependencies:
   hl7.fhir.us.core: 3.2.0
 
@@ -22,18 +22,18 @@ dependencies:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Legislative Debates: 
-    Doula Access:  page-doulas.html
-    Medical Cannabis:  page-controlled-substances.html
+  Legislative Topics: 
+    Advanced Directives:  page-advanced-directives.html    
     Medicaid Expansion:  page-medicaid-expansion.html
+    Religious Exemptions:  page-religious-exemptions.html
+    Medical Cannabis:  page-controlled-substances.html
     Abortion:  page-abortion.html
     In-vitro Fertilization:  page-ivf.html
+    Doula Access:  page-doulas.html
     LGBT Foster Care:  page-foster-care.html
-    Assisted Suicide:  page-assisted-suicide.html
-    WPATH Usage:  page-wpath-at-risk.html
+    Pediatric Gender Medicine:  page-wpath-at-risk.html
     Trans Sports Participation:  page-trans-sports.html
-    Advanced Directives:  page-advanced-directives.html    
-    Religious Exemptions:  page-religious-exemptions.html
+    Assisted Suicide:  page-assisted-suicide.html
   Location Records:  state-records.html
   Artifacts: artifacts.html
 pages:
@@ -62,7 +62,7 @@ pages:
   page-medicaid-expansion.md:
     title: Medicaid Expansion
   page-wpath-at-risk.md:
-    title: WPATH Usage
+    title: Pediatric Gender Medicine
   state-records.md:
     title: Location Records
 

@@ -2,17 +2,17 @@
 Medicaid has increasingly recognized the importance of comprehensive maternal care, including the services provided by doulas. Doulas are non-medical professionals who offer physical, emotional, and informational support to women before, during, and shortly after childbirth. The integration of doula services into Medicaid coverage is a significant step towards improving maternal and infant health outcomes, particularly in underserved communities. This move acknowledges the role of doulas in reducing complications during childbirth, enhancing the birthing experience, and potentially decreasing healthcare costs by lowering the rates of medical interventions like cesarean sections. The expansion of Medicaid to cover doula services reflects a growing awareness of the importance of holistic care approaches in maternal health and the need to address disparities in healthcare access and outcomes.
 
 
-![./Map-USStates-DoulaAccess.jpeg](./Map-USStates-DoulaAccess.jpeg){:width="100%"}
+![./Map-USStates-DoulaAccess.jpeg](./Map-USStates-DoulaAccess.jpg){:width="100%"}
 Last Updated:  January 8th, 2024
 
 #### Example Encoding  
 
-```
+```json
 { 
     "resourceType": "Consent",
-    "policy": {
-
-    },
+    "policy": [{
+        "authority": "https://nv.gov/"
+    }],
     "provision": {
         "type": "permit",
         "purpose": [{
