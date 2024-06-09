@@ -1,7 +1,7 @@
 
 ### Background  
 
-Modern clinical information systems are regulated by various laws, including (but not limited to) HIPAA, GDPR, and 21st Century Cures.  These laws range from specifying how many signatures are required for advanced directives, to laws prescribing expectations of patient privacy, to religious exemptions for clinicians from practicing certain types of medicine on the other, to whether LGBT members may participate in the adoption and foster care systems.  
+Modern clinical information systems are regulated by various laws, including (but not limited to) HIPAA, GDPR, and 21st Century Cures.  These laws range from specifying how many signatures are required for advanced directives, to laws prescribing expectations of patient privacy, to religious exemptions for clinicians from practicing certain types of medicine, to what kind of family structures a healthcare system recognizes in the adoption and foster care systems, to how expansive the social safety net is via programs such as Medicaid.  These differences in laws between states express themselves at the ballot box and in culture war topics, as they are precisely the topics which people have differing opinions on.  And they are, therefore, also the precise topics for which we have data exchange challenges and where interstate interoperability breaks down.  
 
 ![./PolicyAnalysis-Examples-3x2.jpg](./PolicyAnalysis-Examples-3x2.jpg){:width="100%"}
 
