@@ -1,6 +1,7 @@
 {
   "ImplementationGuide/ig.fhir.us-interstate-interoperability" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
     "index" : 0,
     "source" : "/Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/ImplementationGuide-ig.fhir.us-interstate-interoperability.json",
@@ -9,270 +10,7 @@
     "url" : "https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability",
     "version" : "0.6.0",
     "name" : "USInterstateInteroperability",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Location/3zjF5MkrEZEErco7v" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 1,
-    "source" : "fsh-generated/resources/Location-3zjF5MkrEZEErco7v.json",
-    "sourceTail" : "Location-3zjF5MkrEZEErco7v.json",
-    "path" : "Location-3zjF5MkrEZEErco7v.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/iowa-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 2,
-    "source" : "fsh-generated/resources/StructureDefinition-iowa-consent-profile.json",
-    "sourceTail" : "StructureDefinition-iowa-consent-profile.json",
-    "path" : "StructureDefinition-iowa-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/iowa-consent-profile",
-    "version" : "0.6.0",
-    "name" : "IowaConsentProfile",
-    "title" : "IowaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Iowa consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/colorado-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 3,
-    "source" : "fsh-generated/resources/StructureDefinition-colorado-consent-profile.json",
-    "sourceTail" : "StructureDefinition-colorado-consent-profile.json",
-    "path" : "StructureDefinition-colorado-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/colorado-consent-profile",
-    "version" : "0.6.0",
-    "name" : "ColoradoConsentProfile",
-    "title" : "ColoradoConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Colorado consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/base-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 4,
-    "source" : "fsh-generated/resources/StructureDefinition-base-consent-profile.json",
-    "sourceTail" : "StructureDefinition-base-consent-profile.json",
-    "path" : "StructureDefinition-base-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/base-consent-profile",
-    "version" : "0.6.0",
-    "name" : "BaseConsentProfile",
-    "title" : "BaseConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Base consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Location/gapeRqTrszacBkTdH" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 5,
-    "source" : "fsh-generated/resources/Location-gapeRqTrszacBkTdH.json",
-    "sourceTail" : "Location-gapeRqTrszacBkTdH.json",
-    "path" : "Location-gapeRqTrszacBkTdH.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/RFiBZbbFiHxjujhSn" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 6,
-    "source" : "fsh-generated/resources/Location-RFiBZbbFiHxjujhSn.json",
-    "sourceTail" : "Location-RFiBZbbFiHxjujhSn.json",
-    "path" : "Location-RFiBZbbFiHxjujhSn.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/NorthDakotaConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 7,
-    "source" : "fsh-generated/resources/Consent-NorthDakotaConsentProfile.json",
-    "sourceTail" : "Consent-NorthDakotaConsentProfile.json",
-    "path" : "Consent-NorthDakotaConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/ConnecticutConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 8,
-    "source" : "fsh-generated/resources/Consent-ConnecticutConsentProfile.json",
-    "sourceTail" : "Consent-ConnecticutConsentProfile.json",
-    "path" : "Consent-ConnecticutConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/IllinoisConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 9,
-    "source" : "fsh-generated/resources/Consent-IllinoisConsentProfile.json",
-    "sourceTail" : "Consent-IllinoisConsentProfile.json",
-    "path" : "Consent-IllinoisConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/2cdHJo5nLPDtnbfnS" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 10,
-    "source" : "fsh-generated/resources/Location-2cdHJo5nLPDtnbfnS.json",
-    "sourceTail" : "Location-2cdHJo5nLPDtnbfnS.json",
-    "path" : "Location-2cdHJo5nLPDtnbfnS.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/D5xG52A3yC2YTz8uG" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 11,
-    "source" : "fsh-generated/resources/Location-D5xG52A3yC2YTz8uG.json",
-    "sourceTail" : "Location-D5xG52A3yC2YTz8uG.json",
-    "path" : "Location-D5xG52A3yC2YTz8uG.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/KansasConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 12,
-    "source" : "fsh-generated/resources/Consent-KansasConsentProfile.json",
-    "sourceTail" : "Consent-KansasConsentProfile.json",
-    "path" : "Consent-KansasConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/MichiganConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 13,
-    "source" : "fsh-generated/resources/Consent-MichiganConsentProfile.json",
-    "sourceTail" : "Consent-MichiganConsentProfile.json",
-    "path" : "Consent-MichiganConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/ColoradoConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 14,
-    "source" : "fsh-generated/resources/Consent-ColoradoConsentProfile.json",
-    "sourceTail" : "Consent-ColoradoConsentProfile.json",
-    "path" : "Consent-ColoradoConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/wpPSL9vjHDXAJQWmC" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 15,
-    "source" : "fsh-generated/resources/Location-wpPSL9vjHDXAJQWmC.json",
-    "sourceTail" : "Location-wpPSL9vjHDXAJQWmC.json",
-    "path" : "Location-wpPSL9vjHDXAJQWmC.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/louisiana-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 16,
-    "source" : "fsh-generated/resources/StructureDefinition-louisiana-consent-profile.json",
-    "sourceTail" : "StructureDefinition-louisiana-consent-profile.json",
-    "path" : "StructureDefinition-louisiana-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/louisiana-consent-profile",
-    "version" : "0.6.0",
-    "name" : "LouisianaConsentProfile",
-    "title" : "LouisianaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Louisiana consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Location/4G954mNr3nR5rfCvw" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 17,
-    "source" : "fsh-generated/resources/Location-4G954mNr3nR5rfCvw.json",
-    "sourceTail" : "Location-4G954mNr3nR5rfCvw.json",
-    "path" : "Location-4G954mNr3nR5rfCvw.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/oregon-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 18,
-    "source" : "fsh-generated/resources/StructureDefinition-oregon-consent-profile.json",
-    "sourceTail" : "StructureDefinition-oregon-consent-profile.json",
-    "path" : "StructureDefinition-oregon-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/oregon-consent-profile",
-    "version" : "0.6.0",
-    "name" : "OregonConsentProfile",
-    "title" : "OregonConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Oregon consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/california-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 19,
-    "source" : "fsh-generated/resources/StructureDefinition-california-consent-profile.json",
-    "sourceTail" : "StructureDefinition-california-consent-profile.json",
-    "path" : "StructureDefinition-california-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/california-consent-profile",
-    "version" : "0.6.0",
-    "name" : "CaliforniaConsentProfile",
-    "title" : "CaliforniaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "California consent profile.",
+    "date" : "2024-09-09T14:48:24-05:00",
     "status" : {
       "class" : "colsd",
       "owner" : "MITRE, Inc",
@@ -282,8 +20,9 @@
   },
   "Consent/AlabamaConsentProfile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 20,
+    "index" : 1,
     "source" : "fsh-generated/resources/Consent-AlabamaConsentProfile.json",
     "sourceTail" : "Consent-AlabamaConsentProfile.json",
     "path" : "Consent-AlabamaConsentProfile.html",
@@ -291,10 +30,23 @@
       "class" : "colsi"
     }
   },
+  "Consent/ArizonaConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 2,
+    "source" : "fsh-generated/resources/Consent-ArizonaConsentProfile.json",
+    "sourceTail" : "Consent-ArizonaConsentProfile.json",
+    "path" : "Consent-ArizonaConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
   "Consent/ArkansasConsentProfile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 21,
+    "index" : 3,
     "source" : "fsh-generated/resources/Consent-ArkansasConsentProfile.json",
     "sourceTail" : "Consent-ArkansasConsentProfile.json",
     "path" : "Consent-ArkansasConsentProfile.html",
@@ -302,72 +54,107 @@
       "class" : "colsi"
     }
   },
-  "StructureDefinition/vermont-consent-profile" : {
+  "Consent/CaliforniaConsentProfile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 22,
-    "source" : "fsh-generated/resources/StructureDefinition-vermont-consent-profile.json",
-    "sourceTail" : "StructureDefinition-vermont-consent-profile.json",
-    "path" : "StructureDefinition-vermont-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/vermont-consent-profile",
-    "version" : "0.6.0",
-    "name" : "VermontConsentProfile",
-    "title" : "VermontConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Vermont consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Consent/NewYorkConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 23,
-    "source" : "fsh-generated/resources/Consent-NewYorkConsentProfile.json",
-    "sourceTail" : "Consent-NewYorkConsentProfile.json",
-    "path" : "Consent-NewYorkConsentProfile.html",
+    "index" : 4,
+    "source" : "fsh-generated/resources/Consent-CaliforniaConsentProfile.json",
+    "sourceTail" : "Consent-CaliforniaConsentProfile.json",
+    "path" : "Consent-CaliforniaConsentProfile.html",
     "status" : {
       "class" : "colsi"
     }
   },
-  "Consent/VirginiaConsentProfile" : {
+  "Consent/ColoradoConsentProfile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 24,
-    "source" : "fsh-generated/resources/Consent-VirginiaConsentProfile.json",
-    "sourceTail" : "Consent-VirginiaConsentProfile.json",
-    "path" : "Consent-VirginiaConsentProfile.html",
+    "index" : 5,
+    "source" : "fsh-generated/resources/Consent-ColoradoConsentProfile.json",
+    "sourceTail" : "Consent-ColoradoConsentProfile.json",
+    "path" : "Consent-ColoradoConsentProfile.html",
     "status" : {
       "class" : "colsi"
     }
   },
-  "StructureDefinition/florida-consent-profile" : {
+  "Consent/ConnecticutConsentProfile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 25,
-    "source" : "fsh-generated/resources/StructureDefinition-florida-consent-profile.json",
-    "sourceTail" : "StructureDefinition-florida-consent-profile.json",
-    "path" : "StructureDefinition-florida-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/florida-consent-profile",
-    "version" : "0.6.0",
-    "name" : "FloridaConsentProfile",
-    "title" : "FloridaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Florida consent profile.",
+    "index" : 6,
+    "source" : "fsh-generated/resources/Consent-ConnecticutConsentProfile.json",
+    "sourceTail" : "Consent-ConnecticutConsentProfile.json",
+    "path" : "Consent-ConnecticutConsentProfile.html",
     "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
+      "class" : "colsi"
+    }
+  },
+  "Consent/DelawareConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 7,
+    "source" : "fsh-generated/resources/Consent-DelawareConsentProfile.json",
+    "sourceTail" : "Consent-DelawareConsentProfile.json",
+    "path" : "Consent-DelawareConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/FloridaConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 8,
+    "source" : "fsh-generated/resources/Consent-FloridaConsentProfile.json",
+    "sourceTail" : "Consent-FloridaConsentProfile.json",
+    "path" : "Consent-FloridaConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/GeorgiaConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 9,
+    "source" : "fsh-generated/resources/Consent-GeorgiaConsentProfile.json",
+    "sourceTail" : "Consent-GeorgiaConsentProfile.json",
+    "path" : "Consent-GeorgiaConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/IdahoConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 10,
+    "source" : "fsh-generated/resources/Consent-IdahoConsentProfile.json",
+    "sourceTail" : "Consent-IdahoConsentProfile.json",
+    "path" : "Consent-IdahoConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/IllinoisConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 11,
+    "source" : "fsh-generated/resources/Consent-IllinoisConsentProfile.json",
+    "sourceTail" : "Consent-IllinoisConsentProfile.json",
+    "path" : "Consent-IllinoisConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
     }
   },
   "Consent/IndianaConsentProfile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 26,
+    "index" : 12,
     "source" : "fsh-generated/resources/Consent-IndianaConsentProfile.json",
     "sourceTail" : "Consent-IndianaConsentProfile.json",
     "path" : "Consent-IndianaConsentProfile.html",
@@ -375,94 +162,35 @@
       "class" : "colsi"
     }
   },
-  "Consent/WashingtonConsentProfile" : {
+  "Consent/IowaConsentProfile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 27,
-    "source" : "fsh-generated/resources/Consent-WashingtonConsentProfile.json",
-    "sourceTail" : "Consent-WashingtonConsentProfile.json",
-    "path" : "Consent-WashingtonConsentProfile.html",
+    "index" : 13,
+    "source" : "fsh-generated/resources/Consent-IowaConsentProfile.json",
+    "sourceTail" : "Consent-IowaConsentProfile.json",
+    "path" : "Consent-IowaConsentProfile.html",
     "status" : {
       "class" : "colsi"
     }
   },
-  "Consent/NebraskaConsentProfile" : {
+  "Consent/KansasConsentProfile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 28,
-    "source" : "fsh-generated/resources/Consent-NebraskaConsentProfile.json",
-    "sourceTail" : "Consent-NebraskaConsentProfile.json",
-    "path" : "Consent-NebraskaConsentProfile.html",
+    "index" : 14,
+    "source" : "fsh-generated/resources/Consent-KansasConsentProfile.json",
+    "sourceTail" : "Consent-KansasConsentProfile.json",
+    "path" : "Consent-KansasConsentProfile.html",
     "status" : {
       "class" : "colsi"
-    }
-  },
-  "Consent/OhioConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 29,
-    "source" : "fsh-generated/resources/Consent-OhioConsentProfile.json",
-    "sourceTail" : "Consent-OhioConsentProfile.json",
-    "path" : "Consent-OhioConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/MarylandConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 30,
-    "source" : "fsh-generated/resources/Consent-MarylandConsentProfile.json",
-    "sourceTail" : "Consent-MarylandConsentProfile.json",
-    "path" : "Consent-MarylandConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/south-dakota-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 31,
-    "source" : "fsh-generated/resources/StructureDefinition-south-dakota-consent-profile.json",
-    "sourceTail" : "StructureDefinition-south-dakota-consent-profile.json",
-    "path" : "StructureDefinition-south-dakota-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/south-dakota-consent-profile",
-    "version" : "0.6.0",
-    "name" : "SouthDakotaConsentProfile",
-    "title" : "SouthDakotaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "South Dakota consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/new-mexico-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 32,
-    "source" : "fsh-generated/resources/StructureDefinition-new-mexico-consent-profile.json",
-    "sourceTail" : "StructureDefinition-new-mexico-consent-profile.json",
-    "path" : "StructureDefinition-new-mexico-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/new-mexico-consent-profile",
-    "version" : "0.6.0",
-    "name" : "NewMexicoConsentProfile",
-    "title" : "NewMexicoConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "New Mexico consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
     }
   },
   "Consent/KentuckyConsentProfile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 33,
+    "index" : 15,
     "source" : "fsh-generated/resources/Consent-KentuckyConsentProfile.json",
     "sourceTail" : "Consent-KentuckyConsentProfile.json",
     "path" : "Consent-KentuckyConsentProfile.html",
@@ -470,92 +198,215 @@
       "class" : "colsi"
     }
   },
-  "Location/3L8sHLL4cyBoLfQ5X" : {
+  "Consent/LouisianaConsentProfile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 34,
-    "source" : "fsh-generated/resources/Location-3L8sHLL4cyBoLfQ5X.json",
-    "sourceTail" : "Location-3L8sHLL4cyBoLfQ5X.json",
-    "path" : "Location-3L8sHLL4cyBoLfQ5X.html",
+    "index" : 16,
+    "source" : "fsh-generated/resources/Consent-LouisianaConsentProfile.json",
+    "sourceTail" : "Consent-LouisianaConsentProfile.json",
+    "path" : "Consent-LouisianaConsentProfile.html",
     "status" : {
       "class" : "colsi"
     }
   },
-  "StructureDefinition/connecticut-consent-profile" : {
+  "Consent/MaineConsentProfile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 35,
-    "source" : "fsh-generated/resources/StructureDefinition-connecticut-consent-profile.json",
-    "sourceTail" : "StructureDefinition-connecticut-consent-profile.json",
-    "path" : "StructureDefinition-connecticut-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/connecticut-consent-profile",
-    "version" : "0.6.0",
-    "name" : "ConnecticutConsentProfile",
-    "title" : "ConnecticutConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Connecticut consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/idaho-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 36,
-    "source" : "fsh-generated/resources/StructureDefinition-idaho-consent-profile.json",
-    "sourceTail" : "StructureDefinition-idaho-consent-profile.json",
-    "path" : "StructureDefinition-idaho-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/idaho-consent-profile",
-    "version" : "0.6.0",
-    "name" : "IdahoConsentProfile",
-    "title" : "IdahoConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Idaho consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Location/E34hsfDZnFzWDDvrH" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 37,
-    "source" : "fsh-generated/resources/Location-E34hsfDZnFzWDDvrH.json",
-    "sourceTail" : "Location-E34hsfDZnFzWDDvrH.json",
-    "path" : "Location-E34hsfDZnFzWDDvrH.html",
+    "index" : 17,
+    "source" : "fsh-generated/resources/Consent-MaineConsentProfile.json",
+    "sourceTail" : "Consent-MaineConsentProfile.json",
+    "path" : "Consent-MaineConsentProfile.html",
     "status" : {
       "class" : "colsi"
     }
   },
-  "StructureDefinition/kansas-consent-profile" : {
+  "Consent/MarylandConsentProfile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 38,
-    "source" : "fsh-generated/resources/StructureDefinition-kansas-consent-profile.json",
-    "sourceTail" : "StructureDefinition-kansas-consent-profile.json",
-    "path" : "StructureDefinition-kansas-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/kansas-consent-profile",
-    "version" : "0.6.0",
-    "name" : "KansasConsentProfile",
-    "title" : "KansasConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Kansas consent profile.",
+    "index" : 18,
+    "source" : "fsh-generated/resources/Consent-MarylandConsentProfile.json",
+    "sourceTail" : "Consent-MarylandConsentProfile.json",
+    "path" : "Consent-MarylandConsentProfile.html",
     "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
+      "class" : "colsi"
+    }
+  },
+  "Consent/MassachusettsConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 19,
+    "source" : "fsh-generated/resources/Consent-MassachusettsConsentProfile.json",
+    "sourceTail" : "Consent-MassachusettsConsentProfile.json",
+    "path" : "Consent-MassachusettsConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/MichiganConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 20,
+    "source" : "fsh-generated/resources/Consent-MichiganConsentProfile.json",
+    "sourceTail" : "Consent-MichiganConsentProfile.json",
+    "path" : "Consent-MichiganConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/MinnesotaConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 21,
+    "source" : "fsh-generated/resources/Consent-MinnesotaConsentProfile.json",
+    "sourceTail" : "Consent-MinnesotaConsentProfile.json",
+    "path" : "Consent-MinnesotaConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/MississippiConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 22,
+    "source" : "fsh-generated/resources/Consent-MississippiConsentProfile.json",
+    "sourceTail" : "Consent-MississippiConsentProfile.json",
+    "path" : "Consent-MississippiConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/MissouriConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 23,
+    "source" : "fsh-generated/resources/Consent-MissouriConsentProfile.json",
+    "sourceTail" : "Consent-MissouriConsentProfile.json",
+    "path" : "Consent-MissouriConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/MontanaConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 24,
+    "source" : "fsh-generated/resources/Consent-MontanaConsentProfile.json",
+    "sourceTail" : "Consent-MontanaConsentProfile.json",
+    "path" : "Consent-MontanaConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/NebraskaConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 25,
+    "source" : "fsh-generated/resources/Consent-NebraskaConsentProfile.json",
+    "sourceTail" : "Consent-NebraskaConsentProfile.json",
+    "path" : "Consent-NebraskaConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/NevadaConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 26,
+    "source" : "fsh-generated/resources/Consent-NevadaConsentProfile.json",
+    "sourceTail" : "Consent-NevadaConsentProfile.json",
+    "path" : "Consent-NevadaConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/NewHampshireConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 27,
+    "source" : "fsh-generated/resources/Consent-NewHampshireConsentProfile.json",
+    "sourceTail" : "Consent-NewHampshireConsentProfile.json",
+    "path" : "Consent-NewHampshireConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/NewJerseyConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 28,
+    "source" : "fsh-generated/resources/Consent-NewJerseyConsentProfile.json",
+    "sourceTail" : "Consent-NewJerseyConsentProfile.json",
+    "path" : "Consent-NewJerseyConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/NewMexicoConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 29,
+    "source" : "fsh-generated/resources/Consent-NewMexicoConsentProfile.json",
+    "sourceTail" : "Consent-NewMexicoConsentProfile.json",
+    "path" : "Consent-NewMexicoConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/NewYorkConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 30,
+    "source" : "fsh-generated/resources/Consent-NewYorkConsentProfile.json",
+    "sourceTail" : "Consent-NewYorkConsentProfile.json",
+    "path" : "Consent-NewYorkConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/NorthDakotaConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 31,
+    "source" : "fsh-generated/resources/Consent-NorthDakotaConsentProfile.json",
+    "sourceTail" : "Consent-NorthDakotaConsentProfile.json",
+    "path" : "Consent-NorthDakotaConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/OhioConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 32,
+    "source" : "fsh-generated/resources/Consent-OhioConsentProfile.json",
+    "sourceTail" : "Consent-OhioConsentProfile.json",
+    "path" : "Consent-OhioConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
     }
   },
   "Consent/OklahomaConsentProfile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 39,
+    "index" : 33,
     "source" : "fsh-generated/resources/Consent-OklahomaConsentProfile.json",
     "sourceTail" : "Consent-OklahomaConsentProfile.json",
     "path" : "Consent-OklahomaConsentProfile.html",
@@ -563,8 +414,81 @@
       "class" : "colsi"
     }
   },
+  "Consent/OregonConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 34,
+    "source" : "fsh-generated/resources/Consent-OregonConsentProfile.json",
+    "sourceTail" : "Consent-OregonConsentProfile.json",
+    "path" : "Consent-OregonConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/PennsylvaniaConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 35,
+    "source" : "fsh-generated/resources/Consent-PennsylvaniaConsentProfile.json",
+    "sourceTail" : "Consent-PennsylvaniaConsentProfile.json",
+    "path" : "Consent-PennsylvaniaConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/RhodeIslandConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 36,
+    "source" : "fsh-generated/resources/Consent-RhodeIslandConsentProfile.json",
+    "sourceTail" : "Consent-RhodeIslandConsentProfile.json",
+    "path" : "Consent-RhodeIslandConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/SouthCarolinaConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 37,
+    "source" : "fsh-generated/resources/Consent-SouthCarolinaConsentProfile.json",
+    "sourceTail" : "Consent-SouthCarolinaConsentProfile.json",
+    "path" : "Consent-SouthCarolinaConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/SouthDakotaConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 38,
+    "source" : "fsh-generated/resources/Consent-SouthDakotaConsentProfile.json",
+    "sourceTail" : "Consent-SouthDakotaConsentProfile.json",
+    "path" : "Consent-SouthDakotaConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/TennesseeConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 39,
+    "source" : "fsh-generated/resources/Consent-TennesseeConsentProfile.json",
+    "sourceTail" : "Consent-TennesseeConsentProfile.json",
+    "path" : "Consent-TennesseeConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
   "Consent/TexasConsentProfile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
     "index" : 40,
     "source" : "fsh-generated/resources/Consent-TexasConsentProfile.json",
@@ -574,19 +498,872 @@
       "class" : "colsi"
     }
   },
-  "StructureDefinition/utah-consent-profile" : {
+  "Consent/UtahConsentProfile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
     "index" : 41,
-    "source" : "fsh-generated/resources/StructureDefinition-utah-consent-profile.json",
-    "sourceTail" : "StructureDefinition-utah-consent-profile.json",
-    "path" : "StructureDefinition-utah-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/utah-consent-profile",
+    "source" : "fsh-generated/resources/Consent-UtahConsentProfile.json",
+    "sourceTail" : "Consent-UtahConsentProfile.json",
+    "path" : "Consent-UtahConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/VermontConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 42,
+    "source" : "fsh-generated/resources/Consent-VermontConsentProfile.json",
+    "sourceTail" : "Consent-VermontConsentProfile.json",
+    "path" : "Consent-VermontConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/VirginiaConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 43,
+    "source" : "fsh-generated/resources/Consent-VirginiaConsentProfile.json",
+    "sourceTail" : "Consent-VirginiaConsentProfile.json",
+    "path" : "Consent-VirginiaConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/WashingtonConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 44,
+    "source" : "fsh-generated/resources/Consent-WashingtonConsentProfile.json",
+    "sourceTail" : "Consent-WashingtonConsentProfile.json",
+    "path" : "Consent-WashingtonConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Consent/WestVirginiaConsentProfile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 45,
+    "source" : "fsh-generated/resources/Consent-WestVirginiaConsentProfile.json",
+    "sourceTail" : "Consent-WestVirginiaConsentProfile.json",
+    "path" : "Consent-WestVirginiaConsentProfile.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/2cdHJo5nLPDtnbfnS" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 46,
+    "source" : "fsh-generated/resources/Location-2cdHJo5nLPDtnbfnS.json",
+    "sourceTail" : "Location-2cdHJo5nLPDtnbfnS.json",
+    "path" : "Location-2cdHJo5nLPDtnbfnS.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/36Ad9SeqqzcWjZELq" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 47,
+    "source" : "fsh-generated/resources/Location-36Ad9SeqqzcWjZELq.json",
+    "sourceTail" : "Location-36Ad9SeqqzcWjZELq.json",
+    "path" : "Location-36Ad9SeqqzcWjZELq.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/3L8sHLL4cyBoLfQ5X" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 48,
+    "source" : "fsh-generated/resources/Location-3L8sHLL4cyBoLfQ5X.json",
+    "sourceTail" : "Location-3L8sHLL4cyBoLfQ5X.json",
+    "path" : "Location-3L8sHLL4cyBoLfQ5X.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/3zjF5MkrEZEErco7v" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 49,
+    "source" : "fsh-generated/resources/Location-3zjF5MkrEZEErco7v.json",
+    "sourceTail" : "Location-3zjF5MkrEZEErco7v.json",
+    "path" : "Location-3zjF5MkrEZEErco7v.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/4G954mNr3nR5rfCvw" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 50,
+    "source" : "fsh-generated/resources/Location-4G954mNr3nR5rfCvw.json",
+    "sourceTail" : "Location-4G954mNr3nR5rfCvw.json",
+    "path" : "Location-4G954mNr3nR5rfCvw.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/4gJBt2RovtF8oBk8h" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 51,
+    "source" : "fsh-generated/resources/Location-4gJBt2RovtF8oBk8h.json",
+    "sourceTail" : "Location-4gJBt2RovtF8oBk8h.json",
+    "path" : "Location-4gJBt2RovtF8oBk8h.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/53z8N28EAfKtbvBNm" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 52,
+    "source" : "fsh-generated/resources/Location-53z8N28EAfKtbvBNm.json",
+    "sourceTail" : "Location-53z8N28EAfKtbvBNm.json",
+    "path" : "Location-53z8N28EAfKtbvBNm.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/5QYLy3D3fdD2BSGy5" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 53,
+    "source" : "fsh-generated/resources/Location-5QYLy3D3fdD2BSGy5.json",
+    "sourceTail" : "Location-5QYLy3D3fdD2BSGy5.json",
+    "path" : "Location-5QYLy3D3fdD2BSGy5.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/6EBdzCFG6sXWYv3cy" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 54,
+    "source" : "fsh-generated/resources/Location-6EBdzCFG6sXWYv3cy.json",
+    "sourceTail" : "Location-6EBdzCFG6sXWYv3cy.json",
+    "path" : "Location-6EBdzCFG6sXWYv3cy.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/7ZqFrka5qdYameBAM" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 55,
+    "source" : "fsh-generated/resources/Location-7ZqFrka5qdYameBAM.json",
+    "sourceTail" : "Location-7ZqFrka5qdYameBAM.json",
+    "path" : "Location-7ZqFrka5qdYameBAM.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/8MoDhJYvb4sMLeTRT" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 56,
+    "source" : "fsh-generated/resources/Location-8MoDhJYvb4sMLeTRT.json",
+    "sourceTail" : "Location-8MoDhJYvb4sMLeTRT.json",
+    "path" : "Location-8MoDhJYvb4sMLeTRT.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/9KxMxodWCSpsmFAsx" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 57,
+    "source" : "fsh-generated/resources/Location-9KxMxodWCSpsmFAsx.json",
+    "sourceTail" : "Location-9KxMxodWCSpsmFAsx.json",
+    "path" : "Location-9KxMxodWCSpsmFAsx.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/BdPME6PAm7McYxize" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 58,
+    "source" : "fsh-generated/resources/Location-BdPME6PAm7McYxize.json",
+    "sourceTail" : "Location-BdPME6PAm7McYxize.json",
+    "path" : "Location-BdPME6PAm7McYxize.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/C3mPJq92ijWAT4M95" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 59,
+    "source" : "fsh-generated/resources/Location-C3mPJq92ijWAT4M95.json",
+    "sourceTail" : "Location-C3mPJq92ijWAT4M95.json",
+    "path" : "Location-C3mPJq92ijWAT4M95.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/D5xG52A3yC2YTz8uG" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 60,
+    "source" : "fsh-generated/resources/Location-D5xG52A3yC2YTz8uG.json",
+    "sourceTail" : "Location-D5xG52A3yC2YTz8uG.json",
+    "path" : "Location-D5xG52A3yC2YTz8uG.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/E34hsfDZnFzWDDvrH" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 61,
+    "source" : "fsh-generated/resources/Location-E34hsfDZnFzWDDvrH.json",
+    "sourceTail" : "Location-E34hsfDZnFzWDDvrH.json",
+    "path" : "Location-E34hsfDZnFzWDDvrH.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/ErMYAiSgWFYzPYxd4" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 62,
+    "source" : "fsh-generated/resources/Location-ErMYAiSgWFYzPYxd4.json",
+    "sourceTail" : "Location-ErMYAiSgWFYzPYxd4.json",
+    "path" : "Location-ErMYAiSgWFYzPYxd4.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/JAjsaAFPbnjmqm7ht" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 63,
+    "source" : "fsh-generated/resources/Location-JAjsaAFPbnjmqm7ht.json",
+    "sourceTail" : "Location-JAjsaAFPbnjmqm7ht.json",
+    "path" : "Location-JAjsaAFPbnjmqm7ht.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/K59AJPYJwW6QNQ7wA" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 64,
+    "source" : "fsh-generated/resources/Location-K59AJPYJwW6QNQ7wA.json",
+    "sourceTail" : "Location-K59AJPYJwW6QNQ7wA.json",
+    "path" : "Location-K59AJPYJwW6QNQ7wA.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/KuCc5Qat7hFGKYzCf" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 65,
+    "source" : "fsh-generated/resources/Location-KuCc5Qat7hFGKYzCf.json",
+    "sourceTail" : "Location-KuCc5Qat7hFGKYzCf.json",
+    "path" : "Location-KuCc5Qat7hFGKYzCf.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/Kvwi377gEtBCdbZui" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 66,
+    "source" : "fsh-generated/resources/Location-Kvwi377gEtBCdbZui.json",
+    "sourceTail" : "Location-Kvwi377gEtBCdbZui.json",
+    "path" : "Location-Kvwi377gEtBCdbZui.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/LhboPGc7jCgzL2vvu" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 67,
+    "source" : "fsh-generated/resources/Location-LhboPGc7jCgzL2vvu.json",
+    "sourceTail" : "Location-LhboPGc7jCgzL2vvu.json",
+    "path" : "Location-LhboPGc7jCgzL2vvu.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/Q2qPZtAbJHeMucE9d" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 68,
+    "source" : "fsh-generated/resources/Location-Q2qPZtAbJHeMucE9d.json",
+    "sourceTail" : "Location-Q2qPZtAbJHeMucE9d.json",
+    "path" : "Location-Q2qPZtAbJHeMucE9d.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/RFiBZbbFiHxjujhSn" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 69,
+    "source" : "fsh-generated/resources/Location-RFiBZbbFiHxjujhSn.json",
+    "sourceTail" : "Location-RFiBZbbFiHxjujhSn.json",
+    "path" : "Location-RFiBZbbFiHxjujhSn.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/SB8aHDPgnMC27fvo4" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 70,
+    "source" : "fsh-generated/resources/Location-SB8aHDPgnMC27fvo4.json",
+    "sourceTail" : "Location-SB8aHDPgnMC27fvo4.json",
+    "path" : "Location-SB8aHDPgnMC27fvo4.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/T4MtGfNFjuataQdmY" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 71,
+    "source" : "fsh-generated/resources/Location-T4MtGfNFjuataQdmY.json",
+    "sourceTail" : "Location-T4MtGfNFjuataQdmY.json",
+    "path" : "Location-T4MtGfNFjuataQdmY.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/TEejwFj6hM8NoMfNY" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 72,
+    "source" : "fsh-generated/resources/Location-TEejwFj6hM8NoMfNY.json",
+    "sourceTail" : "Location-TEejwFj6hM8NoMfNY.json",
+    "path" : "Location-TEejwFj6hM8NoMfNY.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/XM35CMNxTr5trv5LA" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 73,
+    "source" : "fsh-generated/resources/Location-XM35CMNxTr5trv5LA.json",
+    "sourceTail" : "Location-XM35CMNxTr5trv5LA.json",
+    "path" : "Location-XM35CMNxTr5trv5LA.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/ZNDWz9oPsWGnxsBCC" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 74,
+    "source" : "fsh-generated/resources/Location-ZNDWz9oPsWGnxsBCC.json",
+    "sourceTail" : "Location-ZNDWz9oPsWGnxsBCC.json",
+    "path" : "Location-ZNDWz9oPsWGnxsBCC.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/ZYESg5qBTnJ6Yijb3" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 75,
+    "source" : "fsh-generated/resources/Location-ZYESg5qBTnJ6Yijb3.json",
+    "sourceTail" : "Location-ZYESg5qBTnJ6Yijb3.json",
+    "path" : "Location-ZYESg5qBTnJ6Yijb3.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/ZgqTvzE4GzyiJvsh2" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 76,
+    "source" : "fsh-generated/resources/Location-ZgqTvzE4GzyiJvsh2.json",
+    "sourceTail" : "Location-ZgqTvzE4GzyiJvsh2.json",
+    "path" : "Location-ZgqTvzE4GzyiJvsh2.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/b5QxdJzPkhFgumnCq" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 77,
+    "source" : "fsh-generated/resources/Location-b5QxdJzPkhFgumnCq.json",
+    "sourceTail" : "Location-b5QxdJzPkhFgumnCq.json",
+    "path" : "Location-b5QxdJzPkhFgumnCq.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/bZyK2jj2SW4P9tXXn" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 78,
+    "source" : "fsh-generated/resources/Location-bZyK2jj2SW4P9tXXn.json",
+    "sourceTail" : "Location-bZyK2jj2SW4P9tXXn.json",
+    "path" : "Location-bZyK2jj2SW4P9tXXn.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/d35Ka8DnExxJqrshG" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 79,
+    "source" : "fsh-generated/resources/Location-d35Ka8DnExxJqrshG.json",
+    "sourceTail" : "Location-d35Ka8DnExxJqrshG.json",
+    "path" : "Location-d35Ka8DnExxJqrshG.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/eGek52kjH2A5Kw855" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 80,
+    "source" : "fsh-generated/resources/Location-eGek52kjH2A5Kw855.json",
+    "sourceTail" : "Location-eGek52kjH2A5Kw855.json",
+    "path" : "Location-eGek52kjH2A5Kw855.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/f78yCcaohY4ME86e9" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 81,
+    "source" : "fsh-generated/resources/Location-f78yCcaohY4ME86e9.json",
+    "sourceTail" : "Location-f78yCcaohY4ME86e9.json",
+    "path" : "Location-f78yCcaohY4ME86e9.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/gapeRqTrszacBkTdH" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 82,
+    "source" : "fsh-generated/resources/Location-gapeRqTrszacBkTdH.json",
+    "sourceTail" : "Location-gapeRqTrszacBkTdH.json",
+    "path" : "Location-gapeRqTrszacBkTdH.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/jCAKbSgksLZANgKAD" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 83,
+    "source" : "fsh-generated/resources/Location-jCAKbSgksLZANgKAD.json",
+    "sourceTail" : "Location-jCAKbSgksLZANgKAD.json",
+    "path" : "Location-jCAKbSgksLZANgKAD.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/kvacH8wZ3GPPwYsdZ" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 84,
+    "source" : "fsh-generated/resources/Location-kvacH8wZ3GPPwYsdZ.json",
+    "sourceTail" : "Location-kvacH8wZ3GPPwYsdZ.json",
+    "path" : "Location-kvacH8wZ3GPPwYsdZ.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/mvv8hrmBhBtYe6gKs" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 85,
+    "source" : "fsh-generated/resources/Location-mvv8hrmBhBtYe6gKs.json",
+    "sourceTail" : "Location-mvv8hrmBhBtYe6gKs.json",
+    "path" : "Location-mvv8hrmBhBtYe6gKs.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/ngowMEzNaA4oozNx5" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 86,
+    "source" : "fsh-generated/resources/Location-ngowMEzNaA4oozNx5.json",
+    "sourceTail" : "Location-ngowMEzNaA4oozNx5.json",
+    "path" : "Location-ngowMEzNaA4oozNx5.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/rBSqMxWb3XMFYHecM" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 87,
+    "source" : "fsh-generated/resources/Location-rBSqMxWb3XMFYHecM.json",
+    "sourceTail" : "Location-rBSqMxWb3XMFYHecM.json",
+    "path" : "Location-rBSqMxWb3XMFYHecM.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/ruvBXFKrhrsfkryfF" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 88,
+    "source" : "fsh-generated/resources/Location-ruvBXFKrhrsfkryfF.json",
+    "sourceTail" : "Location-ruvBXFKrhrsfkryfF.json",
+    "path" : "Location-ruvBXFKrhrsfkryfF.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/sSjfnXC8HBabjnQwF" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 89,
+    "source" : "fsh-generated/resources/Location-sSjfnXC8HBabjnQwF.json",
+    "sourceTail" : "Location-sSjfnXC8HBabjnQwF.json",
+    "path" : "Location-sSjfnXC8HBabjnQwF.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/tBzzRo7D9RGzKQenT" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 90,
+    "source" : "fsh-generated/resources/Location-tBzzRo7D9RGzKQenT.json",
+    "sourceTail" : "Location-tBzzRo7D9RGzKQenT.json",
+    "path" : "Location-tBzzRo7D9RGzKQenT.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/tEexgTiqCd5LiijCe" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 91,
+    "source" : "fsh-generated/resources/Location-tEexgTiqCd5LiijCe.json",
+    "sourceTail" : "Location-tEexgTiqCd5LiijCe.json",
+    "path" : "Location-tEexgTiqCd5LiijCe.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/uEkrqm29DjZbHYZiT" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 92,
+    "source" : "fsh-generated/resources/Location-uEkrqm29DjZbHYZiT.json",
+    "sourceTail" : "Location-uEkrqm29DjZbHYZiT.json",
+    "path" : "Location-uEkrqm29DjZbHYZiT.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/ug9T4cPp6NDRqMfcc" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 93,
+    "source" : "fsh-generated/resources/Location-ug9T4cPp6NDRqMfcc.json",
+    "sourceTail" : "Location-ug9T4cPp6NDRqMfcc.json",
+    "path" : "Location-ug9T4cPp6NDRqMfcc.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/wPs7mzdsNAwpBQCio" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 94,
+    "source" : "fsh-generated/resources/Location-wPs7mzdsNAwpBQCio.json",
+    "sourceTail" : "Location-wPs7mzdsNAwpBQCio.json",
+    "path" : "Location-wPs7mzdsNAwpBQCio.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/wpPSL9vjHDXAJQWmC" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 95,
+    "source" : "fsh-generated/resources/Location-wpPSL9vjHDXAJQWmC.json",
+    "sourceTail" : "Location-wpPSL9vjHDXAJQWmC.json",
+    "path" : "Location-wpPSL9vjHDXAJQWmC.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/yAKjzRQx3mBSdSei4" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 96,
+    "source" : "fsh-generated/resources/Location-yAKjzRQx3mBSdSei4.json",
+    "sourceTail" : "Location-yAKjzRQx3mBSdSei4.json",
+    "path" : "Location-yAKjzRQx3mBSdSei4.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "Location/zTQuTGuHEy6TsqZFH" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 97,
+    "source" : "fsh-generated/resources/Location-zTQuTGuHEy6TsqZFH.json",
+    "sourceTail" : "Location-zTQuTGuHEy6TsqZFH.json",
+    "path" : "Location-zTQuTGuHEy6TsqZFH.html",
+    "status" : {
+      "class" : "colsi"
+    }
+  },
+  "StructureDefinition/alabama-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 98,
+    "source" : "fsh-generated/resources/StructureDefinition-alabama-consent-profile.json",
+    "sourceTail" : "StructureDefinition-alabama-consent-profile.json",
+    "path" : "StructureDefinition-alabama-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/alabama-consent-profile",
     "version" : "0.6.0",
-    "name" : "UtahConsentProfile",
-    "title" : "UtahConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Utah consent profile.",
+    "name" : "AlabamaConsentProfile",
+    "title" : "AlabamaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Alabama consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/alaska-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 99,
+    "source" : "fsh-generated/resources/StructureDefinition-alaska-consent-profile.json",
+    "sourceTail" : "StructureDefinition-alaska-consent-profile.json",
+    "path" : "StructureDefinition-alaska-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/alaska-consent-profile",
+    "version" : "0.6.0",
+    "name" : "AlaskaConsentProfile",
+    "title" : "AlaskaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Alaska consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/arizona-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 100,
+    "source" : "fsh-generated/resources/StructureDefinition-arizona-consent-profile.json",
+    "sourceTail" : "StructureDefinition-arizona-consent-profile.json",
+    "path" : "StructureDefinition-arizona-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/arizona-consent-profile",
+    "version" : "0.6.0",
+    "name" : "ArizonaConsentProfile",
+    "title" : "ArizonaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Arizona consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/arkansas-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 101,
+    "source" : "fsh-generated/resources/StructureDefinition-arkansas-consent-profile.json",
+    "sourceTail" : "StructureDefinition-arkansas-consent-profile.json",
+    "path" : "StructureDefinition-arkansas-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/arkansas-consent-profile",
+    "version" : "0.6.0",
+    "name" : "ArkansasConsentProfile",
+    "title" : "ArkansasConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Arkansas consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/base-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 102,
+    "source" : "fsh-generated/resources/StructureDefinition-base-consent-profile.json",
+    "sourceTail" : "StructureDefinition-base-consent-profile.json",
+    "path" : "StructureDefinition-base-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/base-consent-profile",
+    "version" : "0.6.0",
+    "name" : "BaseConsentProfile",
+    "title" : "BaseConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Base consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/california-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 103,
+    "source" : "fsh-generated/resources/StructureDefinition-california-consent-profile.json",
+    "sourceTail" : "StructureDefinition-california-consent-profile.json",
+    "path" : "StructureDefinition-california-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/california-consent-profile",
+    "version" : "0.6.0",
+    "name" : "CaliforniaConsentProfile",
+    "title" : "CaliforniaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "California consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/colorado-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 104,
+    "source" : "fsh-generated/resources/StructureDefinition-colorado-consent-profile.json",
+    "sourceTail" : "StructureDefinition-colorado-consent-profile.json",
+    "path" : "StructureDefinition-colorado-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/colorado-consent-profile",
+    "version" : "0.6.0",
+    "name" : "ColoradoConsentProfile",
+    "title" : "ColoradoConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Colorado consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/connecticut-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 105,
+    "source" : "fsh-generated/resources/StructureDefinition-connecticut-consent-profile.json",
+    "sourceTail" : "StructureDefinition-connecticut-consent-profile.json",
+    "path" : "StructureDefinition-connecticut-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/connecticut-consent-profile",
+    "version" : "0.6.0",
+    "name" : "ConnecticutConsentProfile",
+    "title" : "ConnecticutConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Connecticut consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/delaware-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 106,
+    "source" : "fsh-generated/resources/StructureDefinition-delaware-consent-profile.json",
+    "sourceTail" : "StructureDefinition-delaware-consent-profile.json",
+    "path" : "StructureDefinition-delaware-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/delaware-consent-profile",
+    "version" : "0.6.0",
+    "name" : "DelawareConsentProfile",
+    "title" : "DelawareConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Delaware consent profile.",
     "status" : {
       "class" : "colsd",
       "owner" : "MITRE, Inc",
@@ -596,8 +1373,9 @@
   },
   "StructureDefinition/district-of-columbia-consent-profile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 42,
+    "index" : 107,
     "source" : "fsh-generated/resources/StructureDefinition-district-of-columbia-consent-profile.json",
     "sourceTail" : "StructureDefinition-district-of-columbia-consent-profile.json",
     "path" : "StructureDefinition-district-of-columbia-consent-profile.html",
@@ -605,7 +1383,7 @@
     "version" : "0.6.0",
     "name" : "DistrictOfColumbiaConsentProfile",
     "title" : "DistrictOfColumbiaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
+    "date" : "2024-09-09T14:48:24-05:00",
     "description" : "District Of Columbia consent profile.",
     "status" : {
       "class" : "colsd",
@@ -614,30 +1392,20 @@
       "status" : "Draft"
     }
   },
-  "Consent/GeorgiaConsentProfile" : {
+  "StructureDefinition/florida-consent-profile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 43,
-    "source" : "fsh-generated/resources/Consent-GeorgiaConsentProfile.json",
-    "sourceTail" : "Consent-GeorgiaConsentProfile.json",
-    "path" : "Consent-GeorgiaConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/arkansas-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 44,
-    "source" : "fsh-generated/resources/StructureDefinition-arkansas-consent-profile.json",
-    "sourceTail" : "StructureDefinition-arkansas-consent-profile.json",
-    "path" : "StructureDefinition-arkansas-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/arkansas-consent-profile",
+    "index" : 108,
+    "source" : "fsh-generated/resources/StructureDefinition-florida-consent-profile.json",
+    "sourceTail" : "StructureDefinition-florida-consent-profile.json",
+    "path" : "StructureDefinition-florida-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/florida-consent-profile",
     "version" : "0.6.0",
-    "name" : "ArkansasConsentProfile",
-    "title" : "ArkansasConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Arkansas consent profile.",
+    "name" : "FloridaConsentProfile",
+    "title" : "FloridaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Florida consent profile.",
     "status" : {
       "class" : "colsd",
       "owner" : "MITRE, Inc",
@@ -645,63 +1413,20 @@
       "status" : "Draft"
     }
   },
-  "Location/jCAKbSgksLZANgKAD" : {
+  "StructureDefinition/georgia-consent-profile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 45,
-    "source" : "fsh-generated/resources/Location-jCAKbSgksLZANgKAD.json",
-    "sourceTail" : "Location-jCAKbSgksLZANgKAD.json",
-    "path" : "Location-jCAKbSgksLZANgKAD.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/T4MtGfNFjuataQdmY" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 46,
-    "source" : "fsh-generated/resources/Location-T4MtGfNFjuataQdmY.json",
-    "sourceTail" : "Location-T4MtGfNFjuataQdmY.json",
-    "path" : "Location-T4MtGfNFjuataQdmY.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/XM35CMNxTr5trv5LA" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 47,
-    "source" : "fsh-generated/resources/Location-XM35CMNxTr5trv5LA.json",
-    "sourceTail" : "Location-XM35CMNxTr5trv5LA.json",
-    "path" : "Location-XM35CMNxTr5trv5LA.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/JAjsaAFPbnjmqm7ht" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 48,
-    "source" : "fsh-generated/resources/Location-JAjsaAFPbnjmqm7ht.json",
-    "sourceTail" : "Location-JAjsaAFPbnjmqm7ht.json",
-    "path" : "Location-JAjsaAFPbnjmqm7ht.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/delaware-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 49,
-    "source" : "fsh-generated/resources/StructureDefinition-delaware-consent-profile.json",
-    "sourceTail" : "StructureDefinition-delaware-consent-profile.json",
-    "path" : "StructureDefinition-delaware-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/delaware-consent-profile",
+    "index" : 109,
+    "source" : "fsh-generated/resources/StructureDefinition-georgia-consent-profile.json",
+    "sourceTail" : "StructureDefinition-georgia-consent-profile.json",
+    "path" : "StructureDefinition-georgia-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/georgia-consent-profile",
     "version" : "0.6.0",
-    "name" : "DelawareConsentProfile",
-    "title" : "DelawareConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Delaware consent profile.",
+    "name" : "GeorgiaConsentProfile",
+    "title" : "GeorgiaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Georgia consent profile.",
     "status" : {
       "class" : "colsd",
       "owner" : "MITRE, Inc",
@@ -709,30 +1434,20 @@
       "status" : "Draft"
     }
   },
-  "Location/TEejwFj6hM8NoMfNY" : {
+  "StructureDefinition/hawaii-consent-profile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 50,
-    "source" : "fsh-generated/resources/Location-TEejwFj6hM8NoMfNY.json",
-    "sourceTail" : "Location-TEejwFj6hM8NoMfNY.json",
-    "path" : "Location-TEejwFj6hM8NoMfNY.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/tennessee-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 51,
-    "source" : "fsh-generated/resources/StructureDefinition-tennessee-consent-profile.json",
-    "sourceTail" : "StructureDefinition-tennessee-consent-profile.json",
-    "path" : "StructureDefinition-tennessee-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/tennessee-consent-profile",
+    "index" : 110,
+    "source" : "fsh-generated/resources/StructureDefinition-hawaii-consent-profile.json",
+    "sourceTail" : "StructureDefinition-hawaii-consent-profile.json",
+    "path" : "StructureDefinition-hawaii-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/hawaii-consent-profile",
     "version" : "0.6.0",
-    "name" : "TennesseeConsentProfile",
-    "title" : "TennesseeConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Tennessee consent profile.",
+    "name" : "HawaiiConsentProfile",
+    "title" : "HawaiiConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Hawaii consent profile.",
     "status" : {
       "class" : "colsd",
       "owner" : "MITRE, Inc",
@@ -740,19 +1455,482 @@
       "status" : "Draft"
     }
   },
-  "ValueSet/ConsentExchangePolicies" : {
+  "StructureDefinition/idaho-consent-profile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 52,
-    "source" : "fsh-generated/resources/ValueSet-ConsentExchangePolicies.json",
-    "sourceTail" : "ValueSet-ConsentExchangePolicies.json",
-    "path" : "ValueSet-ConsentExchangePolicies.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies",
+    "index" : 111,
+    "source" : "fsh-generated/resources/StructureDefinition-idaho-consent-profile.json",
+    "sourceTail" : "StructureDefinition-idaho-consent-profile.json",
+    "path" : "StructureDefinition-idaho-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/idaho-consent-profile",
     "version" : "0.6.0",
-    "name" : "ConsentExchangePolicies",
-    "title" : "ConsentExchangePolicies",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Consent Exchange - Policies",
+    "name" : "IdahoConsentProfile",
+    "title" : "IdahoConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Idaho consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/illinois-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 112,
+    "source" : "fsh-generated/resources/StructureDefinition-illinois-consent-profile.json",
+    "sourceTail" : "StructureDefinition-illinois-consent-profile.json",
+    "path" : "StructureDefinition-illinois-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/illinois-consent-profile",
+    "version" : "0.6.0",
+    "name" : "IllinoisConsentProfile",
+    "title" : "IllinoisConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Illinois consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/indiana-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 113,
+    "source" : "fsh-generated/resources/StructureDefinition-indiana-consent-profile.json",
+    "sourceTail" : "StructureDefinition-indiana-consent-profile.json",
+    "path" : "StructureDefinition-indiana-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/indiana-consent-profile",
+    "version" : "0.6.0",
+    "name" : "IndianaConsentProfile",
+    "title" : "IndianaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Indiana consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/iowa-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 114,
+    "source" : "fsh-generated/resources/StructureDefinition-iowa-consent-profile.json",
+    "sourceTail" : "StructureDefinition-iowa-consent-profile.json",
+    "path" : "StructureDefinition-iowa-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/iowa-consent-profile",
+    "version" : "0.6.0",
+    "name" : "IowaConsentProfile",
+    "title" : "IowaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Iowa consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/kansas-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 115,
+    "source" : "fsh-generated/resources/StructureDefinition-kansas-consent-profile.json",
+    "sourceTail" : "StructureDefinition-kansas-consent-profile.json",
+    "path" : "StructureDefinition-kansas-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/kansas-consent-profile",
+    "version" : "0.6.0",
+    "name" : "KansasConsentProfile",
+    "title" : "KansasConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Kansas consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/kentucky-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 116,
+    "source" : "fsh-generated/resources/StructureDefinition-kentucky-consent-profile.json",
+    "sourceTail" : "StructureDefinition-kentucky-consent-profile.json",
+    "path" : "StructureDefinition-kentucky-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/kentucky-consent-profile",
+    "version" : "0.6.0",
+    "name" : "KentuckyConsentProfile",
+    "title" : "KentuckyConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Kentucky consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/louisiana-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 117,
+    "source" : "fsh-generated/resources/StructureDefinition-louisiana-consent-profile.json",
+    "sourceTail" : "StructureDefinition-louisiana-consent-profile.json",
+    "path" : "StructureDefinition-louisiana-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/louisiana-consent-profile",
+    "version" : "0.6.0",
+    "name" : "LouisianaConsentProfile",
+    "title" : "LouisianaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Louisiana consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/maine-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 118,
+    "source" : "fsh-generated/resources/StructureDefinition-maine-consent-profile.json",
+    "sourceTail" : "StructureDefinition-maine-consent-profile.json",
+    "path" : "StructureDefinition-maine-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/maine-consent-profile",
+    "version" : "0.6.0",
+    "name" : "MaineConsentProfile",
+    "title" : "MaineConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Maine consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/maryland-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 119,
+    "source" : "fsh-generated/resources/StructureDefinition-maryland-consent-profile.json",
+    "sourceTail" : "StructureDefinition-maryland-consent-profile.json",
+    "path" : "StructureDefinition-maryland-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/maryland-consent-profile",
+    "version" : "0.6.0",
+    "name" : "MarylandConsentProfile",
+    "title" : "MarylandConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Maryland consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/massachusetts-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 120,
+    "source" : "fsh-generated/resources/StructureDefinition-massachusetts-consent-profile.json",
+    "sourceTail" : "StructureDefinition-massachusetts-consent-profile.json",
+    "path" : "StructureDefinition-massachusetts-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/massachusetts-consent-profile",
+    "version" : "0.6.0",
+    "name" : "MassachusettsConsentProfile",
+    "title" : "MassachusettsConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Massachusetts consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/michigan-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 121,
+    "source" : "fsh-generated/resources/StructureDefinition-michigan-consent-profile.json",
+    "sourceTail" : "StructureDefinition-michigan-consent-profile.json",
+    "path" : "StructureDefinition-michigan-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/michigan-consent-profile",
+    "version" : "0.6.0",
+    "name" : "MichiganConsentProfile",
+    "title" : "MichiganConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Michigan consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/minnesota-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 122,
+    "source" : "fsh-generated/resources/StructureDefinition-minnesota-consent-profile.json",
+    "sourceTail" : "StructureDefinition-minnesota-consent-profile.json",
+    "path" : "StructureDefinition-minnesota-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/minnesota-consent-profile",
+    "version" : "0.6.0",
+    "name" : "MinnesotaConsentProfile",
+    "title" : "MinnesotaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Minnesota consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/mississippi-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 123,
+    "source" : "fsh-generated/resources/StructureDefinition-mississippi-consent-profile.json",
+    "sourceTail" : "StructureDefinition-mississippi-consent-profile.json",
+    "path" : "StructureDefinition-mississippi-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/mississippi-consent-profile",
+    "version" : "0.6.0",
+    "name" : "MississippiConsentProfile",
+    "title" : "MississippiConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Mississippi consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/missouri-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 124,
+    "source" : "fsh-generated/resources/StructureDefinition-missouri-consent-profile.json",
+    "sourceTail" : "StructureDefinition-missouri-consent-profile.json",
+    "path" : "StructureDefinition-missouri-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/missouri-consent-profile",
+    "version" : "0.6.0",
+    "name" : "MissouriConsentProfile",
+    "title" : "MissouriConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Missouri consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/montana-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 125,
+    "source" : "fsh-generated/resources/StructureDefinition-montana-consent-profile.json",
+    "sourceTail" : "StructureDefinition-montana-consent-profile.json",
+    "path" : "StructureDefinition-montana-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/montana-consent-profile",
+    "version" : "0.6.0",
+    "name" : "MontanaConsentProfile",
+    "title" : "MontanaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Montana consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/nebraska-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 126,
+    "source" : "fsh-generated/resources/StructureDefinition-nebraska-consent-profile.json",
+    "sourceTail" : "StructureDefinition-nebraska-consent-profile.json",
+    "path" : "StructureDefinition-nebraska-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/nebraska-consent-profile",
+    "version" : "0.6.0",
+    "name" : "NebraskaConsentProfile",
+    "title" : "NebraskaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Nebraska consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/nevada-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 127,
+    "source" : "fsh-generated/resources/StructureDefinition-nevada-consent-profile.json",
+    "sourceTail" : "StructureDefinition-nevada-consent-profile.json",
+    "path" : "StructureDefinition-nevada-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/nevada-consent-profile",
+    "version" : "0.6.0",
+    "name" : "NevadaConsentProfile",
+    "title" : "NevadaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Nevada consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/new-hampshire-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 128,
+    "source" : "fsh-generated/resources/StructureDefinition-new-hampshire-consent-profile.json",
+    "sourceTail" : "StructureDefinition-new-hampshire-consent-profile.json",
+    "path" : "StructureDefinition-new-hampshire-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/new-hampshire-consent-profile",
+    "version" : "0.6.0",
+    "name" : "NewHampshireConsentProfile",
+    "title" : "NewHampshireConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "New Hampshire consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/new-jersey-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 129,
+    "source" : "fsh-generated/resources/StructureDefinition-new-jersey-consent-profile.json",
+    "sourceTail" : "StructureDefinition-new-jersey-consent-profile.json",
+    "path" : "StructureDefinition-new-jersey-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/new-jersey-consent-profile",
+    "version" : "0.6.0",
+    "name" : "NewJerseyConsentProfile",
+    "title" : "NewJerseyConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "New Jersey consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/new-mexico-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 130,
+    "source" : "fsh-generated/resources/StructureDefinition-new-mexico-consent-profile.json",
+    "sourceTail" : "StructureDefinition-new-mexico-consent-profile.json",
+    "path" : "StructureDefinition-new-mexico-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/new-mexico-consent-profile",
+    "version" : "0.6.0",
+    "name" : "NewMexicoConsentProfile",
+    "title" : "NewMexicoConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "New Mexico consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/new-york-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 131,
+    "source" : "fsh-generated/resources/StructureDefinition-new-york-consent-profile.json",
+    "sourceTail" : "StructureDefinition-new-york-consent-profile.json",
+    "path" : "StructureDefinition-new-york-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/new-york-consent-profile",
+    "version" : "0.6.0",
+    "name" : "NewYorkConsentProfile",
+    "title" : "NewYorkConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "New York consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/north-carolina-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 132,
+    "source" : "fsh-generated/resources/StructureDefinition-north-carolina-consent-profile.json",
+    "sourceTail" : "StructureDefinition-north-carolina-consent-profile.json",
+    "path" : "StructureDefinition-north-carolina-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/north-carolina-consent-profile",
+    "version" : "0.6.0",
+    "name" : "NorthCarolinaConsentProfile",
+    "title" : "NorthCarolinaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "NorthCarolina consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/north-dakota-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 133,
+    "source" : "fsh-generated/resources/StructureDefinition-north-dakota-consent-profile.json",
+    "sourceTail" : "StructureDefinition-north-dakota-consent-profile.json",
+    "path" : "StructureDefinition-north-dakota-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/north-dakota-consent-profile",
+    "version" : "0.6.0",
+    "name" : "NorthDakotaConsentProfile",
+    "title" : "NorthDakotaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "North Dakota consent profile.",
     "status" : {
       "class" : "colsd",
       "owner" : "MITRE, Inc",
@@ -762,8 +1940,9 @@
   },
   "StructureDefinition/ohio-consent-profile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 53,
+    "index" : 134,
     "source" : "fsh-generated/resources/StructureDefinition-ohio-consent-profile.json",
     "sourceTail" : "StructureDefinition-ohio-consent-profile.json",
     "path" : "StructureDefinition-ohio-consent-profile.html",
@@ -771,7 +1950,7 @@
     "version" : "0.6.0",
     "name" : "OhioConsentProfile",
     "title" : "OhioConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
+    "date" : "2024-09-09T14:48:24-05:00",
     "description" : "Ohio consent profile.",
     "status" : {
       "class" : "colsd",
@@ -782,8 +1961,9 @@
   },
   "StructureDefinition/oklahoma-consent-profile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 54,
+    "index" : 135,
     "source" : "fsh-generated/resources/StructureDefinition-oklahoma-consent-profile.json",
     "sourceTail" : "StructureDefinition-oklahoma-consent-profile.json",
     "path" : "StructureDefinition-oklahoma-consent-profile.html",
@@ -791,7 +1971,7 @@
     "version" : "0.6.0",
     "name" : "OklahomaConsentProfile",
     "title" : "OklahomaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
+    "date" : "2024-09-09T14:48:24-05:00",
     "description" : "Oklahoma consent profile.",
     "status" : {
       "class" : "colsd",
@@ -800,466 +1980,32 @@
       "status" : "Draft"
     }
   },
-  "Consent/PennsylvaniaConsentProfile" : {
+  "StructureDefinition/oregon-consent-profile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 55,
-    "source" : "fsh-generated/resources/Consent-PennsylvaniaConsentProfile.json",
-    "sourceTail" : "Consent-PennsylvaniaConsentProfile.json",
-    "path" : "Consent-PennsylvaniaConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/georgia-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 56,
-    "source" : "fsh-generated/resources/StructureDefinition-georgia-consent-profile.json",
-    "sourceTail" : "StructureDefinition-georgia-consent-profile.json",
-    "path" : "StructureDefinition-georgia-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/georgia-consent-profile",
+    "index" : 136,
+    "source" : "fsh-generated/resources/StructureDefinition-oregon-consent-profile.json",
+    "sourceTail" : "StructureDefinition-oregon-consent-profile.json",
+    "path" : "StructureDefinition-oregon-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/oregon-consent-profile",
     "version" : "0.6.0",
-    "name" : "GeorgiaConsentProfile",
-    "title" : "GeorgiaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Georgia consent profile.",
+    "name" : "OregonConsentProfile",
+    "title" : "OregonConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Oregon consent profile.",
     "status" : {
       "class" : "colsd",
       "owner" : "MITRE, Inc",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
-    }
-  },
-  "Location/eGek52kjH2A5Kw855" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 57,
-    "source" : "fsh-generated/resources/Location-eGek52kjH2A5Kw855.json",
-    "sourceTail" : "Location-eGek52kjH2A5Kw855.json",
-    "path" : "Location-eGek52kjH2A5Kw855.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/south-carolina-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 58,
-    "source" : "fsh-generated/resources/StructureDefinition-south-carolina-consent-profile.json",
-    "sourceTail" : "StructureDefinition-south-carolina-consent-profile.json",
-    "path" : "StructureDefinition-south-carolina-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/south-carolina-consent-profile",
-    "version" : "0.6.0",
-    "name" : "SouthCarolinaConsentProfile",
-    "title" : "SouthCarolinaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "South Carolina consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/maryland-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 59,
-    "source" : "fsh-generated/resources/StructureDefinition-maryland-consent-profile.json",
-    "sourceTail" : "StructureDefinition-maryland-consent-profile.json",
-    "path" : "StructureDefinition-maryland-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/maryland-consent-profile",
-    "version" : "0.6.0",
-    "name" : "MarylandConsentProfile",
-    "title" : "MarylandConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Maryland consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Location/b5QxdJzPkhFgumnCq" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 60,
-    "source" : "fsh-generated/resources/Location-b5QxdJzPkhFgumnCq.json",
-    "sourceTail" : "Location-b5QxdJzPkhFgumnCq.json",
-    "path" : "Location-b5QxdJzPkhFgumnCq.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/missouri-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 61,
-    "source" : "fsh-generated/resources/StructureDefinition-missouri-consent-profile.json",
-    "sourceTail" : "StructureDefinition-missouri-consent-profile.json",
-    "path" : "StructureDefinition-missouri-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/missouri-consent-profile",
-    "version" : "0.6.0",
-    "name" : "MissouriConsentProfile",
-    "title" : "MissouriConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Missouri consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Location/ZgqTvzE4GzyiJvsh2" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 62,
-    "source" : "fsh-generated/resources/Location-ZgqTvzE4GzyiJvsh2.json",
-    "sourceTail" : "Location-ZgqTvzE4GzyiJvsh2.json",
-    "path" : "Location-ZgqTvzE4GzyiJvsh2.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/Kvwi377gEtBCdbZui" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 63,
-    "source" : "fsh-generated/resources/Location-Kvwi377gEtBCdbZui.json",
-    "sourceTail" : "Location-Kvwi377gEtBCdbZui.json",
-    "path" : "Location-Kvwi377gEtBCdbZui.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/montana-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 64,
-    "source" : "fsh-generated/resources/StructureDefinition-montana-consent-profile.json",
-    "sourceTail" : "StructureDefinition-montana-consent-profile.json",
-    "path" : "StructureDefinition-montana-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/montana-consent-profile",
-    "version" : "0.6.0",
-    "name" : "MontanaConsentProfile",
-    "title" : "MontanaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Montana consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/west-virginia-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 65,
-    "source" : "fsh-generated/resources/StructureDefinition-west-virginia-consent-profile.json",
-    "sourceTail" : "StructureDefinition-west-virginia-consent-profile.json",
-    "path" : "StructureDefinition-west-virginia-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/west-virginia-consent-profile",
-    "version" : "0.6.0",
-    "name" : "WestVirginiaConsentProfile",
-    "title" : "WestVirginiaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "West Virginia consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Consent/NewJerseyConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 66,
-    "source" : "fsh-generated/resources/Consent-NewJerseyConsentProfile.json",
-    "sourceTail" : "Consent-NewJerseyConsentProfile.json",
-    "path" : "Consent-NewJerseyConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/hawaii-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 67,
-    "source" : "fsh-generated/resources/StructureDefinition-hawaii-consent-profile.json",
-    "sourceTail" : "StructureDefinition-hawaii-consent-profile.json",
-    "path" : "StructureDefinition-hawaii-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/hawaii-consent-profile",
-    "version" : "0.6.0",
-    "name" : "HawaiiConsentProfile",
-    "title" : "HawaiiConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Hawaii consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/washington-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 68,
-    "source" : "fsh-generated/resources/StructureDefinition-washington-consent-profile.json",
-    "sourceTail" : "StructureDefinition-washington-consent-profile.json",
-    "path" : "StructureDefinition-washington-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/washington-consent-profile",
-    "version" : "0.6.0",
-    "name" : "WashingtonConsentProfile",
-    "title" : "WashingtonConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Washington consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Consent/MaineConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 69,
-    "source" : "fsh-generated/resources/Consent-MaineConsentProfile.json",
-    "sourceTail" : "Consent-MaineConsentProfile.json",
-    "path" : "Consent-MaineConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/kvacH8wZ3GPPwYsdZ" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 70,
-    "source" : "fsh-generated/resources/Location-kvacH8wZ3GPPwYsdZ.json",
-    "sourceTail" : "Location-kvacH8wZ3GPPwYsdZ.json",
-    "path" : "Location-kvacH8wZ3GPPwYsdZ.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/north-dakota-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 71,
-    "source" : "fsh-generated/resources/StructureDefinition-north-dakota-consent-profile.json",
-    "sourceTail" : "StructureDefinition-north-dakota-consent-profile.json",
-    "path" : "StructureDefinition-north-dakota-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/north-dakota-consent-profile",
-    "version" : "0.6.0",
-    "name" : "NorthDakotaConsentProfile",
-    "title" : "NorthDakotaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "North Dakota consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/texas-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 72,
-    "source" : "fsh-generated/resources/StructureDefinition-texas-consent-profile.json",
-    "sourceTail" : "StructureDefinition-texas-consent-profile.json",
-    "path" : "StructureDefinition-texas-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/texas-consent-profile",
-    "version" : "0.6.0",
-    "name" : "TexasConsentProfile",
-    "title" : "TexasConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Texas consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Location/d35Ka8DnExxJqrshG" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 73,
-    "source" : "fsh-generated/resources/Location-d35Ka8DnExxJqrshG.json",
-    "sourceTail" : "Location-d35Ka8DnExxJqrshG.json",
-    "path" : "Location-d35Ka8DnExxJqrshG.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/f78yCcaohY4ME86e9" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 74,
-    "source" : "fsh-generated/resources/Location-f78yCcaohY4ME86e9.json",
-    "sourceTail" : "Location-f78yCcaohY4ME86e9.json",
-    "path" : "Location-f78yCcaohY4ME86e9.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/minnesota-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 75,
-    "source" : "fsh-generated/resources/StructureDefinition-minnesota-consent-profile.json",
-    "sourceTail" : "StructureDefinition-minnesota-consent-profile.json",
-    "path" : "StructureDefinition-minnesota-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/minnesota-consent-profile",
-    "version" : "0.6.0",
-    "name" : "MinnesotaConsentProfile",
-    "title" : "MinnesotaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Minnesota consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Location/ruvBXFKrhrsfkryfF" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 76,
-    "source" : "fsh-generated/resources/Location-ruvBXFKrhrsfkryfF.json",
-    "sourceTail" : "Location-ruvBXFKrhrsfkryfF.json",
-    "path" : "Location-ruvBXFKrhrsfkryfF.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/kentucky-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 77,
-    "source" : "fsh-generated/resources/StructureDefinition-kentucky-consent-profile.json",
-    "sourceTail" : "StructureDefinition-kentucky-consent-profile.json",
-    "path" : "StructureDefinition-kentucky-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/kentucky-consent-profile",
-    "version" : "0.6.0",
-    "name" : "KentuckyConsentProfile",
-    "title" : "KentuckyConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Kentucky consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Location/SB8aHDPgnMC27fvo4" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 78,
-    "source" : "fsh-generated/resources/Location-SB8aHDPgnMC27fvo4.json",
-    "sourceTail" : "Location-SB8aHDPgnMC27fvo4.json",
-    "path" : "Location-SB8aHDPgnMC27fvo4.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/MissouriConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 79,
-    "source" : "fsh-generated/resources/Consent-MissouriConsentProfile.json",
-    "sourceTail" : "Consent-MissouriConsentProfile.json",
-    "path" : "Consent-MissouriConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/NewHampshireConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 80,
-    "source" : "fsh-generated/resources/Consent-NewHampshireConsentProfile.json",
-    "sourceTail" : "Consent-NewHampshireConsentProfile.json",
-    "path" : "Consent-NewHampshireConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/nevada-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 81,
-    "source" : "fsh-generated/resources/StructureDefinition-nevada-consent-profile.json",
-    "sourceTail" : "StructureDefinition-nevada-consent-profile.json",
-    "path" : "StructureDefinition-nevada-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/nevada-consent-profile",
-    "version" : "0.6.0",
-    "name" : "NevadaConsentProfile",
-    "title" : "NevadaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Nevada consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/maine-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 82,
-    "source" : "fsh-generated/resources/StructureDefinition-maine-consent-profile.json",
-    "sourceTail" : "StructureDefinition-maine-consent-profile.json",
-    "path" : "StructureDefinition-maine-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/maine-consent-profile",
-    "version" : "0.6.0",
-    "name" : "MaineConsentProfile",
-    "title" : "MaineConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Maine consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Consent/RhodeIslandConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 83,
-    "source" : "fsh-generated/resources/Consent-RhodeIslandConsentProfile.json",
-    "sourceTail" : "Consent-RhodeIslandConsentProfile.json",
-    "path" : "Consent-RhodeIslandConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/TennesseeConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 84,
-    "source" : "fsh-generated/resources/Consent-TennesseeConsentProfile.json",
-    "sourceTail" : "Consent-TennesseeConsentProfile.json",
-    "path" : "Consent-TennesseeConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
     }
   },
   "StructureDefinition/pennsylvania-consent-profile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 85,
+    "index" : 137,
     "source" : "fsh-generated/resources/StructureDefinition-pennsylvania-consent-profile.json",
     "sourceTail" : "StructureDefinition-pennsylvania-consent-profile.json",
     "path" : "StructureDefinition-pennsylvania-consent-profile.html",
@@ -1267,710 +2013,8 @@
     "version" : "0.6.0",
     "name" : "PennsylvaniaConsentProfile",
     "title" : "PennsylvaniaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
+    "date" : "2024-09-09T14:48:24-05:00",
     "description" : "Pennsylvania consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Location/uEkrqm29DjZbHYZiT" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 86,
-    "source" : "fsh-generated/resources/Location-uEkrqm29DjZbHYZiT.json",
-    "sourceTail" : "Location-uEkrqm29DjZbHYZiT.json",
-    "path" : "Location-uEkrqm29DjZbHYZiT.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/ArizonaConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 87,
-    "source" : "fsh-generated/resources/Consent-ArizonaConsentProfile.json",
-    "sourceTail" : "Consent-ArizonaConsentProfile.json",
-    "path" : "Consent-ArizonaConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/new-york-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 88,
-    "source" : "fsh-generated/resources/StructureDefinition-new-york-consent-profile.json",
-    "sourceTail" : "StructureDefinition-new-york-consent-profile.json",
-    "path" : "StructureDefinition-new-york-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/new-york-consent-profile",
-    "version" : "0.6.0",
-    "name" : "NewYorkConsentProfile",
-    "title" : "NewYorkConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "New York consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Location/mvv8hrmBhBtYe6gKs" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 89,
-    "source" : "fsh-generated/resources/Location-mvv8hrmBhBtYe6gKs.json",
-    "sourceTail" : "Location-mvv8hrmBhBtYe6gKs.json",
-    "path" : "Location-mvv8hrmBhBtYe6gKs.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/WestVirginiaConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 90,
-    "source" : "fsh-generated/resources/Consent-WestVirginiaConsentProfile.json",
-    "sourceTail" : "Consent-WestVirginiaConsentProfile.json",
-    "path" : "Consent-WestVirginiaConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/C3mPJq92ijWAT4M95" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 91,
-    "source" : "fsh-generated/resources/Location-C3mPJq92ijWAT4M95.json",
-    "sourceTail" : "Location-C3mPJq92ijWAT4M95.json",
-    "path" : "Location-C3mPJq92ijWAT4M95.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/5QYLy3D3fdD2BSGy5" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 92,
-    "source" : "fsh-generated/resources/Location-5QYLy3D3fdD2BSGy5.json",
-    "sourceTail" : "Location-5QYLy3D3fdD2BSGy5.json",
-    "path" : "Location-5QYLy3D3fdD2BSGy5.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/sSjfnXC8HBabjnQwF" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 93,
-    "source" : "fsh-generated/resources/Location-sSjfnXC8HBabjnQwF.json",
-    "sourceTail" : "Location-sSjfnXC8HBabjnQwF.json",
-    "path" : "Location-sSjfnXC8HBabjnQwF.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/IdahoConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 94,
-    "source" : "fsh-generated/resources/Consent-IdahoConsentProfile.json",
-    "sourceTail" : "Consent-IdahoConsentProfile.json",
-    "path" : "Consent-IdahoConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/NevadaConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 95,
-    "source" : "fsh-generated/resources/Consent-NevadaConsentProfile.json",
-    "sourceTail" : "Consent-NevadaConsentProfile.json",
-    "path" : "Consent-NevadaConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/CaliforniaConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 96,
-    "source" : "fsh-generated/resources/Consent-CaliforniaConsentProfile.json",
-    "sourceTail" : "Consent-CaliforniaConsentProfile.json",
-    "path" : "Consent-CaliforniaConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/indiana-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 97,
-    "source" : "fsh-generated/resources/StructureDefinition-indiana-consent-profile.json",
-    "sourceTail" : "StructureDefinition-indiana-consent-profile.json",
-    "path" : "StructureDefinition-indiana-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/indiana-consent-profile",
-    "version" : "0.6.0",
-    "name" : "IndianaConsentProfile",
-    "title" : "IndianaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Indiana consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/mississippi-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 98,
-    "source" : "fsh-generated/resources/StructureDefinition-mississippi-consent-profile.json",
-    "sourceTail" : "StructureDefinition-mississippi-consent-profile.json",
-    "path" : "StructureDefinition-mississippi-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/mississippi-consent-profile",
-    "version" : "0.6.0",
-    "name" : "MississippiConsentProfile",
-    "title" : "MississippiConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Mississippi consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Location/ZYESg5qBTnJ6Yijb3" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 99,
-    "source" : "fsh-generated/resources/Location-ZYESg5qBTnJ6Yijb3.json",
-    "sourceTail" : "Location-ZYESg5qBTnJ6Yijb3.json",
-    "path" : "Location-ZYESg5qBTnJ6Yijb3.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/6EBdzCFG6sXWYv3cy" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 100,
-    "source" : "fsh-generated/resources/Location-6EBdzCFG6sXWYv3cy.json",
-    "sourceTail" : "Location-6EBdzCFG6sXWYv3cy.json",
-    "path" : "Location-6EBdzCFG6sXWYv3cy.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/bZyK2jj2SW4P9tXXn" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 101,
-    "source" : "fsh-generated/resources/Location-bZyK2jj2SW4P9tXXn.json",
-    "sourceTail" : "Location-bZyK2jj2SW4P9tXXn.json",
-    "path" : "Location-bZyK2jj2SW4P9tXXn.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/36Ad9SeqqzcWjZELq" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 102,
-    "source" : "fsh-generated/resources/Location-36Ad9SeqqzcWjZELq.json",
-    "sourceTail" : "Location-36Ad9SeqqzcWjZELq.json",
-    "path" : "Location-36Ad9SeqqzcWjZELq.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/SouthCarolinaConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 103,
-    "source" : "fsh-generated/resources/Consent-SouthCarolinaConsentProfile.json",
-    "sourceTail" : "Consent-SouthCarolinaConsentProfile.json",
-    "path" : "Consent-SouthCarolinaConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/arizona-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 104,
-    "source" : "fsh-generated/resources/StructureDefinition-arizona-consent-profile.json",
-    "sourceTail" : "StructureDefinition-arizona-consent-profile.json",
-    "path" : "StructureDefinition-arizona-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/arizona-consent-profile",
-    "version" : "0.6.0",
-    "name" : "ArizonaConsentProfile",
-    "title" : "ArizonaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Arizona consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Consent/DelawareConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 105,
-    "source" : "fsh-generated/resources/Consent-DelawareConsentProfile.json",
-    "sourceTail" : "Consent-DelawareConsentProfile.json",
-    "path" : "Consent-DelawareConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/alabama-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 106,
-    "source" : "fsh-generated/resources/StructureDefinition-alabama-consent-profile.json",
-    "sourceTail" : "StructureDefinition-alabama-consent-profile.json",
-    "path" : "StructureDefinition-alabama-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/alabama-consent-profile",
-    "version" : "0.6.0",
-    "name" : "AlabamaConsentProfile",
-    "title" : "AlabamaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Alabama consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Location/ug9T4cPp6NDRqMfcc" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 107,
-    "source" : "fsh-generated/resources/Location-ug9T4cPp6NDRqMfcc.json",
-    "sourceTail" : "Location-ug9T4cPp6NDRqMfcc.json",
-    "path" : "Location-ug9T4cPp6NDRqMfcc.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/IowaConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 108,
-    "source" : "fsh-generated/resources/Consent-IowaConsentProfile.json",
-    "sourceTail" : "Consent-IowaConsentProfile.json",
-    "path" : "Consent-IowaConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/KuCc5Qat7hFGKYzCf" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 109,
-    "source" : "fsh-generated/resources/Location-KuCc5Qat7hFGKYzCf.json",
-    "sourceTail" : "Location-KuCc5Qat7hFGKYzCf.json",
-    "path" : "Location-KuCc5Qat7hFGKYzCf.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/NewMexicoConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 110,
-    "source" : "fsh-generated/resources/Consent-NewMexicoConsentProfile.json",
-    "sourceTail" : "Consent-NewMexicoConsentProfile.json",
-    "path" : "Consent-NewMexicoConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/53z8N28EAfKtbvBNm" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 111,
-    "source" : "fsh-generated/resources/Location-53z8N28EAfKtbvBNm.json",
-    "sourceTail" : "Location-53z8N28EAfKtbvBNm.json",
-    "path" : "Location-53z8N28EAfKtbvBNm.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/Q2qPZtAbJHeMucE9d" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 112,
-    "source" : "fsh-generated/resources/Location-Q2qPZtAbJHeMucE9d.json",
-    "sourceTail" : "Location-Q2qPZtAbJHeMucE9d.json",
-    "path" : "Location-Q2qPZtAbJHeMucE9d.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/new-hampshire-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 113,
-    "source" : "fsh-generated/resources/StructureDefinition-new-hampshire-consent-profile.json",
-    "sourceTail" : "StructureDefinition-new-hampshire-consent-profile.json",
-    "path" : "StructureDefinition-new-hampshire-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/new-hampshire-consent-profile",
-    "version" : "0.6.0",
-    "name" : "NewHampshireConsentProfile",
-    "title" : "NewHampshireConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "New Hampshire consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Location/zTQuTGuHEy6TsqZFH" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 114,
-    "source" : "fsh-generated/resources/Location-zTQuTGuHEy6TsqZFH.json",
-    "sourceTail" : "Location-zTQuTGuHEy6TsqZFH.json",
-    "path" : "Location-zTQuTGuHEy6TsqZFH.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/BdPME6PAm7McYxize" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 115,
-    "source" : "fsh-generated/resources/Location-BdPME6PAm7McYxize.json",
-    "sourceTail" : "Location-BdPME6PAm7McYxize.json",
-    "path" : "Location-BdPME6PAm7McYxize.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/VermontConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 116,
-    "source" : "fsh-generated/resources/Consent-VermontConsentProfile.json",
-    "sourceTail" : "Consent-VermontConsentProfile.json",
-    "path" : "Consent-VermontConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/wPs7mzdsNAwpBQCio" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 117,
-    "source" : "fsh-generated/resources/Location-wPs7mzdsNAwpBQCio.json",
-    "sourceTail" : "Location-wPs7mzdsNAwpBQCio.json",
-    "path" : "Location-wPs7mzdsNAwpBQCio.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/ngowMEzNaA4oozNx5" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 118,
-    "source" : "fsh-generated/resources/Location-ngowMEzNaA4oozNx5.json",
-    "sourceTail" : "Location-ngowMEzNaA4oozNx5.json",
-    "path" : "Location-ngowMEzNaA4oozNx5.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/SouthDakotaConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 119,
-    "source" : "fsh-generated/resources/Consent-SouthDakotaConsentProfile.json",
-    "sourceTail" : "Consent-SouthDakotaConsentProfile.json",
-    "path" : "Consent-SouthDakotaConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/UtahConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 120,
-    "source" : "fsh-generated/resources/Consent-UtahConsentProfile.json",
-    "sourceTail" : "Consent-UtahConsentProfile.json",
-    "path" : "Consent-UtahConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/LouisianaConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 121,
-    "source" : "fsh-generated/resources/Consent-LouisianaConsentProfile.json",
-    "sourceTail" : "Consent-LouisianaConsentProfile.json",
-    "path" : "Consent-LouisianaConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/michigan-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 122,
-    "source" : "fsh-generated/resources/StructureDefinition-michigan-consent-profile.json",
-    "sourceTail" : "StructureDefinition-michigan-consent-profile.json",
-    "path" : "StructureDefinition-michigan-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/michigan-consent-profile",
-    "version" : "0.6.0",
-    "name" : "MichiganConsentProfile",
-    "title" : "MichiganConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Michigan consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Location/rBSqMxWb3XMFYHecM" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 123,
-    "source" : "fsh-generated/resources/Location-rBSqMxWb3XMFYHecM.json",
-    "sourceTail" : "Location-rBSqMxWb3XMFYHecM.json",
-    "path" : "Location-rBSqMxWb3XMFYHecM.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/ErMYAiSgWFYzPYxd4" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 124,
-    "source" : "fsh-generated/resources/Location-ErMYAiSgWFYzPYxd4.json",
-    "sourceTail" : "Location-ErMYAiSgWFYzPYxd4.json",
-    "path" : "Location-ErMYAiSgWFYzPYxd4.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/7ZqFrka5qdYameBAM" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 125,
-    "source" : "fsh-generated/resources/Location-7ZqFrka5qdYameBAM.json",
-    "sourceTail" : "Location-7ZqFrka5qdYameBAM.json",
-    "path" : "Location-7ZqFrka5qdYameBAM.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/K59AJPYJwW6QNQ7wA" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 126,
-    "source" : "fsh-generated/resources/Location-K59AJPYJwW6QNQ7wA.json",
-    "sourceTail" : "Location-K59AJPYJwW6QNQ7wA.json",
-    "path" : "Location-K59AJPYJwW6QNQ7wA.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/north-carolina-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 127,
-    "source" : "fsh-generated/resources/StructureDefinition-north-carolina-consent-profile.json",
-    "sourceTail" : "StructureDefinition-north-carolina-consent-profile.json",
-    "path" : "StructureDefinition-north-carolina-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/north-carolina-consent-profile",
-    "version" : "0.6.0",
-    "name" : "NorthCarolinaConsentProfile",
-    "title" : "NorthCarolinaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "NorthCarolina consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Consent/MassachusettsConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 128,
-    "source" : "fsh-generated/resources/Consent-MassachusettsConsentProfile.json",
-    "sourceTail" : "Consent-MassachusettsConsentProfile.json",
-    "path" : "Consent-MassachusettsConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/MontanaConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 129,
-    "source" : "fsh-generated/resources/Consent-MontanaConsentProfile.json",
-    "sourceTail" : "Consent-MontanaConsentProfile.json",
-    "path" : "Consent-MontanaConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/ZNDWz9oPsWGnxsBCC" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 130,
-    "source" : "fsh-generated/resources/Location-ZNDWz9oPsWGnxsBCC.json",
-    "sourceTail" : "Location-ZNDWz9oPsWGnxsBCC.json",
-    "path" : "Location-ZNDWz9oPsWGnxsBCC.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/4gJBt2RovtF8oBk8h" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 131,
-    "source" : "fsh-generated/resources/Location-4gJBt2RovtF8oBk8h.json",
-    "sourceTail" : "Location-4gJBt2RovtF8oBk8h.json",
-    "path" : "Location-4gJBt2RovtF8oBk8h.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/virginia-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 132,
-    "source" : "fsh-generated/resources/StructureDefinition-virginia-consent-profile.json",
-    "sourceTail" : "StructureDefinition-virginia-consent-profile.json",
-    "path" : "StructureDefinition-virginia-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/virginia-consent-profile",
-    "version" : "0.6.0",
-    "name" : "VirginiaConsentProfile",
-    "title" : "VirginiaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Virginia consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "Location/8MoDhJYvb4sMLeTRT" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 133,
-    "source" : "fsh-generated/resources/Location-8MoDhJYvb4sMLeTRT.json",
-    "sourceTail" : "Location-8MoDhJYvb4sMLeTRT.json",
-    "path" : "Location-8MoDhJYvb4sMLeTRT.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/yAKjzRQx3mBSdSei4" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 134,
-    "source" : "fsh-generated/resources/Location-yAKjzRQx3mBSdSei4.json",
-    "sourceTail" : "Location-yAKjzRQx3mBSdSei4.json",
-    "path" : "Location-yAKjzRQx3mBSdSei4.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/MinnesotaConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 135,
-    "source" : "fsh-generated/resources/Consent-MinnesotaConsentProfile.json",
-    "sourceTail" : "Consent-MinnesotaConsentProfile.json",
-    "path" : "Consent-MinnesotaConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/9KxMxodWCSpsmFAsx" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 136,
-    "source" : "fsh-generated/resources/Location-9KxMxodWCSpsmFAsx.json",
-    "sourceTail" : "Location-9KxMxodWCSpsmFAsx.json",
-    "path" : "Location-9KxMxodWCSpsmFAsx.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/illinois-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 137,
-    "source" : "fsh-generated/resources/StructureDefinition-illinois-consent-profile.json",
-    "sourceTail" : "StructureDefinition-illinois-consent-profile.json",
-    "path" : "StructureDefinition-illinois-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/illinois-consent-profile",
-    "version" : "0.6.0",
-    "name" : "IllinoisConsentProfile",
-    "title" : "IllinoisConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Illinois consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/nebraska-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 138,
-    "source" : "fsh-generated/resources/StructureDefinition-nebraska-consent-profile.json",
-    "sourceTail" : "StructureDefinition-nebraska-consent-profile.json",
-    "path" : "StructureDefinition-nebraska-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/nebraska-consent-profile",
-    "version" : "0.6.0",
-    "name" : "NebraskaConsentProfile",
-    "title" : "NebraskaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Nebraska consent profile.",
-    "status" : {
-      "class" : "colsd",
-      "owner" : "MITRE, Inc",
-      "link" : "https://github.com/awatson1978/us-state-profiles",
-      "status" : "Draft"
-    }
-  },
-  "StructureDefinition/alaska-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 139,
-    "source" : "fsh-generated/resources/StructureDefinition-alaska-consent-profile.json",
-    "sourceTail" : "StructureDefinition-alaska-consent-profile.json",
-    "path" : "StructureDefinition-alaska-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/alaska-consent-profile",
-    "version" : "0.6.0",
-    "name" : "AlaskaConsentProfile",
-    "title" : "AlaskaConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Alaska consent profile.",
     "status" : {
       "class" : "colsd",
       "owner" : "MITRE, Inc",
@@ -1980,8 +2024,9 @@
   },
   "StructureDefinition/rhode-island-consent-profile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 140,
+    "index" : 138,
     "source" : "fsh-generated/resources/StructureDefinition-rhode-island-consent-profile.json",
     "sourceTail" : "StructureDefinition-rhode-island-consent-profile.json",
     "path" : "StructureDefinition-rhode-island-consent-profile.html",
@@ -1989,7 +2034,7 @@
     "version" : "0.6.0",
     "name" : "RhodeIslandConsentProfile",
     "title" : "RhodeIslandConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
+    "date" : "2024-09-09T14:48:24-05:00",
     "description" : "Rhode Island consent profile.",
     "status" : {
       "class" : "colsd",
@@ -1998,63 +2043,20 @@
       "status" : "Draft"
     }
   },
-  "Consent/OregonConsentProfile" : {
+  "StructureDefinition/south-carolina-consent-profile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
-    "index" : 141,
-    "source" : "fsh-generated/resources/Consent-OregonConsentProfile.json",
-    "sourceTail" : "Consent-OregonConsentProfile.json",
-    "path" : "Consent-OregonConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/FloridaConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 142,
-    "source" : "fsh-generated/resources/Consent-FloridaConsentProfile.json",
-    "sourceTail" : "Consent-FloridaConsentProfile.json",
-    "path" : "Consent-FloridaConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Location/tEexgTiqCd5LiijCe" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 143,
-    "source" : "fsh-generated/resources/Location-tEexgTiqCd5LiijCe.json",
-    "sourceTail" : "Location-tEexgTiqCd5LiijCe.json",
-    "path" : "Location-tEexgTiqCd5LiijCe.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Consent/MississippiConsentProfile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 144,
-    "source" : "fsh-generated/resources/Consent-MississippiConsentProfile.json",
-    "sourceTail" : "Consent-MississippiConsentProfile.json",
-    "path" : "Consent-MississippiConsentProfile.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "StructureDefinition/new-jersey-consent-profile" : {
-    "history" : false,
-    "testscript" : false,
-    "index" : 145,
-    "source" : "fsh-generated/resources/StructureDefinition-new-jersey-consent-profile.json",
-    "sourceTail" : "StructureDefinition-new-jersey-consent-profile.json",
-    "path" : "StructureDefinition-new-jersey-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/new-jersey-consent-profile",
+    "index" : 139,
+    "source" : "fsh-generated/resources/StructureDefinition-south-carolina-consent-profile.json",
+    "sourceTail" : "StructureDefinition-south-carolina-consent-profile.json",
+    "path" : "StructureDefinition-south-carolina-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/south-carolina-consent-profile",
     "version" : "0.6.0",
-    "name" : "NewJerseyConsentProfile",
-    "title" : "NewJerseyConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "New Jersey consent profile.",
+    "name" : "SouthCarolinaConsentProfile",
+    "title" : "SouthCarolinaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "South Carolina consent profile.",
     "status" : {
       "class" : "colsd",
       "owner" : "MITRE, Inc",
@@ -2062,41 +2064,188 @@
       "status" : "Draft"
     }
   },
-  "Location/LhboPGc7jCgzL2vvu" : {
+  "StructureDefinition/south-dakota-consent-profile" : {
     "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 140,
+    "source" : "fsh-generated/resources/StructureDefinition-south-dakota-consent-profile.json",
+    "sourceTail" : "StructureDefinition-south-dakota-consent-profile.json",
+    "path" : "StructureDefinition-south-dakota-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/south-dakota-consent-profile",
+    "version" : "0.6.0",
+    "name" : "SouthDakotaConsentProfile",
+    "title" : "SouthDakotaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "South Dakota consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/tennessee-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 141,
+    "source" : "fsh-generated/resources/StructureDefinition-tennessee-consent-profile.json",
+    "sourceTail" : "StructureDefinition-tennessee-consent-profile.json",
+    "path" : "StructureDefinition-tennessee-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/tennessee-consent-profile",
+    "version" : "0.6.0",
+    "name" : "TennesseeConsentProfile",
+    "title" : "TennesseeConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Tennessee consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/texas-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 142,
+    "source" : "fsh-generated/resources/StructureDefinition-texas-consent-profile.json",
+    "sourceTail" : "StructureDefinition-texas-consent-profile.json",
+    "path" : "StructureDefinition-texas-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/texas-consent-profile",
+    "version" : "0.6.0",
+    "name" : "TexasConsentProfile",
+    "title" : "TexasConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Texas consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/utah-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 143,
+    "source" : "fsh-generated/resources/StructureDefinition-utah-consent-profile.json",
+    "sourceTail" : "StructureDefinition-utah-consent-profile.json",
+    "path" : "StructureDefinition-utah-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/utah-consent-profile",
+    "version" : "0.6.0",
+    "name" : "UtahConsentProfile",
+    "title" : "UtahConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Utah consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/vermont-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 144,
+    "source" : "fsh-generated/resources/StructureDefinition-vermont-consent-profile.json",
+    "sourceTail" : "StructureDefinition-vermont-consent-profile.json",
+    "path" : "StructureDefinition-vermont-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/vermont-consent-profile",
+    "version" : "0.6.0",
+    "name" : "VermontConsentProfile",
+    "title" : "VermontConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Vermont consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/virginia-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 145,
+    "source" : "fsh-generated/resources/StructureDefinition-virginia-consent-profile.json",
+    "sourceTail" : "StructureDefinition-virginia-consent-profile.json",
+    "path" : "StructureDefinition-virginia-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/virginia-consent-profile",
+    "version" : "0.6.0",
+    "name" : "VirginiaConsentProfile",
+    "title" : "VirginiaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Virginia consent profile.",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/washington-consent-profile" : {
+    "history" : false,
+    "testplan" : false,
     "testscript" : false,
     "index" : 146,
-    "source" : "fsh-generated/resources/Location-LhboPGc7jCgzL2vvu.json",
-    "sourceTail" : "Location-LhboPGc7jCgzL2vvu.json",
-    "path" : "Location-LhboPGc7jCgzL2vvu.html",
+    "source" : "fsh-generated/resources/StructureDefinition-washington-consent-profile.json",
+    "sourceTail" : "StructureDefinition-washington-consent-profile.json",
+    "path" : "StructureDefinition-washington-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/washington-consent-profile",
+    "version" : "0.6.0",
+    "name" : "WashingtonConsentProfile",
+    "title" : "WashingtonConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Washington consent profile.",
     "status" : {
-      "class" : "colsi"
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
     }
   },
-  "Location/tBzzRo7D9RGzKQenT" : {
+  "StructureDefinition/west-virginia-consent-profile" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
     "index" : 147,
-    "source" : "fsh-generated/resources/Location-tBzzRo7D9RGzKQenT.json",
-    "sourceTail" : "Location-tBzzRo7D9RGzKQenT.json",
-    "path" : "Location-tBzzRo7D9RGzKQenT.html",
+    "source" : "fsh-generated/resources/StructureDefinition-west-virginia-consent-profile.json",
+    "sourceTail" : "StructureDefinition-west-virginia-consent-profile.json",
+    "path" : "StructureDefinition-west-virginia-consent-profile.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/west-virginia-consent-profile",
+    "version" : "0.6.0",
+    "name" : "WestVirginiaConsentProfile",
+    "title" : "WestVirginiaConsentProfile",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "West Virginia consent profile.",
     "status" : {
-      "class" : "colsi"
+      "class" : "colsd",
+      "owner" : "MITRE, Inc",
+      "link" : "https://github.com/awatson1978/us-state-profiles",
+      "status" : "Draft"
     }
   },
-  "StructureDefinition/massachusetts-consent-profile" : {
+  "ValueSet/ConsentExchangePolicies" : {
     "history" : false,
+    "testplan" : false,
     "testscript" : false,
     "index" : 148,
-    "source" : "fsh-generated/resources/StructureDefinition-massachusetts-consent-profile.json",
-    "sourceTail" : "StructureDefinition-massachusetts-consent-profile.json",
-    "path" : "StructureDefinition-massachusetts-consent-profile.html",
-    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/massachusetts-consent-profile",
+    "source" : "fsh-generated/resources/ValueSet-ConsentExchangePolicies.json",
+    "sourceTail" : "ValueSet-ConsentExchangePolicies.json",
+    "path" : "ValueSet-ConsentExchangePolicies.html",
+    "url" : "https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies",
     "version" : "0.6.0",
-    "name" : "MassachusettsConsentProfile",
-    "title" : "MassachusettsConsentProfile",
-    "date" : "2024-06-09T09:51:53-05:00",
-    "description" : "Massachusetts consent profile.",
+    "name" : "ConsentExchangePolicies",
+    "title" : "ConsentExchangePolicies",
+    "date" : "2024-09-09T14:48:24-05:00",
+    "description" : "Consent Exchange - Policies",
     "status" : {
       "class" : "colsd",
       "owner" : "MITRE, Inc",

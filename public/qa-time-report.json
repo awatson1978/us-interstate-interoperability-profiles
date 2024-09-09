@@ -1,0 +1,5705 @@
+{
+  "date" : "Mon, 09 Sep, 2024 14:48:24 -0500",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-ig.fhir.us-interstate-interoperability.json",
+      "size" : 33124,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 11
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 51
+        },
+        {
+          "activity" : "validate",
+          "start" : 42,
+          "length" : 666
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 43,
+          "length" : 208
+        },
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 281
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-AlabamaConsentProfile.json",
+      "size" : 3382,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 4
+        },
+        {
+          "activity" : "loadInfo",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 30
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 20
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 16
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 48
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-ArizonaConsentProfile.json",
+      "size" : 5284,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 5
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 107
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 19
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 14
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-ArkansasConsentProfile.json",
+      "size" : 3861,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 9
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 18
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 12
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-CaliforniaConsentProfile.json",
+      "size" : 3145,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 15
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-ColoradoConsentProfile.json",
+      "size" : 3173,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 16
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-ConnecticutConsentProfile.json",
+      "size" : 3280,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 22
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 16
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-DelawareConsentProfile.json",
+      "size" : 3793,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 20
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-FloridaConsentProfile.json",
+      "size" : 3432,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 16
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 14
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-GeorgiaConsentProfile.json",
+      "size" : 2395,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 9
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 16
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-IdahoConsentProfile.json",
+      "size" : 4008,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 25
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 13
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-IllinoisConsentProfile.json",
+      "size" : 2806,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-IndianaConsentProfile.json",
+      "size" : 4772,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 19
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-IowaConsentProfile.json",
+      "size" : 5365,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 20
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 15
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-KansasConsentProfile.json",
+      "size" : 1861,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 14
+        },
+        {
+          "activity" : "generateLogicals",
+          "start" : 97,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-KentuckyConsentProfile.json",
+      "size" : 6424,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 5
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 22
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 20
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-LouisianaConsentProfile.json",
+      "size" : 3449,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-MaineConsentProfile.json",
+      "size" : 3196,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 15
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-MarylandConsentProfile.json",
+      "size" : 3751,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 22
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-MassachusettsConsentProfile.json",
+      "size" : 4175,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 19
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-MichiganConsentProfile.json",
+      "size" : 2358,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 14
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 14
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-MinnesotaConsentProfile.json",
+      "size" : 3723,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-MississippiConsentProfile.json",
+      "size" : 3491,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 16
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-MissouriConsentProfile.json",
+      "size" : 3806,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 2
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 16
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-MontanaConsentProfile.json",
+      "size" : 4327,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 19
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-NebraskaConsentProfile.json",
+      "size" : 2362,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 6
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-NevadaConsentProfile.json",
+      "size" : 3240,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-NewHampshireConsentProfile.json",
+      "size" : 2734,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 13
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-NewJerseyConsentProfile.json",
+      "size" : 3247,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-NewMexicoConsentProfile.json",
+      "size" : 2728,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 4
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 20
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-NewYorkConsentProfile.json",
+      "size" : 3273,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 20
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-NorthDakotaConsentProfile.json",
+      "size" : 2855,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 27
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-OhioConsentProfile.json",
+      "size" : 4431,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 23
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-OklahomaConsentProfile.json",
+      "size" : 3975,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 16
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 22
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-OregonConsentProfile.json",
+      "size" : 3769,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 20
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 22
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-PennsylvaniaConsentProfile.json",
+      "size" : 1838,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 38
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 23
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 19
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-RhodeIslandConsentProfile.json",
+      "size" : 3800,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 31,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 25
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 17
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-SouthCarolinaConsentProfile.json",
+      "size" : 4063,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 16
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 17
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-SouthDakotaConsentProfile.json",
+      "size" : 3969,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 16
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 16
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-TennesseeConsentProfile.json",
+      "size" : 4573,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 13
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 6
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 15
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-TexasConsentProfile.json",
+      "size" : 4464,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 12
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-UtahConsentProfile.json",
+      "size" : 3988,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-VermontConsentProfile.json",
+      "size" : 3791,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 16
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 14
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-VirginiaConsentProfile.json",
+      "size" : 2358,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 14
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 148,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-WashingtonConsentProfile.json",
+      "size" : 3206,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 14
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 14
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Consent-WestVirginiaConsentProfile.json",
+      "size" : 4338,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 18
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-2cdHJo5nLPDtnbfnS.json",
+      "size" : 4833,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 293
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 27
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 16
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-36Ad9SeqqzcWjZELq.json",
+      "size" : 6904,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 33
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-3L8sHLL4cyBoLfQ5X.json",
+      "size" : 7639,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 36
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-3zjF5MkrEZEErco7v.json",
+      "size" : 11571,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 55
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-4G954mNr3nR5rfCvw.json",
+      "size" : 19874,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 84
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-4gJBt2RovtF8oBk8h.json",
+      "size" : 10213,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 46
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-53z8N28EAfKtbvBNm.json",
+      "size" : 9980,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 88
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-5QYLy3D3fdD2BSGy5.json",
+      "size" : 1709,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 20
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-6EBdzCFG6sXWYv3cy.json",
+      "size" : 6326,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 73
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 15
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-7ZqFrka5qdYameBAM.json",
+      "size" : 7892,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 47
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-8MoDhJYvb4sMLeTRT.json",
+      "size" : 3238,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 24
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-9KxMxodWCSpsmFAsx.json",
+      "size" : 2753,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 21
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 10
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-BdPME6PAm7McYxize.json",
+      "size" : 3421,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 24
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-C3mPJq92ijWAT4M95.json",
+      "size" : 3623,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 23
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-D5xG52A3yC2YTz8uG.json",
+      "size" : 7116,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 34
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 22
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-E34hsfDZnFzWDDvrH.json",
+      "size" : 5731,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 32
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-ErMYAiSgWFYzPYxd4.json",
+      "size" : 8663,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 38
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-JAjsaAFPbnjmqm7ht.json",
+      "size" : 6341,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 37
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-K59AJPYJwW6QNQ7wA.json",
+      "size" : 7422,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 35
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-KuCc5Qat7hFGKYzCf.json",
+      "size" : 3771,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 29
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 14
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-Kvwi377gEtBCdbZui.json",
+      "size" : 12441,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 55
+        },
+        {
+          "activity" : "generate2",
+          "start" : 56,
+          "length" : 26
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-LhboPGc7jCgzL2vvu.json",
+      "size" : 6989,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 32
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 19
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-Q2qPZtAbJHeMucE9d.json",
+      "size" : 2777,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 19
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-RFiBZbbFiHxjujhSn.json",
+      "size" : 3948,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 23
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-SB8aHDPgnMC27fvo4.json",
+      "size" : 2462,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 25
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-T4MtGfNFjuataQdmY.json",
+      "size" : 3238,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 20
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-TEejwFj6hM8NoMfNY.json",
+      "size" : 8234,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 38
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-XM35CMNxTr5trv5LA.json",
+      "size" : 2592,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 18
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-ZNDWz9oPsWGnxsBCC.json",
+      "size" : 5028,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 27
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-ZYESg5qBTnJ6Yijb3.json",
+      "size" : 5061,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 45,
+          "length" : 25
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-ZgqTvzE4GzyiJvsh2.json",
+      "size" : 7149,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 33
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 11
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-b5QxdJzPkhFgumnCq.json",
+      "size" : 6568,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 31
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-bZyK2jj2SW4P9tXXn.json",
+      "size" : 1997,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-d35Ka8DnExxJqrshG.json",
+      "size" : 10544,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 43
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-eGek52kjH2A5Kw855.json",
+      "size" : 7693,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 35
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-f78yCcaohY4ME86e9.json",
+      "size" : 4728,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 26
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-gapeRqTrszacBkTdH.json",
+      "size" : 3954,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 23
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 10
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-jCAKbSgksLZANgKAD.json",
+      "size" : 7793,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 35
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-kvacH8wZ3GPPwYsdZ.json",
+      "size" : 3479,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 21
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-mvv8hrmBhBtYe6gKs.json",
+      "size" : 5543,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 31
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-ngowMEzNaA4oozNx5.json",
+      "size" : 14872,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 56
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-rBSqMxWb3XMFYHecM.json",
+      "size" : 9646,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 40
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 28
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-ruvBXFKrhrsfkryfF.json",
+      "size" : 11475,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 48
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 52
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-sSjfnXC8HBabjnQwF.json",
+      "size" : 7206,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 35
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-tBzzRo7D9RGzKQenT.json",
+      "size" : 7095,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 35
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 19
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-tEexgTiqCd5LiijCe.json",
+      "size" : 4951,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 28
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 19
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-uEkrqm29DjZbHYZiT.json",
+      "size" : 828,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 26
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-ug9T4cPp6NDRqMfcc.json",
+      "size" : 3012,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 19
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-wPs7mzdsNAwpBQCio.json",
+      "size" : 8223,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 35
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 17
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-wpPSL9vjHDXAJQWmC.json",
+      "size" : 3453,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 20
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 17
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-yAKjzRQx3mBSdSei4.json",
+      "size" : 7316,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 35
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 26
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Location-zTQuTGuHEy6TsqZFH.json",
+      "size" : 4329,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 24
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 14
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-alabama-consent-profile.json",
+      "size" : 1546,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 8
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 32,
+          "length" : 121
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 43
+        },
+        {
+          "activity" : "validate",
+          "start" : 35,
+          "length" : 489
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 162
+        },
+        {
+          "activity" : "generate2",
+          "start" : 57,
+          "length" : 2244
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 8
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 148,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-alaska-consent-profile.json",
+      "size" : 1536,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 3
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 32,
+          "length" : 26
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 35,
+          "length" : 361
+        },
+        {
+          "activity" : "generate1",
+          "start" : 46,
+          "length" : 166
+        },
+        {
+          "activity" : "generate2",
+          "start" : 59,
+          "length" : 620
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-arizona-consent-profile.json",
+      "size" : 1537,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 3
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 32,
+          "length" : 30
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 36,
+          "length" : 233
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 165
+        },
+        {
+          "activity" : "generate2",
+          "start" : 60,
+          "length" : 486
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-arkansas-consent-profile.json",
+      "size" : 1555,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 4
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 32,
+          "length" : 26
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 36,
+          "length" : 150
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 157
+        },
+        {
+          "activity" : "generate2",
+          "start" : 60,
+          "length" : 483
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 8
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-base-consent-profile.json",
+      "size" : 1267,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 3
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 32,
+          "length" : 33
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 36,
+          "length" : 143
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 166
+        },
+        {
+          "activity" : "generate2",
+          "start" : 61,
+          "length" : 429
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 11
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-california-consent-profile.json",
+      "size" : 1556,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 32,
+          "length" : 128
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 36,
+          "length" : 156
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 169
+        },
+        {
+          "activity" : "generate2",
+          "start" : 61,
+          "length" : 510
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-colorado-consent-profile.json",
+      "size" : 1552,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 3
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 27
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 17
+        },
+        {
+          "activity" : "validate",
+          "start" : 36,
+          "length" : 172
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 154
+        },
+        {
+          "activity" : "generate2",
+          "start" : 62,
+          "length" : 370
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 5
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 148,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-connecticut-consent-profile.json",
+      "size" : 1564,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 25
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 146
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 156
+        },
+        {
+          "activity" : "generate2",
+          "start" : 62,
+          "length" : 336
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 7
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-delaware-consent-profile.json",
+      "size" : 1548,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 23
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 142
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 47,
+          "length" : 158
+        },
+        {
+          "activity" : "generate2",
+          "start" : 62,
+          "length" : 338
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 6
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-district-of-columbia-consent-profile.json",
+      "size" : 1598,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 3
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 33
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 155
+        },
+        {
+          "activity" : "generate1",
+          "start" : 48,
+          "length" : 163
+        },
+        {
+          "activity" : "generate2",
+          "start" : 63,
+          "length" : 333
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-florida-consent-profile.json",
+      "size" : 1553,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 30
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 152
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 48,
+          "length" : 162
+        },
+        {
+          "activity" : "generate2",
+          "start" : 63,
+          "length" : 338
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 6
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-georgia-consent-profile.json",
+      "size" : 1542,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 22
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 23
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 130
+        },
+        {
+          "activity" : "generate1",
+          "start" : 48,
+          "length" : 157
+        },
+        {
+          "activity" : "generate2",
+          "start" : 63,
+          "length" : 325
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 84
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 148,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-hawaii-consent-profile.json",
+      "size" : 1544,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 21
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 142
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 48,
+          "length" : 169
+        },
+        {
+          "activity" : "generate2",
+          "start" : 64,
+          "length" : 331
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 109,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 13
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-idaho-consent-profile.json",
+      "size" : 1421,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 21
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 146
+        },
+        {
+          "activity" : "generate1",
+          "start" : 48,
+          "length" : 157
+        },
+        {
+          "activity" : "generate2",
+          "start" : 64,
+          "length" : 332
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 6
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-illinois-consent-profile.json",
+      "size" : 1552,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 3
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 22
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 142
+        },
+        {
+          "activity" : "generate1",
+          "start" : 48,
+          "length" : 169
+        },
+        {
+          "activity" : "generate2",
+          "start" : 64,
+          "length" : 360
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 6
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-indiana-consent-profile.json",
+      "size" : 1541,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 30
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 125
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 49,
+          "length" : 173
+        },
+        {
+          "activity" : "generate2",
+          "start" : 65,
+          "length" : 309
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-iowa-consent-profile.json",
+      "size" : 1528,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 61
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 12
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 120
+        },
+        {
+          "activity" : "generate1",
+          "start" : 49,
+          "length" : 187
+        },
+        {
+          "activity" : "generate2",
+          "start" : 65,
+          "length" : 411
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-kansas-consent-profile.json",
+      "size" : 1540,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 27
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 120
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 49,
+          "length" : 157
+        },
+        {
+          "activity" : "generate2",
+          "start" : 66,
+          "length" : 309
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 5
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 148,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-kentucky-consent-profile.json",
+      "size" : 1548,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 24
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 23
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 162
+        },
+        {
+          "activity" : "generate1",
+          "start" : 49,
+          "length" : 168
+        },
+        {
+          "activity" : "generate2",
+          "start" : 66,
+          "length" : 326
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-louisiana-consent-profile.json",
+      "size" : 1558,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 23
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 123
+        },
+        {
+          "activity" : "generate1",
+          "start" : 49,
+          "length" : 185
+        },
+        {
+          "activity" : "generate2",
+          "start" : 66,
+          "length" : 289
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 16
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-maine-consent-profile.json",
+      "size" : 1534,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 22
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 127
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 49,
+          "length" : 158
+        },
+        {
+          "activity" : "generate2",
+          "start" : 66,
+          "length" : 299
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 5
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 148,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-maryland-consent-profile.json",
+      "size" : 1552,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 24
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 38,
+          "length" : 159
+        },
+        {
+          "activity" : "generate1",
+          "start" : 50,
+          "length" : 166
+        },
+        {
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 304
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 98,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-massachusetts-consent-profile.json",
+      "size" : 1573,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 24
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 39,
+          "length" : 142
+        },
+        {
+          "activity" : "generate1",
+          "start" : 50,
+          "length" : 158
+        },
+        {
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 332
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 6
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-michigan-consent-profile.json",
+      "size" : 1552,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 23
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 39,
+          "length" : 127
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 50,
+          "length" : 158
+        },
+        {
+          "activity" : "generate2",
+          "start" : 67,
+          "length" : 340
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-minnesota-consent-profile.json",
+      "size" : 1547,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 21
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 14
+        },
+        {
+          "activity" : "validate",
+          "start" : 39,
+          "length" : 122
+        },
+        {
+          "activity" : "generate1",
+          "start" : 50,
+          "length" : 159
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 299
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-mississippi-consent-profile.json",
+      "size" : 1570,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 21
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 39,
+          "length" : 128
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 50,
+          "length" : 178
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 308
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-missouri-consent-profile.json",
+      "size" : 1546,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 21
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 16
+        },
+        {
+          "activity" : "validate",
+          "start" : 39,
+          "length" : 144
+        },
+        {
+          "activity" : "generate1",
+          "start" : 50,
+          "length" : 162
+        },
+        {
+          "activity" : "generate2",
+          "start" : 68,
+          "length" : 294
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-montana-consent-profile.json",
+      "size" : 1537,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 27
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 34,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 39,
+          "length" : 116
+        },
+        {
+          "activity" : "generate1",
+          "start" : 51,
+          "length" : 159
+        },
+        {
+          "activity" : "generate2",
+          "start" : 69,
+          "length" : 294
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-nebraska-consent-profile.json",
+      "size" : 1552,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 21
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 39,
+          "length" : 116
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 51,
+          "length" : 161
+        },
+        {
+          "activity" : "generate2",
+          "start" : 69,
+          "length" : 286
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-nevada-consent-profile.json",
+      "size" : 1532,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 21
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 40,
+          "length" : 139
+        },
+        {
+          "activity" : "generate1",
+          "start" : 51,
+          "length" : 170
+        },
+        {
+          "activity" : "generate2",
+          "start" : 69,
+          "length" : 323
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 4
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 148,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-new-hampshire-consent-profile.json",
+      "size" : 1569,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 29
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 40,
+          "length" : 122
+        },
+        {
+          "activity" : "generate1",
+          "start" : 51,
+          "length" : 153
+        },
+        {
+          "activity" : "generate2",
+          "start" : 70,
+          "length" : 345
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-new-jersey-consent-profile.json",
+      "size" : 1550,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 24
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 40,
+          "length" : 120
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 51,
+          "length" : 153
+        },
+        {
+          "activity" : "generate2",
+          "start" : 70,
+          "length" : 298
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-new-mexico-consent-profile.json",
+      "size" : 1449,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 23
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 40,
+          "length" : 115
+        },
+        {
+          "activity" : "generate1",
+          "start" : 51,
+          "length" : 164
+        },
+        {
+          "activity" : "generate2",
+          "start" : 70,
+          "length" : 276
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-new-york-consent-profile.json",
+      "size" : 1544,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 23
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 40,
+          "length" : 114
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 162
+        },
+        {
+          "activity" : "generate2",
+          "start" : 70,
+          "length" : 283
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-north-carolina-consent-profile.json",
+      "size" : 1573,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 21
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 40,
+          "length" : 107
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 154
+        },
+        {
+          "activity" : "generate2",
+          "start" : 71,
+          "length" : 282
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-north-dakota-consent-profile.json",
+      "size" : 1564,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "scan",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 24
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 40,
+          "length" : 138
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 154
+        },
+        {
+          "activity" : "generate2",
+          "start" : 71,
+          "length" : 286
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-ohio-consent-profile.json",
+      "size" : 1524,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 114
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 40,
+          "length" : 186
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 155
+        },
+        {
+          "activity" : "generate2",
+          "start" : 71,
+          "length" : 287
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-oklahoma-consent-profile.json",
+      "size" : 1548,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 18
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 15
+        },
+        {
+          "activity" : "validate",
+          "start" : 41,
+          "length" : 139
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 156
+        },
+        {
+          "activity" : "generate2",
+          "start" : 72,
+          "length" : 322
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-oregon-consent-profile.json",
+      "size" : 1540,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 40
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 41,
+          "length" : 121
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 156
+        },
+        {
+          "activity" : "generate2",
+          "start" : 72,
+          "length" : 276
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-pennsylvania-consent-profile.json",
+      "size" : 1566,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 13
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 41,
+          "length" : 248
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 53,
+          "length" : 167
+        },
+        {
+          "activity" : "generate2",
+          "start" : 72,
+          "length" : 291
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-rhode-island-consent-profile.json",
+      "size" : 1564,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 17
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 41,
+          "length" : 114
+        },
+        {
+          "activity" : "generate1",
+          "start" : 53,
+          "length" : 154
+        },
+        {
+          "activity" : "generate2",
+          "start" : 73,
+          "length" : 298
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 4
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-south-carolina-consent-profile.json",
+      "size" : 1574,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 22
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 33,
+          "length" : 19
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 41,
+          "length" : 126
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 53,
+          "length" : 154
+        },
+        {
+          "activity" : "generate2",
+          "start" : 73,
+          "length" : 293
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-south-dakota-consent-profile.json",
+      "size" : 1560,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 5
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 34,
+          "length" : 13
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 41,
+          "length" : 120
+        },
+        {
+          "activity" : "generate1",
+          "start" : 53,
+          "length" : 176
+        },
+        {
+          "activity" : "generate2",
+          "start" : 73,
+          "length" : 292
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-tennessee-consent-profile.json",
+      "size" : 1551,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 3
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 34,
+          "length" : 13
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 41,
+          "length" : 110
+        },
+        {
+          "activity" : "generate1",
+          "start" : 53,
+          "length" : 157
+        },
+        {
+          "activity" : "generate2",
+          "start" : 73,
+          "length" : 305
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 5
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-texas-consent-profile.json",
+      "size" : 1534,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 34,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 42,
+          "length" : 110
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 53,
+          "length" : 158
+        },
+        {
+          "activity" : "generate2",
+          "start" : 74,
+          "length" : 328
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-utah-consent-profile.json",
+      "size" : 1528,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 34,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 42,
+          "length" : 105
+        },
+        {
+          "activity" : "generate1",
+          "start" : 53,
+          "length" : 158
+        },
+        {
+          "activity" : "generate2",
+          "start" : 74,
+          "length" : 343
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-vermont-consent-profile.json",
+      "size" : 1546,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 34,
+          "length" : 19
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 42,
+          "length" : 99
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 54,
+          "length" : 168
+        },
+        {
+          "activity" : "generate2",
+          "start" : 74,
+          "length" : 314
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-virginia-consent-profile.json",
+      "size" : 1552,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 34,
+          "length" : 15
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 42,
+          "length" : 107
+        },
+        {
+          "activity" : "generate1",
+          "start" : 54,
+          "length" : 164
+        },
+        {
+          "activity" : "generate2",
+          "start" : 75,
+          "length" : 297
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-washington-consent-profile.json",
+      "size" : 1559,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 34,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 42,
+          "length" : 109
+        },
+        {
+          "activity" : "generate1",
+          "start" : 54,
+          "length" : 155
+        },
+        {
+          "activity" : "generate2",
+          "start" : 75,
+          "length" : 314
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 148,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-west-virginia-consent-profile.json",
+      "size" : 1569,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 34,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 7
+        },
+        {
+          "activity" : "validate",
+          "start" : 42,
+          "length" : 111
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 43,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 54,
+          "length" : 156
+        },
+        {
+          "activity" : "generate2",
+          "start" : 75,
+          "length" : 307
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 110,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-ConsentExchangePolicies.json",
+      "size" : 565,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 32,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 32,
+          "length" : 7
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 34,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 35,
+          "length" : 95
+        },
+        {
+          "activity" : "validate",
+          "start" : 35,
+          "length" : 57
+        },
+        {
+          "activity" : "generate1",
+          "start" : 54,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 76,
+          "length" : 13120
+        }
+      ]
+    }
+  ]
+}

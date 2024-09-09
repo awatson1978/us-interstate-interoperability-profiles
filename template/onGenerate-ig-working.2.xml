@@ -1,8 +1,14 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
    <id value="ig.fhir.us-interstate-interoperability"/>
    <text>
-      <status value="extensions"/>
+      <status value="generated"/>
       <div xmlns="http://www.w3.org/1999/xhtml">
+         <p class="res-header-id">
+            <b>Generated Narrative: ImplementationGuide ig.fhir.us-interstate-interoperability</b>
+         </p>
+         <a name="ig.fhir.us-interstate-interoperability"> </a>
+         <a name="hcig.fhir.us-interstate-interoperability"> </a>
+         <a name="ig.fhir.us-interstate-interoperability-en-US"> </a>
          <h2>USInterstateInteroperability</h2>
          <p>The official URL for this implementation guide is: </p>
          <pre>https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability</pre>
@@ -12,7 +18,7 @@
    <version value="0.6.0"/>
    <name value="USInterstateInteroperability"/>
    <status value="draft"/>
-   <date value="2024-06-09T09:51:53-05:00"/>
+   <date value="2024-09-09T14:48:24-05:00"/>
    <publisher value="MITRE, Inc"/>
    <contact>
       <name value="MITRE, Inc"/>
@@ -30,7 +36,15 @@
       </extension>
       <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
       <packageId value="hl7.terminology.r4"/>
-      <version value="5.5.0"/>
+      <version value="6.0.2"/>
+   </dependsOn>
+   <dependsOn id="hl7ext">
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+         <valueMarkdown value="Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"/>
+      </extension>
+      <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+      <packageId value="hl7.fhir.uv.extensions.r4"/>
+      <version value="5.1.0"/>
    </dependsOn>
    <dependsOn id="hl7_fhir_us_core">
       <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
@@ -237,6 +251,9 @@
          <extension url="value">
             <valueString value="true"/>
          </extension>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
+         <valueCode value="hl7.fhir.uv.tools#0.2.0"/>
       </extension>
       <grouping id="-req-actordefinition">
          <name value="Requirements: Actor Definitions"/>

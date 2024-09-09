@@ -1,8 +1,8 @@
 {% raw %}<table class="grid">
 <tr><td><b>Level</b></td><td><b>Type</b></td><td><b>Location</b></td><td><b>Message</b></td></tr>
-<tr><td>error</td><td>invariant</td><td>Consent/AlabamaConsentProfile: Consent</td><td>Rule ppc-1: 'Either a Policy or PolicyRule' Failed</td><td></td></tr>
 <tr><td>error</td><td>structure</td><td>Consent/AlabamaConsentProfile: Consent.organization[0]</td><td>Unable to resolve resource with reference 'AL'</td><td></td></tr>
-<tr><td>warning</td><td>code-invalid</td><td>Consent/AlabamaConsentProfile: Consent.category[0].coding[0]</td><td>A code with no system has no defined meaning. A system should be provided</td><td></td></tr>
+<tr><td>error</td><td>invariant</td><td>Consent/AlabamaConsentProfile: Consent</td><td>Constraint failed: ppc-1: 'Either a Policy or PolicyRule'</td><td></td></tr>
+<tr><td>warning</td><td>invalid</td><td>Consent/AlabamaConsentProfile: Consent.category[0].coding[0]</td><td>Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided</td><td></td></tr>
 <tr><td>warning</td><td>structure</td><td>Consent/AlabamaConsentProfile: Consent.source.ofType(Attachment)</td><td>Attachments have data and/or url, or else SHOULD have either contentType and/or language</td><td></td></tr>
 <tr><td>information</td><td>informational</td><td>Consent/AlabamaConsentProfile: Consent</td><td>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Consent|4.0.1</td><td></td></tr>
 </table>

@@ -56,6 +56,29 @@ The above being said, we seek to develop a crowdsourcing model, where anybody ca
 *Adding a new topic map* 
 - File a new topic issue.  Please provide references to relevant legislative bills or laws, executive policies, or court cases.
 
+### Additional Datasets 
+
+
+- [Medicaid State Plan Amendments](https://www.medicaid.gov/medicaid/medicaid-state-plan-amendments/index.html)  
+
+
+
+### Further Reading    
+
+The maps in this implementation guide inform us of a great many things, and provide situational awareness of recent changes in laws across North America.  Yet they also raise many questions.  Readers may be interested in understanding some of the underlying factors for why these maps distribute the way they do on certain topics.  The author has found the following resources usefull in making sense of these cultural dynamics; and believe much of them can be explained by how geography and climate influence local economics and culture.  
+
+- [US population map](https://en.m.wikipedia.org/wiki/File:US_population_map.png)  
+- [USDA Plant Hardiness Zone Map](https://planthardiness.ars.usda.gov/)    
+- [A Nation Divided: Arid/Humid Climate Boundary in U.S. Creeps Eastward](https://www.scientificamerican.com/article/a-nation-divided-arid-humid-climate-boundary-in-u-s-creeps-eastward/)     
+- [US Annual Snowfall Map](https://nyskiblog.com/directory/weather-data/us/annual-snowfall-map/)   
+- [Average Annual Snowfall in the United States ](https://www.reddit.com/r/MapPorn/comments/2ft330/average_annual_snowfall_in_the_united_states/)  
+- [This map shows how the US really has 11 separate 'nations' with entirely different cultures](https://www.businessinsider.com/the-11-nations-of-the-united-states-2015-7)   
+- [American Nations: A History of the Eleven Rival Regional Cultures of North America](https://www.amazon.com/American-Nations-History-Regional-Cultures/dp/0143122029)  
+- [Beyond the Dichotomy: Creation and Validation of a Continuous Statewide Index of U.S. Honor Culture](https://journals.sagepub.com/doi/abs/10.1177/01461672241255494)    
+- [Best Beaches in the US](https://www.mapsofworld.com/usa/amp/thematic-maps/best-beaches-in-usa.html)    
+- [Which States are Cowboy States](https://www.reddit.com/r/texas/comments/vv0qvf/which_states_are_cowboy_states/)   
+- [State Level Beef Cattle Inventory](https://blogs.extension.msstate.edu/agecon/2019/03/11/state-level-beef-cattle-inventory/)  
+
 
 ### Contact Info  
 
@@ -66,7 +89,3 @@ Abigail Watson <awatson@mitre.org>
 For community help, please post questions on Zulip:  
 [https://chat.fhir.org/](https://chat.fhir.org/)  
 
-
-### Copyright Notice  
-
-&copy; 2022 The MITRE Corporation.

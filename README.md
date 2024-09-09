@@ -4,6 +4,7 @@ Guidance on how to profile the US State and territories using Fast Healthcare In
 
 ![PolicyAnalysis-Examples-3x2.jpg](./assets/PolicyAnalysis-Examples-3x2.jpg)  
 
+
 ### Current Build
 
 Please find the latest compiled version of the implementation guide here: 
@@ -29,7 +30,8 @@ cd us-state-profiles
 open output/index.html
 ```
 
-# Contact Info  
+
+### Contact Info  
 
 
 For project maintenance, please contact:    
@@ -39,7 +41,3 @@ Abigail Watson <awatson@mitre.org>
 For community help, please post questions on Zulip:  
 [https://chat.fhir.org/](https://chat.fhir.org/)  
 
-
-### Copyright Notice  
-
-&copy; 2022 The MITRE Corporation.

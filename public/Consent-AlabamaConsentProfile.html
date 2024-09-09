@@ -38,7 +38,8 @@
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script src="assets/js/mermaid.js" type="text/javascript"></script>
+    <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
     <style type="text/css">h2{--heading-prefix:"15.52"}
     h3,h4,h5,h6{--heading-prefix:"15.52"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
@@ -150,7 +151,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">USInterstateInteroperability - Local Development build (v0.6.0). See the <a href="https://github.com/awatson1978/us-state-profiles/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">USInterstateInteroperability - Local Development build (v0.6.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://github.com/awatson1978/us-state-profiles/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
 
   
 
@@ -207,7 +208,7 @@
 
 
 
-  <div><p><b>Generated Narrative: Consent</b><a name="AlabamaConsentProfile"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Consent "AlabamaConsentProfile" </p></div><p><b>status</b>: active</p><p><b>scope</b>: Privacy Consent <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.5.0/CodeSystem-consentscope.html">Consent Scope Codes</a>#patient-privacy)</span></p><p><b>category</b>: 57017-6 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#57017-6)</span></p><p><b>dateTime</b>: 2024-01-29 03:30:56+0000</p><p><a name="l365">​</a><b>organization</b>: <a href="AL">AL: State of Alabama</a></p><p><b>source</b>: </p><blockquote><p><b>provision</b></p><p><b>type</b>: permit</p><h3>Provisions</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Class</b></td><td><b>Code</b></td></tr><tr><td>*</td><td>deny</td><td>ActivityDefinition (Details: http://hl7.org/fhir/resource-types code ActivityDefinition = 'ActivityDefinition', stated as 'ActivityDefinition')</td><td>Sports <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#14468000 "Sports activity (observable entity)")</span></td></tr><tr><td>*</td><td> </td><td> </td><td>Swimming <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#20461001 "Swimming (qualifier value)")</span></td></tr><tr><td>*</td><td>deny</td><td>Procedure (Details: http://hl7.org/fhir/resource-types code Procedure = 'Procedure', stated as 'Procedure')</td><td>Pediatric Gender Medicine <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#266717002 "Hormone replacement therapy (procedure)"; <a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#719670005 "Gender confirmation surgery (procedure)")</span></td></tr><tr><td>*</td><td>deny</td><td>Procedure (Details: http://hl7.org/fhir/resource-types code Procedure = 'Procedure', stated as 'Procedure')</td><td>Abortion <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#386639001 "Termination of pregnancy (procedure)")</span></td></tr><tr><td>*</td><td>permit</td><td>Practitioner (Details: http://hl7.org/fhir/resource-types code Practitioner = 'Practitioner', stated as 'Practitioner')</td><td>Decline <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#443390004 "Refused (qualifier value)")</span></td></tr></table></blockquote></div>
+  <div><p class="res-header-id"><b>Generated Narrative: Consent AlabamaConsentProfile</b></p><a name="AlabamaConsentProfile"> </a><a name="hcAlabamaConsentProfile"> </a><a name="AlabamaConsentProfile-en-US"> </a><p><b>status</b>: Active</p><p><b>scope</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/consentscope patient-privacy}">Privacy Consent</span></p><p><b>category</b>: <span title="Codes:">57017-6</span></p><p><b>dateTime</b>: 2024-01-29 03:30:56+0000</p><p><a name="l367">​</a><b>organization</b>: <a href="AL">State of Alabama</a></p><p><b>source</b>: </p><blockquote><p><b>provision</b></p><p><b>type</b>: Opt In</p><h3>Provisions</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Type</b></td><td><b>Class</b></td><td><b>Code</b></td></tr><tr><td style="display: none">*</td><td>Opt Out</td><td><a href="http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-ActivityDefinition">ResourceType</a> ActivityDefinition: ActivityDefinition</td><td><span title="Codes:{http://snomed.info/sct 14468000}">Sports</span></td></tr><tr><td style="display: none">*</td><td> </td><td> </td><td><span title="Codes:{http://snomed.info/sct 20461001}">Swimming</span></td></tr><tr><td style="display: none">*</td><td>Opt Out</td><td><a href="http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Procedure">ResourceType</a> Procedure: Procedure</td><td><span title="Codes:{http://snomed.info/sct 266717002}, {http://snomed.info/sct 719670005}">Pediatric Gender Medicine</span></td></tr><tr><td style="display: none">*</td><td>Opt Out</td><td><a href="http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Procedure">ResourceType</a> Procedure: Procedure</td><td><span title="Codes:{http://snomed.info/sct 386639001}">Abortion</span></td></tr><tr><td style="display: none">*</td><td>Opt In</td><td><a href="http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Practitioner">ResourceType</a> Practitioner: Practitioner</td><td><span title="Codes:{http://snomed.info/sct 443390004}">Decline</span></td></tr></table></blockquote></div>
 
   
 
@@ -231,8 +232,8 @@
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/awatson1978/us-state-profiles">MITRE, Inc</a>.  Package ig.fhir.us-interstate-interoperability#0.6.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jun 9, 2024 09:51-0500">2024-06-09</span>
+        <p><a name="l498">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/awatson1978/us-state-profiles">MITRE, Inc</a>.  Package ig.fhir.us-interstate-interoperability#0.6.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Sep 9, 2024 14:48-0500">2024-09-09</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -249,7 +250,7 @@
     <div class="container">    <!-- container -->
     </div>    <!-- /container -->
   </div>    <!-- /segment-post-footer -->
-  
+
     <!-- JS and analytics only. -->
     <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -260,7 +261,6 @@
   <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
   <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
   <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
-  
     <!-- Analytics Below
   ================================================== -->
   </body>

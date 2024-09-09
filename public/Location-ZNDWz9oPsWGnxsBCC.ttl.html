@@ -1,51 +1,50 @@
-
-
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <title>US-State-Ohio - TTL Representation -  v0.6.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link href="fhir.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="fhir.css"/>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
 
-    <!-- Project extras -->
-    <link href="assets/css/project.css" rel="stylesheet"/>
-    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
-    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
-  	<link href="assets/css/prism.css" rel="stylesheet" />
-    <!-- Placeholder for child template CSS declarations -->
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
 
-    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+    <![endif] -->
 
-    <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
     <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script src="assets/js/mermaid.js" type="text/javascript"></script>
+    <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
     <style type="text/css">h2{--heading-prefix:"15.132"}
     h3,h4,h5,h6{--heading-prefix:"15.132"}</style>
-    <div id="segment-header" class="segment">  <!-- segment-header -->
-      <div class="container">  <!-- container -->
-        <!-- Placeholder for child template header declarations -->
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+          <!-- Placeholder for child template header declarations -->
 
 
         <div id="ig-status">
@@ -57,27 +56,27 @@
             </span>
           </p>
         </div>
-      </div> <!-- /container -->
-    </div>  <!-- /segment-header -->
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">  <!-- container -->
-        <!-- HEADER CONTENT -->
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
 
         <nav class="navbar navbar-inverse">
-          <!--status-bar-->
+            <!-- status-bar -->
           <div class="container">
-            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-              <!-- menu.xml  -->
+                <!-- menu.xml -->
 
-<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+<ul class="nav navbar-nav">
   <li>
     <a href="index.html">Home</a>
   </li>
@@ -128,31 +127,31 @@
     <a href="artifacts.html">Artifacts</a>
   </li>
 </ul>
-            </div>  <!-- /.nav-collapse -->
-          </div>  <!-- /.container -->
-        </nav>  <!-- /.navbar -->
-      <!-- /HEADER CONTENT -->
-      </div>  <!-- /container -->
-    </div>  <!-- /segment-navbar -->
-    <!--status-bar-->
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
 
-    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
-      <div class="container">  <!-- container -->
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Ohio</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>US-State-Ohio</b></li>
 
         </ul>
-      </div>  <!-- /container -->
-    </div>  <!-- /segment-breadcrumb -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">  <!-- segment-content -->
-      <div class="container">  <!-- container -->
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 9" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">USInterstateInteroperability - Local Development build (v0.6.0). See the <a href="https://github.com/awatson1978/us-state-profiles/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!-- ReleaseHeader --><p id="publish-box">USInterstateInteroperability - Local Development build (v0.6.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://github.com/awatson1978/us-state-profiles/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
 
 
 
@@ -201,14 +200,14 @@
 <h2 id="root">: US-State-Ohio - TTL Representation</h2>
 
 
-<p><a href="Location-ZNDWz9oPsWGnxsBCC.ttl" no-download="true">Raw ttl</a> | <a href="Location-ZNDWz9oPsWGnxsBCC.ttl" download>Download</a></p>
+<p><a href="Location-ZNDWz9oPsWGnxsBCC.ttl" no-download="true">Raw ttl</a> | <a download="null" href="Location-ZNDWz9oPsWGnxsBCC.ttl">Download</a></p>
 
-  <!-- insert intro if present -->
+    <!-- insert intro if present -->
   
 
 
 
-  <pre class="rdf" style="white-space: pre; overflow: hidden"><code class="language-turtle">
+  <pre style="white-space: pre; overflow: hidden" class="rdf"><code class="language-turtle">
 @prefix fhir: &lt;http://hl7.org/fhir/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
@@ -218,58 +217,58 @@
 
  a fhir:Location ;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
-  <a href="http://hl7.org/fhir/R4/location.html#Location.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;ZNDWz9oPsWGnxsBCC&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/location.html#Location.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "ZNDWz9oPsWGnxsBCC"] ; # 
   <a href="http://hl7.org/fhir/R4/location.html#Location.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Location&lt;/b&gt;&lt;a name=\&quot;ZNDWz9oPsWGnxsBCC\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Location &amp;quot;ZNDWz9oPsWGnxsBCC&amp;quot; &lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: OH, id: 0400000US39, id: 39&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: State of Ohio&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: OH USA &lt;/p&gt;&lt;/div&gt;&quot;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "extensions" ] ;
+fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-header-id\"&gt;&lt;b&gt;Generated Narrative: Location ZNDWz9oPsWGnxsBCC&lt;/b&gt;&lt;/p&gt;&lt;a name=\"ZNDWz9oPsWGnxsBCC\"&gt; &lt;/a&gt;&lt;a name=\"hcZNDWz9oPsWGnxsBCC\"&gt; &lt;/a&gt;&lt;a name=\"ZNDWz9oPsWGnxsBCC-en-US\"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;geometry&lt;/b&gt;: {&amp;quot;type&amp;quot;:&amp;quot;Polygon&amp;quot;,&amp;quot;coordinates&amp;quot;:[[[-82.21485985670382,41.45399808880069],[-82.25467799999997,41.434441],[-82.36178399999997,41.426643999999996],[-82.481214,41.38134199999998],[-82.61695199999997,41.42842499999999],[-82.72191399999998,41.516676999999994],[-82.85676999999998,41.548262],[-82.93436899999998,41.514352999999986],[-82.99991599999998,41.53853399999998],[-83.06659299999998,41.59533999999999],[-83.23165999999996,41.644217999999995],[-83.32682499999997,41.701561999999974],[-83.35707299999997,41.68776299999999],[-83.44603199999999,41.70684699999998],[-83.45383199999996,41.73264699999999],[-84.36041629527847,41.70662461933579],[-84.80608199999999,41.69608899999999],[-84.80391899999996,41.43553099999999],[-84.80216999999996,40.80060099999999],[-84.80391699999997,40.31011499999999],[-84.81312404251976,39.865525450228866],[-84.814179,39.814212],[-84.82015699999998,39.10547999999999],[-84.75444899999997,39.14665799999999],[-84.63244599999999,39.07675999999999],[-84.50974299999997,39.093659999999986],[-84.47054199999997,39.12145999999999],[-84.42984099999998,39.05826199999999],[-84.30469799999997,39.00645499999998],[-84.28816399999997,38.95578899999999],[-84.23445299999999,38.893226],[-84.21290399999998,38.80570699999999],[-84.07149099999997,38.770475],[-83.97881399999997,38.787103999999985],[-83.85902799999998,38.756792999999995],[-83.78361999999998,38.69564099999999],[-83.77215999999997,38.65815],[-83.66811099999998,38.628068000000006],[-83.61573599999998,38.684144999999994],[-83.52095299999998,38.70304499999999],[-83.46805899999997,38.67546999999999],[-83.36666099999998,38.65853699999999],[-83.29419299999998,38.59658799999998],[-83.23951499999998,38.628588],[-83.14283599999997,38.62507599999999],[-83.102746,38.67731599999998],[-83.03301399999998,38.723804999999984],[-82.89419299999997,38.75657599999999],[-82.86989199999996,38.72817699999999],[-82.84718599999997,38.595165999999985],[-82.80011199999998,38.56318299999999],[-82.72484599999997,38.557599999999994],[-82.61380199999998,38.47452899999999],[-82.59367299999998,38.42180899999999],[-82.52957899999997,38.40518199999999],[-82.40488199999999,38.43934699999999],[-82.32399899999999,38.44926799999999],[-82.29127099999998,38.578983],[-82.21896699999998,38.59168299999999],[-82.21485985670384,38.59169388670311],[-82.20517099999996,38.59171899999999],[-82.17206599999999,38.62598399999998],[-82.18246699999997,38.708782],[-82.21485985670382,38.7896716952213],[-82.21726899999999,38.79567999999998],[-82.21485985670382,38.79717232504754],[-82.14486699999996,38.840479999999985],[-82.14316699999998,38.89807899999999],[-82.03596299999998,39.02547799999999],[-81.93318599999998,38.987659],[-81.88923299999998,38.874279],[-81.81423499999998,38.946167999999986],[-81.76425299999998,39.01527899999999],[-81.81165499999999,39.059578],[-81.75235299999997,39.08987799999999],[-81.75625399999998,39.177275999999985],[-81.69133899999997,39.22794699999999],[-81.67833099999999,39.273754999999994],[-81.57024699999998,39.26767499999999],[-81.55754699999997,39.338773999999994],[-81.45614299999998,39.40927399999999],[-81.34756699999998,39.34576999999999],[-81.27071599999996,39.38591399999999],[-81.22358099999998,39.38606199999998],[-81.18594599999999,39.43073099999999],[-81.134434,39.445074999999996],[-81.02389999999998,39.552313],[-80.93329199999997,39.614811999999986],[-80.88035999999997,39.62070599999998],[-80.87900972253594,39.622682294942955],[-80.87600199999999,39.627083999999996],[-80.86533899999996,39.75325099999999],[-80.79313099999999,39.863750999999986],[-80.80339399999998,39.91876199999999],[-80.74012599999998,39.97079299999999],[-80.70460199999998,40.15482299999999],[-80.59989499999998,40.31766899999999],[-80.61119499999997,40.437766999999994],[-80.59919399999997,40.48256599999999],[-80.66691699999998,40.57366399999999],[-80.62717099999998,40.61993599999998],[-80.51899099999997,40.638801],[-80.51900199999999,40.87754299999997],[-80.51976399999998,40.89985799999998],[-80.51869299999998,41.24885499999999],[-80.51942499999997,41.97752299999999],[-80.90034199999998,41.86891199999999],[-81.01048999999998,41.85396199999999],[-81.24867199999998,41.76129099999999],[-81.28692499999998,41.760242999999996],[-81.44264499999998,41.67325499999998],[-81.59974699999997,41.56064899999999],[-81.74475499999998,41.487149999999986],[-81.93786199999998,41.49144299999999],[-82.01196599999999,41.51563899999999],[-82.19337499999997,41.464539999999985],[-82.21485985670382,41.45399808880069]]]}&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://www.usps.com&lt;/code&gt;/OH, &lt;code&gt;https://www.census.gov/&lt;/code&gt;/0400000US39, &lt;code&gt;https://github.com/awatson1978/us-state-profiles/index&lt;/code&gt;/39&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: State of Ohio&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: OH USA &lt;/p&gt;&lt;/div&gt;"
   ] ; # 
   <a href="http://hl7.org/fhir/R4/location.html#Location.extension">fhir:extension</a> ( [
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;geometry&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;{\&quot;type\&quot;:\&quot;Polygon\&quot;,\&quot;coordinates\&quot;:[[[-82.21485985670382,41.45399808880069],[-82.25467799999997,41.434441],[-82.36178399999997,41.426643999999996],[-82.481214,41.38134199999998],[-82.61695199999997,41.42842499999999],[-82.72191399999998,41.516676999999994],[-82.85676999999998,41.548262],[-82.93436899999998,41.514352999999986],[-82.99991599999998,41.53853399999998],[-83.06659299999998,41.59533999999999],[-83.23165999999996,41.644217999999995],[-83.32682499999997,41.701561999999974],[-83.35707299999997,41.68776299999999],[-83.44603199999999,41.70684699999998],[-83.45383199999996,41.73264699999999],[-84.36041629527847,41.70662461933579],[-84.80608199999999,41.69608899999999],[-84.80391899999996,41.43553099999999],[-84.80216999999996,40.80060099999999],[-84.80391699999997,40.31011499999999],[-84.81312404251976,39.865525450228866],[-84.814179,39.814212],[-84.82015699999998,39.10547999999999],[-84.75444899999997,39.14665799999999],[-84.63244599999999,39.07675999999999],[-84.50974299999997,39.093659999999986],[-84.47054199999997,39.12145999999999],[-84.42984099999998,39.05826199999999],[-84.30469799999997,39.00645499999998],[-84.28816399999997,38.95578899999999],[-84.23445299999999,38.893226],[-84.21290399999998,38.80570699999999],[-84.07149099999997,38.770475],[-83.97881399999997,38.787103999999985],[-83.85902799999998,38.756792999999995],[-83.78361999999998,38.69564099999999],[-83.77215999999997,38.65815],[-83.66811099999998,38.628068000000006],[-83.61573599999998,38.684144999999994],[-83.52095299999998,38.70304499999999],[-83.46805899999997,38.67546999999999],[-83.36666099999998,38.65853699999999],[-83.29419299999998,38.59658799999998],[-83.23951499999998,38.628588],[-83.14283599999997,38.62507599999999],[-83.102746,38.67731599999998],[-83.03301399999998,38.723804999999984],[-82.89419299999997,38.75657599999999],[-82.86989199999996,38.72817699999999],[-82.84718599999997,38.595165999999985],[-82.80011199999998,38.56318299999999],[-82.72484599999997,38.557599999999994],[-82.61380199999998,38.47452899999999],[-82.59367299999998,38.42180899999999],[-82.52957899999997,38.40518199999999],[-82.40488199999999,38.43934699999999],[-82.32399899999999,38.44926799999999],[-82.29127099999998,38.578983],[-82.21896699999998,38.59168299999999],[-82.21485985670384,38.59169388670311],[-82.20517099999996,38.59171899999999],[-82.17206599999999,38.62598399999998],[-82.18246699999997,38.708782],[-82.21485985670382,38.7896716952213],[-82.21726899999999,38.79567999999998],[-82.21485985670382,38.79717232504754],[-82.14486699999996,38.840479999999985],[-82.14316699999998,38.89807899999999],[-82.03596299999998,39.02547799999999],[-81.93318599999998,38.987659],[-81.88923299999998,38.874279],[-81.81423499999998,38.946167999999986],[-81.76425299999998,39.01527899999999],[-81.81165499999999,39.059578],[-81.75235299999997,39.08987799999999],[-81.75625399999998,39.177275999999985],[-81.69133899999997,39.22794699999999],[-81.67833099999999,39.273754999999994],[-81.57024699999998,39.26767499999999],[-81.55754699999997,39.338773999999994],[-81.45614299999998,39.40927399999999],[-81.34756699999998,39.34576999999999],[-81.27071599999996,39.38591399999999],[-81.22358099999998,39.38606199999998],[-81.18594599999999,39.43073099999999],[-81.134434,39.445074999999996],[-81.02389999999998,39.552313],[-80.93329199999997,39.614811999999986],[-80.88035999999997,39.62070599999998],[-80.87900972253594,39.622682294942955],[-80.87600199999999,39.627083999999996],[-80.86533899999996,39.75325099999999],[-80.79313099999999,39.863750999999986],[-80.80339399999998,39.91876199999999],[-80.74012599999998,39.97079299999999],[-80.70460199999998,40.15482299999999],[-80.59989499999998,40.31766899999999],[-80.61119499999997,40.437766999999994],[-80.59919399999997,40.48256599999999],[-80.66691699999998,40.57366399999999],[-80.62717099999998,40.61993599999998],[-80.51899099999997,40.638801],[-80.51900199999999,40.87754299999997],[-80.51976399999998,40.89985799999998],[-80.51869299999998,41.24885499999999],[-80.51942499999997,41.97752299999999],[-80.90034199999998,41.86891199999999],[-81.01048999999998,41.85396199999999],[-81.24867199999998,41.76129099999999],[-81.28692499999998,41.760242999999996],[-81.44264499999998,41.67325499999998],[-81.59974699999997,41.56064899999999],[-81.74475499999998,41.487149999999986],[-81.93786199999998,41.49144299999999],[-82.01196599999999,41.51563899999999],[-82.19337499999997,41.464539999999985],[-82.21485985670382,41.45399808880069]]]}&quot; ]
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "geometry"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "{\"type\":\"Polygon\",\"coordinates\":[[[-82.21485985670382,41.45399808880069],[-82.25467799999997,41.434441],[-82.36178399999997,41.426643999999996],[-82.481214,41.38134199999998],[-82.61695199999997,41.42842499999999],[-82.72191399999998,41.516676999999994],[-82.85676999999998,41.548262],[-82.93436899999998,41.514352999999986],[-82.99991599999998,41.53853399999998],[-83.06659299999998,41.59533999999999],[-83.23165999999996,41.644217999999995],[-83.32682499999997,41.701561999999974],[-83.35707299999997,41.68776299999999],[-83.44603199999999,41.70684699999998],[-83.45383199999996,41.73264699999999],[-84.36041629527847,41.70662461933579],[-84.80608199999999,41.69608899999999],[-84.80391899999996,41.43553099999999],[-84.80216999999996,40.80060099999999],[-84.80391699999997,40.31011499999999],[-84.81312404251976,39.865525450228866],[-84.814179,39.814212],[-84.82015699999998,39.10547999999999],[-84.75444899999997,39.14665799999999],[-84.63244599999999,39.07675999999999],[-84.50974299999997,39.093659999999986],[-84.47054199999997,39.12145999999999],[-84.42984099999998,39.05826199999999],[-84.30469799999997,39.00645499999998],[-84.28816399999997,38.95578899999999],[-84.23445299999999,38.893226],[-84.21290399999998,38.80570699999999],[-84.07149099999997,38.770475],[-83.97881399999997,38.787103999999985],[-83.85902799999998,38.756792999999995],[-83.78361999999998,38.69564099999999],[-83.77215999999997,38.65815],[-83.66811099999998,38.628068000000006],[-83.61573599999998,38.684144999999994],[-83.52095299999998,38.70304499999999],[-83.46805899999997,38.67546999999999],[-83.36666099999998,38.65853699999999],[-83.29419299999998,38.59658799999998],[-83.23951499999998,38.628588],[-83.14283599999997,38.62507599999999],[-83.102746,38.67731599999998],[-83.03301399999998,38.723804999999984],[-82.89419299999997,38.75657599999999],[-82.86989199999996,38.72817699999999],[-82.84718599999997,38.595165999999985],[-82.80011199999998,38.56318299999999],[-82.72484599999997,38.557599999999994],[-82.61380199999998,38.47452899999999],[-82.59367299999998,38.42180899999999],[-82.52957899999997,38.40518199999999],[-82.40488199999999,38.43934699999999],[-82.32399899999999,38.44926799999999],[-82.29127099999998,38.578983],[-82.21896699999998,38.59168299999999],[-82.21485985670384,38.59169388670311],[-82.20517099999996,38.59171899999999],[-82.17206599999999,38.62598399999998],[-82.18246699999997,38.708782],[-82.21485985670382,38.7896716952213],[-82.21726899999999,38.79567999999998],[-82.21485985670382,38.79717232504754],[-82.14486699999996,38.840479999999985],[-82.14316699999998,38.89807899999999],[-82.03596299999998,39.02547799999999],[-81.93318599999998,38.987659],[-81.88923299999998,38.874279],[-81.81423499999998,38.946167999999986],[-81.76425299999998,39.01527899999999],[-81.81165499999999,39.059578],[-81.75235299999997,39.08987799999999],[-81.75625399999998,39.177275999999985],[-81.69133899999997,39.22794699999999],[-81.67833099999999,39.273754999999994],[-81.57024699999998,39.26767499999999],[-81.55754699999997,39.338773999999994],[-81.45614299999998,39.40927399999999],[-81.34756699999998,39.34576999999999],[-81.27071599999996,39.38591399999999],[-81.22358099999998,39.38606199999998],[-81.18594599999999,39.43073099999999],[-81.134434,39.445074999999996],[-81.02389999999998,39.552313],[-80.93329199999997,39.614811999999986],[-80.88035999999997,39.62070599999998],[-80.87900972253594,39.622682294942955],[-80.87600199999999,39.627083999999996],[-80.86533899999996,39.75325099999999],[-80.79313099999999,39.863750999999986],[-80.80339399999998,39.91876199999999],[-80.74012599999998,39.97079299999999],[-80.70460199999998,40.15482299999999],[-80.59989499999998,40.31766899999999],[-80.61119499999997,40.437766999999994],[-80.59919399999997,40.48256599999999],[-80.66691699999998,40.57366399999999],[-80.62717099999998,40.61993599999998],[-80.51899099999997,40.638801],[-80.51900199999999,40.87754299999997],[-80.51976399999998,40.89985799999998],[-80.51869299999998,41.24885499999999],[-80.51942499999997,41.97752299999999],[-80.90034199999998,41.86891199999999],[-81.01048999999998,41.85396199999999],[-81.24867199999998,41.76129099999999],[-81.28692499999998,41.760242999999996],[-81.44264499999998,41.67325499999998],[-81.59974699999997,41.56064899999999],[-81.74475499999998,41.487149999999986],[-81.93786199999998,41.49144299999999],[-82.01196599999999,41.51563899999999],[-82.19337499999997,41.464539999999985],[-82.21485985670382,41.45399808880069]]]}" ]
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/location.html#Location.identifier">fhir:identifier</a> ( [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://www.usps.com&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;OH&quot; ]
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "https://www.usps.com"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "OH" ]
   ] [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://www.census.gov/&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;0400000US39&quot; ]
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "https://www.census.gov/"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "0400000US39" ]
   ] [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://github.com/awatson1978/us-state-profiles/index&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;39&quot; ]
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "https://github.com/awatson1978/us-state-profiles/index"^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "39" ]
   ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/location.html#Location.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/location.html#Location.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;State of Ohio&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/location.html#Location.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "active"] ; # 
+  <a href="http://hl7.org/fhir/R4/location.html#Location.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "State of Ohio"] ; # 
   <a href="http://hl7.org/fhir/R4/location.html#Location.address">fhir:address</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.state">fhir:state</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;OH&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">fhir:country</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;USA&quot; ]
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.state">fhir:state</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "OH" ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">fhir:country</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "USA" ]
   ] . # 
 
 </code></pre>
 
 
 
-  <!-- insert notes if present -->
+    <!-- insert notes if present -->
   
 
 
 
 </div>
-        </div>  <!-- /inner-wrapper -->
-      </div>  <!-- /row -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-content -->
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
 
-  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
-  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
   <a name="bottom"> </a>
-  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
-    <div class="container">  <!-- container -->
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/awatson1978/us-state-profiles">MITRE, Inc</a>.  Package ig.fhir.us-interstate-interoperability#0.6.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jun 9, 2024 09:51-0500">2024-06-09</span>
+        <p><a name="l486">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/awatson1978/us-state-profiles">MITRE, Inc</a>.  Package ig.fhir.us-interstate-interoperability#0.6.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Sep 9, 2024 14:48-0500">2024-09-09</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -278,28 +277,26 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
                 
           </span>
         </p>
-      </div>  <!-- /inner-wrapper -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-footer -->
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
-    <div class="container">  <!-- container -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-post-footer -->
-  
-  <!-- JS and analytics only. -->
-  <!-- Bootstrap core JavaScript
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
   ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
-  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
-  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
-  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
-  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
-  
-  <!-- Analytics Below
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
+    <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
-
