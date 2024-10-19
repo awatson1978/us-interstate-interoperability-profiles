@@ -38,7 +38,23 @@ After developing a small collection of use cases, the Locations records were the
 
 We are now at a point where we are considering which approach is best...  profiled Consent records, Location instances, or Consent instances.  The idea has been developed enough that we're generally confident that we have a proof of concept; and it's getting time to seek feedback from the broader HL7 community.  Location vs Consent; profile vs instance... these are technical details that may have performance implications, but in some aspect don't matter, because the general approach could be done in a couple of different ways.  
 
-Rather, we want to draw attention to the general idea that we could - and _should_ - be having a structured way of exchange data about the legislative and jurisprudence environment in which healthcare organizations and patients operate in.  It's this general idea we wish to bring to the HL7 community, and have it weigh in on how best to go forward with this idea.
+Rather, we want to draw attention to the general idea that we could - and _should_ - have a structured way of exchange data about the legislative and jurisprudence environment in which healthcare organizations and patients operate in.  It's this general idea we wish to bring to the HL7 community, and have it weigh in on how best to go forward with this idea.
+
+### Legislative Topics  
+
+The current list of legislative topics is neither complete nor comprehensive.  This project welcomes the addition of additional legislative topics, as time and effort permits.
+
+As a spin-off of the PACIO project, the first legislative topic addressed was that of Advanced Care Directives.  Creating seaprate Consent resources and profiles was a bit of over-engineering for the single Advanced Directives use case.  However, once in place, when other topics began presenting themselves in conversations and the news, there was an obvious place to put them.  
+
+Early topics that found their way into this guide were hot-potato culture war issues that were in the news in the early 2020s, such as Cannabis deregulation, Abortion access, and Pediatric Gender Medicine.  However, with only these topics, the guide came across as overly focused on sex and gender issues; which was not the goal of the project, per se.   
+
+Instead of going deeper into these niche topics and modeling workflow or addressing policy recommendations; the decision was made to keep a neutral "referee" perspective, and to go broader.  Instead of diving deeply into what _should_ be on a particular issue, this guide attempts to address what _is_ across many different topics.
+
+Additional topics that have been proposed for future updates include:  age of consent, opioid legalization, medicaid state waivers, open-carry laws, speed limits, amongst others. If there is a SNOMED, LOINC, ICD-10, DSM, or RXNORM code related to a state law, then it can likely be modeled by this approach to Consent resources, and is fair game for inclusion in this resource.  
+
+We note that there are significant framing issues in the way that legislative topics are presented.  
+
+Eventually, we envision a group such as the National Library of Medicine's Value Set Authority, or possibly the TEFCA Qualified Health Information Networks (QHIN) as managing this resource, and providing state level legislation in computable structured data format.  
 
 ### Disclaimer  
 THIS IMPLEMENTATION GUIDE IS FOR INSTRUCTIONAL PURPOSES ONLY.  WHILE WE HAVE DONE OUR BEST TO ACCURATELY REFLECT POLICY AS OF THE DATE THIS IMPLEMENTATION GUIDE WAS AUTHORED, WE CANNOT GUARANTEE IT IS CORRECT NOW, NOR CAN WE GUARANTEE IT WILL REMAIN CORRECT IN THE FUTURE.  THIS GUIDE IS PROVIDED AS-IS.  PLEASE CONFIRM ALL STATE REGULATIONS BEFORE USE.  
@@ -65,7 +81,7 @@ The above being said, we seek to develop a crowdsourcing model, where anybody ca
 
 ### Further Reading    
 
-The maps in this implementation guide inform us of a great many things, and provide situational awareness of recent changes in laws across North America.  Yet they also raise many questions.  Readers may be interested in understanding some of the underlying factors for why these maps distribute the way they do on certain topics.  The author has found the following resources usefull in making sense of these cultural dynamics; and believe much of them can be explained by how geography and climate influence local economics and culture.  
+The maps in this implementation guide inform us of a great many things, and provide situational awareness of recent changes in laws across North America.  Yet they also raise many questions.  Readers may be interested in understanding some of the underlying factors for why these maps distribute the way they do on certain topics.  The author has found the following resources useful in making sense of these cultural dynamics; and believe much of them can be explained by how geography and climate influence local economics and culture.  
 
 - [US population map](https://en.m.wikipedia.org/wiki/File:US_population_map.png)  
 - [USDA Plant Hardiness Zone Map](https://planthardiness.ars.usda.gov/)    

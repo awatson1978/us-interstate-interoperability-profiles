@@ -5,8 +5,6 @@ In-Vitro Fertilization (IVF), a pivotal technique in assisted reproductive techn
 
 OR, CO, and NM are the three best...
 
-Also worth noting Oregon has death with dignity assisted suicide for residents and 'death tourism' 
-
 No restrictions of any kind on terminations in CO, OR, or NM. Late term terminations are allowed in other states with ethics committee approvals. -->
 
 

@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>LGBT Foster Care -  v0.6.0</title>
+    <title>LGBT Foster Care -  v0.6.2</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -40,8 +40,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script src="assets/js/mermaid.js" type="text/javascript"></script>
     <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
-    <style type="text/css">h2{--heading-prefix:"4"}
-    h3,h4,h5,h6{--heading-prefix:"4"}</style>
+    <style type="text/css">h2{--heading-prefix:"9"}
+    h3,h4,h5,h6{--heading-prefix:"9"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -50,7 +50,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span>
             <br/>
-            <span style="display:inline-block;">0.6.0 - ci-build
+            <span style="display:inline-block;">0.6.2 - ci-build
 
 
             </span>
@@ -86,37 +86,37 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="page-advanced-directives.html">Advanced Directives</a>
-      </li>
-      <li>
-        <a href="page-medicaid-expansion.html">Medicaid Expansion</a>
-      </li>
-      <li>
-        <a href="page-religious-exemptions.html">Religious Exemptions</a>
-      </li>
-      <li>
-        <a href="page-controlled-substances.html">Medical Cannabis</a>
-      </li>
-      <li>
         <a href="page-abortion.html">Abortion</a>
       </li>
       <li>
-        <a href="page-ivf.html">In-vitro Fertilization</a>
+        <a href="page-advanced-directives.html">Advanced Directives</a>
+      </li>
+      <li>
+        <a href="page-assisted-suicide.html">Assisted Suicide</a>
       </li>
       <li>
         <a href="page-doulas.html">Doula Access</a>
       </li>
       <li>
+        <a href="page-ivf.html">In-vitro Fertilization</a>
+      </li>
+      <li>
         <a href="page-foster-care.html">LGBT Foster Care</a>
+      </li>
+      <li>
+        <a href="page-controlled-substances.html">Medical Cannabis</a>
+      </li>
+      <li>
+        <a href="page-medicaid-expansion.html">Medicaid Expansion</a>
       </li>
       <li>
         <a href="page-wpath-at-risk.html">Pediatric Gender Medicine</a>
       </li>
       <li>
-        <a href="page-trans-sports.html">Trans Sports Participation</a>
+        <a href="page-religious-exemptions.html">Religious Exemptions</a>
       </li>
       <li>
-        <a href="page-assisted-suicide.html">Assisted Suicide</a>
+        <a href="page-trans-sports.html">Trans Sports Participation</a>
       </li>
     </ul>
   </li>
@@ -158,7 +158,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">USInterstateInteroperability - Local Development build (v0.6.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://github.com/awatson1978/us-state-profiles/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">USInterstateInteroperability - Local Development build (v0.6.2) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://github.com/awatson1978/us-state-profiles/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>LGBT Foster Care</h2>
   
 
@@ -184,7 +184,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p><img src="./Map-USStates-LGBT-FosterCare.jpg" alt="./Map-USStates-LGBT-FosterCare.jpeg" width="100%"/></p>
 
-<p><code class="language-plaintext highlighter-rouge">TX may deny to consent to share data or treat a foster child, based on the sincere religious beliefs of the clinician</code></p>
+<p><code class="language-plaintext highlighter-rouge">Texas consents to allow foster care organizations to deny placement of foster children with gay and lesbian couples</code></p>
 
 <h4 id="example-encoding">Example Encoding</h4>
 
@@ -210,29 +210,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
                 </span><span class="nl">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"maritalStatus"</span><span class="p">,</span><span class="w">
                 </span><span class="nl">"coding"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
-                    </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"P"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"display"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Polygamous"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"system"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"</span><span class="w">
-                </span><span class="p">},</span><span class="w"> </span><span class="p">{</span><span class="w">
                     </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"T"</span><span class="p">,</span><span class="w">
                     </span><span class="nl">"display"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Domestic partner"</span><span class="p">,</span><span class="w">
                     </span><span class="nl">"system"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"</span><span class="w">
                 </span><span class="p">}]</span><span class="w">
-            </span><span class="p">},</span><span class="w"> </span><span class="p">{</span><span class="w">
-                </span><span class="nl">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"relation"</span><span class="p">,</span><span class="w">
-                </span><span class="nl">"coding"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
-                    </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"FTHFOST"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"display"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Foster Father"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"system"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://terminology.hl7.org/ValueSet/v3-FamilyMember"</span><span class="w">
-                </span><span class="p">},{</span><span class="w">
-                    </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MTHFOST"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"display"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Foster Mother"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"system"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://terminology.hl7.org/ValueSet/v3-FamilyMember"</span><span class="w">
-                </span><span class="p">},{</span><span class="w">
-                    </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"PRNFOST"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"display"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Foster Parent"</span><span class="p">,</span><span class="w">
-                    </span><span class="nl">"system"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://terminology.hl7.org/ValueSet/v3-FamilyMember"</span><span class="w">
-                </span><span class="p">}]</span><span class="w">
+            </span><span class="p">}],</span><span class="w">
+            </span><span class="nl">"extention"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w">
+                </span><span class="nl">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"example-jurisdiction-cql"</span><span class="p">,</span><span class="w">
+                </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="s2">"where Count(RelatedPerson.relationship.coding.where(code = 'FTHFOST')) &gt; 2 or Count(RelatedPerson.relationship.coding.where(code = 'MTHFOST')) &gt; 2)"</span><span class="w">
             </span><span class="p">}]</span><span class="w">
         </span><span class="p">}]</span><span class="w">
     </span><span class="p">}</span><span class="w">
@@ -263,8 +248,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l840">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/awatson1978/us-state-profiles">MITRE, Inc</a>.  Package ig.fhir.us-interstate-interoperability#0.6.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Sep 9, 2024 14:48-0500">2024-09-09</span>
+        <p><a name="l690">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/awatson1978/us-state-profiles">MITRE, Inc</a>.  Package ig.fhir.us-interstate-interoperability#0.6.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Oct 19, 2024 12:13-0500">2024-10-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

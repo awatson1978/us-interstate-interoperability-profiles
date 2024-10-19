@@ -3,35 +3,21 @@ Witness requirements and notary public functions have been part of US jurisprude
 
 ![./Map-USStates-AdvancedDirectives.jpeg](./Map-USStates-AdvancedDirectives.jpg){:width="100%"}
 
-`New Mexico has no requirements for a notary public or witness to verify an advanced directive`  
+
 
 #### Example Encoding  
 
-```json
-{ 
-    "resourceType": "Consent",
-    "policy": [{
-        "authority": "https://www.wyo.gov/"
-    }],
-    "verification": [],
-    "provision": {
-        "type": "permit",
-        "purpose": [{
-            "code": "CAREMGT",
-            "display": "care management",
-            "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason"
-        }]
-    }
-}
-```
-
 `Florida requires an advanced directive to be verified (although it may be done online)`
+
+Which translates into:
+
+`The state denies care management, except for the permitted relatives who have a power of attorney, as witnessed by Nancy Notary.`
 
 ```
 { 
     "resourceType": "Consent",
     "policy": {
-        "authority": "https://www.wyo.gov/"
+        "authority": "https://www.myflorida.com/"
     },
     "verification": [{
         "verified": true,
@@ -43,7 +29,7 @@ Witness requirements and notary public functions have been part of US jurisprude
         "verificationDate": "2021-10-01"
     }],
     "provision": {
-        "type": "permit",
+        "type": "deny",
         "purpose": [{
             "code": "CAREMGT",
             "display": "care management",
@@ -68,6 +54,8 @@ Witness requirements and notary public functions have been part of US jurisprude
     }
 }
 ```
+
+
 
 #### References  
 [Cross-sectional analysis of US scope of practice laws and employed physician assistants](https://bmjopen.bmj.com/content/bmjopen/11/5/e043972.full.pdf)  

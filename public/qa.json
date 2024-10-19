@@ -5,9 +5,9 @@
   "description" : null,
   "status" : "draft",
   "package-id" : "ig.fhir.us-interstate-interoperability",
-  "ig-ver" : "0.6.0",
-  "date" : "Mon, 09 Sep, 2024 14:48:24 -0500",
-  "dateISO8601" : "2024-09-09T14:48:24-05:00",
+  "ig-ver" : "0.6.2",
+  "date" : "Sat, 19 Oct, 2024 12:13:35 -0500",
+  "dateISO8601" : "2024-10-19T12:13:35-05:00",
   "errs" : 197,
   "warnings" : 257,
   "hints" : 69,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 4337232952
+  "maxMemory" : 3223142864
 }

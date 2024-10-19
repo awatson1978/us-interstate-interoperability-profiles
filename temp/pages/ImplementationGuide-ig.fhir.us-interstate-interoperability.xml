@@ -6,10 +6,10 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide ig.fhir.us-interstate-interoperability</b></p><a name="ig.fhir.us-interstate-interoperability"> </a><a name="hcig.fhir.us-interstate-interoperability"> </a><a name="ig.fhir.us-interstate-interoperability-en-US"> </a><h2>USInterstateInteroperability</h2><p>The official URL for this implementation guide is: </p><pre>https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability</pre></div>
   </text>
   <url value="https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability"/>
-  <version value="0.6.0"/>
+  <version value="0.6.2"/>
   <name value="USInterstateInteroperability"/>
   <status value="draft"/>
-  <date value="2024-09-09T14:48:24-05:00"/>
+  <date value="2024-10-19T12:13:35-05:00"/>
   <publisher value="MITRE, Inc"/>
   <contact>
     <name value="MITRE, Inc"/>
@@ -1989,7 +1989,7 @@
           <valueUrl value="index.html"/>
         </extension>
         <nameUrl value="index.html"/>
-        <title value="US State Interoperability Profiles"/>
+        <title value="US State Interoperability Mapping"/>
         <generation value="markdown"/>
       </page>
       <page>
@@ -2002,30 +2002,6 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="page-advanced-directives.html"/>
-        </extension>
-        <nameUrl value="page-advanced-directives.html"/>
-        <title value="Advanced Directives"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="page-foster-care.html"/>
-        </extension>
-        <nameUrl value="page-foster-care.html"/>
-        <title value="LGBT Foster Care"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="page-trans-sports.html"/>
-        </extension>
-        <nameUrl value="page-trans-sports.html"/>
-        <title value="Trans Youth Participation in Sports"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="page-abortion.html"/>
         </extension>
         <nameUrl value="page-abortion.html"/>
@@ -2034,10 +2010,10 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="page-ivf.html"/>
+          <valueUrl value="page-advanced-directives.html"/>
         </extension>
-        <nameUrl value="page-ivf.html"/>
-        <title value="In-vitro Fertilization (IVF)"/>
+        <nameUrl value="page-advanced-directives.html"/>
+        <title value="Advanced Directives"/>
         <generation value="markdown"/>
       </page>
       <page>
@@ -2050,14 +2026,6 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="page-doulas.html"/>
-        </extension>
-        <nameUrl value="page-doulas.html"/>
-        <title value="Doula Access"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="page-controlled-substances.html"/>
         </extension>
         <nameUrl value="page-controlled-substances.html"/>
@@ -2066,10 +2034,26 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="page-religious-exemptions.html"/>
+          <valueUrl value="page-doulas.html"/>
         </extension>
-        <nameUrl value="page-religious-exemptions.html"/>
-        <title value="Religious Exemptions"/>
+        <nameUrl value="page-doulas.html"/>
+        <title value="Doula Access"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="page-ivf.html"/>
+        </extension>
+        <nameUrl value="page-ivf.html"/>
+        <title value="In-vitro Fertilization (IVF)"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="page-foster-care.html"/>
+        </extension>
+        <nameUrl value="page-foster-care.html"/>
+        <title value="LGBT Foster Care"/>
         <generation value="markdown"/>
       </page>
       <page>
@@ -2086,6 +2070,22 @@
         </extension>
         <nameUrl value="page-wpath-at-risk.html"/>
         <title value="Pediatric Gender Medicine"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="page-religious-exemptions.html"/>
+        </extension>
+        <nameUrl value="page-religious-exemptions.html"/>
+        <title value="Religious Exemptions"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="page-trans-sports.html"/>
+        </extension>
+        <nameUrl value="page-trans-sports.html"/>
+        <title value="Trans Youth Participation in Sports"/>
         <generation value="markdown"/>
       </page>
       <page>

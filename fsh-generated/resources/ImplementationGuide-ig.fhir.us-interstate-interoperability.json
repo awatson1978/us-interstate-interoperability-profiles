@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "ig.fhir.us-interstate-interoperability",
   "url": "https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability",
-  "version": "0.6.0",
+  "version": "0.6.2",
   "name": "USInterstateInteroperability",
   "status": "draft",
   "publisher": "MITRE, Inc",
@@ -1126,7 +1126,7 @@
       "page": [
         {
           "nameUrl": "index.html",
-          "title": "US State Interoperability Profiles",
+          "title": "US State Interoperability Mapping",
           "generation": "markdown"
         },
         {
@@ -1135,28 +1135,13 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "page-advanced-directives.html",
-          "title": "Advanced Directives",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "page-foster-care.html",
-          "title": "LGBT Foster Care",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "page-trans-sports.html",
-          "title": "Trans Youth Participation in Sports",
-          "generation": "markdown"
-        },
-        {
           "nameUrl": "page-abortion.html",
           "title": "Abortion Access",
           "generation": "markdown"
         },
         {
-          "nameUrl": "page-ivf.html",
-          "title": "In-vitro Fertilization (IVF)",
+          "nameUrl": "page-advanced-directives.html",
+          "title": "Advanced Directives",
           "generation": "markdown"
         },
         {
@@ -1165,18 +1150,23 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "page-doulas.html",
-          "title": "Doula Access",
-          "generation": "markdown"
-        },
-        {
           "nameUrl": "page-controlled-substances.html",
           "title": "Controlled Substances - Cannabis",
           "generation": "markdown"
         },
         {
-          "nameUrl": "page-religious-exemptions.html",
-          "title": "Religious Exemptions",
+          "nameUrl": "page-doulas.html",
+          "title": "Doula Access",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "page-ivf.html",
+          "title": "In-vitro Fertilization (IVF)",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "page-foster-care.html",
+          "title": "LGBT Foster Care",
           "generation": "markdown"
         },
         {
@@ -1187,6 +1177,16 @@
         {
           "nameUrl": "page-wpath-at-risk.html",
           "title": "Pediatric Gender Medicine",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "page-religious-exemptions.html",
+          "title": "Religious Exemptions",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "page-trans-sports.html",
+          "title": "Trans Youth Participation in Sports",
           "generation": "markdown"
         },
         {

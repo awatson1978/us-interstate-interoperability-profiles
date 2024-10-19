@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>US State Interoperability Profiles -  v0.6.0</title>
+    <title>US State Interoperability Mapping -  v0.6.2</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -50,7 +50,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span>
             <br/>
-            <span style="display:inline-block;">0.6.0 - ci-build
+            <span style="display:inline-block;">0.6.2 - ci-build
 
 
             </span>
@@ -86,37 +86,37 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="page-advanced-directives.html">Advanced Directives</a>
-      </li>
-      <li>
-        <a href="page-medicaid-expansion.html">Medicaid Expansion</a>
-      </li>
-      <li>
-        <a href="page-religious-exemptions.html">Religious Exemptions</a>
-      </li>
-      <li>
-        <a href="page-controlled-substances.html">Medical Cannabis</a>
-      </li>
-      <li>
         <a href="page-abortion.html">Abortion</a>
       </li>
       <li>
-        <a href="page-ivf.html">In-vitro Fertilization</a>
+        <a href="page-advanced-directives.html">Advanced Directives</a>
+      </li>
+      <li>
+        <a href="page-assisted-suicide.html">Assisted Suicide</a>
       </li>
       <li>
         <a href="page-doulas.html">Doula Access</a>
       </li>
       <li>
+        <a href="page-ivf.html">In-vitro Fertilization</a>
+      </li>
+      <li>
         <a href="page-foster-care.html">LGBT Foster Care</a>
+      </li>
+      <li>
+        <a href="page-controlled-substances.html">Medical Cannabis</a>
+      </li>
+      <li>
+        <a href="page-medicaid-expansion.html">Medicaid Expansion</a>
       </li>
       <li>
         <a href="page-wpath-at-risk.html">Pediatric Gender Medicine</a>
       </li>
       <li>
-        <a href="page-trans-sports.html">Trans Sports Participation</a>
+        <a href="page-religious-exemptions.html">Religious Exemptions</a>
       </li>
       <li>
-        <a href="page-assisted-suicide.html">Assisted Suicide</a>
+        <a href="page-trans-sports.html">Trans Sports Participation</a>
       </li>
     </ul>
   </li>
@@ -138,7 +138,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>US State Interoperability Profiles</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>US State Interoperability Mapping</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -158,8 +158,8 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">USInterstateInteroperability - Local Development build (v0.6.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://github.com/awatson1978/us-state-profiles/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-  <h2>US State Interoperability Profiles</h2>
+    <!-- ReleaseHeader --><p id="publish-box">USInterstateInteroperability - Local Development build (v0.6.2) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://github.com/awatson1978/us-state-profiles/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <h2>US State Interoperability Mapping</h2>
   
 
 
@@ -173,7 +173,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability<button data-clipboard-text="https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability" title="Click to copy URL" class="btn-copy"></button></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.6.0<button data-clipboard-text="https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability|0.6.0" title="Click to copy versioned URL" class="btn-copy"></button></span>
+      <span class="copy-text">0.6.2<button data-clipboard-text="https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability|0.6.2" title="Click to copy versioned URL" class="btn-copy"></button></span>
       </td>
     </tr>
 
@@ -189,7 +189,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         
           Draft
           
-            as of 2024-09-09
+            as of 2024-10-19
           
         
       </td>
@@ -219,6 +219,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li><a href="#purpose" id="markdown-toc-purpose">Purpose</a></li>
   <li><a href="#jurisprudence" id="markdown-toc-jurisprudence">Jurisprudence</a></li>
   <li><a href="#project-history" id="markdown-toc-project-history">Project History</a></li>
+  <li><a href="#legislative-topics" id="markdown-toc-legislative-topics">Legislative Topics</a></li>
   <li><a href="#disclaimer" id="markdown-toc-disclaimer">Disclaimer</a></li>
   <li><a href="#contributing" id="markdown-toc-contributing">Contributing</a></li>
   <li><a href="#additional-datasets" id="markdown-toc-additional-datasets">Additional Datasets</a></li>
@@ -267,7 +268,23 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>We are now at a point where we are considering which approach is best…  profiled Consent records, Location instances, or Consent instances.  The idea has been developed enough that we're generally confident that we have a proof of concept; and it's getting time to seek feedback from the broader HL7 community.  Location vs Consent; profile vs instance… these are technical details that may have performance implications, but in some aspect don't matter, because the general approach could be done in a couple of different ways.</p>
 
-<p>Rather, we want to draw attention to the general idea that we could - and <em>should</em> - be having a structured way of exchange data about the legislative and jurisprudence environment in which healthcare organizations and patients operate in.  It's this general idea we wish to bring to the HL7 community, and have it weigh in on how best to go forward with this idea.</p>
+<p>Rather, we want to draw attention to the general idea that we could - and <em>should</em> - have a structured way of exchange data about the legislative and jurisprudence environment in which healthcare organizations and patients operate in.  It's this general idea we wish to bring to the HL7 community, and have it weigh in on how best to go forward with this idea.</p>
+
+<h3 id="legislative-topics">Legislative Topics</h3>
+
+<p>The current list of legislative topics is neither complete nor comprehensive.  This project welcomes the addition of additional legislative topics, as time and effort permits.</p>
+
+<p>As a spin-off of the PACIO project, the first legislative topic addressed was that of Advanced Care Directives.  Creating seaprate Consent resources and profiles was a bit of over-engineering for the single Advanced Directives use case.  However, once in place, when other topics began presenting themselves in conversations and the news, there was an obvious place to put them.</p>
+
+<p>Early topics that found their way into this guide were hot-potato culture war issues that were in the news in the early 2020s, such as Cannabis deregulation, Abortion access, and Pediatric Gender Medicine.  However, with only these topics, the guide came across as overly focused on sex and gender issues; which was not the goal of the project, per se.</p>
+
+<p>Instead of going deeper into these niche topics and modeling workflow or addressing policy recommendations; the decision was made to keep a neutral "referee" perspective, and to go broader.  Instead of diving deeply into what <em>should</em> be on a particular issue, this guide attempts to address what <em>is</em> across many different topics.</p>
+
+<p>Additional topics that have been proposed for future updates include:  age of consent, opioid legalization, medicaid state waivers, open-carry laws, speed limits, amongst others. If there is a SNOMED, LOINC, ICD-10, DSM, or RXNORM code related to a state law, then it can likely be modeled by this approach to Consent resources, and is fair game for inclusion in this resource.</p>
+
+<p>We note that there are significant framing issues in the way that legislative topics are presented.</p>
+
+<p>Eventually, we envision a group such as the National Library of Medicine's Value Set Authority, or possibly the TEFCA Qualified Health Information Networks (QHIN) as managing this resource, and providing state level legislation in computable structured data format.</p>
 
 <h3 id="disclaimer">Disclaimer</h3>
 <p>THIS IMPLEMENTATION GUIDE IS FOR INSTRUCTIONAL PURPOSES ONLY.  WHILE WE HAVE DONE OUR BEST TO ACCURATELY REFLECT POLICY AS OF THE DATE THIS IMPLEMENTATION GUIDE WAS AUTHORED, WE CANNOT GUARANTEE IT IS CORRECT NOW, NOR CAN WE GUARANTEE IT WILL REMAIN CORRECT IN THE FUTURE.  THIS GUIDE IS PROVIDED AS-IS.  PLEASE CONFIRM ALL STATE REGULATIONS BEFORE USE.</p>
@@ -297,7 +314,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h3 id="further-reading">Further Reading</h3>
 
-<p>The maps in this implementation guide inform us of a great many things, and provide situational awareness of recent changes in laws across North America.  Yet they also raise many questions.  Readers may be interested in understanding some of the underlying factors for why these maps distribute the way they do on certain topics.  The author has found the following resources usefull in making sense of these cultural dynamics; and believe much of them can be explained by how geography and climate influence local economics and culture.</p>
+<p>The maps in this implementation guide inform us of a great many things, and provide situational awareness of recent changes in laws across North America.  Yet they also raise many questions.  Readers may be interested in understanding some of the underlying factors for why these maps distribute the way they do on certain topics.  The author has found the following resources useful in making sense of these cultural dynamics; and believe much of them can be explained by how geography and climate influence local economics and culture.</p>
 
 <ul>
   <li><a href="https://en.m.wikipedia.org/wiki/File:US_population_map.png">US population map</a></li>
@@ -340,8 +357,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l626">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/awatson1978/us-state-profiles">MITRE, Inc</a>.  Package ig.fhir.us-interstate-interoperability#0.6.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Sep 9, 2024 14:48-0500">2024-09-09</span>
+        <p><a name="l660">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/awatson1978/us-state-profiles">MITRE, Inc</a>.  Package ig.fhir.us-interstate-interoperability#0.6.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Oct 19, 2024 12:13-0500">2024-10-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -5,9 +5,10 @@ Meanwhile, placement in foster care is correlated with juvenile incarceration - 
 
 ![./Map-USStates-LGBT-FosterCare.jpeg](./Map-USStates-LGBT-FosterCare.jpg){:width="100%"}
 
-`TX may deny to consent to share data or treat a foster child, based on the sincere religious beliefs of the clinician`
+`Texas consents to allow foster care organizations to deny placement of foster children with gay and lesbian couples`
 
 #### Example Encoding  
+
 
 ```json
 { 
@@ -32,29 +33,14 @@ Meanwhile, placement in foster care is correlated with juvenile incarceration - 
             "code": [{
                 "text": "maritalStatus",
                 "coding": [{
-                    "code": "P",
-                    "display": "Polygamous",
-                    "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
-                }, {
                     "code": "T",
                     "display": "Domestic partner",
                     "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
                 }]
-            }, {
-                "text": "relation",
-                "coding": [{
-                    "code": "FTHFOST",
-                    "display": "Foster Father",
-                    "system": "http://terminology.hl7.org/ValueSet/v3-FamilyMember"
-                },{
-                    "code": "MTHFOST",
-                    "display": "Foster Mother",
-                    "system": "http://terminology.hl7.org/ValueSet/v3-FamilyMember"
-                },{
-                    "code": "PRNFOST",
-                    "display": "Foster Parent",
-                    "system": "http://terminology.hl7.org/ValueSet/v3-FamilyMember"
-                }]
+            }],
+            "extention": [{
+                "url": "example-jurisdiction-cql",
+                "value": "where Count(RelatedPerson.relationship.coding.where(code = 'FTHFOST')) > 2 or Count(RelatedPerson.relationship.coding.where(code = 'MTHFOST')) > 2)"
             }]
         }]
     }

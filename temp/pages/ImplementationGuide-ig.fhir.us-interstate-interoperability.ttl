@@ -13,10 +13,10 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ig.fhir.us-interstate-interoperability</b></p><a name=\"ig.fhir.us-interstate-interoperability\"> </a><a name=\"hcig.fhir.us-interstate-interoperability\"> </a><a name=\"ig.fhir.us-interstate-interoperability-en-US\"> </a><h2>USInterstateInteroperability</h2><p>The official URL for this implementation guide is: </p><pre>https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability</pre></div>"
   ] ; # 
   fhir:url [ fhir:v "https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.6.0"] ; # 
+  fhir:version [ fhir:v "0.6.2"] ; # 
   fhir:name [ fhir:v "USInterstateInteroperability"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-09-09T14:48:24-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-10-19T12:13:35-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "MITRE, Inc"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "MITRE, Inc" ] ;
@@ -2210,7 +2210,7 @@
            fhir:value [ fhir:v "index.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "index.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "US State Interoperability Profiles" ] ;
+         fhir:title [ fhir:v "US State Interoperability Mapping" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -2223,30 +2223,6 @@
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "page-advanced-directives.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "page-advanced-directives.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Advanced Directives" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "page-foster-care.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "page-foster-care.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "LGBT Foster Care" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "page-trans-sports.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "page-trans-sports.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Trans Youth Participation in Sports" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "page-abortion.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "page-abortion.html"^^xsd:anyURI ] ;
@@ -2255,10 +2231,10 @@
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "page-ivf.html"^^xsd:anyURI ]
+           fhir:value [ fhir:v "page-advanced-directives.html"^^xsd:anyURI ]
          ] ) ;
-         fhir:name [ fhir:v "page-ivf.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "In-vitro Fertilization (IVF)" ] ;
+         fhir:name [ fhir:v "page-advanced-directives.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Advanced Directives" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -2271,14 +2247,6 @@
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "page-doulas.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "page-doulas.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Doula Access" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "page-controlled-substances.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "page-controlled-substances.html"^^xsd:anyURI ] ;
@@ -2287,10 +2255,26 @@
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "page-religious-exemptions.html"^^xsd:anyURI ]
+           fhir:value [ fhir:v "page-doulas.html"^^xsd:anyURI ]
          ] ) ;
-         fhir:name [ fhir:v "page-religious-exemptions.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Religious Exemptions" ] ;
+         fhir:name [ fhir:v "page-doulas.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Doula Access" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "page-ivf.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "page-ivf.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "In-vitro Fertilization (IVF)" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "page-foster-care.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "page-foster-care.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "LGBT Foster Care" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -2307,6 +2291,22 @@
          ] ) ;
          fhir:name [ fhir:v "page-wpath-at-risk.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Pediatric Gender Medicine" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "page-religious-exemptions.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "page-religious-exemptions.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Religious Exemptions" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "page-trans-sports.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "page-trans-sports.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Trans Youth Participation in Sports" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [

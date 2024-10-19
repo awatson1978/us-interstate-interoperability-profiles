@@ -4,9 +4,10 @@ Cannabis has been listed as a Schedule I controlled substance since the Controll
 
 ![./Map-USStates-MedicalCannabis.jpeg](./Map-USStates-MedicalCannabis.jpg){:width="100%"}
 
-`WY denies consent for clinicians to use or prescribe medical marijuana during care management`  
 
 #### Example Encoding  
+
+`WY denies consent for clinicians to use or prescribe medical marijuana during care management`  
 
 ```json
 { 

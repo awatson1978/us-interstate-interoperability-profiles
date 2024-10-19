@@ -23,8 +23,8 @@ Last Updated:  January 8th, 2024
         "provision": [{
             "type": "permit",
             "class": [{
-                "code": "Practitioner",
-                "display": "Practitioner",
+                "code": "Coverage",
+                "display": "Coverage",
                 "system": "http://hl7.org/fhir/resource-types"
             }],
             "code": [{

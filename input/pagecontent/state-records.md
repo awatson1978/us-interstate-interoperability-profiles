@@ -9,17 +9,18 @@ The design goal of this project is to create a state level scorecard of social i
 
 
 #### Example Record
-```
-INDIANA
-- Does allow remote signing and notarization of Advanced Directives.
-- Does have expanded Medicaid.
-- Does _not_ allow medical or recreational cannabis use.
-- Does _not_ provide religious exemptions for medical personnel.  
-- Does allow limited access to abortion.  
-- Does allow LGBT families to foster and adopt children.
-- Does _not_ allow transgender youth to participate in sports leagues of their gender identity.
-- Does _not_ allow open carry without a permit.  
-```
+
+
+> INDIANA
+> - Does allow remote signing and notarization of Advanced Directives.
+> - Does have expanded Medicaid.
+> - Does _not_ allow medical or recreational cannabis use.
+> - Does _not_ provide religious exemptions for medical personnel.  
+> - Does allow limited access to abortion.  
+> - Does allow LGBT families to foster and adopt children.
+> - Does _not_ allow transgender youth to participate in sports leagues of their gender identity.
+> - Does _not_ allow open carry without a permit.  
+
 
 
 #### Example JSON

@@ -6,10 +6,10 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ig.fhir.us-interstate-interoperability</b></p><a name=\"ig.fhir.us-interstate-interoperability\"> </a><a name=\"hcig.fhir.us-interstate-interoperability\"> </a><a name=\"ig.fhir.us-interstate-interoperability-en-US\"> </a><h2>USInterstateInteroperability</h2><p>The official URL for this implementation guide is: </p><pre>https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability</pre></div>"
   },
   "url" : "https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability",
-  "version" : "0.6.0",
+  "version" : "0.6.2",
   "name" : "USInterstateInteroperability",
   "status" : "draft",
-  "date" : "2024-09-09T14:48:24-05:00",
+  "date" : "2024-10-19T12:13:35-05:00",
   "publisher" : "MITRE, Inc",
   "contact" : [{
     "name" : "MITRE, Inc",
@@ -2295,7 +2295,7 @@
           "valueUrl" : "index.html"
         }],
         "nameUrl" : "index.html",
-        "title" : "US State Interoperability Profiles",
+        "title" : "US State Interoperability Mapping",
         "generation" : "markdown"
       },
       {
@@ -2310,33 +2310,6 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "page-advanced-directives.html"
-        }],
-        "nameUrl" : "page-advanced-directives.html",
-        "title" : "Advanced Directives",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "page-foster-care.html"
-        }],
-        "nameUrl" : "page-foster-care.html",
-        "title" : "LGBT Foster Care",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "page-trans-sports.html"
-        }],
-        "nameUrl" : "page-trans-sports.html",
-        "title" : "Trans Youth Participation in Sports",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "page-abortion.html"
         }],
         "nameUrl" : "page-abortion.html",
@@ -2346,10 +2319,10 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "page-ivf.html"
+          "valueUrl" : "page-advanced-directives.html"
         }],
-        "nameUrl" : "page-ivf.html",
-        "title" : "In-vitro Fertilization (IVF)",
+        "nameUrl" : "page-advanced-directives.html",
+        "title" : "Advanced Directives",
         "generation" : "markdown"
       },
       {
@@ -2364,15 +2337,6 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "page-doulas.html"
-        }],
-        "nameUrl" : "page-doulas.html",
-        "title" : "Doula Access",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "page-controlled-substances.html"
         }],
         "nameUrl" : "page-controlled-substances.html",
@@ -2382,10 +2346,28 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "page-religious-exemptions.html"
+          "valueUrl" : "page-doulas.html"
         }],
-        "nameUrl" : "page-religious-exemptions.html",
-        "title" : "Religious Exemptions",
+        "nameUrl" : "page-doulas.html",
+        "title" : "Doula Access",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "page-ivf.html"
+        }],
+        "nameUrl" : "page-ivf.html",
+        "title" : "In-vitro Fertilization (IVF)",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "page-foster-care.html"
+        }],
+        "nameUrl" : "page-foster-care.html",
+        "title" : "LGBT Foster Care",
         "generation" : "markdown"
       },
       {
@@ -2404,6 +2386,24 @@
         }],
         "nameUrl" : "page-wpath-at-risk.html",
         "title" : "Pediatric Gender Medicine",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "page-religious-exemptions.html"
+        }],
+        "nameUrl" : "page-religious-exemptions.html",
+        "title" : "Religious Exemptions",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "page-trans-sports.html"
+        }],
+        "nameUrl" : "page-trans-sports.html",
+        "title" : "Trans Youth Participation in Sports",
         "generation" : "markdown"
       },
       {

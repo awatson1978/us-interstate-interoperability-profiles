@@ -7,7 +7,7 @@ id: ig.fhir.us-interstate-interoperability
 canonical: https://github.com/awatson1978/us-state-profiles
 name: US Interstate Interoperability
 status: draft
-version: 0.6.0
+version: 0.6.2
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: ci-build
@@ -23,46 +23,46 @@ dependencies:
 menu:
   Home: index.html
   Legislative Topics: 
-    Advanced Directives:  page-advanced-directives.html    
-    Medicaid Expansion:  page-medicaid-expansion.html
-    Religious Exemptions:  page-religious-exemptions.html
-    Medical Cannabis:  page-controlled-substances.html
     Abortion:  page-abortion.html
-    In-vitro Fertilization:  page-ivf.html
-    Doula Access:  page-doulas.html
-    LGBT Foster Care:  page-foster-care.html
-    Pediatric Gender Medicine:  page-wpath-at-risk.html
-    Trans Sports Participation:  page-trans-sports.html
+    Advanced Directives:  page-advanced-directives.html    
     Assisted Suicide:  page-assisted-suicide.html
+    Doula Access:  page-doulas.html
+    In-vitro Fertilization:  page-ivf.html
+    LGBT Foster Care:  page-foster-care.html
+    Medical Cannabis:  page-controlled-substances.html
+    Medicaid Expansion:  page-medicaid-expansion.html
+    Pediatric Gender Medicine:  page-wpath-at-risk.html
+    Religious Exemptions:  page-religious-exemptions.html
+    Trans Sports Participation:  page-trans-sports.html
   Location Records:  state-records.html
   Artifacts: artifacts.html
 pages:
   index.md:
-    title: US State Interoperability Profiles
+    title: US State Interoperability Mapping
   profiles.md:
     title: Regional Profiles
-  page-advanced-directives.md:
-    title: Advanced Directives
-  page-foster-care.md:
-    title: LGBT Foster Care
-  page-trans-sports.md:
-    title: Trans Youth Participation in Sports
   page-abortion.md:
     title: Abortion Access
-  page-ivf.md:
-    title: In-vitro Fertilization (IVF)
+  page-advanced-directives.md:
+    title: Advanced Directives
   page-assisted-suicide.md:
     title: Assisted Suicide
-  page-doulas.md:
-    title: Doula Access
   page-controlled-substances.md:
     title: Controlled Substances - Cannabis
-  page-religious-exemptions.md:
-    title: Religious Exemptions
+  page-doulas.md:
+    title: Doula Access
+  page-ivf.md:
+    title: In-vitro Fertilization (IVF)
+  page-foster-care.md:
+    title: LGBT Foster Care
   page-medicaid-expansion.md:
     title: Medicaid Expansion
   page-wpath-at-risk.md:
     title: Pediatric Gender Medicine
+  page-religious-exemptions.md:
+    title: Religious Exemptions
+  page-trans-sports.md:
+    title: Trans Youth Participation in Sports
   state-records.md:
     title: Location Records
 

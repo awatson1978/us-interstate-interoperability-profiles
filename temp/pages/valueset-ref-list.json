@@ -16,7 +16,7 @@
     },
     {
       "url" : "https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies",
-      "version" : "0.6.0",
+      "version" : "0.6.2",
       "status" : "draft",
       "name" : "ConsentExchangePolicies",
       "title" : "ConsentExchangePolicies",
