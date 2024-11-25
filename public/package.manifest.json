@@ -1,6 +1,6 @@
 {
-  "version" : "0.6.2",
+  "version" : "0.6.4",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20241125164502",
+  "date" : "20241125165056",
   "name" : "ig.fhir.us-interstate-interoperability"
 }

@@ -3,7 +3,7 @@ USInterstateInteroperability : Validation Results
 
 err = 197, warn = 257, info = 69
 IG Publisher Version: 1.6.22 Out of date - current version is 1.7.5
-Generated Mon Nov 25 16:47:27 CST 2024. FHIR version 4.0.1 for ig.fhir.us-interstate-interoperability#0.6.2 (canonical = https://github.com/awatson1978/us-state-profiles)
+Generated Mon Nov 25 16:53:03 CST 2024. FHIR version 4.0.1 for ig.fhir.us-interstate-interoperability#0.6.4 (canonical = https://github.com/awatson1978/us-state-profiles)
  Build Errors : 1003 / 101 / 0
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-AlabamaConsentProfile : 3 / 2 / 1
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-ArizonaConsentProfile : 3 / 3 / 4

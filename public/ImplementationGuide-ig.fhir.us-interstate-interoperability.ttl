@@ -13,10 +13,10 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ig.fhir.us-interstate-interoperability</b></p><a name=\"ig.fhir.us-interstate-interoperability\"> </a><a name=\"hcig.fhir.us-interstate-interoperability\"> </a><a name=\"ig.fhir.us-interstate-interoperability-en-US\"> </a><h2>USInterstateInteroperability</h2><p>The official URL for this implementation guide is: </p><pre>https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability</pre></div>"
   ] ; # 
   fhir:url [ fhir:v "https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.6.2"] ; # 
+  fhir:version [ fhir:v "0.6.4"] ; # 
   fhir:name [ fhir:v "USInterstateInteroperability"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-11-25T16:45:26-06:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-25T16:51:20-06:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "The MITRE Corporation"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "The MITRE Corporation" ] ;

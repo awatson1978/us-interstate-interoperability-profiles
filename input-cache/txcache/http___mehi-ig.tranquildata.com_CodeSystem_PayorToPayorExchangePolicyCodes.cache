@@ -25,3 +25,9 @@ e: {
   "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://mehi-ig.tranquildata.com/CodeSystem/PayorToPayorExchangePolicyCodes"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies", "version": "0.6.4"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://mehi-ig.tranquildata.com/CodeSystem/PayorToPayorExchangePolicyCodes"
+}
+-------------------------------------------------------------------------------------
