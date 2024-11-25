@@ -10,10 +10,10 @@
   "name" : "MassachusettsConsentProfile",
   "title" : "MassachusettsConsentProfile",
   "status" : "draft",
-  "date" : "2024-10-19T12:13:35-05:00",
-  "publisher" : "MITRE, Inc",
+  "date" : "2024-11-25T16:45:26-06:00",
+  "publisher" : "The MITRE Corporation",
   "contact" : [{
-    "name" : "MITRE, Inc",
+    "name" : "The MITRE Corporation",
     "telecom" : [{
       "system" : "url",
       "value" : "https://github.com/awatson1978/us-state-profiles"

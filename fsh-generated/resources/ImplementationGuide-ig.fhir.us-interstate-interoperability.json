@@ -5,10 +5,10 @@
   "version": "0.6.2",
   "name": "USInterstateInteroperability",
   "status": "draft",
-  "publisher": "MITRE, Inc",
+  "publisher": "The MITRE Corporation",
   "contact": [
     {
-      "name": "MITRE, Inc",
+      "name": "The MITRE Corporation",
       "telecom": [
         {
           "system": "url",

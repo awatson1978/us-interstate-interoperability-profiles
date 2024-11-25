@@ -10,10 +10,10 @@
     "url" : "https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability",
     "version" : "0.6.2",
     "name" : "USInterstateInteroperability",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1194,11 +1194,11 @@
     "version" : "0.6.2",
     "name" : "AlabamaConsentProfile",
     "title" : "AlabamaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Alabama consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1215,11 +1215,11 @@
     "version" : "0.6.2",
     "name" : "AlaskaConsentProfile",
     "title" : "AlaskaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Alaska consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1236,11 +1236,11 @@
     "version" : "0.6.2",
     "name" : "ArizonaConsentProfile",
     "title" : "ArizonaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Arizona consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1257,11 +1257,11 @@
     "version" : "0.6.2",
     "name" : "ArkansasConsentProfile",
     "title" : "ArkansasConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Arkansas consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1278,11 +1278,11 @@
     "version" : "0.6.2",
     "name" : "BaseConsentProfile",
     "title" : "BaseConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Base consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1299,11 +1299,11 @@
     "version" : "0.6.2",
     "name" : "CaliforniaConsentProfile",
     "title" : "CaliforniaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "California consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1320,11 +1320,11 @@
     "version" : "0.6.2",
     "name" : "ColoradoConsentProfile",
     "title" : "ColoradoConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Colorado consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1341,11 +1341,11 @@
     "version" : "0.6.2",
     "name" : "ConnecticutConsentProfile",
     "title" : "ConnecticutConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Connecticut consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1362,11 +1362,11 @@
     "version" : "0.6.2",
     "name" : "DelawareConsentProfile",
     "title" : "DelawareConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Delaware consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1383,11 +1383,11 @@
     "version" : "0.6.2",
     "name" : "DistrictOfColumbiaConsentProfile",
     "title" : "DistrictOfColumbiaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "District Of Columbia consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1404,11 +1404,11 @@
     "version" : "0.6.2",
     "name" : "FloridaConsentProfile",
     "title" : "FloridaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Florida consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1425,11 +1425,11 @@
     "version" : "0.6.2",
     "name" : "GeorgiaConsentProfile",
     "title" : "GeorgiaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Georgia consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1446,11 +1446,11 @@
     "version" : "0.6.2",
     "name" : "HawaiiConsentProfile",
     "title" : "HawaiiConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Hawaii consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1467,11 +1467,11 @@
     "version" : "0.6.2",
     "name" : "IdahoConsentProfile",
     "title" : "IdahoConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Idaho consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1488,11 +1488,11 @@
     "version" : "0.6.2",
     "name" : "IllinoisConsentProfile",
     "title" : "IllinoisConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Illinois consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1509,11 +1509,11 @@
     "version" : "0.6.2",
     "name" : "IndianaConsentProfile",
     "title" : "IndianaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Indiana consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1530,11 +1530,11 @@
     "version" : "0.6.2",
     "name" : "IowaConsentProfile",
     "title" : "IowaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Iowa consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1551,11 +1551,11 @@
     "version" : "0.6.2",
     "name" : "KansasConsentProfile",
     "title" : "KansasConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Kansas consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1572,11 +1572,11 @@
     "version" : "0.6.2",
     "name" : "KentuckyConsentProfile",
     "title" : "KentuckyConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Kentucky consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1593,11 +1593,11 @@
     "version" : "0.6.2",
     "name" : "LouisianaConsentProfile",
     "title" : "LouisianaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Louisiana consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1614,11 +1614,11 @@
     "version" : "0.6.2",
     "name" : "MaineConsentProfile",
     "title" : "MaineConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Maine consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1635,11 +1635,11 @@
     "version" : "0.6.2",
     "name" : "MarylandConsentProfile",
     "title" : "MarylandConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Maryland consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1656,11 +1656,11 @@
     "version" : "0.6.2",
     "name" : "MassachusettsConsentProfile",
     "title" : "MassachusettsConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Massachusetts consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1677,11 +1677,11 @@
     "version" : "0.6.2",
     "name" : "MichiganConsentProfile",
     "title" : "MichiganConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Michigan consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1698,11 +1698,11 @@
     "version" : "0.6.2",
     "name" : "MinnesotaConsentProfile",
     "title" : "MinnesotaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Minnesota consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1719,11 +1719,11 @@
     "version" : "0.6.2",
     "name" : "MississippiConsentProfile",
     "title" : "MississippiConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Mississippi consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1740,11 +1740,11 @@
     "version" : "0.6.2",
     "name" : "MissouriConsentProfile",
     "title" : "MissouriConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Missouri consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1761,11 +1761,11 @@
     "version" : "0.6.2",
     "name" : "MontanaConsentProfile",
     "title" : "MontanaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Montana consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1782,11 +1782,11 @@
     "version" : "0.6.2",
     "name" : "NebraskaConsentProfile",
     "title" : "NebraskaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Nebraska consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1803,11 +1803,11 @@
     "version" : "0.6.2",
     "name" : "NevadaConsentProfile",
     "title" : "NevadaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Nevada consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1824,11 +1824,11 @@
     "version" : "0.6.2",
     "name" : "NewHampshireConsentProfile",
     "title" : "NewHampshireConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "New Hampshire consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1845,11 +1845,11 @@
     "version" : "0.6.2",
     "name" : "NewJerseyConsentProfile",
     "title" : "NewJerseyConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "New Jersey consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1866,11 +1866,11 @@
     "version" : "0.6.2",
     "name" : "NewMexicoConsentProfile",
     "title" : "NewMexicoConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "New Mexico consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1887,11 +1887,11 @@
     "version" : "0.6.2",
     "name" : "NewYorkConsentProfile",
     "title" : "NewYorkConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "New York consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1908,11 +1908,11 @@
     "version" : "0.6.2",
     "name" : "NorthCarolinaConsentProfile",
     "title" : "NorthCarolinaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "NorthCarolina consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1929,11 +1929,11 @@
     "version" : "0.6.2",
     "name" : "NorthDakotaConsentProfile",
     "title" : "NorthDakotaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "North Dakota consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1950,11 +1950,11 @@
     "version" : "0.6.2",
     "name" : "OhioConsentProfile",
     "title" : "OhioConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Ohio consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1971,11 +1971,11 @@
     "version" : "0.6.2",
     "name" : "OklahomaConsentProfile",
     "title" : "OklahomaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Oklahoma consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -1992,11 +1992,11 @@
     "version" : "0.6.2",
     "name" : "OregonConsentProfile",
     "title" : "OregonConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Oregon consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -2013,11 +2013,11 @@
     "version" : "0.6.2",
     "name" : "PennsylvaniaConsentProfile",
     "title" : "PennsylvaniaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Pennsylvania consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -2034,11 +2034,11 @@
     "version" : "0.6.2",
     "name" : "RhodeIslandConsentProfile",
     "title" : "RhodeIslandConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Rhode Island consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -2055,11 +2055,11 @@
     "version" : "0.6.2",
     "name" : "SouthCarolinaConsentProfile",
     "title" : "SouthCarolinaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "South Carolina consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -2076,11 +2076,11 @@
     "version" : "0.6.2",
     "name" : "SouthDakotaConsentProfile",
     "title" : "SouthDakotaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "South Dakota consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -2097,11 +2097,11 @@
     "version" : "0.6.2",
     "name" : "TennesseeConsentProfile",
     "title" : "TennesseeConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Tennessee consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -2118,11 +2118,11 @@
     "version" : "0.6.2",
     "name" : "TexasConsentProfile",
     "title" : "TexasConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Texas consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -2139,11 +2139,11 @@
     "version" : "0.6.2",
     "name" : "UtahConsentProfile",
     "title" : "UtahConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Utah consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -2160,11 +2160,11 @@
     "version" : "0.6.2",
     "name" : "VermontConsentProfile",
     "title" : "VermontConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Vermont consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -2181,11 +2181,11 @@
     "version" : "0.6.2",
     "name" : "VirginiaConsentProfile",
     "title" : "VirginiaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Virginia consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -2202,11 +2202,11 @@
     "version" : "0.6.2",
     "name" : "WashingtonConsentProfile",
     "title" : "WashingtonConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Washington consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -2223,11 +2223,11 @@
     "version" : "0.6.2",
     "name" : "WestVirginiaConsentProfile",
     "title" : "WestVirginiaConsentProfile",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "West Virginia consent profile.",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }
@@ -2244,11 +2244,11 @@
     "version" : "0.6.2",
     "name" : "ConsentExchangePolicies",
     "title" : "ConsentExchangePolicies",
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "Consent Exchange - Policies",
     "status" : {
       "class" : "colsd",
-      "owner" : "MITRE, Inc",
+      "owner" : "The MITRE Corporation",
       "link" : "https://github.com/awatson1978/us-state-profiles",
       "status" : "Draft"
     }

@@ -15,8 +15,8 @@
   "toolingVersionFull" : "5.0.0 (3)",
   "totalFiles" : 149,
   "processedFiles" : 234,
-  "genDate" : "Sat, Oct 19, 2024 12:13-0500",
-  "genDay" : "19/10/2024",
+  "genDate" : "Mon, Nov 25, 2024 16:45-0600",
+  "genDay" : "25/11/2024",
   "resourceTypes" : [
     "Account",
     "ActivityDefinition",
@@ -240,14 +240,14 @@
     "version" : "0.6.2",
     "status" : "draft",
     "experimental" : false,
-    "publisher" : "MITRE, Inc",
+    "publisher" : "The MITRE Corporation",
     "contact" : [
       {
-        "name" : "MITRE, Inc",
+        "name" : "The MITRE Corporation",
         "telecom" : ["https://github.com/awatson1978/us-state-profiles"]
       }
     ],
-    "date" : "2024-10-19T12:13:35-05:00",
+    "date" : "2024-11-25T16:45:26-06:00",
     "description" : "",
     "copyright" : null,
     "fhirVersion" : "4.0.1"

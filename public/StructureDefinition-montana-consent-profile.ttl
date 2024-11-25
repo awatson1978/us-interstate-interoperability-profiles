@@ -17,10 +17,10 @@
   fhir:name [ fhir:v "MontanaConsentProfile"] ; # 
   fhir:title [ fhir:v "MontanaConsentProfile"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-10-19T12:13:35-05:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "MITRE, Inc"] ; # 
+  fhir:date [ fhir:v "2024-11-25T16:45:26-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "The MITRE Corporation"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "MITRE, Inc" ] ;
+     fhir:name [ fhir:v "The MITRE Corporation" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
        fhir:value [ fhir:v "https://github.com/awatson1978/us-state-profiles" ]

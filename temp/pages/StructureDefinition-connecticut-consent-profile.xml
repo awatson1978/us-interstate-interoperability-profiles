@@ -15,10 +15,10 @@
   <name value="ConnecticutConsentProfile"/>
   <title value="ConnecticutConsentProfile"/>
   <status value="draft"/>
-  <date value="2024-10-19T12:13:35-05:00"/>
-  <publisher value="MITRE, Inc"/>
+  <date value="2024-11-25T16:45:26-06:00"/>
+  <publisher value="The MITRE Corporation"/>
   <contact>
-    <name value="MITRE, Inc"/>
+    <name value="The MITRE Corporation"/>
     <telecom>
       <system value="url"/>
       <value value="https://github.com/awatson1978/us-state-profiles"/>

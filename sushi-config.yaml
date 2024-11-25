@@ -12,7 +12,7 @@ fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: ci-build
 publisher:
-  name: MITRE, Inc
+  name: The MITRE Corporation
   url: https://github.com/awatson1978/us-state-profiles
 dependencies:
   hl7.fhir.us.core: 3.2.0

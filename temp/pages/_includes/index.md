@@ -38,7 +38,7 @@ After developing a small collection of use cases, the Locations records were the
 
 We are now at a point where we are considering which approach is best...  profiled Consent records, Location instances, or Consent instances.  The idea has been developed enough that we're generally confident that we have a proof of concept; and it's getting time to seek feedback from the broader HL7 community.  Location vs Consent; profile vs instance... these are technical details that may have performance implications, but in some aspect don't matter, because the general approach could be done in a couple of different ways.  
 
-Rather, we want to draw attention to the general idea that we could - and _should_ - have a structured way of exchange data about the legislative and jurisprudence environment in which healthcare organizations and patients operate in.  It's this general idea we wish to bring to the HL7 community, and have it weigh in on how best to go forward with this idea.
+Rather, we want to draw attention to the general idea that we could - and _should_ - have a structured way of exchanging data about the legislative and jurisprudence environment in which healthcare organizations and patients operate in.  It's this general idea we wish to bring to the HL7 community, and have it weigh in on how best to go forward with this idea.
 
 ### Legislative Topics  
 
