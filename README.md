@@ -7,8 +7,7 @@ Guidance on how to profile the US State and territories using Fast Healthcare In
 
 ### Current Build
 
-Please find the latest compiled version of the implementation guide here: 
-[https://awatson.pages.mitre.org/us-state-profiles/](https://awatson.pages.mitre.org/us-state-profiles/)
+Please find the latest compiled version of the implementation guide here: []()
 
 ### Compiling Documentation  
 
