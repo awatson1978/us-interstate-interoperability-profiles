@@ -7,7 +7,7 @@ Guidance on how to profile the US State and territories using Fast Healthcare In
 
 ### Current Build
 
-Please find the latest compiled version of the implementation guide here: []()
+Please find the latest compiled version of the implementation guide here: [https://awatson1978.github.io/us-interstate-interoperability-profiles/](https://awatson1978.github.io/us-interstate-interoperability-profiles/)
 
 ### Compiling Documentation  
 
