@@ -3,7 +3,7 @@ USInterstateInteroperability : Validation Results
 
 err = 197, warn = 376, info = 0
 IG Publisher Version: 1.7.5 Out of date - current version is 1.8.4
-Generated Wed Jan 01 21:37:23 MST 2025. FHIR version 4.0.1 for ig.fhir.us-interstate-interoperability#0.6.4 (canonical = https://github.com/awatson1978/us-state-profiles)
+Generated Wed Jan 01 22:26:42 MST 2025. FHIR version 4.0.1 for ig.fhir.us-interstate-interoperability#0.6.5 (canonical = https://github.com/awatson1978/us-state-profiles)
  Build Errors : 46 / 1058 / 0
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-AlabamaConsentProfile : 3 / 2 / 1
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-ArizonaConsentProfile : 3 / 6 / 1
@@ -1625,109 +1625,109 @@ ERROR: Consent/WestVirginiaConsentProfile: Consent: Constraint failed: ppc-1: 'E
 ERROR: Consent.text.div: Hyperlink 'WV' at 'div/p/a' for 'State of West Virginia' does not resolve
 == fsh-generated/resources/ImplementationGuide-ig.fhir.us-interstate-interoperability.json ==
 == fsh-generated/resources/Location-2cdHJo5nLPDtnbfnS.json ==
-ERROR: Location/2cdHJo5nLPDtnbfnS: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/2cdHJo5nLPDtnbfnS: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-36Ad9SeqqzcWjZELq.json ==
-ERROR: Location/36Ad9SeqqzcWjZELq: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/36Ad9SeqqzcWjZELq: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-3L8sHLL4cyBoLfQ5X.json ==
-ERROR: Location/3L8sHLL4cyBoLfQ5X: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/3L8sHLL4cyBoLfQ5X: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-3zjF5MkrEZEErco7v.json ==
-ERROR: Location/3zjF5MkrEZEErco7v: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/3zjF5MkrEZEErco7v: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-4G954mNr3nR5rfCvw.json ==
-ERROR: Location/4G954mNr3nR5rfCvw: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/4G954mNr3nR5rfCvw: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-4gJBt2RovtF8oBk8h.json ==
-ERROR: Location/4gJBt2RovtF8oBk8h: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/4gJBt2RovtF8oBk8h: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-53z8N28EAfKtbvBNm.json ==
-ERROR: Location/53z8N28EAfKtbvBNm: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/53z8N28EAfKtbvBNm: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-5QYLy3D3fdD2BSGy5.json ==
-ERROR: Location/5QYLy3D3fdD2BSGy5: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/5QYLy3D3fdD2BSGy5: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-6EBdzCFG6sXWYv3cy.json ==
-ERROR: Location/6EBdzCFG6sXWYv3cy: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/6EBdzCFG6sXWYv3cy: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-7ZqFrka5qdYameBAM.json ==
-ERROR: Location/7ZqFrka5qdYameBAM: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/7ZqFrka5qdYameBAM: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-8MoDhJYvb4sMLeTRT.json ==
-ERROR: Location/8MoDhJYvb4sMLeTRT: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/8MoDhJYvb4sMLeTRT: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-9KxMxodWCSpsmFAsx.json ==
-ERROR: Location/9KxMxodWCSpsmFAsx: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/9KxMxodWCSpsmFAsx: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-BdPME6PAm7McYxize.json ==
-ERROR: Location/BdPME6PAm7McYxize: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/BdPME6PAm7McYxize: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-C3mPJq92ijWAT4M95.json ==
-ERROR: Location/C3mPJq92ijWAT4M95: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/C3mPJq92ijWAT4M95: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-D5xG52A3yC2YTz8uG.json ==
-ERROR: Location/D5xG52A3yC2YTz8uG: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/D5xG52A3yC2YTz8uG: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-E34hsfDZnFzWDDvrH.json ==
-ERROR: Location/E34hsfDZnFzWDDvrH: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/E34hsfDZnFzWDDvrH: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-ErMYAiSgWFYzPYxd4.json ==
-ERROR: Location/ErMYAiSgWFYzPYxd4: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/ErMYAiSgWFYzPYxd4: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-JAjsaAFPbnjmqm7ht.json ==
-ERROR: Location/JAjsaAFPbnjmqm7ht: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/JAjsaAFPbnjmqm7ht: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-K59AJPYJwW6QNQ7wA.json ==
-ERROR: Location/K59AJPYJwW6QNQ7wA: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/K59AJPYJwW6QNQ7wA: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-KuCc5Qat7hFGKYzCf.json ==
-ERROR: Location/KuCc5Qat7hFGKYzCf: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/KuCc5Qat7hFGKYzCf: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-Kvwi377gEtBCdbZui.json ==
-ERROR: Location/Kvwi377gEtBCdbZui: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/Kvwi377gEtBCdbZui: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-LhboPGc7jCgzL2vvu.json ==
-ERROR: Location/LhboPGc7jCgzL2vvu: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/LhboPGc7jCgzL2vvu: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-Q2qPZtAbJHeMucE9d.json ==
-ERROR: Location/Q2qPZtAbJHeMucE9d: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/Q2qPZtAbJHeMucE9d: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-RFiBZbbFiHxjujhSn.json ==
-ERROR: Location/RFiBZbbFiHxjujhSn: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/RFiBZbbFiHxjujhSn: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-SB8aHDPgnMC27fvo4.json ==
-ERROR: Location/SB8aHDPgnMC27fvo4: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/SB8aHDPgnMC27fvo4: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-T4MtGfNFjuataQdmY.json ==
-ERROR: Location/T4MtGfNFjuataQdmY: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/T4MtGfNFjuataQdmY: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-TEejwFj6hM8NoMfNY.json ==
-ERROR: Location/TEejwFj6hM8NoMfNY: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/TEejwFj6hM8NoMfNY: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-XM35CMNxTr5trv5LA.json ==
-ERROR: Location/XM35CMNxTr5trv5LA: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/XM35CMNxTr5trv5LA: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-ZNDWz9oPsWGnxsBCC.json ==
-ERROR: Location/ZNDWz9oPsWGnxsBCC: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/ZNDWz9oPsWGnxsBCC: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-ZYESg5qBTnJ6Yijb3.json ==
-ERROR: Location/ZYESg5qBTnJ6Yijb3: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/ZYESg5qBTnJ6Yijb3: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-ZgqTvzE4GzyiJvsh2.json ==
-ERROR: Location/ZgqTvzE4GzyiJvsh2: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/ZgqTvzE4GzyiJvsh2: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-b5QxdJzPkhFgumnCq.json ==
-ERROR: Location/b5QxdJzPkhFgumnCq: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/b5QxdJzPkhFgumnCq: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-bZyK2jj2SW4P9tXXn.json ==
-ERROR: Location/bZyK2jj2SW4P9tXXn: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/bZyK2jj2SW4P9tXXn: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-d35Ka8DnExxJqrshG.json ==
-ERROR: Location/d35Ka8DnExxJqrshG: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/d35Ka8DnExxJqrshG: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-eGek52kjH2A5Kw855.json ==
-ERROR: Location/eGek52kjH2A5Kw855: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/eGek52kjH2A5Kw855: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-f78yCcaohY4ME86e9.json ==
-ERROR: Location/f78yCcaohY4ME86e9: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/f78yCcaohY4ME86e9: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-gapeRqTrszacBkTdH.json ==
-ERROR: Location/gapeRqTrszacBkTdH: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/gapeRqTrszacBkTdH: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-jCAKbSgksLZANgKAD.json ==
-ERROR: Location/jCAKbSgksLZANgKAD: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/jCAKbSgksLZANgKAD: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-kvacH8wZ3GPPwYsdZ.json ==
-ERROR: Location/kvacH8wZ3GPPwYsdZ: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/kvacH8wZ3GPPwYsdZ: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-mvv8hrmBhBtYe6gKs.json ==
-ERROR: Location/mvv8hrmBhBtYe6gKs: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/mvv8hrmBhBtYe6gKs: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-ngowMEzNaA4oozNx5.json ==
-ERROR: Location/ngowMEzNaA4oozNx5: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/ngowMEzNaA4oozNx5: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-rBSqMxWb3XMFYHecM.json ==
-ERROR: Location/rBSqMxWb3XMFYHecM: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/rBSqMxWb3XMFYHecM: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-ruvBXFKrhrsfkryfF.json ==
-ERROR: Location/ruvBXFKrhrsfkryfF: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/ruvBXFKrhrsfkryfF: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-sSjfnXC8HBabjnQwF.json ==
-ERROR: Location/sSjfnXC8HBabjnQwF: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/sSjfnXC8HBabjnQwF: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-tBzzRo7D9RGzKQenT.json ==
-ERROR: Location/tBzzRo7D9RGzKQenT: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/tBzzRo7D9RGzKQenT: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-tEexgTiqCd5LiijCe.json ==
-ERROR: Location/tEexgTiqCd5LiijCe: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/tEexgTiqCd5LiijCe: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-uEkrqm29DjZbHYZiT.json ==
-ERROR: Location/uEkrqm29DjZbHYZiT: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/uEkrqm29DjZbHYZiT: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-ug9T4cPp6NDRqMfcc.json ==
-ERROR: Location/ug9T4cPp6NDRqMfcc: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/ug9T4cPp6NDRqMfcc: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-wPs7mzdsNAwpBQCio.json ==
-ERROR: Location/wPs7mzdsNAwpBQCio: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/wPs7mzdsNAwpBQCio: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-wpPSL9vjHDXAJQWmC.json ==
-ERROR: Location/wpPSL9vjHDXAJQWmC: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/wpPSL9vjHDXAJQWmC: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-yAKjzRQx3mBSdSei4.json ==
-ERROR: Location/yAKjzRQx3mBSdSei4: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/yAKjzRQx3mBSdSei4: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/Location-zTQuTGuHEy6TsqZFH.json ==
-ERROR: Location/zTQuTGuHEy6TsqZFH: Location.extension[0]: Extension.url must be an absolute URL
+ERROR: Location/zTQuTGuHEy6TsqZFH: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/StructureDefinition-alabama-consent-profile.json ==
 WARNING: StructureDefinition/alabama-consent-profile: StructureDefinition.snapshot.element[48].binding: The definition for the element 'Consent.provision.code' binds to the value set 'http://hl7.org/fhir/ValueSet/consent-content-code' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition.where(url = 'https://github.com/awatson1978/us-state-profiles/StructureDefinition/alabama-consent-profile'): The Implementation Guide contains no examples for this profile
