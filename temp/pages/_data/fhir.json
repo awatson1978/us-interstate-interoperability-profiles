@@ -4,7 +4,7 @@
   "igId" : "ig.fhir.us-interstate-interoperability",
   "igName" : "USInterstateInteroperability",
   "packageId" : "ig.fhir.us-interstate-interoperability",
-  "igVer" : "0.6.4",
+  "igVer" : "0.6.5",
   "errorCount" : 152,
   "version" : "4.0.1",
   "releaseLabel" : "ci-build",
@@ -15,7 +15,7 @@
   "toolingVersionFull" : "5.0.0 (3)",
   "totalFiles" : 149,
   "processedFiles" : 237,
-  "genDate" : "Wed, Jan 1, 2025 21:35-0700",
+  "genDate" : "Wed, Jan 1, 2025 22:24-0700",
   "genDay" : "01/01/2025",
   "resourceTypes" : [
     "Account",
@@ -237,7 +237,7 @@
     "name" : "USInterstateInteroperability",
     "title" : null,
     "url" : "https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability",
-    "version" : "0.6.4",
+    "version" : "0.6.5",
     "status" : "draft",
     "experimental" : false,
     "publisher" : "The MITRE Corporation",
@@ -247,7 +247,7 @@
         "telecom" : ["https://github.com/awatson1978/us-state-profiles"]
       }
     ],
-    "date" : "2025-01-01T21:35:28-07:00",
+    "date" : "2025-01-01T22:24:49-07:00",
     "description" : "",
     "tx-server" : "http://tx.fhir.org/r4",
     "copyright" : null,

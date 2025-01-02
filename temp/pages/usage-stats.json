@@ -1,6 +1,6 @@
 {
   "package": "ig.fhir.us-interstate-interoperability",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "fhirVersion": "4.0.1",
   "extensions": [],
   "profiles": {
@@ -208,9 +208,6 @@
     ]
   },
   "usage": {
-    "geometry": [
-      "Location"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -241,6 +238,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "https://geojson.org/": [
+      "Location"
     ]
   }
 }

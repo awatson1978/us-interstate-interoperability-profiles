@@ -15,10 +15,10 @@
       </div>
    </text>
    <url value="https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability"/>
-   <version value="0.6.4"/>
+   <version value="0.6.5"/>
    <name value="USInterstateInteroperability"/>
    <status value="draft"/>
-   <date value="2025-01-01T21:35:28-07:00"/>
+   <date value="2025-01-01T22:24:49-07:00"/>
    <publisher value="The MITRE Corporation"/>
    <contact>
       <name value="The MITRE Corporation"/>
