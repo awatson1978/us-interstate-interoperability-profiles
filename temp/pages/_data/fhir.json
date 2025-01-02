@@ -14,9 +14,9 @@
   "toolingRevision" : "3",
   "toolingVersionFull" : "5.0.0 (3)",
   "totalFiles" : 149,
-  "processedFiles" : 234,
-  "genDate" : "Mon, Nov 25, 2024 16:51-0600",
-  "genDay" : "25/11/2024",
+  "processedFiles" : 237,
+  "genDate" : "Wed, Jan 1, 2025 21:35-0700",
+  "genDay" : "01/01/2025",
   "resourceTypes" : [
     "Account",
     "ActivityDefinition",
@@ -247,19 +247,20 @@
         "telecom" : ["https://github.com/awatson1978/us-state-profiles"]
       }
     ],
-    "date" : "2024-11-25T16:51:20-06:00",
+    "date" : "2025-01-01T21:35:28-07:00",
     "description" : "",
+    "tx-server" : "http://tx.fhir.org/r4",
     "copyright" : null,
     "fhirVersion" : "4.0.1"
   },
   "basespec" : "http://hl7.org/fhir/R4",
   "ver" : {
     "basespec" : null,
-    "hl7tx" : "http://terminology.hl7.org/6.0.2",
+    "hl7tx" : "http://terminology.hl7.org/6.1.0",
     "hl7ext" : "http://hl7.org/fhir/extensions/5.1.0",
     "hl7_fhir_us_core" : "http://hl7.org/fhir/us/core/2021Jan",
     "us.nlm.vsac_0.3.0" : "http://fhir.org/packages/us.nlm.vsac",
-    "igtools" : "http://hl7.org/fhir/tools/0.2.0"
+    "igtools" : "http://hl7.org/fhir/tools/0.3.0"
   },
   "hl7tx" : "http://terminology.hl7.org",
   "hl7ext" : "http://hl7.org/fhir/extensions",

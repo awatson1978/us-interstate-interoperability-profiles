@@ -69,8 +69,8 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-consent-category.html" : "Consent Category Codes",
-      "http://hl7.org/fhir/R4/valueset-consent-content-code.html" : "Consent Content Codes"
+      "http://hl7.org/fhir/R4/valueset-consent-content-code.html" : "Consent Content Codes",
+      "http://hl7.org/fhir/R4/valueset-consent-category.html" : "Consent Category Codes"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/consentaction",
@@ -141,7 +141,7 @@
       "oids" : ["2.16.840.1.113883.5.8"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.0.2/ValueSet-v3-PurposeOfUse.html" : "PurposeOfUse"
+      "http://terminology.hl7.org/6.1.0/ValueSet-v3-PurposeOfUse.html" : "PurposeOfUse"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction",

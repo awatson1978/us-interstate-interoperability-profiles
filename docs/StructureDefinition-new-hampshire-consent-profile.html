@@ -1,50 +1,56 @@
-﻿<!-- get modelType --><?xml version="1.0" encoding="UTF-8"?>
+<!-- get modelType -->
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
     <title>NewHampshireConsentProfile -  v0.6.4</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link rel="stylesheet" href="fhir.css"/>
+    <link href="fhir.css" rel="stylesheet"/>
 
-      <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
 
-      <!-- Project extras -->
-    <link rel="stylesheet" href="assets/css/project.css"/>
-    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
-    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-  	<link rel="stylesheet" href="assets/css/prism.css"/>
-      <!-- Placeholder for child template CSS declarations -->
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
 
-    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
-      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- [if lt IE 9]>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif] -->
+    <![endif]-->
 
-      <!-- Favicons -->
-    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
-    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
-    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
     <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-    <script src="assets/js/mermaid.js" type="text/javascript"></script>
-    <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"15.31"}
     h3,h4,h5,h6{--heading-prefix:"15.31"}</style>
-    <div id="segment-header" class="segment">    <!-- segment-header -->
-      <div class="container">    <!-- container -->
-          <!-- Placeholder for child template header declarations -->
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
 
 
         <div id="ig-status">
@@ -56,27 +62,27 @@
             </span>
           </p>
         </div>
-      </div>   <!-- /container -->
-    </div>    <!-- /segment-header -->
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">    <!-- container -->
-          <!-- HEADER CONTENT -->
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
 
         <nav class="navbar navbar-inverse">
-            <!-- status-bar -->
+          <!--status-bar-->
           <div class="container">
-            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-                <!-- menu.xml -->
+              <!-- menu.xml  -->
 
-<ul class="nav navbar-nav">
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Home</a>
   </li>
@@ -127,31 +133,31 @@
     <a href="artifacts.html">Artifacts</a>
   </li>
 </ul>
-            </div>    <!-- /.nav-collapse -->
-          </div>    <!-- /.container -->
-        </nav>    <!-- /.navbar -->
-        <!-- /HEADER CONTENT -->
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-navbar -->
-      <!-- status-bar -->
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
 
-    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
-      <div class="container">    <!-- container -->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>NewHampshireConsentProfile</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>NewHampshireConsentProfile</b></li>
 
         </ul>
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-breadcrumb -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">    <!-- segment-content -->
-      <div class="container">    <!-- container -->
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">USInterstateInteroperability - Local Development build (v0.6.4) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://github.com/awatson1978/us-state-profiles/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <!--ReleaseHeader--><p id="publish-box">USInterstateInteroperability - Local Development build (v0.6.4) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://github.com/awatson1978/us-state-profiles/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -228,10 +234,10 @@
   <table class="colsd">
 
     <tr>
-      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://github.com/awatson1978/us-state-profiles/StructureDefinition/new-hampshire-consent-profile<button data-clipboard-text="https://github.com/awatson1978/us-state-profiles/StructureDefinition/new-hampshire-consent-profile" title="Click to copy URL" class="btn-copy"></button></span>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://github.com/awatson1978/us-state-profiles/StructureDefinition/new-hampshire-consent-profile<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://github.com/awatson1978/us-state-profiles/StructureDefinition/new-hampshire-consent-profile"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.6.4<button data-clipboard-text="https://github.com/awatson1978/us-state-profiles/StructureDefinition/new-hampshire-consent-profile|0.6.4" title="Click to copy versioned URL" class="btn-copy"></button></span>
+      <span class="copy-text">0.6.4<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://github.com/awatson1978/us-state-profiles/StructureDefinition/new-hampshire-consent-profile|0.6.4"/></span>
       </td>
     </tr>
 
@@ -247,7 +253,7 @@
         
           Draft
           
-            as of 2024-11-25
+            as of 2025-01-01
           
         
       </td>
@@ -269,7 +275,7 @@
 
 
 
-  <!-- insert intro if present -->
+<!-- insert intro if present -->
 
 
 
@@ -280,7 +286,7 @@
 </ul>
 
 
-    <!-- no uri -->
+  <!-- no uri -->
   <a name="profile"> </a>
   <h3 id="profile">Formal Views of Profile Content</h3>
   <p>
@@ -289,28 +295,28 @@
   <div id="tabs">
     <ul>
       <li>
-        <a href="#tabs-diff">Differential Table</a>
+        <a href="#tabs-key">Key Elements Table</a>
       </li>
       <li>
-        <a href="#tabs-key">Key Elements Table</a>
+        <a href="#tabs-diff">Differential Table</a>
       </li>
       <li>
         <a href="#tabs-snap">Snapshot Table</a>
       </li>
 
-  <!-- <li>
+<!--      <li>
         <a href="#tabs-xml">Pseudo-XML</a>
-      </li> -->
+      </li>-->
 
 
-  <!-- <li>
+<!--      <li>
         <a href="#tabs-json">Pseudo-JSON</a>
-      </li> -->
+      </li>-->
 
 
-        <!-- <li>
+      <!--<li>
         <a href="#tabs-ttl">Pseudo-TTL</a>
-      </li> -->
+      </li>-->
 
       <li>
         <a href="#tabs-summ">Statistics/References</a>
@@ -319,59 +325,6 @@
         <a href="#tabs-all">All</a>
       </li>
     </ul>
-    <a name="tabs-diff"> </a>
-    <div id="tabs-diff">
-      <div id="tbl-diff">
-        <p>This structure is derived from <a href="http://hl7.org/fhir/R4/consent.html">Consent</a>
-        </p>
-        <div id="tbl-diff-inner">
-          <table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;" id="new-hampshire-consent-profiled"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Minimum and Maximum # of times the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" onLoad="fhirTableInit(this)" style="background-color: inherit"/></a></span></th></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="a"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent">Consent</a><a name="d-Consent"> </a></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/consent.html">Consent</a></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">A healthcare consumer's  choices to permit or deny recipients or roles to perform actions for specific purposes and periods of time</span></td></tr>
-
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="aa"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img onClick="tableRowAction(this)" src="tbl_vjoin-open.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.policy">policy</a><a name="d-Consent.policy"> </a></td>
-<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
-<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
-<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
-<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
-
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="aaa"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.policy.authority">authority</a><a name="d-Consent.policy.authority"> </a></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#uri">uri</a></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Enforcement source for policy</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">https://www.nh.gov/</span></td></tr>
-
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="ab"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.policyRule">policyRule</a><a name="d-Consent.policyRule"> </a></td>
-<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
-<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
-<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Regulation that this consents to</span><br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-ConsentExchangePolicies.html" title="https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies">ConsentExchangePolicies</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
-
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="ac"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.verification">verification</a><a name="d-Consent.verification"> </a></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">*</span></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Consent Verified by patient or family</span></td></tr>
-
-<tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table>
-          <a name="tx"> </a>
-            <!-- Terminology Bindings heading in the fragment -->
-          <h4>Terminology Bindings (Differential)</h4>
-<table class="list">
-<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>Consent.policyRule</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-ConsentExchangePolicies.html">ConsentExchangePolicies</a><div><code>https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies</code><button data-clipboard-text="https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
-</table>
-
-        
-          
-            <!-- 218 is size of empty table -->
-          
-        </div>
-      </div>
-    </div>
     <a name="tabs-key"> </a>
     <div id="tabs-key">
       <div id="tbl-key">
@@ -442,22 +395,22 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Has been verified</td></tr>
 
 <tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table>
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
 <table class="list">
 <tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>Consent.status</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Indicates the state of the consent."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-state-codes.html">ConsentState</a><div><code>http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.scope</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The four anticipated uses for the Consent Resource."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-scope.html">ConsentScopeCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-scope</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-scope" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.category</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="A classification of the type of consents found in a consent statement."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-category.html">ConsentCategoryCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-category</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-category" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.policyRule</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-ConsentExchangePolicies.html">ConsentExchangePolicies</a><div><code>https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies</code><button data-clipboard-text="https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>Consent.status</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Indicates the state of the consent."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-state-codes.html">ConsentState</a><div><code>http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.scope</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The four anticipated uses for the Consent Resource."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-scope.html">ConsentScopeCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-scope</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-scope"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.category</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="A classification of the type of consents found in a consent statement."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-category.html">ConsentCategoryCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-category</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-category"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.policyRule</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-ConsentExchangePolicies.html">ConsentExchangePolicies</a><div><code>https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies"></button></div><div>from this IG</div></td></tr>
 </table>
 
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
             <a name="inv-key"> </a>
-              <!-- Constraints  heading in the fragment -->
+            <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
 <table class="list">
 <tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
@@ -475,6 +428,59 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <tr><td>ppc-5</td><td>error</td><td>Consent</td><td>IF Scope=treatment, there must be a patient<br/>: patient.exists() or scope.coding.where(system='something' and code='treatment').exists().not()</td><td></td></tr>
 </table>
 
+          
+        </div>
+      </div>
+    </div>
+    <a name="tabs-diff"> </a>
+    <div id="tabs-diff">
+      <div id="tbl-diff">
+        <p>This structure is derived from <a href="http://hl7.org/fhir/R4/consent.html">Consent</a>
+        </p>
+        <div id="tbl-diff-inner">
+          <table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;" id="new-hampshire-consent-profiled"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Minimum and Maximum # of times the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" onLoad="fhirTableInit(this)" style="background-color: inherit"/></a></span></th></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="a"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent">Consent</a><a name="d-Consent"> </a></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/consent.html">Consent</a></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">A healthcare consumer's  choices to permit or deny recipients or roles to perform actions for specific purposes and periods of time</span></td></tr>
+
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="aa"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img onClick="tableRowAction(this)" src="tbl_vjoin-open.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.policy">policy</a><a name="d-Consent.policy"> </a></td>
+<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
+<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
+<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
+<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="aaa"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.policy.authority">authority</a><a name="d-Consent.policy.authority"> </a></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#uri">uri</a></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Enforcement source for policy</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">https://www.nh.gov/</span></td></tr>
+
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="ab"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.policyRule">policyRule</a><a name="d-Consent.policyRule"> </a></td>
+<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
+<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
+<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
+<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Regulation that this consents to</span><br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-ConsentExchangePolicies.html" title="https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies">ConsentExchangePolicies</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
+
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="ac"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.verification">verification</a><a name="d-Consent.verification"> </a></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">*</span></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Consent Verified by patient or family</span></td></tr>
+
+<tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table>
+          <a name="tx"> </a>
+          <!--Terminology Bindings heading in the fragment -->
+          <h4>Terminology Bindings (Differential)</h4>
+<table class="list">
+<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
+<tr><td>Consent.policyRule</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-ConsentExchangePolicies.html">ConsentExchangePolicies</a><div><code>https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies"></button></div><div>from this IG</div></td></tr>
+</table>
+
+        
+          
+          <!-- 218 is size of empty table -->
           
         </div>
       </div>
@@ -514,7 +520,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td>
 <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Language of the resource content<br/><span style="font-weight:bold">Binding: </span><a href="http://hl7.org/fhir/R4/valueset-languages.html" title="http://hl7.org/fhir/ValueSet/languages">CommonLanguages</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#preferred" title="Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.">preferred</a>): A human language.<br/><br/>
 <table class="grid"><tr><td style="font-size: 11px"><b>Additional Bindings</b></td><td style="font-size: 11px">Purpose</td></tr>
-<tr><td style="font-size: 11px"><a href="http://hl7.org/fhir/R5/valueset-all-languages.html" title="http://hl7.org/fhir/ValueSet/all-languages">AllLanguages</a></td>
+<tr><td style="font-size: 11px"><a href="http://hl7.org/fhir/R4/valueset-all-languages.html" title="http://hl7.org/fhir/ValueSet/all-languages">AllLanguages</a></td>
 <td style="font-size: 11px"><a href="http://hl7.org/fhir/R4/extension-elementdefinition-maxvalueset.html" title="A required binding, for use when the binding strength is 'extensible' or 'preferred'">Max Binding</a></td></tr></table></td></tr>
 
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="ae"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.text" title="A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.">text</a><a name="Consent.text"> </a></td>
@@ -789,7 +795,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Context of activities covered by this rule<br/><span style="font-weight:bold">Binding: </span><a href="http://terminology.hl7.org/6.0.2/ValueSet-v3-PurposeOfUse.html" title="http://terminology.hl7.org/ValueSet/v3-PurposeOfUse">PurposeOfUse</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.">extensible</a>): What purposes of use are controlled by this exception. If more than one label is specified, operations must have all the specified labels.<br/><br/><br/></td></tr>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Context of activities covered by this rule<br/><span style="font-weight:bold">Binding: </span><a href="http://terminology.hl7.org/6.1.0/ValueSet-v3-PurposeOfUse.html" title="http://terminology.hl7.org/ValueSet/v3-PurposeOfUse">PurposeOfUse</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.">extensible</a>): What purposes of use are controlled by this exception. If more than one label is specified, operations must have all the specified labels.<br/><br/><br/></td></tr>
 
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="auj"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.provision.class" title="The class of information covered by this rule. The type can be a FHIR resource type, a profile on a type, or a CDA document, or some other type that indicates what sort of information the consent relates to.">class</a><a name="Consent.provision.class"> </a></td>
 <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
@@ -854,7 +860,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Nested Exception Rules<br/></td></tr>
 
 <tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table>
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
 <table class="list">
 <tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
@@ -867,34 +873,34 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
   </tr>
   <tr>
     <td style="font-size: 11px">
-      <a href="http://hl7.org/fhir/R5/valueset-all-languages.html" title="http://hl7.org/fhir/ValueSet/all-languages">AllLanguages</a>
+      <a href="http://hl7.org/fhir/R4/valueset-all-languages.html" title="http://hl7.org/fhir/ValueSet/all-languages">AllLanguages</a>
     </td>
     <td style="font-size: 11px">
       <a href="http://hl7.org/fhir/R4/extension-elementdefinition-maxvalueset.html" title="A required binding, for use when the binding strength is 'extensible' or 'preferred'">Max Binding</a>
     </td>
   </tr>
 </table>
-<div><code>http://hl7.org/fhir/ValueSet/languages</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/languages" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.status</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Indicates the state of the consent."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-state-codes.html">ConsentState</a><div><code>http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.scope</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The four anticipated uses for the Consent Resource."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-scope.html">ConsentScopeCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-scope</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-scope" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.category</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="A classification of the type of consents found in a consent statement."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-category.html">ConsentCategoryCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-category</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-category" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.policyRule</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-ConsentExchangePolicies.html">ConsentExchangePolicies</a><div><code>https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies</code><button data-clipboard-text="https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
-<tr><td>Consent.provision.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="How a rule statement is applied, such as adding additional consent or removing consent."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-provision-type.html">ConsentProvisionType</a><div><code>http://hl7.org/fhir/ValueSet/consent-provision-type|4.0.1</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-provision-type|4.0.1" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.provision.actor.role</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="How an actor is involved in the consent considerations."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-security-role-type.html">SecurityRoleType</a><div><code>http://hl7.org/fhir/ValueSet/security-role-type</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/security-role-type" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.provision.action</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Detailed codes for the consent action."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-action.html">ConsentActionCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-action</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-action" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.provision.securityLabel</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="Security Labels from the Healthcare Privacy and Security Classification System."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-security-labels.html">All Security Labels</a><div><code>http://hl7.org/fhir/ValueSet/security-labels</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/security-labels" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.provision.purpose</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="What purposes of use are controlled by this exception. If more than one label is specified, operations must have all the specified labels."><a style="opacity: 1.0" href="http://terminology.hl7.org/6.0.2/ValueSet-v3-PurposeOfUse.html">PurposeOfUse</a><div><code>http://terminology.hl7.org/ValueSet/v3-PurposeOfUse</code><button data-clipboard-text="http://terminology.hl7.org/ValueSet/v3-PurposeOfUse" title="Click to copy URL" class="btn-copy"></button></div></td></tr>
-<tr><td>Consent.provision.class</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The class (type) of information a consent rule covers."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-content-class.html">ConsentContentClass</a><div><code>http://hl7.org/fhir/ValueSet/consent-content-class</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-content-class" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.provision.code</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="If this code is found in an instance, then the exception applies."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-content-code.html">ConsentContentCodes</a> (a valid code from <a href="https://loinc.org/">LOINC</a>)<div><code>http://hl7.org/fhir/ValueSet/consent-content-code</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-content-code" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.provision.data.meaning</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="How a resource reference is interpreted when testing consent restrictions."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-data-meaning.html">ConsentDataMeaning</a><div><code>http://hl7.org/fhir/ValueSet/consent-data-meaning|4.0.1</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-data-meaning|4.0.1" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
+<div><code>http://hl7.org/fhir/ValueSet/languages</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/languages"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.status</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Indicates the state of the consent."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-state-codes.html">ConsentState</a><div><code>http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.scope</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The four anticipated uses for the Consent Resource."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-scope.html">ConsentScopeCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-scope</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-scope"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.category</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="A classification of the type of consents found in a consent statement."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-category.html">ConsentCategoryCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-category</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-category"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.policyRule</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-ConsentExchangePolicies.html">ConsentExchangePolicies</a><div><code>https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies"></button></div><div>from this IG</div></td></tr>
+<tr><td>Consent.provision.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="How a rule statement is applied, such as adding additional consent or removing consent."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-provision-type.html">ConsentProvisionType</a><div><code>http://hl7.org/fhir/ValueSet/consent-provision-type|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-provision-type|4.0.1"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.provision.actor.role</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="How an actor is involved in the consent considerations."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-security-role-type.html">SecurityRoleType</a><div><code>http://hl7.org/fhir/ValueSet/security-role-type</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/security-role-type"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.provision.action</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Detailed codes for the consent action."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-action.html">ConsentActionCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-action</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-action"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.provision.securityLabel</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="Security Labels from the Healthcare Privacy and Security Classification System."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-security-labels.html">All Security Labels</a><div><code>http://hl7.org/fhir/ValueSet/security-labels</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/security-labels"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.provision.purpose</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="What purposes of use are controlled by this exception. If more than one label is specified, operations must have all the specified labels."><a style="opacity: 1.0" href="http://terminology.hl7.org/6.1.0/ValueSet-v3-PurposeOfUse.html">PurposeOfUse</a><div><code>http://terminology.hl7.org/ValueSet/v3-PurposeOfUse</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://terminology.hl7.org/ValueSet/v3-PurposeOfUse"></button></div></td></tr>
+<tr><td>Consent.provision.class</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The class (type) of information a consent rule covers."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-content-class.html">ConsentContentClass</a><div><code>http://hl7.org/fhir/ValueSet/consent-content-class</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-content-class"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.provision.code</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="If this code is found in an instance, then the exception applies."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-content-code.html">ConsentContentCodes</a> (a valid code from <a href="https://loinc.org/">LOINC</a>)<div><code>http://hl7.org/fhir/ValueSet/consent-content-code</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-content-code"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.provision.data.meaning</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="How a resource reference is interpreted when testing consent restrictions."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-data-meaning.html">ConsentDataMeaning</a><div><code>http://hl7.org/fhir/ValueSet/consent-data-meaning|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-data-meaning|4.0.1"></button></div><div>from the FHIR Standard</div></td></tr>
 </table>
 
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
             <a name="inv-snap"> </a>
-              <!-- Constraints  heading in the fragment -->
+            <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
 <table class="list">
 <tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
@@ -917,7 +923,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       </div>
     </div>
 
-  <!-- <a name="tabs-xml"> </a>
+<!--    <a name="tabs-xml"> </a>
     <div id="tabs-xml">
       <div id="xml">
         <div id="xml-inner">
@@ -925,10 +931,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 
         </div>
       </div>
-    </div> -->
+    </div>-->
 
 
-  <!-- <a name="tabs-json"> </a>
+<!--    <a name="tabs-json"> </a>
     <div id="tabs-json">
       <div id="json">
         <div id="json-inner">
@@ -997,10 +1003,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 
         </div>
       </div>
-    </div> -->
+    </div>-->
 
 
-      <!-- <a name="tabs-ttl"> </a>
+    <!--<a name="tabs-ttl"> </a>
     <div id="tabs-ttl">
       <div id="ttl">
         <div id="ttl-inner">
@@ -1008,7 +1014,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 
         </div>
       </div>
-    </div> -->
+    </div>-->
 
     <a name="tabs-summ"> </a>
     <div id="tabs-summ">
@@ -1027,58 +1033,6 @@ Summary
     </div>
     <a name="tabs-all"> </a>
     <div id="tabs-all">
-      <div id="all-tbl-diff">
-        <p>
-          <b>Differential View</b>
-        </p>
-        <p>This structure is derived from <a href="http://hl7.org/fhir/R4/consent.html">Consent</a>
-        </p>
-        <div id="all-tbl-diff-inner">
-          <table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;" id="new-hampshire-consent-profiled"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Minimum and Maximum # of times the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" onLoad="fhirTableInit(this)" style="background-color: inherit"/></a></span></th></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="a"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent">Consent</a><a name="da-Consent"> </a></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/consent.html">Consent</a></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">A healthcare consumer's  choices to permit or deny recipients or roles to perform actions for specific purposes and periods of time</span></td></tr>
-
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="aa"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img onClick="tableRowAction(this)" src="tbl_vjoin-open.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.policy">policy</a><a name="da-Consent.policy"> </a></td>
-<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
-<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
-<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
-<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
-
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="aaa"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.policy.authority">authority</a><a name="da-Consent.policy.authority"> </a></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#uri">uri</a></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Enforcement source for policy</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">https://www.nh.gov/</span></td></tr>
-
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="ab"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.policyRule">policyRule</a><a name="da-Consent.policyRule"> </a></td>
-<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
-<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
-<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
-<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Regulation that this consents to</span><br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-ConsentExchangePolicies.html" title="https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies">ConsentExchangePolicies</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
-
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="ac"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.verification">verification</a><a name="da-Consent.verification"> </a></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">*</span></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Consent Verified by patient or family</span></td></tr>
-
-<tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table>
-            <!-- Terminology Bindings heading in the fragment -->
-          <h4>Terminology Bindings (Differential)</h4>
-<table class="list">
-<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>Consent.policyRule</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-ConsentExchangePolicies.html">ConsentExchangePolicies</a><div><code>https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies</code><button data-clipboard-text="https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
-</table>
-
-        
-          
-            <!-- 218 is size of empty table -->
-          
-        </div>
-      </div>
       <div id="all-tbl-key">
         <p>
           <b>Key Elements View</b>
@@ -1150,22 +1104,22 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Has been verified</td></tr>
 
 <tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table>
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
 <table class="list">
 <tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>Consent.status</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Indicates the state of the consent."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-state-codes.html">ConsentState</a><div><code>http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.scope</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The four anticipated uses for the Consent Resource."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-scope.html">ConsentScopeCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-scope</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-scope" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.category</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="A classification of the type of consents found in a consent statement."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-category.html">ConsentCategoryCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-category</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-category" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.policyRule</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-ConsentExchangePolicies.html">ConsentExchangePolicies</a><div><code>https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies</code><button data-clipboard-text="https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
+<tr><td>Consent.status</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Indicates the state of the consent."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-state-codes.html">ConsentState</a><div><code>http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.scope</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The four anticipated uses for the Consent Resource."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-scope.html">ConsentScopeCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-scope</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-scope"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.category</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="A classification of the type of consents found in a consent statement."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-category.html">ConsentCategoryCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-category</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-category"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.policyRule</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-ConsentExchangePolicies.html">ConsentExchangePolicies</a><div><code>https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies"></button></div><div>from this IG</div></td></tr>
 </table>
 
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
             <a name="inv-all-key"> </a>
-              <!-- Constraints  heading in the fragment -->
+            <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
 <table class="list">
 <tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
@@ -1183,6 +1137,58 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <tr><td>ppc-5</td><td>error</td><td>Consent</td><td>IF Scope=treatment, there must be a patient<br/>: patient.exists() or scope.coding.where(system='something' and code='treatment').exists().not()</td><td></td></tr>
 </table>
 
+          
+        </div>
+      </div>
+      <div id="all-tbl-diff">
+        <p>
+          <b>Differential View</b>
+        </p>
+        <p>This structure is derived from <a href="http://hl7.org/fhir/R4/consent.html">Consent</a>
+        </p>
+        <div id="all-tbl-diff-inner">
+          <table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;" id="new-hampshire-consent-profiled"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Minimum and Maximum # of times the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" onLoad="fhirTableInit(this)" style="background-color: inherit"/></a></span></th></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="a"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent">Consent</a><a name="da-Consent"> </a></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/consent.html">Consent</a></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">A healthcare consumer's  choices to permit or deny recipients or roles to perform actions for specific purposes and periods of time</span></td></tr>
+
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="aa"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img onClick="tableRowAction(this)" src="tbl_vjoin-open.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.policy">policy</a><a name="da-Consent.policy"> </a></td>
+<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
+<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
+<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
+<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="aaa"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.policy.authority">authority</a><a name="da-Consent.policy.authority"> </a></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#uri">uri</a></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Enforcement source for policy</span><br/><span style="font-weight:bold">Required Pattern: </span><span style="color: darkgreen">https://www.nh.gov/</span></td></tr>
+
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="ab"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.policyRule">policyRule</a><a name="da-Consent.policyRule"> </a></td>
+<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
+<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
+<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
+<td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Regulation that this consents to</span><br/><span style="font-weight:bold">Binding: </span><a href="ValueSet-ConsentExchangePolicies.html" title="https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies">ConsentExchangePolicies</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set.">required</a>)</td></tr>
+
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="ac"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.verification">verification</a><a name="da-Consent.verification"> </a></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">*</span></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Consent Verified by patient or family</span></td></tr>
+
+<tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table>
+          <!--Terminology Bindings heading in the fragment -->
+          <h4>Terminology Bindings (Differential)</h4>
+<table class="list">
+<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
+<tr><td>Consent.policyRule</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-ConsentExchangePolicies.html">ConsentExchangePolicies</a><div><code>https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies"></button></div><div>from this IG</div></td></tr>
+</table>
+
+        
+          
+          <!-- 218 is size of empty table -->
           
         </div>
       </div>
@@ -1222,7 +1228,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td>
 <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Language of the resource content<br/><span style="font-weight:bold">Binding: </span><a href="http://hl7.org/fhir/R4/valueset-languages.html" title="http://hl7.org/fhir/ValueSet/languages">CommonLanguages</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#preferred" title="Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.">preferred</a>): A human language.<br/><br/>
 <table class="grid"><tr><td style="font-size: 11px"><b>Additional Bindings</b></td><td style="font-size: 11px">Purpose</td></tr>
-<tr><td style="font-size: 11px"><a href="http://hl7.org/fhir/R5/valueset-all-languages.html" title="http://hl7.org/fhir/ValueSet/all-languages">AllLanguages</a></td>
+<tr><td style="font-size: 11px"><a href="http://hl7.org/fhir/R4/valueset-all-languages.html" title="http://hl7.org/fhir/ValueSet/all-languages">AllLanguages</a></td>
 <td style="font-size: 11px"><a href="http://hl7.org/fhir/R4/extension-elementdefinition-maxvalueset.html" title="A required binding, for use when the binding strength is 'extensible' or 'preferred'">Max Binding</a></td></tr></table></td></tr>
 
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="ae"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.text" title="A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.">text</a><a name="sa-Consent.text"> </a></td>
@@ -1497,7 +1503,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td>
-<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Context of activities covered by this rule<br/><span style="font-weight:bold">Binding: </span><a href="http://terminology.hl7.org/6.0.2/ValueSet-v3-PurposeOfUse.html" title="http://terminology.hl7.org/ValueSet/v3-PurposeOfUse">PurposeOfUse</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.">extensible</a>): What purposes of use are controlled by this exception. If more than one label is specified, operations must have all the specified labels.<br/><br/><br/></td></tr>
+<td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Context of activities covered by this rule<br/><span style="font-weight:bold">Binding: </span><a href="http://terminology.hl7.org/6.1.0/ValueSet-v3-PurposeOfUse.html" title="http://terminology.hl7.org/ValueSet/v3-PurposeOfUse">PurposeOfUse</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#extensible" title="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.">extensible</a>): What purposes of use are controlled by this exception. If more than one label is specified, operations must have all the specified labels.<br/><br/><br/></td></tr>
 
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="auj"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a no-external="true" href="StructureDefinition-new-hampshire-consent-profile-definitions.html#Consent.provision.class" title="The class of information covered by this rule. The type can be a FHIR resource type, a profile on a type, or a CDA document, or some other type that indicates what sort of information the consent relates to.">class</a><a name="sa-Consent.provision.class"> </a></td>
 <td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
@@ -1562,7 +1568,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Nested Exception Rules<br/></td></tr>
 
 <tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table>
-            <!-- Terminology Bindings heading in the fragment -->
+          <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
 <table class="list">
 <tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
@@ -1575,34 +1581,34 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
   </tr>
   <tr>
     <td style="font-size: 11px">
-      <a href="http://hl7.org/fhir/R5/valueset-all-languages.html" title="http://hl7.org/fhir/ValueSet/all-languages">AllLanguages</a>
+      <a href="http://hl7.org/fhir/R4/valueset-all-languages.html" title="http://hl7.org/fhir/ValueSet/all-languages">AllLanguages</a>
     </td>
     <td style="font-size: 11px">
       <a href="http://hl7.org/fhir/R4/extension-elementdefinition-maxvalueset.html" title="A required binding, for use when the binding strength is 'extensible' or 'preferred'">Max Binding</a>
     </td>
   </tr>
 </table>
-<div><code>http://hl7.org/fhir/ValueSet/languages</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/languages" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.status</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Indicates the state of the consent."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-state-codes.html">ConsentState</a><div><code>http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.scope</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The four anticipated uses for the Consent Resource."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-scope.html">ConsentScopeCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-scope</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-scope" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.category</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="A classification of the type of consents found in a consent statement."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-category.html">ConsentCategoryCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-category</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-category" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.policyRule</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-ConsentExchangePolicies.html">ConsentExchangePolicies</a><div><code>https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies</code><button data-clipboard-text="https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies" title="Click to copy URL" class="btn-copy"></button></div><div>from this IG</div></td></tr>
-<tr><td>Consent.provision.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="How a rule statement is applied, such as adding additional consent or removing consent."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-provision-type.html">ConsentProvisionType</a><div><code>http://hl7.org/fhir/ValueSet/consent-provision-type|4.0.1</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-provision-type|4.0.1" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.provision.actor.role</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="How an actor is involved in the consent considerations."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-security-role-type.html">SecurityRoleType</a><div><code>http://hl7.org/fhir/ValueSet/security-role-type</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/security-role-type" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.provision.action</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Detailed codes for the consent action."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-action.html">ConsentActionCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-action</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-action" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.provision.securityLabel</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="Security Labels from the Healthcare Privacy and Security Classification System."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-security-labels.html">All Security Labels</a><div><code>http://hl7.org/fhir/ValueSet/security-labels</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/security-labels" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.provision.purpose</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="What purposes of use are controlled by this exception. If more than one label is specified, operations must have all the specified labels."><a style="opacity: 1.0" href="http://terminology.hl7.org/6.0.2/ValueSet-v3-PurposeOfUse.html">PurposeOfUse</a><div><code>http://terminology.hl7.org/ValueSet/v3-PurposeOfUse</code><button data-clipboard-text="http://terminology.hl7.org/ValueSet/v3-PurposeOfUse" title="Click to copy URL" class="btn-copy"></button></div></td></tr>
-<tr><td>Consent.provision.class</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The class (type) of information a consent rule covers."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-content-class.html">ConsentContentClass</a><div><code>http://hl7.org/fhir/ValueSet/consent-content-class</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-content-class" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.provision.code</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="If this code is found in an instance, then the exception applies."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-content-code.html">ConsentContentCodes</a> (a valid code from <a href="https://loinc.org/">LOINC</a>)<div><code>http://hl7.org/fhir/ValueSet/consent-content-code</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-content-code" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
-<tr><td>Consent.provision.data.meaning</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="How a resource reference is interpreted when testing consent restrictions."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-data-meaning.html">ConsentDataMeaning</a><div><code>http://hl7.org/fhir/ValueSet/consent-data-meaning|4.0.1</code><button data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-data-meaning|4.0.1" title="Click to copy URL" class="btn-copy"></button></div><div>from the FHIR Standard</div></td></tr>
+<div><code>http://hl7.org/fhir/ValueSet/languages</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/languages"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.status</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Indicates the state of the consent."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-state-codes.html">ConsentState</a><div><code>http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.scope</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The four anticipated uses for the Consent Resource."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-scope.html">ConsentScopeCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-scope</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-scope"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.category</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="A classification of the type of consents found in a consent statement."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-category.html">ConsentCategoryCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-category</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-category"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.policyRule</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td><a style="opacity: 1.0" href="ValueSet-ConsentExchangePolicies.html">ConsentExchangePolicies</a><div><code>https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies"></button></div><div>from this IG</div></td></tr>
+<tr><td>Consent.provision.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="How a rule statement is applied, such as adding additional consent or removing consent."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-provision-type.html">ConsentProvisionType</a><div><code>http://hl7.org/fhir/ValueSet/consent-provision-type|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-provision-type|4.0.1"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.provision.actor.role</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="How an actor is involved in the consent considerations."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-security-role-type.html">SecurityRoleType</a><div><code>http://hl7.org/fhir/ValueSet/security-role-type</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/security-role-type"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.provision.action</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Detailed codes for the consent action."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-action.html">ConsentActionCodes</a><div><code>http://hl7.org/fhir/ValueSet/consent-action</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-action"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.provision.securityLabel</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="Security Labels from the Healthcare Privacy and Security Classification System."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-security-labels.html">All Security Labels</a><div><code>http://hl7.org/fhir/ValueSet/security-labels</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/security-labels"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.provision.purpose</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="What purposes of use are controlled by this exception. If more than one label is specified, operations must have all the specified labels."><a style="opacity: 1.0" href="http://terminology.hl7.org/6.1.0/ValueSet-v3-PurposeOfUse.html">PurposeOfUse</a><div><code>http://terminology.hl7.org/ValueSet/v3-PurposeOfUse</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://terminology.hl7.org/ValueSet/v3-PurposeOfUse"></button></div></td></tr>
+<tr><td>Consent.provision.class</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The class (type) of information a consent rule covers."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-content-class.html">ConsentContentClass</a><div><code>http://hl7.org/fhir/ValueSet/consent-content-class</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-content-class"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.provision.code</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="If this code is found in an instance, then the exception applies."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-content-code.html">ConsentContentCodes</a> (a valid code from <a href="https://loinc.org/">LOINC</a>)<div><code>http://hl7.org/fhir/ValueSet/consent-content-code</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-content-code"></button></div><div>from the FHIR Standard</div></td></tr>
+<tr><td>Consent.provision.data.meaning</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="How a resource reference is interpreted when testing consent restrictions."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-consent-data-meaning.html">ConsentDataMeaning</a><div><code>http://hl7.org/fhir/ValueSet/consent-data-meaning|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/consent-data-meaning|4.0.1"></button></div><div>from the FHIR Standard</div></td></tr>
 </table>
 
         
           
-            <!-- 218 is size of empty table -->
+          <!-- 218 is size of empty table -->
           
             <a name="inv-all-snap"> </a>
-              <!-- Constraints  heading in the fragment -->
+            <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
 <table class="list">
 <tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
@@ -1624,7 +1630,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </div>
       </div>
 
-        <!-- <div id="all-xml">
+      <!--<div id="all-xml">
         <p>
           <b>XML Template</b>
         </p>
@@ -1632,10 +1638,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
           <p><span style="color: maroon; font-weight: bold">yet to be done: Xml template</span></p>
 
         </div>
-      </div> -->
+      </div>-->
 
 
-        <!-- <div id="all-json">
+      <!--<div id="all-json">
         <p>
           <b>JSON Template</b>
         </p>
@@ -1704,10 +1710,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
   }
 
         </div>
-      </div> -->
+      </div>-->
 
 
-        <!-- <div id="all-ttl">
+      <!--<div id="all-ttl">
         <p>
           <b>TTL Template</b>
         </p>
@@ -1715,7 +1721,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
           <p><span style="color: maroon; font-weight: bold">yet to be done: Turtle template</span></p>
 
         </div>
-      </div> -->
+      </div>-->
 
       <div id="all-summ">
         <p>This structure is derived from <a href="http://hl7.org/fhir/R4/consent.html">Consent</a>
@@ -1730,38 +1736,38 @@ Summary
       </div>
     </div>
   </div>
-  <p>&nbsp;</p>
+  <p>&#160;</p>
   <p>Other representations of profile: <a href="StructureDefinition-new-hampshire-consent-profile.csv">CSV</a>, <a href="StructureDefinition-new-hampshire-consent-profile.xlsx">Excel</a>, <a href="StructureDefinition-new-hampshire-consent-profile.sch">Schematron</a>
  
   </p>
 
   
 
-  <!-- insert notes if present -->
+<!-- insert notes if present -->
 
 
 
 
 </div>
 
-        </div>    <!-- /inner-wrapper -->
-      </div>    <!-- /row -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-content -->
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
 
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script src="assets/js/tabs.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/tabs.js"> </script>
 
-  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
-  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
-    <div class="container">    <!-- container -->
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l6850">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/awatson1978/us-state-profiles">The MITRE Corporation</a>.  Package ig.fhir.us-interstate-interoperability#0.6.4 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 25, 2024 16:51-0600">2024-11-25</span>
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/awatson1978/us-state-profiles">The MITRE Corporation</a>.  Package ig.fhir.us-interstate-interoperability#0.6.4 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jan 1, 2025 21:35-0700">2025-01-01</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -1770,26 +1776,27 @@ Summary
                 
           </span>
         </p>
-      </div>    <!-- /inner-wrapper -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-footer -->
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
-    <div class="container">    <!-- container -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
 
-    <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
   ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
-  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
-    <!-- Analytics Below
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
+

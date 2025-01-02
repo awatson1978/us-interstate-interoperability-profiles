@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "BaseConsentProfile"] ; # 
   fhir:title [ fhir:v "BaseConsentProfile"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-11-25T16:51:20-06:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-01-01T21:35:28-07:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "The MITRE Corporation"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "The MITRE Corporation" ] ;

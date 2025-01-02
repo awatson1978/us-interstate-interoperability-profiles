@@ -47,4 +47,4 @@ Cannabis has been listed as a Schedule I controlled substance since the Controll
 
 
 #### Datasets
-[Locations.US.States.ControlledSubstances.Cannabis.20240128.ndjson](Locations.US.States.ControlledSubstances.Cannabis.20240128.ndjson)  
+[Locations.US.States.ControlledSubstances.Cannabis.20250101.ndjson](Locations.US.States.ControlledSubstances.Cannabis.20250101.ndjson)  

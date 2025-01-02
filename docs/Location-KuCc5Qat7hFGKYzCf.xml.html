@@ -1,50 +1,54 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
     <title>US-State-Nevada - XML Representation -  v0.6.4</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link rel="stylesheet" href="fhir.css"/>
+    <link href="fhir.css" rel="stylesheet"/>
 
-      <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
 
-      <!-- Project extras -->
-    <link rel="stylesheet" href="assets/css/project.css"/>
-    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
-    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-  	<link rel="stylesheet" href="assets/css/prism.css"/>
-      <!-- Placeholder for child template CSS declarations -->
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
 
-    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
-      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- [if lt IE 9]>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif] -->
+    <![endif]-->
 
-      <!-- Favicons -->
-    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
-    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
-    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
     <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-    <script src="assets/js/mermaid.js" type="text/javascript"></script>
-    <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"15.125"}
     h3,h4,h5,h6{--heading-prefix:"15.125"}</style>
-    <div id="segment-header" class="segment">    <!-- segment-header -->
-      <div class="container">    <!-- container -->
-          <!-- Placeholder for child template header declarations -->
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
 
 
         <div id="ig-status">
@@ -56,27 +60,27 @@
             </span>
           </p>
         </div>
-      </div>   <!-- /container -->
-    </div>    <!-- /segment-header -->
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">    <!-- container -->
-          <!-- HEADER CONTENT -->
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
 
         <nav class="navbar navbar-inverse">
-            <!-- status-bar -->
+          <!--status-bar-->
           <div class="container">
-            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-                <!-- menu.xml -->
+              <!-- menu.xml  -->
 
-<ul class="nav navbar-nav">
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Home</a>
   </li>
@@ -127,31 +131,31 @@
     <a href="artifacts.html">Artifacts</a>
   </li>
 </ul>
-            </div>    <!-- /.nav-collapse -->
-          </div>    <!-- /.container -->
-        </nav>    <!-- /.navbar -->
-        <!-- /HEADER CONTENT -->
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-navbar -->
-      <!-- status-bar -->
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
 
-    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
-      <div class="container">    <!-- container -->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>US-State-Nevada</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-Nevada</b></li>
 
         </ul>
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-breadcrumb -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">    <!-- segment-content -->
-      <div class="container">    <!-- container -->
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 7" class="col-12">
-  <!-- ReleaseHeader --><p id="publish-box">USInterstateInteroperability - Local Development build (v0.6.4) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://github.com/awatson1978/us-state-profiles/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+<!--ReleaseHeader--><p id="publish-box">USInterstateInteroperability - Local Development build (v0.6.4) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://github.com/awatson1978/us-state-profiles/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -200,68 +204,67 @@
 <h2 id="root">: US-State-Nevada - XML Representation</h2>
 
 
-<p><a href="Location-KuCc5Qat7hFGKYzCf.xml" no-download="true">Raw xml</a> | <a download="null" href="Location-KuCc5Qat7hFGKYzCf.xml">Download</a></p>
+<p><a href="Location-KuCc5Qat7hFGKYzCf.xml" no-download="true">Raw xml</a> | <a href="Location-KuCc5Qat7hFGKYzCf.xml" download>Download</a></p>
 
-    <!-- insert intro if present -->
+  <!-- insert intro if present -->
   
 
 
 
-  <pre style="white-space: pre; text-wrap: nowrap;" class="xml"><code style="white-space: pre; text-wrap: nowrap;" class="language-xml">
-
-&lt;<a href="http://hl7.org/fhir/R4/location.html#Location">Location</a> xmlns="http://hl7.org/fhir"&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/location.html#Location.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="KuCc5Qat7hFGKYzCf"/&gt;
+  <pre class="xml" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
+&lt;<a href="http://hl7.org/fhir/R4/location.html#Location">Location</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/location.html#Location.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;KuCc5Qat7hFGKYzCf&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/location.html#Location.text">text</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="extensions"/&gt;
-    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p class="res-header-id"&gt;&lt;b&gt;Generated Narrative: Location KuCc5Qat7hFGKYzCf&lt;/b&gt;&lt;/p&gt;&lt;a name="KuCc5Qat7hFGKYzCf"&gt; &lt;/a&gt;&lt;a name="hcKuCc5Qat7hFGKYzCf"&gt; &lt;/a&gt;&lt;a name="KuCc5Qat7hFGKYzCf-en-US"&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;geometry&lt;/b&gt;: {&amp;quot;type&amp;quot;:&amp;quot;Polygon&amp;quot;,&amp;quot;coordinates&amp;quot;:[[[-119.72572999999997,41.99629599999999],[-119.99916799999998,41.99453999999999],[-119.99828699999999,41.74989199999999],[-119.99986599999997,41.183973999999985],[-119.99939129912379,40.8935685616097],[-119.99935799999997,40.87310099999999],[-119.99592599999997,40.49990099999999],[-120.00050199999997,39.77995599999999],[-120.00131900843897,39.722416320206285],[-120.00574599999999,39.22521],[-120.00101399999998,38.99957399999999],[-119.58767899999998,38.71473399999999],[-119.09716099999997,38.37285299999999],[-118.74659799999998,38.12492599999999],[-118.62158999999998,38.03438899999998],[-117.87592699999998,37.497266999999994],[-117.58141799999997,37.278935999999995],[-117.50090899999998,37.22028199999998],[-117.00089499999997,36.84769399999998],[-116.54198299999999,36.49995199999999],[-116.375875,36.37256199999999],[-116.09721599999999,36.158345999999995],[-115.50083199999997,35.69338199999999],[-114.80502999999997,35.140283999999994],[-114.63301299999998,35.00208499999999],[-114.60473599999997,35.07482999999999],[-114.64283099999997,35.09650299999999],[-114.57274699999996,35.138725],[-114.56923799999997,35.18347999999999],[-114.595931,35.325233999999995],[-114.61143499999997,35.36905599999999],[-114.66212499999997,35.444241],[-114.67720499999999,35.513490999999995],[-114.65340599999998,35.61078899999998],[-114.68220699999999,35.678187999999984],[-114.68320799999998,35.68938699999999],[-114.71210999999997,35.80618499999999],[-114.67742038175197,35.87472796293489],[-114.67903885108598,35.88004579842708],[-114.73115899999999,35.943916],[-114.74037470307799,36.04925769149439],[-114.73625324291599,36.058470354436594],[-114.73616499999999,36.10436699999999],[-114.57203099999998,36.15160999999999],[-114.51172099999997,36.15095599999999],[-114.45836899999998,36.13858599999998],[-114.44865399999998,36.12640999999999],[-114.41694999999999,36.14576099999999],[-114.40547499999998,36.14737099999999],[-114.32877699999997,36.10550099999999],[-114.31610899999997,36.06310899999999],[-114.31402799999996,36.05816499999998],[-114.23879899999997,36.01456099999999],[-114.15412999999997,36.023861999999994],[-114.06802699999997,36.18066299999999],[-114.04683799999997,36.19406899999999],[-114.05056199999997,36.65625899999999],[-114.05059999999999,37.00039599999999],[-114.05244799999998,37.431439999999995],[-114.05270099999997,37.49201399999998],[-114.04941699999998,38.2647],[-114.04910399999997,39.00550899999999],[-114.04707899999997,39.49994299999999],[-114.04655499999997,39.996899],[-114.04617799999997,40.39831299999999],[-114.04317599999997,40.77167499999998],[-114.04023099999998,41.49168999999999],[-114.04172299999999,41.99371999999998],[-114.59826699999996,41.99451099999999],[-114.80638399999997,42.00182199999999],[-115.03178299999998,41.99600799999999],[-115.8015325330767,41.99693323853626],[-115.87018099999997,41.996765999999994],[-116.36847799999997,41.99628099999999],[-117.02622199999998,42.00025199999999],[-117.44306199999997,41.99965899999999],[-117.62373099999998,41.998466999999984],[-118.19718899999998,41.99699499999998],[-118.69640899999997,41.991793999999985],[-119.44459799999998,41.99547799999999],[-119.72572999999997,41.99629599999999]]]}&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://www.usps.com&lt;/code&gt;/NV, &lt;code&gt;https://www.census.gov/&lt;/code&gt;/0400000US32, &lt;code&gt;https://github.com/awatson1978/us-state-profiles/index&lt;/code&gt;/32&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: State of Nevada&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: NV USA &lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;extensions&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Location KuCc5Qat7hFGKYzCf&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;KuCc5Qat7hFGKYzCf&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcKuCc5Qat7hFGKYzCf&quot;&gt; &lt;/a&gt;&lt;a name=&quot;KuCc5Qat7hFGKYzCf-en-US&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;geometry&lt;/b&gt;: {&amp;quot;type&amp;quot;:&amp;quot;Polygon&amp;quot;,&amp;quot;coordinates&amp;quot;:[[[-119.72572999999997,41.99629599999999],[-119.99916799999998,41.99453999999999],[-119.99828699999999,41.74989199999999],[-119.99986599999997,41.183973999999985],[-119.99939129912379,40.8935685616097],[-119.99935799999997,40.87310099999999],[-119.99592599999997,40.49990099999999],[-120.00050199999997,39.77995599999999],[-120.00131900843897,39.722416320206285],[-120.00574599999999,39.22521],[-120.00101399999998,38.99957399999999],[-119.58767899999998,38.71473399999999],[-119.09716099999997,38.37285299999999],[-118.74659799999998,38.12492599999999],[-118.62158999999998,38.03438899999998],[-117.87592699999998,37.497266999999994],[-117.58141799999997,37.278935999999995],[-117.50090899999998,37.22028199999998],[-117.00089499999997,36.84769399999998],[-116.54198299999999,36.49995199999999],[-116.375875,36.37256199999999],[-116.09721599999999,36.158345999999995],[-115.50083199999997,35.69338199999999],[-114.80502999999997,35.140283999999994],[-114.63301299999998,35.00208499999999],[-114.60473599999997,35.07482999999999],[-114.64283099999997,35.09650299999999],[-114.57274699999996,35.138725],[-114.56923799999997,35.18347999999999],[-114.595931,35.325233999999995],[-114.61143499999997,35.36905599999999],[-114.66212499999997,35.444241],[-114.67720499999999,35.513490999999995],[-114.65340599999998,35.61078899999998],[-114.68220699999999,35.678187999999984],[-114.68320799999998,35.68938699999999],[-114.71210999999997,35.80618499999999],[-114.67742038175197,35.87472796293489],[-114.67903885108598,35.88004579842708],[-114.73115899999999,35.943916],[-114.74037470307799,36.04925769149439],[-114.73625324291599,36.058470354436594],[-114.73616499999999,36.10436699999999],[-114.57203099999998,36.15160999999999],[-114.51172099999997,36.15095599999999],[-114.45836899999998,36.13858599999998],[-114.44865399999998,36.12640999999999],[-114.41694999999999,36.14576099999999],[-114.40547499999998,36.14737099999999],[-114.32877699999997,36.10550099999999],[-114.31610899999997,36.06310899999999],[-114.31402799999996,36.05816499999998],[-114.23879899999997,36.01456099999999],[-114.15412999999997,36.023861999999994],[-114.06802699999997,36.18066299999999],[-114.04683799999997,36.19406899999999],[-114.05056199999997,36.65625899999999],[-114.05059999999999,37.00039599999999],[-114.05244799999998,37.431439999999995],[-114.05270099999997,37.49201399999998],[-114.04941699999998,38.2647],[-114.04910399999997,39.00550899999999],[-114.04707899999997,39.49994299999999],[-114.04655499999997,39.996899],[-114.04617799999997,40.39831299999999],[-114.04317599999997,40.77167499999998],[-114.04023099999998,41.49168999999999],[-114.04172299999999,41.99371999999998],[-114.59826699999996,41.99451099999999],[-114.80638399999997,42.00182199999999],[-115.03178299999998,41.99600799999999],[-115.8015325330767,41.99693323853626],[-115.87018099999997,41.996765999999994],[-116.36847799999997,41.99628099999999],[-117.02622199999998,42.00025199999999],[-117.44306199999997,41.99965899999999],[-117.62373099999998,41.998466999999984],[-118.19718899999998,41.99699499999998],[-118.69640899999997,41.991793999999985],[-119.44459799999998,41.99547799999999],[-119.72572999999997,41.99629599999999]]]}&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://www.usps.com&lt;/code&gt;/NV, &lt;code&gt;https://www.census.gov/&lt;/code&gt;/0400000US32, &lt;code&gt;https://github.com/awatson1978/us-state-profiles/index&lt;/code&gt;/32&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: State of Nevada&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: NV USA &lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/location.html#Location.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="geometry"&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/location.html#Location.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;geometry&quot;&gt;
     &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="{&amp;quot;type&amp;quot;:&amp;quot;Polygon&amp;quot;,&amp;quot;coordinates&amp;quot;:[[[-119.72572999999997,41.99629599999999],[-119.99916799999998,41.99453999999999],[-119.99828699999999,41.74989199999999],[-119.99986599999997,41.183973999999985],[-119.99939129912379,40.8935685616097],[-119.99935799999997,40.87310099999999],[-119.99592599999997,40.49990099999999],[-120.00050199999997,39.77995599999999],[-120.00131900843897,39.722416320206285],[-120.00574599999999,39.22521],[-120.00101399999998,38.99957399999999],[-119.58767899999998,38.71473399999999],[-119.09716099999997,38.37285299999999],[-118.74659799999998,38.12492599999999],[-118.62158999999998,38.03438899999998],[-117.87592699999998,37.497266999999994],[-117.58141799999997,37.278935999999995],[-117.50090899999998,37.22028199999998],[-117.00089499999997,36.84769399999998],[-116.54198299999999,36.49995199999999],[-116.375875,36.37256199999999],[-116.09721599999999,36.158345999999995],[-115.50083199999997,35.69338199999999],[-114.80502999999997,35.140283999999994],[-114.63301299999998,35.00208499999999],[-114.60473599999997,35.07482999999999],[-114.64283099999997,35.09650299999999],[-114.57274699999996,35.138725],[-114.56923799999997,35.18347999999999],[-114.595931,35.325233999999995],[-114.61143499999997,35.36905599999999],[-114.66212499999997,35.444241],[-114.67720499999999,35.513490999999995],[-114.65340599999998,35.61078899999998],[-114.68220699999999,35.678187999999984],[-114.68320799999998,35.68938699999999],[-114.71210999999997,35.80618499999999],[-114.67742038175197,35.87472796293489],[-114.67903885108598,35.88004579842708],[-114.73115899999999,35.943916],[-114.74037470307799,36.04925769149439],[-114.73625324291599,36.058470354436594],[-114.73616499999999,36.10436699999999],[-114.57203099999998,36.15160999999999],[-114.51172099999997,36.15095599999999],[-114.45836899999998,36.13858599999998],[-114.44865399999998,36.12640999999999],[-114.41694999999999,36.14576099999999],[-114.40547499999998,36.14737099999999],[-114.32877699999997,36.10550099999999],[-114.31610899999997,36.06310899999999],[-114.31402799999996,36.05816499999998],[-114.23879899999997,36.01456099999999],[-114.15412999999997,36.023861999999994],[-114.06802699999997,36.18066299999999],[-114.04683799999997,36.19406899999999],[-114.05056199999997,36.65625899999999],[-114.05059999999999,37.00039599999999],[-114.05244799999998,37.431439999999995],[-114.05270099999997,37.49201399999998],[-114.04941699999998,38.2647],[-114.04910399999997,39.00550899999999],[-114.04707899999997,39.49994299999999],[-114.04655499999997,39.996899],[-114.04617799999997,40.39831299999999],[-114.04317599999997,40.77167499999998],[-114.04023099999998,41.49168999999999],[-114.04172299999999,41.99371999999998],[-114.59826699999996,41.99451099999999],[-114.80638399999997,42.00182199999999],[-115.03178299999998,41.99600799999999],[-115.8015325330767,41.99693323853626],[-115.87018099999997,41.996765999999994],[-116.36847799999997,41.99628099999999],[-117.02622199999998,42.00025199999999],[-117.44306199999997,41.99965899999999],[-117.62373099999998,41.998466999999984],[-118.19718899999998,41.99699499999998],[-118.69640899999997,41.991793999999985],[-119.44459799999998,41.99547799999999],[-119.72572999999997,41.99629599999999]]]}"/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;{&amp;quot;type&amp;quot;:&amp;quot;Polygon&amp;quot;,&amp;quot;coordinates&amp;quot;:[[[-119.72572999999997,41.99629599999999],[-119.99916799999998,41.99453999999999],[-119.99828699999999,41.74989199999999],[-119.99986599999997,41.183973999999985],[-119.99939129912379,40.8935685616097],[-119.99935799999997,40.87310099999999],[-119.99592599999997,40.49990099999999],[-120.00050199999997,39.77995599999999],[-120.00131900843897,39.722416320206285],[-120.00574599999999,39.22521],[-120.00101399999998,38.99957399999999],[-119.58767899999998,38.71473399999999],[-119.09716099999997,38.37285299999999],[-118.74659799999998,38.12492599999999],[-118.62158999999998,38.03438899999998],[-117.87592699999998,37.497266999999994],[-117.58141799999997,37.278935999999995],[-117.50090899999998,37.22028199999998],[-117.00089499999997,36.84769399999998],[-116.54198299999999,36.49995199999999],[-116.375875,36.37256199999999],[-116.09721599999999,36.158345999999995],[-115.50083199999997,35.69338199999999],[-114.80502999999997,35.140283999999994],[-114.63301299999998,35.00208499999999],[-114.60473599999997,35.07482999999999],[-114.64283099999997,35.09650299999999],[-114.57274699999996,35.138725],[-114.56923799999997,35.18347999999999],[-114.595931,35.325233999999995],[-114.61143499999997,35.36905599999999],[-114.66212499999997,35.444241],[-114.67720499999999,35.513490999999995],[-114.65340599999998,35.61078899999998],[-114.68220699999999,35.678187999999984],[-114.68320799999998,35.68938699999999],[-114.71210999999997,35.80618499999999],[-114.67742038175197,35.87472796293489],[-114.67903885108598,35.88004579842708],[-114.73115899999999,35.943916],[-114.74037470307799,36.04925769149439],[-114.73625324291599,36.058470354436594],[-114.73616499999999,36.10436699999999],[-114.57203099999998,36.15160999999999],[-114.51172099999997,36.15095599999999],[-114.45836899999998,36.13858599999998],[-114.44865399999998,36.12640999999999],[-114.41694999999999,36.14576099999999],[-114.40547499999998,36.14737099999999],[-114.32877699999997,36.10550099999999],[-114.31610899999997,36.06310899999999],[-114.31402799999996,36.05816499999998],[-114.23879899999997,36.01456099999999],[-114.15412999999997,36.023861999999994],[-114.06802699999997,36.18066299999999],[-114.04683799999997,36.19406899999999],[-114.05056199999997,36.65625899999999],[-114.05059999999999,37.00039599999999],[-114.05244799999998,37.431439999999995],[-114.05270099999997,37.49201399999998],[-114.04941699999998,38.2647],[-114.04910399999997,39.00550899999999],[-114.04707899999997,39.49994299999999],[-114.04655499999997,39.996899],[-114.04617799999997,40.39831299999999],[-114.04317599999997,40.77167499999998],[-114.04023099999998,41.49168999999999],[-114.04172299999999,41.99371999999998],[-114.59826699999996,41.99451099999999],[-114.80638399999997,42.00182199999999],[-115.03178299999998,41.99600799999999],[-115.8015325330767,41.99693323853626],[-115.87018099999997,41.996765999999994],[-116.36847799999997,41.99628099999999],[-117.02622199999998,42.00025199999999],[-117.44306199999997,41.99965899999999],[-117.62373099999998,41.998466999999984],[-118.19718899999998,41.99699499999998],[-118.69640899999997,41.991793999999985],[-119.44459799999998,41.99547799999999],[-119.72572999999997,41.99629599999999]]]}&quot;/&gt;
   &lt;/extension&gt;
   &lt;<a href="http://hl7.org/fhir/R4/location.html#Location.identifier">identifier</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="https://www.usps.com"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="NV"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://www.usps.com&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;NV&quot;/&gt;
   &lt;/identifier&gt;
   &lt;<a href="http://hl7.org/fhir/R4/location.html#Location.identifier">identifier</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="https://www.census.gov/"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="0400000US32"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://www.census.gov/&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;0400000US32&quot;/&gt;
   &lt;/identifier&gt;
   &lt;<a href="http://hl7.org/fhir/R4/location.html#Location.identifier">identifier</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="https://github.com/awatson1978/us-state-profiles/index"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="32"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://github.com/awatson1978/us-state-profiles/index&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;32&quot;/&gt;
   &lt;/identifier&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/location.html#Location.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="active"/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/location.html#Location.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="State of Nevada"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/location.html#Location.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/location.html#Location.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;State of Nevada&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/location.html#Location.address">address</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.state">state</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="NV"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">country</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="USA"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.state">state</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;NV&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">country</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;USA&quot;/&gt;
   &lt;/address&gt;
 &lt;/Location&gt;</code></pre>
 
 
-    <!-- insert notes if present -->
+  <!-- insert notes if present -->
   
 
 
 
 </div>
-        </div>    <!-- /inner-wrapper -->
-      </div>    <!-- /row -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-content -->
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
 
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
-  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
-    <div class="container">    <!-- container -->
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l491">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/awatson1978/us-state-profiles">The MITRE Corporation</a>.  Package ig.fhir.us-interstate-interoperability#0.6.4 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 25, 2024 16:51-0600">2024-11-25</span>
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/awatson1978/us-state-profiles">The MITRE Corporation</a>.  Package ig.fhir.us-interstate-interoperability#0.6.4 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jan 1, 2025 21:35-0700">2025-01-01</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -270,26 +273,27 @@
                 
           </span>
         </p>
-      </div>    <!-- /inner-wrapper -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-footer -->
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
-    <div class="container">    <!-- container -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
 
-    <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
   ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
-  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
-    <!-- Analytics Below
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
+

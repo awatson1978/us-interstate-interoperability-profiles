@@ -1,50 +1,52 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
     <title>US-State-WestVirginia -  v0.6.4</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link rel="stylesheet" href="fhir.css"/>
+    <link href="fhir.css" rel="stylesheet"/>
 
-      <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
 
-      <!-- Project extras -->
-    <link rel="stylesheet" href="assets/css/project.css"/>
-    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
-    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-  	<link rel="stylesheet" href="assets/css/prism.css"/>
-      <!-- Placeholder for child template CSS declarations -->
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
 
-    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
-      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- [if lt IE 9]>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif] -->
+    <![endif]-->
 
-      <!-- Favicons -->
-    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
-    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
-    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
     <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-    <script src="assets/js/mermaid.js" type="text/javascript"></script>
-    <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"15.146"}
     h3,h4,h5,h6{--heading-prefix:"15.146"}</style>
-    <div id="segment-header" class="segment">    <!-- segment-header -->
-      <div class="container">    <!-- container -->
-          <!-- Placeholder for child template header declarations -->
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
 
 
         <div id="ig-status">
@@ -56,27 +58,27 @@
             </span>
           </p>
         </div>
-      </div>   <!-- /container -->
-    </div>    <!-- /segment-header -->
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">    <!-- container -->
-          <!-- HEADER CONTENT -->
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
 
         <nav class="navbar navbar-inverse">
-            <!-- status-bar -->
+          <!--status-bar-->
           <div class="container">
-            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-                <!-- menu.xml -->
+              <!-- menu.xml  -->
 
-<ul class="nav navbar-nav">
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Home</a>
   </li>
@@ -127,31 +129,31 @@
     <a href="artifacts.html">Artifacts</a>
   </li>
 </ul>
-            </div>    <!-- /.nav-collapse -->
-          </div>    <!-- /.container -->
-        </nav>    <!-- /.navbar -->
-        <!-- /HEADER CONTENT -->
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-navbar -->
-      <!-- status-bar -->
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
 
-    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
-      <div class="container">    <!-- container -->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>US-State-WestVirginia</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>US-State-WestVirginia</b></li>
 
         </ul>
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-breadcrumb -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">    <!-- segment-content -->
-      <div class="container">    <!-- container -->
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">USInterstateInteroperability - Local Development build (v0.6.4) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://github.com/awatson1978/us-state-profiles/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <!--ReleaseHeader--><p id="publish-box">USInterstateInteroperability - Local Development build (v0.6.4) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://github.com/awatson1978/us-state-profiles/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
   
 
@@ -203,37 +205,37 @@
 
 
 
-    <!-- insert intro if present -->
+  <!-- insert intro if present -->
   
 
 
 
-  <div><p class="res-header-id"><b>Generated Narrative: Location ZgqTvzE4GzyiJvsh2</b></p><a name="ZgqTvzE4GzyiJvsh2"> </a><a name="hcZgqTvzE4GzyiJvsh2"> </a><a name="ZgqTvzE4GzyiJvsh2-en-US"> </a><p><b>geometry</b>: {"type":"Polygon","coordinates":[[[-79.85313099999998,39.72071299999999],[-80.51934199999998,39.721403],[-80.51895999999996,40.078089],[-80.51899099999997,40.638801],[-80.62717099999998,40.61993599999998],[-80.66691699999998,40.57366399999999],[-80.59919399999997,40.48256599999999],[-80.61119499999997,40.437766999999994],[-80.59989499999998,40.31766899999999],[-80.70460199999998,40.15482299999999],[-80.74012599999998,39.97079299999999],[-80.80339399999998,39.91876199999999],[-80.79313099999999,39.863750999999986],[-80.86533899999996,39.75325099999999],[-80.87600199999999,39.627083999999996],[-80.87900972253593,39.62268229494296],[-80.88035999999997,39.62070599999998],[-80.93329199999997,39.614811999999986],[-81.02389999999998,39.552313],[-81.134434,39.445074999999996],[-81.18594599999999,39.43073099999999],[-81.22358099999998,39.38606199999998],[-81.27071599999996,39.38591399999999],[-81.34756699999998,39.34576999999999],[-81.45614299999998,39.40927399999999],[-81.55754699999997,39.338773999999994],[-81.57024699999998,39.26767499999999],[-81.67833099999999,39.273754999999994],[-81.69133899999997,39.22794699999999],[-81.75625399999998,39.177275999999985],[-81.75235299999997,39.08987799999999],[-81.81165499999999,39.059578],[-81.76425299999998,39.01527899999999],[-81.81423499999998,38.946167999999986],[-81.88923299999998,38.874279],[-81.93318599999998,38.987659],[-82.03596299999998,39.02547799999999],[-82.14316699999998,38.89807899999999],[-82.14486699999996,38.840479999999985],[-82.21726899999999,38.79567999999998],[-82.18246699999997,38.708782],[-82.17206599999999,38.62598399999998],[-82.20517099999996,38.59171899999999],[-82.21896699999998,38.59168299999999],[-82.29127099999998,38.578983],[-82.32399899999999,38.44926799999999],[-82.40488199999999,38.43934699999999],[-82.52957899999997,38.40518199999999],[-82.59367299999998,38.42180899999999],[-82.59797899999998,38.344909],[-82.57465599999998,38.26387299999998],[-82.63730599999998,38.13905],[-82.55125899999999,38.070798999999994],[-82.51781018761508,38.00247890180029],[-82.46425699999996,37.983412],[-82.50186199999999,37.93319999999999],[-82.42148399999996,37.885651999999986],[-82.39844399999997,37.821647999999996],[-82.34884899999999,37.787177999999976],[-82.29611799999996,37.686173999999994],[-82.22019999999998,37.633911999999995],[-82.21481499999999,37.62757199999999],[-82.21564899999997,37.62624399999999],[-82.21348999999998,37.625407999999986],[-82.18631999999997,37.62929199999998],[-82.12198499999997,37.55276299999999],[-82.06441799999996,37.53687000000001],[-81.96829699999998,37.53779799999999],[-81.94391199999998,37.50292899999999],[-81.94936699999998,37.44568699999999],[-81.92849699999996,37.36064499999999],[-81.85445999999997,37.306569999999994],[-81.76175199999997,37.27571299999999],[-81.67820999999996,37.20148299999998],[-81.56062499999999,37.20666299999999],[-81.44828499999997,37.27057499999998],[-81.41666299999997,37.273214],[-81.36215599999998,37.33768699999999],[-81.22510399999999,37.23487399999999],[-81.11259599999998,37.278496999999994],[-80.97958899999998,37.30227899999999],[-80.94789599999999,37.29587199999999],[-80.84945099999999,37.34690899999999],[-80.88324799999998,37.38393299999999],[-80.81163899999999,37.40750699999999],[-80.808769,37.40627099999999],[-80.77008199999999,37.37236299999999],[-80.70520299999997,37.39461799999999],[-80.55203599999997,37.47356299999999],[-80.51513899999998,37.478565999999994],[-80.47560099999998,37.42294899999999],[-80.29978899999996,37.50827099999999],[-80.32850399999997,37.56431499999999],[-80.25891899999998,37.59549899999998],[-80.29613799999998,37.691782999999994],[-80.25741099999996,37.756084],[-80.16220199999998,37.87512199999999],[-80.002507,37.99276699999999],[-79.92632999999998,38.10715099999999],[-79.92119599999998,38.18037799999999],[-79.87908699999997,38.21101599999997],[-79.86362499999998,38.22394499999999],[-79.78754199999997,38.27329799999999],[-79.81011499999997,38.30503699999997],[-79.74410499999996,38.35396799999998],[-79.68967499999997,38.43143899999998],[-79.69900599999997,38.47514799999999],[-79.64907499999998,38.591514999999994],[-79.53686999999996,38.55091699999999],[-79.47663799999998,38.457227999999986],[-79.38034472384487,38.43069280024618],[-79.31227599999997,38.41187599999999],[-79.21059099999998,38.492912999999994],[-79.12975699999997,38.655017],[-79.09295499999999,38.659516999999994],[-79.07255499999998,38.74751299999999],[-78.99399699999998,38.85010199999999],[-78.86927599999999,38.76299099999999],[-78.78803099999996,38.88512299999999],[-78.73892099999998,38.92728299999999],[-78.68045599999996,38.92531299999998],[-78.64658899999998,38.96813799999999],[-78.60165499999998,38.96460299999999],[-78.57190099999998,39.031994999999995],[-78.40369699999998,39.16745099999999],[-78.43865099999996,39.19804899999999],[-78.41942199999998,39.25747599999998],[-78.34047999999999,39.353491999999996],[-78.3428807338125,39.394419561457525],[-78.34708699999999,39.46601199999999],[-78.28797999999998,39.428754999999995],[-78.22876599999998,39.39123299999999],[-78.21445362904505,39.38135146116259],[-78.20540099999997,39.375098999999985],[-77.82815699999999,39.13232899999999],[-77.74728699999997,39.29500099999999],[-77.71902899999998,39.32112499999999],[-77.73500899999999,39.32701499999998],[-77.7539540295214,39.33329131411464],[-77.75578899999996,39.33389899999998],[-77.75308999999999,39.423262],[-77.79563099999997,39.489622999999995],[-77.93904993513178,39.58713856174429],[-78.01134299999998,39.60408299999999],[-78.10783399999998,39.68213699999998],[-78.18275899999998,39.695109999999985],[-78.26683299999996,39.61881799999999],[-78.35190499999997,39.640485999999974],[-78.42054899999997,39.62402099999999],[-78.46289899999998,39.52083999999997],[-78.56592899999997,39.51944399999999],[-78.68945499999998,39.54576999999999],[-78.79585699999998,39.60693399999998],[-78.87474399999998,39.52261099999999],[-78.9911814248798,39.45816016920474],[-78.99694999999998,39.45496099999999],[-79.0071488068442,39.45968322158846],[-79.01009699999997,39.461047999999984],[-79.09824010719417,39.46844475480341],[-79.0981508095168,39.46832052035303],[-79.09615371103747,39.465541944440794],[-79.1454530727392,39.40776687823778],[-79.25389099999998,39.33722199999999],[-79.38034472384487,39.26914288348864],[-79.38702299999997,39.26554],[-79.43982999999997,39.21707399999999],[-79.48687299999999,39.20596099999998],[-79.48437199999996,39.3443],[-79.48281722195964,39.50402381637971],[-79.48264799999998,39.521364],[-79.47666199999996,39.72107799999999],[-79.85313099999998,39.72071299999999]]]}</p><p><b>identifier</b>: <code>https://www.usps.com</code>/WV, <code>https://www.census.gov/</code>/0400000US54, <code>https://github.com/awatson1978/us-state-profiles/index</code>/54</p><p><b>status</b>: Active</p><p><b>name</b>: State of West Virginia</p><p><b>address</b>: WV USA </p></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Location ZgqTvzE4GzyiJvsh2</b></p><a name="ZgqTvzE4GzyiJvsh2"> </a><a name="hcZgqTvzE4GzyiJvsh2"> </a><a name="ZgqTvzE4GzyiJvsh2-en-US"> </a><p><b>geometry</b>: {&quot;type&quot;:&quot;Polygon&quot;,&quot;coordinates&quot;:[[[-79.85313099999998,39.72071299999999],[-80.51934199999998,39.721403],[-80.51895999999996,40.078089],[-80.51899099999997,40.638801],[-80.62717099999998,40.61993599999998],[-80.66691699999998,40.57366399999999],[-80.59919399999997,40.48256599999999],[-80.61119499999997,40.437766999999994],[-80.59989499999998,40.31766899999999],[-80.70460199999998,40.15482299999999],[-80.74012599999998,39.97079299999999],[-80.80339399999998,39.91876199999999],[-80.79313099999999,39.863750999999986],[-80.86533899999996,39.75325099999999],[-80.87600199999999,39.627083999999996],[-80.87900972253593,39.62268229494296],[-80.88035999999997,39.62070599999998],[-80.93329199999997,39.614811999999986],[-81.02389999999998,39.552313],[-81.134434,39.445074999999996],[-81.18594599999999,39.43073099999999],[-81.22358099999998,39.38606199999998],[-81.27071599999996,39.38591399999999],[-81.34756699999998,39.34576999999999],[-81.45614299999998,39.40927399999999],[-81.55754699999997,39.338773999999994],[-81.57024699999998,39.26767499999999],[-81.67833099999999,39.273754999999994],[-81.69133899999997,39.22794699999999],[-81.75625399999998,39.177275999999985],[-81.75235299999997,39.08987799999999],[-81.81165499999999,39.059578],[-81.76425299999998,39.01527899999999],[-81.81423499999998,38.946167999999986],[-81.88923299999998,38.874279],[-81.93318599999998,38.987659],[-82.03596299999998,39.02547799999999],[-82.14316699999998,38.89807899999999],[-82.14486699999996,38.840479999999985],[-82.21726899999999,38.79567999999998],[-82.18246699999997,38.708782],[-82.17206599999999,38.62598399999998],[-82.20517099999996,38.59171899999999],[-82.21896699999998,38.59168299999999],[-82.29127099999998,38.578983],[-82.32399899999999,38.44926799999999],[-82.40488199999999,38.43934699999999],[-82.52957899999997,38.40518199999999],[-82.59367299999998,38.42180899999999],[-82.59797899999998,38.344909],[-82.57465599999998,38.26387299999998],[-82.63730599999998,38.13905],[-82.55125899999999,38.070798999999994],[-82.51781018761508,38.00247890180029],[-82.46425699999996,37.983412],[-82.50186199999999,37.93319999999999],[-82.42148399999996,37.885651999999986],[-82.39844399999997,37.821647999999996],[-82.34884899999999,37.787177999999976],[-82.29611799999996,37.686173999999994],[-82.22019999999998,37.633911999999995],[-82.21481499999999,37.62757199999999],[-82.21564899999997,37.62624399999999],[-82.21348999999998,37.625407999999986],[-82.18631999999997,37.62929199999998],[-82.12198499999997,37.55276299999999],[-82.06441799999996,37.53687000000001],[-81.96829699999998,37.53779799999999],[-81.94391199999998,37.50292899999999],[-81.94936699999998,37.44568699999999],[-81.92849699999996,37.36064499999999],[-81.85445999999997,37.306569999999994],[-81.76175199999997,37.27571299999999],[-81.67820999999996,37.20148299999998],[-81.56062499999999,37.20666299999999],[-81.44828499999997,37.27057499999998],[-81.41666299999997,37.273214],[-81.36215599999998,37.33768699999999],[-81.22510399999999,37.23487399999999],[-81.11259599999998,37.278496999999994],[-80.97958899999998,37.30227899999999],[-80.94789599999999,37.29587199999999],[-80.84945099999999,37.34690899999999],[-80.88324799999998,37.38393299999999],[-80.81163899999999,37.40750699999999],[-80.808769,37.40627099999999],[-80.77008199999999,37.37236299999999],[-80.70520299999997,37.39461799999999],[-80.55203599999997,37.47356299999999],[-80.51513899999998,37.478565999999994],[-80.47560099999998,37.42294899999999],[-80.29978899999996,37.50827099999999],[-80.32850399999997,37.56431499999999],[-80.25891899999998,37.59549899999998],[-80.29613799999998,37.691782999999994],[-80.25741099999996,37.756084],[-80.16220199999998,37.87512199999999],[-80.002507,37.99276699999999],[-79.92632999999998,38.10715099999999],[-79.92119599999998,38.18037799999999],[-79.87908699999997,38.21101599999997],[-79.86362499999998,38.22394499999999],[-79.78754199999997,38.27329799999999],[-79.81011499999997,38.30503699999997],[-79.74410499999996,38.35396799999998],[-79.68967499999997,38.43143899999998],[-79.69900599999997,38.47514799999999],[-79.64907499999998,38.591514999999994],[-79.53686999999996,38.55091699999999],[-79.47663799999998,38.457227999999986],[-79.38034472384487,38.43069280024618],[-79.31227599999997,38.41187599999999],[-79.21059099999998,38.492912999999994],[-79.12975699999997,38.655017],[-79.09295499999999,38.659516999999994],[-79.07255499999998,38.74751299999999],[-78.99399699999998,38.85010199999999],[-78.86927599999999,38.76299099999999],[-78.78803099999996,38.88512299999999],[-78.73892099999998,38.92728299999999],[-78.68045599999996,38.92531299999998],[-78.64658899999998,38.96813799999999],[-78.60165499999998,38.96460299999999],[-78.57190099999998,39.031994999999995],[-78.40369699999998,39.16745099999999],[-78.43865099999996,39.19804899999999],[-78.41942199999998,39.25747599999998],[-78.34047999999999,39.353491999999996],[-78.3428807338125,39.394419561457525],[-78.34708699999999,39.46601199999999],[-78.28797999999998,39.428754999999995],[-78.22876599999998,39.39123299999999],[-78.21445362904505,39.38135146116259],[-78.20540099999997,39.375098999999985],[-77.82815699999999,39.13232899999999],[-77.74728699999997,39.29500099999999],[-77.71902899999998,39.32112499999999],[-77.73500899999999,39.32701499999998],[-77.7539540295214,39.33329131411464],[-77.75578899999996,39.33389899999998],[-77.75308999999999,39.423262],[-77.79563099999997,39.489622999999995],[-77.93904993513178,39.58713856174429],[-78.01134299999998,39.60408299999999],[-78.10783399999998,39.68213699999998],[-78.18275899999998,39.695109999999985],[-78.26683299999996,39.61881799999999],[-78.35190499999997,39.640485999999974],[-78.42054899999997,39.62402099999999],[-78.46289899999998,39.52083999999997],[-78.56592899999997,39.51944399999999],[-78.68945499999998,39.54576999999999],[-78.79585699999998,39.60693399999998],[-78.87474399999998,39.52261099999999],[-78.9911814248798,39.45816016920474],[-78.99694999999998,39.45496099999999],[-79.0071488068442,39.45968322158846],[-79.01009699999997,39.461047999999984],[-79.09824010719417,39.46844475480341],[-79.0981508095168,39.46832052035303],[-79.09615371103747,39.465541944440794],[-79.1454530727392,39.40776687823778],[-79.25389099999998,39.33722199999999],[-79.38034472384487,39.26914288348864],[-79.38702299999997,39.26554],[-79.43982999999997,39.21707399999999],[-79.48687299999999,39.20596099999998],[-79.48437199999996,39.3443],[-79.48281722195964,39.50402381637971],[-79.48264799999998,39.521364],[-79.47666199999996,39.72107799999999],[-79.85313099999998,39.72071299999999]]]}</p><p><b>identifier</b>: <code>https://www.usps.com</code>/WV, <code>https://www.census.gov/</code>/0400000US54, <code>https://github.com/awatson1978/us-state-profiles/index</code>/54</p><p><b>status</b>: Active</p><p><b>name</b>: State of West Virginia</p><p><b>address</b>: WV USA </p></div>
 
   
 
-    <!-- insert notes if present -->
+  <!-- insert notes if present -->
   
 
 
 
 </div>
-        </div>    <!-- /inner-wrapper -->
-      </div>    <!-- /row -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-content -->
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
 
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
-  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
-    <div class="container">    <!-- container -->
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l416">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/awatson1978/us-state-profiles">The MITRE Corporation</a>.  Package ig.fhir.us-interstate-interoperability#0.6.4 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 25, 2024 16:51-0600">2024-11-25</span>
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/awatson1978/us-state-profiles">The MITRE Corporation</a>.  Package ig.fhir.us-interstate-interoperability#0.6.4 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jan 1, 2025 21:35-0700">2025-01-01</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -242,26 +244,27 @@
                 
           </span>
         </p>
-      </div>    <!-- /inner-wrapper -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-footer -->
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
-    <div class="container">    <!-- container -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
 
-    <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
   ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
-  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
-    <!-- Analytics Below
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
   ================================================== -->
   </body>
 </html>
+
