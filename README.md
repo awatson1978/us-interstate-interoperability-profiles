@@ -2,7 +2,7 @@
 
 Guidance on how to profile the US State and territories using Fast Healthcare Interoperability Resources (FHIR).
 
-![PolicyAnalysis-Examples-3x2.jpg](./assets/PolicyAnalysis-Examples-3x2.jpg)  
+![PolicyAnalysis-Examples-3x3.jpg](./assets/PolicyAnalysis-Examples-3x3.jpg)  
 
 
 ### Current Build
