@@ -1475,6 +1475,7 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Location-wpPSL9vjHDXAJQWmC.json: line 24, col 6, Error - The extension https://geojson.org/ could not be found so is not allowed here (STRUCTURE)
 /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Location-yAKjzRQx3mBSdSei4.json: line 24, col 6, Error - The extension https://geojson.org/ could not be found so is not allowed here (STRUCTURE)
 /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Location-zTQuTGuHEy6TsqZFH.json: line 24, col 6, Error - The extension https://geojson.org/ could not be found so is not allowed here (STRUCTURE)
+/Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/StructureDefinition-alabama-consent-profile.json: line 1, col 23988, Info - The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated (BUSINESSRULE)
 /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/StructureDefinition-alabama-consent-profile.json: line 0, col 0, Warning - The definition for the element 'Consent.provision.code' binds to the value set 'http://hl7.org/fhir/ValueSet/consent-content-code' which is experimental, but this structure is not labeled as experimental (BUSINESSRULE)
 /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/StructureDefinition-alabama-consent-profile.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/StructureDefinition-alaska-consent-profile.json: line 0, col 0, Warning - The definition for the element 'Consent.provision.code' binds to the value set 'http://hl7.org/fhir/ValueSet/consent-content-code' which is experimental, but this structure is not labeled as experimental (BUSINESSRULE)
@@ -1578,5 +1579,5 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/ValueSet-ConsentExchangePolicies.json: line 1, col 1327, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/ValueSet-ConsentExchangePolicies.json: line 0, col 0, Warning - Error from http://tx.fhir.org/r4: Unable to provide support for code system http://mehi-ig.tranquildata.com/CodeSystem/PayorToPayorExchangePolicyCodes (EXCEPTION)
 
-err = 197, warn = 376, info = 0
+err = 197, warn = 376, info = 1
 IG Publisher Version: 1.7.5

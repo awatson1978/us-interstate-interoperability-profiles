@@ -4,7 +4,7 @@
   "igId" : "ig.fhir.us-interstate-interoperability",
   "igName" : "USInterstateInteroperability",
   "packageId" : "ig.fhir.us-interstate-interoperability",
-  "igVer" : "0.6.5",
+  "igVer" : "0.6.6",
   "errorCount" : 152,
   "version" : "4.0.1",
   "releaseLabel" : "ci-build",
@@ -14,9 +14,9 @@
   "toolingRevision" : "3",
   "toolingVersionFull" : "5.0.0 (3)",
   "totalFiles" : 149,
-  "processedFiles" : 237,
-  "genDate" : "Wed, Jan 1, 2025 22:24-0700",
-  "genDay" : "01/01/2025",
+  "processedFiles" : 239,
+  "genDate" : "Sat, Mar 1, 2025 21:28-0600",
+  "genDay" : "01/03/2025",
   "resourceTypes" : [
     "Account",
     "ActivityDefinition",
@@ -237,7 +237,7 @@
     "name" : "USInterstateInteroperability",
     "title" : null,
     "url" : "https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability",
-    "version" : "0.6.5",
+    "version" : "0.6.6",
     "status" : "draft",
     "experimental" : false,
     "publisher" : "The MITRE Corporation",
@@ -247,7 +247,7 @@
         "telecom" : ["https://github.com/awatson1978/us-state-profiles"]
       }
     ],
-    "date" : "2025-01-01T22:24:49-07:00",
+    "date" : "2025-03-01T21:28:29-06:00",
     "description" : "",
     "tx-server" : "http://tx.fhir.org/r4",
     "copyright" : null,
@@ -256,8 +256,8 @@
   "basespec" : "http://hl7.org/fhir/R4",
   "ver" : {
     "basespec" : null,
-    "hl7tx" : "http://terminology.hl7.org/6.1.0",
-    "hl7ext" : "http://hl7.org/fhir/extensions/5.1.0",
+    "hl7tx" : "http://terminology.hl7.org/6.2.0",
+    "hl7ext" : "http://hl7.org/fhir/extensions/5.2.0",
     "hl7_fhir_us_core" : "http://hl7.org/fhir/us/core/2021Jan",
     "us.nlm.vsac_0.3.0" : "http://fhir.org/packages/us.nlm.vsac",
     "igtools" : "http://hl7.org/fhir/tools/0.3.0"

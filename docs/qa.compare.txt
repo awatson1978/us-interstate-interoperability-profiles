@@ -1,7 +1,7 @@
 USInterstateInteroperability : Validation Results
 =========================================
 
-err = 197, warn = 376, info = 0
+err = 197, warn = 376, info = 1
 $--
 Generated $--. FHIR version $-- for ig.fhir.us-interstate-interoperability#$-- (canonical = https://github.com/awatson1978/us-state-profiles)
  Build Errors : 46 / 1058 / 0
@@ -103,7 +103,7 @@ Generated $--. FHIR version $-- for ig.fhir.us-interstate-interoperability#$-- (
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Location-wpPSL9vjHDXAJQWmC : 1 / 0 / 1
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Location-yAKjzRQx3mBSdSei4 : 1 / 0 / 1
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Location-zTQuTGuHEy6TsqZFH : 1 / 0 / 1
- /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/StructureDefinition-alabama-consent-profile : 0 / 2 / 1
+ /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/StructureDefinition-alabama-consent-profile : 0 / 2 / 2
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/StructureDefinition-alaska-consent-profile : 0 / 2 / 1
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/StructureDefinition-arizona-consent-profile : 0 / 2 / 1
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/StructureDefinition-arkansas-consent-profile : 0 / 2 / 1
@@ -1729,6 +1729,7 @@ ERROR: Location/yAKjzRQx3mBSdSei4: Location.extension[0]: The extension https://
 == fsh-generated/resources/Location-zTQuTGuHEy6TsqZFH.json ==
 ERROR: Location/zTQuTGuHEy6TsqZFH: Location.extension[0]: The extension https://geojson.org/ could not be found so is not allowed here
 == fsh-generated/resources/StructureDefinition-alabama-consent-profile.json ==
+INFORMATION: StructureDefinition/alabama-consent-profile: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 WARNING: StructureDefinition/alabama-consent-profile: StructureDefinition.snapshot.element[48].binding: The definition for the element 'Consent.provision.code' binds to the value set 'http://hl7.org/fhir/ValueSet/consent-content-code' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition.where(url = 'https://github.com/awatson1978/us-state-profiles/StructureDefinition/alabama-consent-profile'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-alaska-consent-profile.json ==

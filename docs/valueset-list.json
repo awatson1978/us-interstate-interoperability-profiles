@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies",
-      "version" : "0.6.5",
+      "version" : "0.6.6",
       "status" : "draft",
       "name" : "ConsentExchangePolicies",
       "title" : "ConsentExchangePolicies",

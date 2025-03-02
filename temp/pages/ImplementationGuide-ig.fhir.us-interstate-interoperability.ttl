@@ -13,10 +13,10 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ig.fhir.us-interstate-interoperability</b></p><a name=\"ig.fhir.us-interstate-interoperability\"> </a><a name=\"hcig.fhir.us-interstate-interoperability\"> </a><a name=\"ig.fhir.us-interstate-interoperability-en-US\"> </a><h2>USInterstateInteroperability</h2><p>The official URL for this implementation guide is: </p><pre>https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability</pre></div>"
   ] ; # 
   fhir:url [ fhir:v "https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.6.5"] ; # 
+  fhir:version [ fhir:v "0.6.6"] ; # 
   fhir:name [ fhir:v "USInterstateInteroperability"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-01-01T22:24:49-07:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-03-01T21:28:29-06:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "The MITRE Corporation"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "The MITRE Corporation" ] ;
@@ -39,7 +39,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "6.1.0" ]
+     fhir:version [ fhir:v "6.2.0" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -51,7 +51,7 @@
        fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
-     fhir:version [ fhir:v "5.1.0" ]
+     fhir:version [ fhir:v "5.2.0" ]
   ] [
      fhir:id [ fhir:v "hl7_fhir_us_core" ] ;
      fhir:uri [

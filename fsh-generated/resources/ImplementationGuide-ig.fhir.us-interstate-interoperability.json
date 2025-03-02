@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "ig.fhir.us-interstate-interoperability",
   "url": "https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability",
-  "version": "0.6.5",
+  "version": "0.6.6",
   "name": "USInterstateInteroperability",
   "status": "draft",
   "publisher": "The MITRE Corporation",

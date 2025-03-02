@@ -7,7 +7,7 @@ id: ig.fhir.us-interstate-interoperability
 canonical: https://github.com/awatson1978/us-state-profiles
 name: US Interstate Interoperability
 status: draft
-version: 0.6.5
+version: 0.6.6
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: ci-build
