@@ -78,10 +78,11 @@ This state-by-state divergence not only underscores the polarized views on trans
 
 #### References  
 [Bans on Transgender Youth Participation in Sports](https://www.lgbtmap.org/equality-maps/sports_participation_bans)  
+[Bans on Transgender Youth Participation in Sports - Citations](https://www.lgbtmap.org/img/maps/citations-sports-participation-bans.pdf)  
 
 
 #### Datasets
-[Locations.US.States.TransParticipationSports.ndjson](Locations.US.States.TransParticipationSports.ndjson)  
+[Locations.US.States.TransParticipationSports.20250304.ndjson](Locations.US.States.TransParticipationSports.20250304.ndjson)  
 
 
 

@@ -1,0 +1,366 @@
+[
+  {
+    "id" : "ig.fhir.us-interstate-interoperability",
+    "type" : "ImplementationGuide",
+    "url" : "https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability",
+    "version" : "0.6.6",
+    "name" : "USInterstateInteroperability"
+  },
+  {
+    "id" : "alabama-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/alabama-consent-profile",
+    "version" : "0.6.6",
+    "name" : "AlabamaConsentProfile"
+  },
+  {
+    "id" : "alaska-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/alaska-consent-profile",
+    "version" : "0.6.6",
+    "name" : "AlaskaConsentProfile"
+  },
+  {
+    "id" : "arizona-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/arizona-consent-profile",
+    "version" : "0.6.6",
+    "name" : "ArizonaConsentProfile"
+  },
+  {
+    "id" : "arkansas-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/arkansas-consent-profile",
+    "version" : "0.6.6",
+    "name" : "ArkansasConsentProfile"
+  },
+  {
+    "id" : "base-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/base-consent-profile",
+    "version" : "0.6.6",
+    "name" : "BaseConsentProfile"
+  },
+  {
+    "id" : "california-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/california-consent-profile",
+    "version" : "0.6.6",
+    "name" : "CaliforniaConsentProfile"
+  },
+  {
+    "id" : "colorado-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/colorado-consent-profile",
+    "version" : "0.6.6",
+    "name" : "ColoradoConsentProfile"
+  },
+  {
+    "id" : "connecticut-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/connecticut-consent-profile",
+    "version" : "0.6.6",
+    "name" : "ConnecticutConsentProfile"
+  },
+  {
+    "id" : "delaware-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/delaware-consent-profile",
+    "version" : "0.6.6",
+    "name" : "DelawareConsentProfile"
+  },
+  {
+    "id" : "district-of-columbia-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/district-of-columbia-consent-profile",
+    "version" : "0.6.6",
+    "name" : "DistrictOfColumbiaConsentProfile"
+  },
+  {
+    "id" : "florida-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/florida-consent-profile",
+    "version" : "0.6.6",
+    "name" : "FloridaConsentProfile"
+  },
+  {
+    "id" : "georgia-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/georgia-consent-profile",
+    "version" : "0.6.6",
+    "name" : "GeorgiaConsentProfile"
+  },
+  {
+    "id" : "hawaii-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/hawaii-consent-profile",
+    "version" : "0.6.6",
+    "name" : "HawaiiConsentProfile"
+  },
+  {
+    "id" : "idaho-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/idaho-consent-profile",
+    "version" : "0.6.6",
+    "name" : "IdahoConsentProfile"
+  },
+  {
+    "id" : "illinois-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/illinois-consent-profile",
+    "version" : "0.6.6",
+    "name" : "IllinoisConsentProfile"
+  },
+  {
+    "id" : "indiana-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/indiana-consent-profile",
+    "version" : "0.6.6",
+    "name" : "IndianaConsentProfile"
+  },
+  {
+    "id" : "iowa-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/iowa-consent-profile",
+    "version" : "0.6.6",
+    "name" : "IowaConsentProfile"
+  },
+  {
+    "id" : "kansas-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/kansas-consent-profile",
+    "version" : "0.6.6",
+    "name" : "KansasConsentProfile"
+  },
+  {
+    "id" : "kentucky-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/kentucky-consent-profile",
+    "version" : "0.6.6",
+    "name" : "KentuckyConsentProfile"
+  },
+  {
+    "id" : "louisiana-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/louisiana-consent-profile",
+    "version" : "0.6.6",
+    "name" : "LouisianaConsentProfile"
+  },
+  {
+    "id" : "maine-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/maine-consent-profile",
+    "version" : "0.6.6",
+    "name" : "MaineConsentProfile"
+  },
+  {
+    "id" : "maryland-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/maryland-consent-profile",
+    "version" : "0.6.6",
+    "name" : "MarylandConsentProfile"
+  },
+  {
+    "id" : "massachusetts-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/massachusetts-consent-profile",
+    "version" : "0.6.6",
+    "name" : "MassachusettsConsentProfile"
+  },
+  {
+    "id" : "michigan-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/michigan-consent-profile",
+    "version" : "0.6.6",
+    "name" : "MichiganConsentProfile"
+  },
+  {
+    "id" : "minnesota-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/minnesota-consent-profile",
+    "version" : "0.6.6",
+    "name" : "MinnesotaConsentProfile"
+  },
+  {
+    "id" : "mississippi-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/mississippi-consent-profile",
+    "version" : "0.6.6",
+    "name" : "MississippiConsentProfile"
+  },
+  {
+    "id" : "missouri-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/missouri-consent-profile",
+    "version" : "0.6.6",
+    "name" : "MissouriConsentProfile"
+  },
+  {
+    "id" : "montana-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/montana-consent-profile",
+    "version" : "0.6.6",
+    "name" : "MontanaConsentProfile"
+  },
+  {
+    "id" : "nebraska-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/nebraska-consent-profile",
+    "version" : "0.6.6",
+    "name" : "NebraskaConsentProfile"
+  },
+  {
+    "id" : "nevada-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/nevada-consent-profile",
+    "version" : "0.6.6",
+    "name" : "NevadaConsentProfile"
+  },
+  {
+    "id" : "new-hampshire-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/new-hampshire-consent-profile",
+    "version" : "0.6.6",
+    "name" : "NewHampshireConsentProfile"
+  },
+  {
+    "id" : "new-jersey-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/new-jersey-consent-profile",
+    "version" : "0.6.6",
+    "name" : "NewJerseyConsentProfile"
+  },
+  {
+    "id" : "new-mexico-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/new-mexico-consent-profile",
+    "version" : "0.6.6",
+    "name" : "NewMexicoConsentProfile"
+  },
+  {
+    "id" : "new-york-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/new-york-consent-profile",
+    "version" : "0.6.6",
+    "name" : "NewYorkConsentProfile"
+  },
+  {
+    "id" : "north-carolina-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/north-carolina-consent-profile",
+    "version" : "0.6.6",
+    "name" : "NorthCarolinaConsentProfile"
+  },
+  {
+    "id" : "north-dakota-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/north-dakota-consent-profile",
+    "version" : "0.6.6",
+    "name" : "NorthDakotaConsentProfile"
+  },
+  {
+    "id" : "ohio-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/ohio-consent-profile",
+    "version" : "0.6.6",
+    "name" : "OhioConsentProfile"
+  },
+  {
+    "id" : "oklahoma-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/oklahoma-consent-profile",
+    "version" : "0.6.6",
+    "name" : "OklahomaConsentProfile"
+  },
+  {
+    "id" : "oregon-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/oregon-consent-profile",
+    "version" : "0.6.6",
+    "name" : "OregonConsentProfile"
+  },
+  {
+    "id" : "pennsylvania-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/pennsylvania-consent-profile",
+    "version" : "0.6.6",
+    "name" : "PennsylvaniaConsentProfile"
+  },
+  {
+    "id" : "rhode-island-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/rhode-island-consent-profile",
+    "version" : "0.6.6",
+    "name" : "RhodeIslandConsentProfile"
+  },
+  {
+    "id" : "south-carolina-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/south-carolina-consent-profile",
+    "version" : "0.6.6",
+    "name" : "SouthCarolinaConsentProfile"
+  },
+  {
+    "id" : "south-dakota-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/south-dakota-consent-profile",
+    "version" : "0.6.6",
+    "name" : "SouthDakotaConsentProfile"
+  },
+  {
+    "id" : "tennessee-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/tennessee-consent-profile",
+    "version" : "0.6.6",
+    "name" : "TennesseeConsentProfile"
+  },
+  {
+    "id" : "texas-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/texas-consent-profile",
+    "version" : "0.6.6",
+    "name" : "TexasConsentProfile"
+  },
+  {
+    "id" : "utah-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/utah-consent-profile",
+    "version" : "0.6.6",
+    "name" : "UtahConsentProfile"
+  },
+  {
+    "id" : "vermont-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/vermont-consent-profile",
+    "version" : "0.6.6",
+    "name" : "VermontConsentProfile"
+  },
+  {
+    "id" : "virginia-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/virginia-consent-profile",
+    "version" : "0.6.6",
+    "name" : "VirginiaConsentProfile"
+  },
+  {
+    "id" : "washington-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/washington-consent-profile",
+    "version" : "0.6.6",
+    "name" : "WashingtonConsentProfile"
+  },
+  {
+    "id" : "west-virginia-consent-profile",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/awatson1978/us-state-profiles/StructureDefinition/west-virginia-consent-profile",
+    "version" : "0.6.6",
+    "name" : "WestVirginiaConsentProfile"
+  },
+  {
+    "id" : "ConsentExchangePolicies",
+    "type" : "ValueSet",
+    "url" : "https://github.com/awatson1978/us-state-profiles/ValueSet/ConsentExchangePolicies",
+    "version" : "0.6.6",
+    "name" : "ConsentExchangePolicies"
+  }
+]

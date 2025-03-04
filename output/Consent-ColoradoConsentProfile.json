@@ -1,0 +1,103 @@
+{
+  "resourceType" : "Consent",
+  "id" : "ColoradoConsentProfile",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Consent ColoradoConsentProfile</b></p><a name=\"ColoradoConsentProfile\"> </a><a name=\"hcColoradoConsentProfile\"> </a><a name=\"ColoradoConsentProfile-en-US\"> </a><p><b>status</b>: Active</p><p><b>scope</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/consentscope patient-privacy}\">Privacy Consent</span></p><p><b>category</b>: <span title=\"Codes:\">57017-6</span></p><p><b>dateTime</b>: 2024-01-29 14:58:27+0000</p><p><b>organization</b>: <a href=\"CO\">State of Colorado</a></p><p><b>source</b>: </p><blockquote><p><b>provision</b></p><p><b>type</b>: Opt In</p><h3>Provisions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Class</b></td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>Opt In</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Coverage\">ResourceType Coverage</a>: Coverage</td><td><span title=\"Codes:\">Medicaid Expansion</span></td></tr><tr><td style=\"display: none\">*</td><td>Opt In</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Coverage\">ResourceType Coverage</a>: Coverage</td><td><span title=\"Codes:{http://snomed.info/sct 52637005}\">In-vitro fertilization</span></td></tr><tr><td style=\"display: none\">*</td><td>Opt In</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-RelatedPerson\">ResourceType RelatedPerson</a>: RelatedPerson</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-MaritalStatus P}, {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus T}\">Marital Status</span>, <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-FamilyMember FTHFOST}, {http://terminology.hl7.org/CodeSystem/v3-FamilyMember MTHFOST}, {http://terminology.hl7.org/CodeSystem/v3-FamilyMember PRNFOST}\">relation</span></td></tr></table></blockquote></div>"
+  },
+  "status" : "active",
+  "scope" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/consentscope",
+      "code" : "patient-privacy",
+      "display" : "Privacy Consent"
+    }]
+  },
+  "category" : [{
+    "coding" : [{
+      "code" : "57017-6"
+    }]
+  }],
+  "dateTime" : "2024-01-29T14:58:27.319Z",
+  "organization" : [{
+    "reference" : "CO",
+    "display" : "State of Colorado"
+  }],
+  "sourceAttachment" : {
+    "title" : "The terms of the consent in lawyer speak.",
+    "creation" : "2016-08-22"
+  },
+  "provision" : {
+    "type" : "permit",
+    "provision" : [{
+      "type" : "permit",
+      "class" : [{
+        "system" : "http://hl7.org/fhir/resource-types",
+        "code" : "Coverage",
+        "display" : "Coverage"
+      }],
+      "code" : [{
+        "coding" : [{
+          "code" : "SUBSUPP",
+          "display" : "subsidized supplemental health program"
+        }],
+        "text" : "Medicaid Expansion"
+      }]
+    },
+    {
+      "type" : "permit",
+      "class" : [{
+        "system" : "http://hl7.org/fhir/resource-types",
+        "code" : "Coverage",
+        "display" : "Coverage"
+      }],
+      "code" : [{
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "52637005",
+          "display" : "Test tube ovum fertilization (procedure)"
+        }],
+        "text" : "In-vitro fertilization"
+      }]
+    },
+    {
+      "type" : "permit",
+      "class" : [{
+        "system" : "http://hl7.org/fhir/resource-types",
+        "code" : "RelatedPerson",
+        "display" : "RelatedPerson"
+      }],
+      "code" : [{
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code" : "P",
+          "display" : "Polygamous"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code" : "T",
+          "display" : "Domestic partner"
+        }],
+        "text" : "Marital Status"
+      },
+      {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-FamilyMember",
+          "code" : "FTHFOST",
+          "display" : "Foster Father"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-FamilyMember",
+          "code" : "MTHFOST",
+          "display" : "Foster Mother"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-FamilyMember",
+          "code" : "PRNFOST",
+          "display" : "Foster Parent"
+        }],
+        "text" : "relation"
+      }]
+    }]
+  }
+}

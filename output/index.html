@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>US State Interoperability Mapping -  v0.6.6</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"1"}
+    h3,h4,h5,h6{--heading-prefix:"1"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold"></span>
+            <br/>
+            <span style="display:inline-block;">0.6.6 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Legislative Topics
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="page-abortion.html">Abortion</a>
+      </li>
+      <li>
+        <a href="page-advanced-directives.html">Advanced Directives</a>
+      </li>
+      <li>
+        <a href="page-assisted-suicide.html">Assisted Suicide</a>
+      </li>
+      <li>
+        <a href="page-doulas.html">Doula Access</a>
+      </li>
+      <li>
+        <a href="page-ivf.html">In-vitro Fertilization</a>
+      </li>
+      <li>
+        <a href="page-foster-care.html">LGBT Foster Care</a>
+      </li>
+      <li>
+        <a href="page-controlled-substances.html">Medical Cannabis</a>
+      </li>
+      <li>
+        <a href="page-medicaid-expansion.html">Medicaid Expansion</a>
+      </li>
+      <li>
+        <a href="page-wpath-at-risk.html">Pediatric Gender Medicine</a>
+      </li>
+      <li>
+        <a href="page-religious-exemptions.html">Religious Exemptions</a>
+      </li>
+      <li>
+        <a href="page-trans-sports.html">Trans Sports Participation</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="state-records.html">Location Records</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>US State Interoperability Mapping</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">USInterstateInteroperability - Local Development build (v0.6.6) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://github.com/awatson1978/us-state-profiles/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>US State Interoperability Mapping</h2>
+  
+
+
+
+
+
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.6.6<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability|0.6.6"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2025-03-04
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">USInterstateInteroperability</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#background" id="markdown-toc-background">Background</a></li>
+  <li><a href="#purpose" id="markdown-toc-purpose">Purpose</a></li>
+  <li><a href="#jurisprudence" id="markdown-toc-jurisprudence">Jurisprudence</a></li>
+  <li><a href="#project-history" id="markdown-toc-project-history">Project History</a></li>
+  <li><a href="#legislative-topics" id="markdown-toc-legislative-topics">Legislative Topics</a></li>
+  <li><a href="#disclaimer" id="markdown-toc-disclaimer">Disclaimer</a></li>
+  <li><a href="#contributing" id="markdown-toc-contributing">Contributing</a></li>
+  <li><a href="#additional-datasets" id="markdown-toc-additional-datasets">Additional Datasets</a></li>
+  <li><a href="#further-reading" id="markdown-toc-further-reading">Further Reading</a></li>
+  <li><a href="#contact-info" id="markdown-toc-contact-info">Contact Info</a></li>
+</ul>
+
+</div>
+
+<h3 id="background">Background</h3>
+
+<p>Modern clinical information systems are regulated by various laws, including (but not limited to) HIPAA, GDPR, and 21st Century Cures.  These laws range from specifying how many signatures are required for advanced directives, to laws prescribing expectations of patient privacy, to religious exemptions for clinicians from practicing certain types of medicine, to what kind of family structures a healthcare system recognizes in the adoption and foster care systems, to how expansive the social safety net is via programs such as Medicaid.  These differences in laws between states express themselves at the ballot box and in culture war topics, as they are precisely the topics which people have differing opinions on.  And they are, therefore, also the precise topics for which we have data exchange challenges and where interstate interoperability breaks down.</p>
+
+<p><img src="./PolicyAnalysis-Examples-3x3.jpg" alt="./PolicyAnalysis-Examples-3x3.jpg" width="100%" /></p>
+
+<h3 id="purpose">Purpose</h3>
+
+<p>The purpose of this guide is to outline a format for encoding these laws using Fast Healthcare Interoperability Resources, so that healthcare systems can exchange information about the jurisdictional environment that data was collected in and will be used in.  The intent is to eventually provide something akin to USCore for the various US states and territories.  Thus, one might have an Illinois Core, or a Texas Core, or any of the other states.  And within that core profile for the state, would be encoded descriptions of various state laws that may impact the delivery of healthcare or the modeling of health data in that state.</p>
+
+<p>Following this logic, one may deduce that the areas where such data modeling will be relevant are issues where there is disagreement between states, and therefore represent cultural hot-topics.  As such, this guide serves a dual purpose.  With these state profiles in hand, mappings can then be created, so as to translate health records from one environment to another, and thereby ease tensions and friction between regions that have different cultural values and priorities.</p>
+
+<h3 id="jurisprudence">Jurisprudence</h3>
+<p>This implementation guide introduces an approach to jurisprudence interpretation that may be somewhat novel.  For the purposes of this implementation guide, and the systems that will use the profiles and artifacts it documents, this guide chooses to use the <a href="https://hl7.org/fhir/R4/consent.html">FHIR Consent</a> resource to model state laws.  This approach was chosen for the following reasons:</p>
+
+<ul>
+  <li>Consent provides a <code class="language-plaintext highlighter-rouge">policy.authority</code> field which explicitly specifies a jurisdictional body, such as a State or City.</li>
+  <li>The Consent record also contains the recursive <code class="language-plaintext highlighter-rouge">provision</code> field, which allows arbitrarily deep inclusion/exclusion provisions with permit/deny rules, which is flexible enough to encode most of the laws that are relevant to practice healthcare.</li>
+  <li>These profiles will eventually be useful in Consent Engines and other security infrastructure, and combined with Advanced Directives and other patient documents to calculate access control lists.</li>
+</ul>
+
+<p>With these constraints guiding this data modeling decision, we therefore arrive at the notion of a US State participating as an actor in the provision of healthcare, and consenting to particular activities taking place within its borders.  In particular, we would encourage implementers to look at Citizens United and other case law which confers personhood on organizations.  The rational being that a collection of individuals has the same rights as any single individual, due to it being comprised of those members with those rights in the first place.  A democratically elected body such as a state legislature is even more explicitly so.</p>
+
+<p>And so, therefore, the notion is as follows:  the state Consent record represents the society of individuals who live in a geographic area consenting that a particular activity may occur within their jurisdiction per the democratic legislative process.</p>
+
+<p>This may be a novel jurisprudence interpretation.  If using the Consent resource is truly egregious from a legal perspective, this implementation guide can either use the Base resource or define a new Logical Model or Resource, and copy the needed fields over and create a new resource if need be.</p>
+
+<p>But for the purposes of expediency, we have chosen to use existing terminology where we can, and are starting with this data modeling approach.</p>
+
+<h3 id="project-history">Project History</h3>
+
+<p>This guide is a work-in-progress, and is still an early draft of a concept that we are trying to articulate, but have yet to fully flesh out.  The initial concept was that "we need to profile the 50 states".  That then became "we need to profile the 57 states and territories".  And 50+ profile stubs were then created, one for each state.</p>
+
+<p>We then started considering use cases for using these profiles, which seemed to be driven by culture war topics.  The issues that need the most help with interstate interoperability are precisely those issues which differ from state to state, and those are the topics that are often being debated in the public sphere.  This led us to us converting various policy maps of various legislative debate topics into FHIR format, using the Location resource.  And it quickly became apparent that to manage these maps, we needed to save a copy of the Location records used to generate them.</p>
+
+<p>After developing a small collection of use cases, the Locations records were then used to construct state specific Consent instances.</p>
+
+<p>We are now at a point where we are considering which approach is best…  profiled Consent records, Location instances, or Consent instances.  The idea has been developed enough that we're generally confident that we have a proof of concept; and it's getting time to seek feedback from the broader HL7 community.  Location vs Consent; profile vs instance… these are technical details that may have performance implications, but in some aspect don't matter, because the general approach could be done in a couple of different ways.</p>
+
+<p>Rather, we want to draw attention to the general idea that we could - and <em>should</em> - have a structured way of exchanging data about the legislative and jurisprudence environment in which healthcare organizations and patients operate in.  It's this general idea we wish to bring to the HL7 community, and have it weigh in on how best to go forward with this idea.</p>
+
+<h3 id="legislative-topics">Legislative Topics</h3>
+
+<p>The current list of legislative topics is neither complete nor comprehensive.  This project welcomes the addition of additional legislative topics, as time and effort permits.</p>
+
+<p>As a spin-off of the PACIO project, the first legislative topic addressed was that of Advanced Care Directives.  Creating seaprate Consent resources and profiles was a bit of over-engineering for the single Advanced Directives use case.  However, once in place, when other topics began presenting themselves in conversations and the news, there was an obvious place to put them.</p>
+
+<p>Early topics that found their way into this guide were hot-potato culture war issues that were in the news in the early 2020s, such as Cannabis deregulation, Abortion access, and Pediatric Gender Medicine.  However, with only these topics, the guide came across as overly focused on sex and gender issues; which was not the goal of the project, per se.</p>
+
+<p>Instead of going deeper into these niche topics and modeling workflow or addressing policy recommendations; the decision was made to keep a neutral "referee" perspective, and to go broader.  Instead of diving deeply into what <em>should</em> be on a particular issue, this guide attempts to address what <em>is</em> across many different topics.</p>
+
+<p>Additional topics that have been proposed for future updates include:  age of consent, opioid legalization, medicaid state waivers, open-carry laws, speed limits, amongst others. If there is a SNOMED, LOINC, ICD-10, DSM, or RXNORM code related to a state law, then it can likely be modeled by this approach to Consent resources, and is fair game for inclusion in this resource.</p>
+
+<p>We note that there are significant framing issues in the way that legislative topics are presented.</p>
+
+<p>Eventually, we envision a group such as the National Library of Medicine's Value Set Authority, or possibly the TEFCA Qualified Health Information Networks (QHIN) as managing this resource, and providing state level legislation in computable structured data format.</p>
+
+<h3 id="disclaimer">Disclaimer</h3>
+<p>THIS IMPLEMENTATION GUIDE IS FOR INSTRUCTIONAL PURPOSES ONLY.  WHILE WE HAVE DONE OUR BEST TO ACCURATELY REFLECT POLICY AS OF THE DATE THIS IMPLEMENTATION GUIDE WAS AUTHORED, WE CANNOT GUARANTEE IT IS CORRECT NOW, NOR CAN WE GUARANTEE IT WILL REMAIN CORRECT IN THE FUTURE.  THIS GUIDE IS PROVIDED AS-IS.  PLEASE CONFIRM ALL STATE REGULATIONS BEFORE USE.</p>
+
+<h3 id="contributing">Contributing</h3>
+
+<p>The above being said, we seek to develop a crowdsourcing model, where anybody can submit updates to the guide.  We need your help in keeping this guide up to date.  If you find a discrepency between what is in this guide and state law, please follow these steps:</p>
+
+<p><em>Updating a Map</em></p>
+<ul>
+  <li>Go to the issues page, and find the topic that needs updating.</li>
+  <li>Comment on the ongoing thread on the change in state law.  Please include citation to the state bill or court case, and/or any news articles related to the change.</li>
+  <li>Time permitting, use the <code class="language-plaintext highlighter-rouge">workflow-create-us-states-map</code> utility to generate a new map and array of Location records.</li>
+  <li>Submit a pull-request on a new feature branch with the updated map and Location records.</li>
+</ul>
+
+<p><em>Adding a new topic map</em></p>
+<ul>
+  <li>File a new topic issue.  Please provide references to relevant legislative bills or laws, executive policies, or court cases.</li>
+</ul>
+
+<h3 id="additional-datasets">Additional Datasets</h3>
+
+<ul>
+  <li><a href="https://www.medicaid.gov/medicaid/medicaid-state-plan-amendments/index.html">Medicaid State Plan Amendments</a></li>
+</ul>
+
+<h3 id="further-reading">Further Reading</h3>
+
+<p>The maps in this implementation guide inform us of a great many things, and provide situational awareness of recent changes in laws across North America.  Yet they also raise many questions.  Readers may be interested in understanding some of the underlying factors for why these maps distribute the way they do on certain topics.  The author has found the following resources useful in making sense of these cultural dynamics; and believe much of them can be explained by how geography and climate influence local economics and culture.</p>
+
+<ul>
+  <li><a href="https://en.m.wikipedia.org/wiki/File:US_population_map.png">US population map</a></li>
+  <li><a href="https://planthardiness.ars.usda.gov/">USDA Plant Hardiness Zone Map</a></li>
+  <li><a href="https://www.scientificamerican.com/article/a-nation-divided-arid-humid-climate-boundary-in-u-s-creeps-eastward/">A Nation Divided: Arid/Humid Climate Boundary in U.S. Creeps Eastward</a></li>
+  <li><a href="https://nyskiblog.com/directory/weather-data/us/annual-snowfall-map/">US Annual Snowfall Map</a></li>
+  <li><a href="https://www.reddit.com/r/MapPorn/comments/2ft330/average_annual_snowfall_in_the_united_states/">Average Annual Snowfall in the United States </a></li>
+  <li><a href="https://www.businessinsider.com/the-11-nations-of-the-united-states-2015-7">This map shows how the US really has 11 separate 'nations' with entirely different cultures</a></li>
+  <li><a href="https://www.amazon.com/American-Nations-History-Regional-Cultures/dp/0143122029">American Nations: A History of the Eleven Rival Regional Cultures of North America</a></li>
+  <li><a href="https://journals.sagepub.com/doi/abs/10.1177/01461672241255494">Beyond the Dichotomy: Creation and Validation of a Continuous Statewide Index of U.S. Honor Culture</a></li>
+  <li><a href="https://www.mapsofworld.com/usa/amp/thematic-maps/best-beaches-in-usa.html">Best Beaches in the US</a></li>
+  <li><a href="https://www.reddit.com/r/texas/comments/vv0qvf/which_states_are_cowboy_states/">Which States are Cowboy States</a></li>
+  <li><a href="https://blogs.extension.msstate.edu/agecon/2019/03/11/state-level-beef-cattle-inventory/">State Level Beef Cattle Inventory</a></li>
+</ul>
+
+<h3 id="contact-info">Contact Info</h3>
+
+<p>For project maintenance, please contact:</p>
+
+<p>Abigail Watson <a href="mailto:awatson@mitre.org">awatson@mitre.org</a></p>
+
+<p>For community help, please post questions on Zulip:<br />
+<a href="https://chat.fhir.org/">https://chat.fhir.org/</a></p>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/awatson1978/us-state-profiles">The MITRE Corporation</a>.  Package ig.fhir.us-interstate-interoperability#0.6.6 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 4, 2025 10:14-0600">2025-03-04</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

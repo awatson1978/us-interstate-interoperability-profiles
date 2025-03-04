@@ -1,0 +1,95 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://github.com/awatson1978/us-state-profiles/Consent/NebraskaConsentProfile> a fhir:Consent ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "NebraskaConsentProfile"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Consent NebraskaConsentProfile</b></p><a name=\"NebraskaConsentProfile\"> </a><a name=\"hcNebraskaConsentProfile\"> </a><a name=\"NebraskaConsentProfile-en-US\"> </a><p><b>status</b>: Active</p><p><b>scope</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/consentscope patient-privacy}\">Privacy Consent</span></p><p><b>category</b>: <span title=\"Codes:{http://loinc.org 57017-6}\">Privacy policy Organization Document</span></p><p><b>dateTime</b>: 2024-01-29 16:30:15+0000</p><p><b>organization</b>: <a href=\"NE\">State of Nebraska</a></p><p><b>source</b>: </p><blockquote><p><b>provision</b></p><p><b>type</b>: Opt In</p><h3>Provisions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Class</b></td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>Opt In</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Practitioner\">ResourceType Practitioner</a>: Practitioner</td><td><span title=\"Codes:{http://snomed.info/sct 768825008}\">Doula</span></td></tr><tr><td style=\"display: none\">*</td><td>Opt In</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Coverage\">ResourceType Coverage</a>: Coverage</td><td><span title=\"Codes:\">Medicaid Expansion</span></td></tr><tr><td style=\"display: none\">*</td><td>Opt Out</td><td><a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Procedure\">ResourceType Procedure</a>: Procedure</td><td><span title=\"Codes:{http://snomed.info/sct 386639001}\">Abortion</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:scope [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/consentscope"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "patient-privacy" ] ;
+       fhir:display [ fhir:v "Privacy Consent" ]
+     ] )
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       a loinc:57017-6 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "57017-6" ] ;
+       fhir:display [ fhir:v "Privacy policy Organization Document" ]
+     ] )
+  ] ) ; # 
+  fhir:dateTime [ fhir:v "2024-01-29T16:30:15.167Z"^^xsd:dateTime] ; # 
+  fhir:organization ( [
+     fhir:reference [ fhir:v "NE" ] ;
+     fhir:display [ fhir:v "State of Nebraska" ]
+  ] ) ; # 
+  fhir:source [
+     a fhir:Attachment ;
+     fhir:title [ fhir:v "The terms of the consent in lawyer speak." ] ;
+     fhir:creation [ fhir:v "2016-08-22"^^xsd:date ]
+  ] ; # 
+  fhir:provision [
+     fhir:type [ fhir:v "permit" ] ;
+     fhir:provision ( [
+       fhir:type [ fhir:v "permit" ] ;
+       fhir:class ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/resource-types"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Practitioner" ] ;
+         fhir:display [ fhir:v "Practitioner" ]
+       ] ) ;
+       fhir:code ( [
+         fhir:coding ( [
+           a sct:768825008 ;
+           fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "768825008" ] ;
+           fhir:display [ fhir:v "Doula (occupation)" ]
+         ] ) ;
+         fhir:text [ fhir:v "Doula" ]
+       ] )
+     ] [
+       fhir:type [ fhir:v "permit" ] ;
+       fhir:class ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/resource-types"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Coverage" ] ;
+         fhir:display [ fhir:v "Coverage" ]
+       ] ) ;
+       fhir:code ( [
+         fhir:coding ( [
+           fhir:code [ fhir:v "SUBSUPP" ] ;
+           fhir:display [ fhir:v "subsidized supplemental health program" ]
+         ] ) ;
+         fhir:text [ fhir:v "Medicaid Expansion" ]
+       ] )
+     ] [
+       fhir:type [ fhir:v "deny" ] ;
+       fhir:class ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/resource-types"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Procedure" ] ;
+         fhir:display [ fhir:v "Procedure" ]
+       ] ) ;
+       fhir:code ( [
+         fhir:coding ( [
+           a sct:386639001 ;
+           fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "386639001" ] ;
+           fhir:display [ fhir:v "Termination of pregnancy (procedure)" ]
+         ] ) ;
+         fhir:text [ fhir:v "Abortion" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+
