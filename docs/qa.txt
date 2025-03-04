@@ -2,8 +2,8 @@ USInterstateInteroperability : Validation Results
 =========================================
 
 err = 197, warn = 376, info = 1
-IG Publisher Version: 1.7.5 Out of date - current version is 1.8.15
-Generated Sat Mar 01 21:30:25 CST 2025. FHIR version 4.0.1 for ig.fhir.us-interstate-interoperability#0.6.6 (canonical = https://github.com/awatson1978/us-state-profiles)
+IG Publisher Version: 1.7.5 Out of date - current version is 1.8.16
+Generated Tue Mar 04 10:24:04 CST 2025. FHIR version 4.0.1 for ig.fhir.us-interstate-interoperability#0.6.7 (canonical = https://github.com/awatson1978/us-state-profiles)
  Build Errors : 46 / 1058 / 0
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-AlabamaConsentProfile : 3 / 2 / 1
  /Users/awatson/Code/implementation-guides/us-state-profiles/fsh-generated/resources/Consent-ArizonaConsentProfile : 3 / 6 / 1
@@ -1250,7 +1250,7 @@ WARNING: /Users/awatson/Code/implementation-guides/us-state-profiles/output/page
 WARNING: /Users/awatson/Code/implementation-guides/us-state-profiles/output/page-ivf.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'https://github.com/awatson1978/us-state-profiles' for "The MITRE Corporation" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/awatson/Code/implementation-guides/us-state-profiles/output/page-medicaid-expansion.html#/html/body/div/div/div/p/a at Line 246, column 28: The link 'https://github.com/awatson1978/us-state-profiles' for "The MITRE Corporation" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/awatson/Code/implementation-guides/us-state-profiles/output/page-religious-exemptions.html#/html/body/div/div/div/p/a at Line 246, column 28: The link 'https://github.com/awatson1978/us-state-profiles' for "The MITRE Corporation" is a canonical link and is therefore unsafe with regard to versions
-WARNING: /Users/awatson/Code/implementation-guides/us-state-profiles/output/page-trans-sports.html#/html/body/div/div/div/p/a at Line 284, column 28: The link 'https://github.com/awatson1978/us-state-profiles' for "The MITRE Corporation" is a canonical link and is therefore unsafe with regard to versions
+WARNING: /Users/awatson/Code/implementation-guides/us-state-profiles/output/page-trans-sports.html#/html/body/div/div/div/p/a at Line 285, column 28: The link 'https://github.com/awatson1978/us-state-profiles' for "The MITRE Corporation" is a canonical link and is therefore unsafe with regard to versions
 WARNING: /Users/awatson/Code/implementation-guides/us-state-profiles/output/page-wpath-at-risk.html#/html/body/div/div/div/p/a at Line 263, column 28: The link 'https://github.com/awatson1978/us-state-profiles' for "The MITRE Corporation" is a canonical link and is therefore unsafe with regard to versions
 ERROR: /Users/awatson/Code/implementation-guides/us-state-profiles/output/profiles.html#/html/body/div/div/div/div/div/p/img at Line 315, column 5: The image source './MarijuanaLegalization.png' cannot be resolved
 WARNING: /Users/awatson/Code/implementation-guides/us-state-profiles/output/profiles.html#/html/body/div/div/div/p/a at Line 380, column 28: The link 'https://github.com/awatson1978/us-state-profiles' for "The MITRE Corporation" is a canonical link and is therefore unsafe with regard to versions

@@ -6,10 +6,10 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide ig.fhir.us-interstate-interoperability</b></p><a name="ig.fhir.us-interstate-interoperability"> </a><a name="hcig.fhir.us-interstate-interoperability"> </a><a name="ig.fhir.us-interstate-interoperability-en-US"> </a><h2>USInterstateInteroperability</h2><p>The official URL for this implementation guide is: </p><pre>https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability</pre></div>
   </text>
   <url value="https://github.com/awatson1978/us-state-profiles/ImplementationGuide/ig.fhir.us-interstate-interoperability"/>
-  <version value="0.6.6"/>
+  <version value="0.6.7"/>
   <name value="USInterstateInteroperability"/>
   <status value="draft"/>
-  <date value="2025-03-04T10:14:54-06:00"/>
+  <date value="2025-03-04T10:21:59-06:00"/>
   <publisher value="The MITRE Corporation"/>
   <contact>
     <name value="The MITRE Corporation"/>

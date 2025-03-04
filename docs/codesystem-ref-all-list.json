@@ -69,8 +69,8 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-consent-content-code.html" : "Consent Content Codes",
-      "http://hl7.org/fhir/R4/valueset-consent-category.html" : "Consent Category Codes"
+      "http://hl7.org/fhir/R4/valueset-consent-category.html" : "Consent Category Codes",
+      "http://hl7.org/fhir/R4/valueset-consent-content-code.html" : "Consent Content Codes"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/consentaction",

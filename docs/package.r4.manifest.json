@@ -1,6 +1,6 @@
 {
-  "version" : "0.6.6",
-  "date" : "20250301212803",
+  "version" : "0.6.7",
+  "date" : "20250304102102",
   "notForPublication" : true,
   "name" : "ig.fhir.us-interstate-interoperability.r4"
 }
